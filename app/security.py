@@ -8,8 +8,8 @@ from sqlalchemy.orm import Session
 
 from app.database import get_db
 from app.models import User
+from app.config import SECRET_KEY
 
-SECRET_KEY = "super-secret-key-change-in-production"
 ALGORITHM = "HS256"
 TOKEN_EXPIRE_HOURS = 24
 
