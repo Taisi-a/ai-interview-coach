@@ -1,7 +1,9 @@
 # routers/session.py
+import os
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session as DBSession
 from pydantic import BaseModel
+from openai import OpenAI
 
 from app.database import get_db
 from app.models import Session, Message, Resume, AgentType, SessionStatus
@@ -9,6 +11,11 @@ from app.security import get_current_user
 
 router = APIRouter(prefix="/session")
 
+# --- OpenAI клиент ---
+client = OpenAI(
+    api_key=os.getenv("GROQ_API_KEY"),
+    base_url="https://api.groq.com/openai/v1"
+)
 
 # --- Промты для каждого агента ---
 AGENT_PROMPTS = {
@@ -30,8 +37,8 @@ OPENING_MESSAGES = {
 
 class SessionCreate(BaseModel):
     agent_type: AgentType
-    resume_id: int | None = None    # опционально
-    vacancy_text: str | None = None # опционально
+    resume_id: int | None = None
+    vacancy_text: str | None = None
 
 
 class MessageOut(BaseModel):
@@ -63,7 +70,6 @@ def create_session(
     db: DBSession = Depends(get_db),
     current_user=Depends(get_current_user),
 ):
-    # Проверяем резюме если передано
     if payload.resume_id:
         resume = db.query(Resume).filter(
             Resume.id == payload.resume_id,
@@ -72,7 +78,6 @@ def create_session(
         if not resume:
             raise HTTPException(status_code=404, detail="Резюме не найдено")
 
-    # Создаём сессию
     session = Session(
         user_id=current_user.id,
         resume_id=payload.resume_id,
@@ -82,7 +87,6 @@ def create_session(
     db.add(session)
     db.flush()
 
-    # Первое сообщение от агента
     opening = Message(
         session_id=session.id,
         role="assistant",
@@ -101,7 +105,6 @@ def send_message(
     db: DBSession = Depends(get_db),
     current_user=Depends(get_current_user),
 ):
-    # Находим сессию
     session = db.query(Session).filter(
         Session.id == session_id,
         Session.user_id == current_user.id,
@@ -111,7 +114,6 @@ def send_message(
     if session.status == SessionStatus.COMPLETED:
         raise HTTPException(status_code=400, detail="Сессия завершена")
 
-    # Сохраняем сообщение юзера
     user_msg = Message(
         session_id=session.id,
         role="user",
@@ -120,10 +122,8 @@ def send_message(
     db.add(user_msg)
     db.flush()
 
-    # Получаем ответ от агента
     reply_text = _get_agent_reply(session, db)
 
-    # Сохраняем ответ агента
     agent_msg = Message(
         session_id=session.id,
         role="assistant",
@@ -180,33 +180,28 @@ def complete_session(
 # --- Вызов LLM ---
 
 def _get_agent_reply(session: Session, db: DBSession) -> str:
-    """
-    Собирает историю чата и отправляет в LLM.
-    Сейчас заглушка — когда vllm будет готов, раскомментировать блок.
-    """
 
-    # Собираем историю сообщений
+    system_prompt = AGENT_PROMPTS[session.agent_type]
+
+    if session.resume:
+        system_prompt += f"\n\nРЕЗЮМЕ КАНДИДАТА:\n{session.resume.raw_text[:3000]}"
+
+    if session.vacancy_text:
+        system_prompt += f"\n\nВАКАНСИЯ:\n{session.vacancy_text[:1000]}"
+
     history = [
         {"role": msg.role, "content": msg.content}
         for msg in session.messages
     ]
 
-    # Добавляем контекст резюме если есть
-    system_prompt = AGENT_PROMPTS[session.agent_type]
-    if session.resume:
-        system_prompt += f"\n\nРЕЗЮМЕ КАНДИДАТА:\n{session.resume.raw_text[:3000]}"
-    if session.vacancy_text:
-        system_prompt += f"\n\nВАКАНСИЯ:\n{session.vacancy_text[:1000]}"
+    try:
+        response = client.chat.completions.create(
+            model="llama-3.3-70b-versatile",  # 👈 ВОТ ЗДЕСЬ
+            messages=[{"role": "system", "content": system_prompt}] + history,
+            max_tokens=512,
+            temperature=0.7,
+        )
+        return response.choices[0].message.content
 
-
-    # from openai import OpenAI
-    # client = OpenAI(api_key="not-needed", base_url="http://АДРЕС/v1")
-    # response = client.chat.completions.create(
-    #     model="UI-TARS-1.5-7B",
-    #     messages=[{"role": "system", "content": system_prompt}] + history,
-    #     max_tokens=512,
-    #     temperature=0.7,
-    # )
-    # return response.choices[0].message.content
-
-    return f"[Заглушка агента {session.agent_type.value}] Получил твоё сообщение. Подключим vllm как будет готов!"
+    except Exception as e:
+        return f"Ошибка при обращении к AI: {str(e)}"
