@@ -10,7 +10,7 @@ services:
   api:
     build:
       context: .
-      dockerfile: dockerfile
+      dockerfile: Dockerfile
     container_name: interview-coach-api
     image: interview-coach-api:latest
     ports:
@@ -48,3 +48,14 @@ services:
     restart: unless-stopped
     networks:
       - interview_coach_network
+  frontend:
+    build:
+      context: ./frontend
+    container_name: frontend-react
+    ports:
+      - "5173:80"
+    networks:
+        - interview_coach_network
+    depends_on:
+      - api
+    restart: unless-stopped

@@ -104,8 +104,7 @@ CREATE DATABASE interview_coach OWNER coach;
 ### 5. Создай файл `.env`
 
 ```bash
-cp .env.example .env
-```
+cp .env.example .env```
 
 Содержимое `.env`:
 ```
@@ -198,10 +197,10 @@ Authorization: Bearer <твой_токен>
 
 ## 👥 Команда
 
-| Роль | Задачи |
-|------|--------|
-| Бэкенд | FastAPI, PostgreSQL, LLM интеграция |
-| Фронтенд | Vue.js интерфейс |
+| Роль | Задачи                                  |
+|------|-----------------------------------------|
+| Бэкенд | FastAPI, PostgreSQL, LLM интеграция     |
+| Фронтенд | React интерфейс                         |
 | AI/ML | LLM (vLLM), RAG, мультиагентная система |
 
 ---
