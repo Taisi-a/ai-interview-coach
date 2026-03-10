@@ -29,7 +29,6 @@ class Resume(Base):
     sessions = relationship("Session", back_populates="resume")
 
 
-# Типы агентов
 class AgentType(str, enum.Enum):
     HR = "hr"
     TECH_LEAD = "tech_lead"
@@ -37,7 +36,6 @@ class AgentType(str, enum.Enum):
     CODE_REVIEW = "code_review"
 
 
-# Статус сессии
 class SessionStatus(str, enum.Enum):
     ACTIVE = "active"
     COMPLETED = "completed"
@@ -48,10 +46,10 @@ class Session(Base):
 
     id = Column(Integer, primary_key=True)
     user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
-    resume_id = Column(Integer, ForeignKey("resumes.id"), nullable=True)  # опционально
+    resume_id = Column(Integer, ForeignKey("resumes.id"), nullable=True)
     agent_type = Column(Enum(AgentType), nullable=False)
     status = Column(Enum(SessionStatus), default=SessionStatus.ACTIVE)
-    vacancy_text = Column(Text, nullable=True)  # текст вакансии если есть
+    vacancy_text = Column(Text, nullable=True)
 
     user = relationship("User", back_populates="sessions")
     resume = relationship("Resume", back_populates="sessions")
@@ -63,7 +61,15 @@ class Message(Base):
 
     id = Column(Integer, primary_key=True)
     session_id = Column(Integer, ForeignKey("sessions.id"), nullable=False)
-    role = Column(String(20), nullable=False)   # "user" или "assistant"
+    role = Column(String(20), nullable=False)
     content = Column(Text, nullable=False)
 
     session = relationship("Session", back_populates="messages")
+
+
+
+class BlacklistedToken(Base):
+    __tablename__ = "blacklisted_tokens"
+
+    id = Column(Integer, primary_key=True)
+    token = Column(String, unique=True, nullable=False)
