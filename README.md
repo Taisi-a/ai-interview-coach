@@ -22,23 +22,37 @@
 ai-interview-coach/
 │
 ├── app/
-│   ├── main.py          # Точка входа, сборка приложения
-│   ├── database.py      # Подключение к PostgreSQL
-│   ├── models.py        # Таблицы БД: User, Resume, Session, Message
-│   ├── schemas.py       # Pydantic схемы (User)
-│   ├── security.py      # Хеширование паролей, JWT токены
+│   ├── __init__.py
+│   ├── main.py                  # Точка входа, CORS, роутеры
+│   ├── database.py              # Подключение к PostgreSQL
+│   ├── models.py                # Таблицы: User, Resume, Session, Message, BlacklistedToken
+│   ├── schemas.py               # Pydantic схемы
+│   ├── security.py              # JWT, bcrypt, проверка blacklist
+│   ├── config.py                # Переменные из .env
+│   │
 │   └── routers/
-│       ├── auth.py      # Авторизация
-│       ├── resume.py    # Загрузка резюме
-│       ├── session.py   # Сессии интервью и чат
-│       └── chat.py      # OpenAI-совместимая ручка
+│       ├── __init__.py
+│       ├── auth.py              # /register /login /logout /me
+│       ├── resume.py            # /resume/upload /resume/ /resume/{id}
+│       ├── session.py           # /session/ и чат
+│       ├── chat.py              # /chat/completions
+│       └── vacancy.py          # /vacancy/{id}
 │
-├── .env                 # Локальные переменные 
-├── .env.example         # Шаблон переменных для команды
+├── frontend/                    # React (фронтенд)
+│
+├── scripts/
+│   └── start_llm.sh             # Запуск llama.cpp + Qwen3
+│
+├── tech-interview-handbook-main/ # База знаний для RAG
+├── models/                       # Файлы LLM (не в git)
+│
+├── docker-compose.yaml
+├── Dockerfile
+├── .env                          # Не в git!
+├── .env.example
 ├── .gitignore
 └── README.md
 ```
-
 ---
 
 ## ⚙️ Технологии
@@ -46,14 +60,16 @@ ai-interview-coach/
 | Слой | Технология |
 |------|-----------|
 | Бэкенд | Python 3.9+, FastAPI |
-| База данных | PostgreSQL |
+| База данных | PostgreSQL 16 |
 | ORM | SQLAlchemy |
-| Авторизация | JWT (python-jose) |
+| Авторизация | JWT (python-jose) + blacklist |
 | Хеширование паролей | bcrypt (passlib) |
 | Парсинг файлов | pypdf, python-docx |
-| LLM | vLLM, OpenAI-совместимый клиент  |
+| LLM | llama.cpp + Qwen3-8B |
 | AI / RAG | LangChain |
-| Фронтенд | React.js  |
+| Вакансии | hh.ru API |
+| Фронтенд | React.js |
+| Инфраструктура | Docker, Docker Compose |
 
 ---
 
@@ -197,6 +213,12 @@ uvicorn app.main:app --reload
 | GET | `/resume/` | Список своих резюме | ✅ |
 | GET | `/resume/{id}` | Конкретное резюме | ✅ |
 
+### 🏢 Вакансии
+
+| Метод | URL | Описание | Токен |
+|-------|-----|----------|-------|
+| GET | `/vacancy/{id}` | Получить вакансию с hh.ru по ID | ✅ |
+
 ### 💬 Сессии интервью
 
 | Метод | URL | Описание | Токен |
@@ -225,6 +247,15 @@ uvicorn app.main:app --reload
   "temperature": 0.7
 }
 ```
+
+**Доступные агенты:**
+```
+hr           — поведенческое интервью
+tech_lead    — техническое интервью
+mentor       — анализ резюме и roadmap
+code_review  — разбор кода
+```
+
 
 ---
 

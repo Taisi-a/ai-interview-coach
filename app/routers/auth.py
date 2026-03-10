@@ -3,9 +3,12 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 
 from app.database import get_db
-from app.models import User
+from app.models import User, BlacklistedToken
 from app.schemas import UserRegister, UserLogin, UserOut, TokenResponse
-from app.security import hash_password, verify_password, create_token, get_current_user
+from app.security import (
+    hash_password, verify_password, create_token,
+    get_current_user, oauth2_scheme
+)
 
 router = APIRouter()
 
@@ -33,6 +36,18 @@ def login(payload: UserLogin, db: Session = Depends(get_db)):
         raise HTTPException(status_code=401, detail="Неверный email или пароль")
 
     return TokenResponse(access_token=create_token(user.id))
+
+
+@router.post("/logout")
+def logout(
+    token: str = Depends(oauth2_scheme),  # берём токен из заголовка
+    db: Session = Depends(get_db),
+    current_user=Depends(get_current_user),
+):
+    # Добавляем токен в чёрный список
+    blacklisted = BlacklistedToken(token=token)
+    db.add(blacklisted)
+    return {"message": "Вышел из системы"}
 
 
 @router.get("/me", response_model=UserOut)
