@@ -7,7 +7,7 @@ from fastapi.security import OAuth2PasswordBearer
 from sqlalchemy.orm import Session
 
 from app.database import get_db
-from app.models import User
+from app.models import User, BlacklistedToken
 from app.config import SECRET_KEY
 
 ALGORITHM = "HS256"
@@ -34,13 +34,23 @@ def create_token(user_id: int) -> str:
 
 
 def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)):
+    # 1. Декодируем токен
     try:
         payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
         user_id = int(payload["sub"])
     except JWTError:
         raise HTTPException(status_code=401, detail="Невалидный токен")
 
+    # 2. Проверяем что токен не в чёрном списке (не был logout)
+    is_blacklisted = db.query(BlacklistedToken).filter(
+        BlacklistedToken.token == token
+    ).first()
+    if is_blacklisted:
+        raise HTTPException(status_code=401, detail="Токен отозван, войдите снова")
+
+    # 3. Находим юзера в БД
     user = db.query(User).filter(User.id == user_id).first()
     if not user:
         raise HTTPException(status_code=401, detail="Пользователь не найден")
+
     return user
