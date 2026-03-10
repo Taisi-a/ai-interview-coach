@@ -20,7 +20,7 @@ class Message(BaseModel):
 class ChatRequest(BaseModel):
     model: str = LLM_DEFAULT_MODEL
     messages: list[Message]
-    max_tokens: int = 3000
+    max_tokens: int = 10000
     temperature: float = 0.7
 
 

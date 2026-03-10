@@ -19,8 +19,13 @@ mkdir -p "$MODEL_DIR"
 if [[ ! -f "$MODEL_PATH" ]]; then
   echo "Модель не найдена: $MODEL_PATH"
   echo "Скачиваю $HF_REPO ($MODEL_FILE) в $MODEL_DIR ..."
-  huggingface-cli download "$HF_REPO" "$MODEL_FILE" --local-dir "$MODEL_DIR"
+  python3 -c "
+from huggingface_hub import hf_hub_download
+hf_hub_download(repo_id='$HF_REPO', filename='$MODEL_FILE', local_dir='$MODEL_DIR')
+"
 fi
 
-echo "Запуск llama.cpp server: $MODEL_PATH, порт $PORT"
-exec python -m llama_cpp.server --model "$MODEL_PATH" --port "$PORT"
+# n_ctx = размер контекста (промпт + ответ). Иначе при n_ctx=2048 по умолчанию ответ обрезается.
+N_CTX="${LLM_N_CTX:-12288}"
+echo "Запуск llama.cpp server: $MODEL_PATH, порт $PORT, n_ctx=$N_CTX"
+exec python -m llama_cpp.server --model "$MODEL_PATH" --port "$PORT" --n_ctx "$N_CTX"

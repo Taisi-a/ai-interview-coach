@@ -1,0 +1,7 @@
+huggingface_hub  
+llama-cpp-python
+fastapi
+uvicorn
+sse_starlette 
+starlette_context
+pydantic_settings

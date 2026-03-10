@@ -75,24 +75,93 @@ ai-interview-coach/
 
 ## 🚀 Запуск проекта
 
+
+Ниже — полная последовательность: venv, пакеты, конфиг, запуск модели и приложения в контейнерах.
+
+#### 1. Клонирование и переход в проект
+
+```bash
+git clone https://github.com/ВАШ_ЛОГИН/ai-interview-coach.git
+cd ai-interview-coach
+```
+
+#### 2. Виртуальное окружение (venv)
+
+```bash
+python3 -m venv .venv
+
+# macOS / Linux
+source .venv/bin/activate
+
+# Windows
+.venv\Scripts\activate
+```
+
+Дальнейшие команды предполагают, что venv активирован (`source .venv/bin/activate`).
+
+#### 3. Пакеты для разработки
+
+Установи зависимости бэкенда (FastAPI, БД, RAG, скрипты):
+
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+pip install -r requirements-llm.txt
+```
+
+#### 4. Конфигурация (.env)
+
+```bash
+cp .env.example .env
+```
+
+Отредактируй `.env`: задай `DATABASE_URL` (если будешь поднимать БД через Docker — там уже подставятся переменные из compose), `SECRET_KEY`, при необходимости `VLLM_BASE_URL` и параметры RAG. Для запуска API в Docker и LLM на хосте оставь в compose строку `VLLM_BASE_URL=http://host.docker.internal:8001/v1` (она уже прописана в `docker-compose.yaml`).
+
+#### 5. Запуск модели (LLM на хосте)
+
+В **отдельном терминале** с активированным venv:
+
+```bash
+source .venv/bin/activate   # если ещё не активирован
+chmod +x scripts/start_llm.sh
+./scripts/start_llm.sh
+```
+
+Скрипт при первом запуске скачает модель в `./models/` (если её ещё нет) и поднимет OpenAI-совместимый сервер на **http://localhost:8001**. Не закрывай этот терминал, пока нужен LLM.
+
+#### 6. Запуск приложения из контейнера (API + фронт + БД)
+
+В **другом терминале** из корня проекта:
+
+```bash
+docker compose up -d --build
+```
+
+- **API:** http://localhost:8080  
+- **Swagger:** http://localhost:8080/docs  
+- **Фронт:** http://localhost:5173  
+
+Контейнер API подключается к LLM по `host.docker.internal:8001`.
+
+#### 7. RAG
+
+Один раз построить индекс по Tech Interview Handbook:
+
+```bash
+docker compose exec api python -m app.rag.build_index
+```
+
+---
+
 ### Полный путь запуска (кратко)
 
-1. **LLM (llama.cpp + Qwen3)** — в отдельном терминале, на хосте:
-   ```bash
-   ./scripts/start_llm.sh
-   ```
-   Сервер будет на `http://localhost:8001`. Подробности — в разделе [Запуск LLM (llama.cpp)](#запуск-llm-llamacpp) ниже.
-
-2. **Приложение (API + фронт + БД)** — через Docker:
-   ```bash
-   docker compose up -d --build
-   ```
-   Фронт: `http://localhost:5173`, API: `http://localhost:8080`, Swagger: `http://localhost:8080/docs`.
-
-3. **RAG (опционально)** — один раз построить индекс по Tech Interview Handbook:
-   ```bash
-   docker compose exec api python -m app.rag.build_index
-   ```
+1. **venv + пакеты:** `python3 -m venv .venv && source .venv/bin/activate` → `pip install -r requirements.txt` (+ `requirements-llm.txt` для LLM).
+2. **.env:** `cp .env.example .env` и при необходимости поправить переменные.
+3. **LLM:** в одном терминале `./scripts/start_llm.sh`.
+4. **Приложение:** в другом терминале `docker compose up -d --build`.
+5. **RAG (по желанию):** `docker compose exec api python -m app.rag.build_index`.
 
 ---
 
@@ -100,10 +169,15 @@ ai-interview-coach/
 
 Модель Qwen3 отдаёт OpenAI-совместимый API на порту 8001. Контейнер с API обращается к нему по `host.docker.internal:8001`.
 
-**Требования:** Python с пакетами `llama-cpp-python`, `huggingface-hub` (для скачивания модели).
+**Требования:** Python 3.10+, активированный venv и пакеты из `requirements-llm.txt`:
 
 ```bash
-# Из корня проекта
+pip install -r requirements-llm.txt
+```
+
+Запуск (из корня проекта, с активированным venv):
+
+```bash
 chmod +x scripts/start_llm.sh
 ./scripts/start_llm.sh
 ```
@@ -121,73 +195,28 @@ chmod +x scripts/start_llm.sh
 
 ---
 
-### 1. Клонируй репозиторий
+### База данных (для Docker)
 
-```bash
-git clone https://github.com/ВАШ_ЛОГИН/ai-interview-coach.git
-cd ai-interview-coach
-```
+PostgreSQL поднимается контейнером `postgres` из `docker compose`. Переменные `POSTGRES_*` и `DATABASE_URL` задаются в `.env` и в compose — отдельно создавать базу не нужно.
 
-### 2. Создай виртуальное окружение
-
-```bash
-python -m venv .venv
-
-# MacOS / Linux
-source .venv/bin/activate
-
-# Windows
-.venv\Scripts\activate
-```
-
-### 3. Установи зависимости
-
-```bash
-pip install fastapi uvicorn sqlalchemy psycopg2-binary \
-            python-jose passlib bcrypt==4.0.1 \
-            python-multipart email-validator \
-            pypdf python-docx openai
-```
-
-### 4. Настрой базу данных
-
-Убедись что PostgreSQL запущен. Создай базу и пользователя:
-
-**Через pgAdmin4:**
-- Login/Group Roles → Create → Name: `coach`, Password: `coach_secret`, Can login: ✅
-- Databases → Create → Name: `interview_coach`, Owner: `coach`
-
-**Или через psql:**
+Если запускаешь только API локально (без Docker), создай БД вручную и укажи в `.env`:
 ```sql
 CREATE USER coach WITH PASSWORD 'coach_secret';
 CREATE DATABASE interview_coach OWNER coach;
 ```
-
-### 5. Создай файл `.env`
-
-```bash
-cp .env.example .env```
-
-Содержимое `.env`:
 ```
 DATABASE_URL=postgresql://coach:coach_secret@localhost:5432/interview_coach
 SECRET_KEY=придумай-случайную-строку-минимум-32-символа
 ```
 
-### 6. Запусти сервер
+### Запуск API локально (без Docker)
 
-**Вариант A — через Docker (рекомендуется):**  
-Сначала запусти LLM в отдельном терминале ([Запуск LLM (llama.cpp)](#запуск-llm-llamacpp)), затем:
-
-```bash
-docker compose up -d --build
-```
-
-API: `http://localhost:8080`, Swagger: `http://localhost:8080/docs`, фронт: `http://localhost:5173`.
-
-**Вариант B — локально (uvicorn на хосте):**
+Если хочешь запускать только бэкенд на хосте (uvicorn), без контейнеров:
 
 ```bash
+source .venv/bin/activate
+pip install -r requirements.txt
+# Настрой .env и запусти PostgreSQL (локально или в контейнере)
 uvicorn app.main:app --reload
 ```
 
