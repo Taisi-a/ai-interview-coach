@@ -1,0 +1,291 @@
+Grokking the Advanced System Design Interview
+Learn system design through architectural review of real systems.
+Level:
+Advanced
+Study Time:
+21
+h
+Lessons:
+118
+Updated
+Last month
+4.1
+(
+12,849
+ratings)
+38,522
+learners
+Get Started For Free
+Course Overview
+System design questions have increasingly become an integral part of software engineering interviews. For senior engineers, the discussion around system design is considered even more important than solving a coding question. In a system design interview, you can show your real design skills and show how they will work with designing complex systems. It is a given that a good performance in system design interviews will get you a senior position and result in higher salaries.
+
+This course presents the architectural review of famous distributed systems. The main goal is to extract out important design details that are relevant to system design interviews. The course also presents a list of system design patterns that constitute the common design problems and their solutions that different distributed systems have developed over time.
+Annual Subscription
+Get instant access to all current and upcoming courses for one year.
+OR
+Lifetime Access - This Course
+Get lifetime access to this course only.
+Discounted Prices for
+Your Region
+Certification on completing the course.
+Gift for lifetime
+Annual Subscription
+Get instant access to all current and upcoming courses for one year.
+OR
+Lifetime Access - This Course
+Get lifetime access to this course only.
+Discounted Prices for
+Your Region
+Certification on completing the course.
+Gift for lifetime
+Course Content
+•
+Chapters •
+118
+Lessons
+1
+.
+Introduction
+1
+lessons
+What Is This Course About?
+2
+.
+Dynamo: How to design a key value store?
+12
+lessons
+Dynamo: Introduction
+High-Level Architecture
+Data Partitioning
+Replication
+Vector Clocks and Conflicting Data
+The Life of Dynamo’s put() & get() Operations
+Anti-entropy Through Merkle Trees
+Gossip Protocol
+Dynamo Characteristics and Criticism
+Summary: Dynamo
+Quiz: Dynamo
+Mock Interview: Dynamo
+3
+.
+Cassandra: How to Design a Wide-column NoSQL Database?
+12
+lessons
+Cassandra: Introduction
+High-level Architecture
+Replication
+Cassandra Consistency Levels
+Gossiper
+Anatomy of Cassandra's Write Operation
+Anatomy of Cassandra's Read Operation
+Compaction
+Tombstones
+Summary: Cassandra
+Quiz: Cassandra
+Mock Interview: Cassandra
+4
+.
+Kafka: How to Design a Distributed Messaging System?
+13
+lessons
+Messaging Systems: Introduction
+Kafka: Introduction
+High-level Architecture
+Kafka: Deep Dive
+Consumer Groups
+Kafka Workflow
+Role of ZooKeeper
+Controller Broker
+Kafka Delivery Semantics
+Kafka Characteristics
+Summary: Kafka
+Quiz: Kafka
+Mock Interview: Kafka
+5
+.
+Chubby: How to Design a Distributed Locking Service?
+14
+lessons
+Chubby: Introduction
+High-level Architecture
+Design Rationale
+How Chubby Works
+File, Directories, and Handles
+Locks, Sequencers, and Lock-delays
+Sessions and Events
+Master Election and Chubby Events
+Caching
+Database
+Scaling Chubby
+Summary: Chubby
+Quiz: Chubby
+Mock Interview: Chubby
+6
+.
+GFS: How to Design a Distributed File System Storage?
+15
+lessons
+Google File System: Introduction
+High-level Architecture
+Single Master and Large Chunk Size
+Metadata
+Master Operations
+Anatomy of a Read Operation
+Anatomy of a Write Operation
+Anatomy of an Append Operation
+GFS Consistency Model and Snapshotting
+Fault Tolerance, High Availability, and Data Integrity
+Garbage Collection
+Criticism on GFS
+Summary: GFS
+Quiz: GFS
+Mock Interview: GFS
+7
+.
+HDFS: How to Design File Storage System?
+12
+lessons
+Hadoop Distributed File System: Introduction
+High-level Architecture
+Deep Dive
+Anatomy of a Read Operation
+Anatomy of a Write Operation
+Data Integrity & Caching
+Fault Tolerance
+HDFS High Availability (HA)
+HDFS Characteristics
+Summary: HDFS
+Quiz: HDFS
+Mock Interview: HDFS
+8
+.
+BigTable: How to Design a Wide Column Storage System?
+15
+lessons
+BigTable: Introduction
+BigTable Data Model
+System APIs
+Partitioning and High-level Architecture
+SSTable
+GFS and Chubby
+Bigtable Components
+Working with Tablets
+The Life of BigTable's Read & Write Operations
+Fault Tolerance and Compaction
+BigTable Refinements
+BigTable Characteristics
+Summary: BigTable
+Quiz: BigTable
+Mock Interview: BigTable
+9
+.
+System Design Patterns
+21
+lessons
+Introduction: System Design Patterns
+1. Bloom Filters
+2. Consistent Hashing
+3. Quorum
+4. Leader and Follower
+5. Write-ahead Log
+6. Segmented Log
+7. High-Water Mark
+8. Lease
+9. Heartbeat
+10. Gossip Protocol
+11. Phi Accrual Failure Detection
+12. Split Brain
+13. Fencing
+14. Checksum
+15. Vector Clocks
+16. CAP Theorem
+17. PACELC Theorem
+18. Hinted Handoff
+19. Read Repair
+20. Merkle Trees
+10
+.
+Final Assessment
+2
+lessons
+Quiz I
+Quiz II
+11
+.
+Appendix
+1
+lessons
+Contact us
+What people say about our courses
+Vivien Ruska
+Software Engineer
+Hey, I wasn't looking for interview materials but in general I wanted to learn about system design, and I bumped into 'Grokking the System Design Interview' on designgurus.io - it also walks you through popular apps like Instagram, Twitter, etc.👌
+Brandon Lyons
+Software Engineer
+The famous "grokking the system design interview course" on http://designgurus.io is amazing. I used this for my MSFT interviews and I was told I nailed it.
+Nathan Thomas
+Software Engineer
+My newest course recommendation for all of you is to check out Grokking the System Design Interview on designgurus.io. I'm working through it this month, and I'd highly recommend it.
+MO JAFRI
+Software Engineer
+The courses which have "grokking" before them, are exceptionally well put together! These courses magically condense 3 years of CS in short bite-size courses and lectures (I have tried System Design, OODI, and Coding patterns). The Grokking courses are godsent, to be honest.
+ABHISHEK GUPTA
+Software Engineer
+My offer from the top tech company would not have been possible without this course. Many thanks!!
+KAUSHIK JONNADULA
+Software Engineer
+Thanks for a great resource! You guys are a lifesaver. I struggled a lot in design interviews, and this course gave me an organized process to handle a design problem. Please keep adding more questions.
+Related Courses
+Grokking the System Design Interview
+Grokking the System Design Interview is a comprehensive course for system design interview. It provides a step-by-step guide to answering system design questions.
+4.7
+Discounted price for
+Your Region
+$
+138
+Preview
+New
+Grokking the System Design Interview, Volume II
+The advanced successor to the world's best-selling System Design course, designed to help experienced engineers master complex distributed systems and secure L5/L6 roles.
+4.8
+Discounted price for
+Your Region
+$
+112
+Preview
+Grokking Microservices Design Patterns
+Master microservices design patterns for designing scalable, resilient, and more manageable systems.
+4.2
+Discounted price for
+Your Region
+$
+110
+Preview
+One-Stop Portal For Tech Interviews.
+About Us
+Our Team
+Careers
+Contact Us
+Become Affiliate
+Become Contributor
+Social
+Facebook
+Linkedin
+Twitter
+Youtube
+Substack
+New
+LEGAL
+Privacy Policy
+Cookie Policy
+Terms of Service
+RESOURCES
+Blog
+Knowledge Base
+Blind 75
+Company Guides
+Answers Hub
+Newsletter
+Copyright ©
+2026
+Design Gurus, LLC. All rights reserved.

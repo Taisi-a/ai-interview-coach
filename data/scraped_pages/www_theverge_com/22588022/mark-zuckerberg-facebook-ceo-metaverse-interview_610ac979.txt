@@ -1,0 +1,384 @@
+Skip to main content
+The homepage
+The Verge
+The Verge logo.
+The homepage
+The Verge
+The Verge logo.
+Hamburger Navigation Button
+Navigation Drawer
+The Verge
+The Verge logo.
+Login
+/
+Sign Up
+close
+Close
+Search
+Subscribe
+Facebook
+Threads
+Instagram
+Youtube
+RSS
+Comments Drawer
+Comments
+Loading comments
+Getting the conversation ready...
+Tech
+Close
+Tech
+Posts from this topic will be added to your daily email digest and your homepage feed.
+Follow
+Follow
+See All
+Tech
+Podcasts
+Close
+Podcasts
+Posts from this topic will be added to your daily email digest and your homepage feed.
+Follow
+Follow
+See All
+Podcasts
+Meta
+Close
+Meta
+Posts from this topic will be added to your daily email digest and your homepage feed.
+Follow
+Follow
+See All
+Meta
+Mark in the metaverse
+Facebook’s CEO on why the social network is becoming ‘a metaverse company’
+by
+Casey Newton
+Close
+Casey Newton
+Last published Aug 18, 2025
+Posts from this author will be added to your daily email digest and your homepage feed.
+Follow
+Follow
+See All by
+Casey Newton
+Jul 22, 2021, 2:00 PM UTC
+Link
+Share
+Gift
+Illustration by Alex Castro / The Verge Photo by Justin Sullivan / Getty Images
+Tech
+Close
+Tech
+Posts from this topic will be added to your daily email digest and your homepage feed.
+Follow
+Follow
+See All
+Tech
+Podcasts
+Close
+Podcasts
+Posts from this topic will be added to your daily email digest and your homepage feed.
+Follow
+Follow
+See All
+Podcasts
+Meta
+Close
+Meta
+Posts from this topic will be added to your daily email digest and your homepage feed.
+Follow
+Follow
+See All
+Meta
+Mark in the metaverse
+Facebook’s CEO on why the social network is becoming ‘a metaverse company’
+by
+Casey Newton
+Close
+Casey Newton
+Last published Aug 18, 2025
+Posts from this author will be added to your daily email digest and your homepage feed.
+Follow
+Follow
+See All by
+Casey Newton
+Jul 22, 2021, 2:00 PM UTC
+Link
+Share
+Gift
+Casey Newton
+Close
+Casey Newton
+Posts from this author will be added to your daily email digest and your homepage feed.
+Follow
+Follow
+See All by
+Casey Newton
+is the editor of the Platformer newsletter and cohost of the Hard Fork podcast.
+As June came to an end, Facebook CEO Mark Zuckerberg told his employees about an ambitious new initiative. The future of the company would go far beyond its current project of building a set of connected social apps and some hardware to support them. Instead, he said, Facebook would strive to build a maximalist, interconnected set of experiences straight out of sci-fi — a world known as the metaverse.
+The company’s divisions focused on products for communities, creators, commerce, and virtual reality would increasingly work to realize this vision, he said in a remote address to employees. “What I think is most interesting is how these themes will come together into a bigger idea,” Zuckerberg said. “Our overarching goal across all of these initiatives is to help bring the metaverse to life.”
+The metaverse is having a moment. Coined in
+Snow Crash
+, Neal Stephenson’s 1992 sci-fi novel, the term refers to a convergence of physical, augmented, and virtual reality in a shared online space. Earlier this month,
+The
+New York Times
+explored
+how companies and products including Epic Games’
+Fortnite
+,
+Roblox
+, and even
+Animal Crossing: New Horizons
+increasingly had metaverse-like elements. (Epic Games CEO Tim Sweeney has been discussing his desire to contribute to a metaverse for
+many months now
+.)
+“we will effectively transition from people seeing us as primarily being a social media company to being a metaverse company”
+In January 2020, an influential essay by the venture capitalist Matthew Ball
+set out to identify key characteristics of a metaverse
+. Among them: it has to span the physical and virtual worlds; contain a fully fledged economy; and offer “unprecedented interoperability” — users have to be able to take their avatars and goods from one place in the metaverse to another, no matter who runs that particular part of it. Critically, no one company will run the metaverse — it will be an “embodied internet,” Zuckerberg said, operated by many different players in a decentralized way.
+Watching Zuckerberg’s presentation, I couldn’t decide which was more audacious: his vision itself or his timing. Zuckerberg’s announced intention to build a more maximalist version of Facebook, spanning social presence, office work, and entertainment, comes at a time when the US government is attempting to break his current company up. A package of bills making its way through Congress would potentially force the company to spin out Instagram and WhatsApp, and limit Facebook’s ability to make future acquisitions — or offer services connected to its hardware products.
+And even if tech regulation stalls in the United States — historically not a bad bet — a thriving metaverse would raise questions both familiar and strange about how the virtual space is governed, how its contents would be moderated, and what its existence would do to our shared sense of reality. We’re still getting our arms wrapped around the two-dimensional version of social platforms; wrangling the 3D version could be exponentially harder.
+At the same time, Zuckerberg said, the metaverse will bring enormous opportunity to individual creators and artists; to individuals who want to work and own homes far from today’s urban centers; and to people who live in places where opportunities for education or recreation are more limited. A realized metaverse could be the next best thing to a working teleportation device, he says. With the company’s Oculus division, which produces the Quest headset, Facebook is trying to develop one.
+“I don’t think that this is primarily about being engaged with the internet more. I think it’s about being engaged more naturally.”
+After I watched his speech, Zuckerberg and I had a conversation. (The metaverse being unavailable to us at press time, we used Zoom.) We discussed his vision for an embodied internet, the challenges of governing it, and gender imbalance in virtual reality today. And with President Biden’s fierce criticism of Facebook’s failures in removing anti-vaccine content in the headlines, I asked him about that, too.
+“It’s a little bit like fighting crime in a city,” he told me. “No one expects that you’re ever going to fully solve crime in a city.”
+This transcript has been edited for clarity and length
+.
+Mark Zuckerberg, welcome to
+The Vergecast
+.
+Thanks, Casey. It’s good to be here. We’ve got a lot to go through.
+As always, there’s a lot to discuss with you — and the White House is demanding Facebook do more to remove vaccine misinformation, which I know is on a lot of people’s minds right now. I want to get to that, but I want to start with this talk you gave internally at Facebook a few weeks ago, which I recently had a chance to watch. You told your employees that your future vision of Facebook is not the two-dimensional version of it that we’re using today, but something called the metaverse. So what is a metaverse and what parts of it does Facebook plan to build?
+This is a big topic. The metaverse is a vision that spans many companies — the whole industry. You can think about it as the successor to the mobile internet. And it’s certainly not something that any one company is going to build, but I think a big part of our next chapter is going to hopefully be contributing to building that, in partnership with a lot of other companies and creators and developers. But you can think about the metaverse as an embodied internet, where instead of just viewing content — you are in it. And you feel present with other people as if you were in other places, having different experiences that you couldn’t necessarily do on a 2D app or webpage, like dancing, for example, or different types of fitness.
+“we’re basically mediating our lives and our communication through these small, glowing rectangles. I think that that’s not really how people are made to interact.”
+I think a lot of people, when they think about the metaverse, they think about just virtual reality — which I think is going to be an important part of that. And that’s clearly a part that we’re very invested in, because it’s the technology that delivers the clearest form of presence. But the metaverse isn’t just virtual reality. It’s going to be accessible across all of our different computing platforms; VR and AR, but also PC, and also mobile devices and game consoles. Speaking of which, a lot of people also think about the metaverse as primarily something that’s about gaming. And I think entertainment is clearly going to be a big part of it, but I don’t think that this is just gaming. I think that this is a persistent, synchronous environment where we can be together, which I think is probably going to resemble some kind of a hybrid between the social platforms that we see today, but an environment where you’re embodied in it.
+So that
+can
+be 3D — it doesn’t have to be. You might be able to jump into an experience, like a 3D concert or something, from your phone, so you can get elements that are 2D or elements that are 3D. I’d love to go through a bunch of the use cases in more detail, but overall, I think that this is going to be a really big part of the next chapter for the technology industry, and it’s something that we’re very excited about.
+It just touches a lot of the biggest themes that we’re working on. Think about things like community and creators as one, or digital commerce as a second, or building out the next set of computing platforms, like virtual and augmented reality, to give people that sense of presence. I think all of these different initiatives that we have at Facebook today will basically ladder up together to contribute to helping to build this metaverse vision.
+“I’ve been thinking about some of this stuff since I was in middle school and just starting to code”
+And my hope, if we do this well, I think over the next five years or so, in this next chapter of our company, I think we will effectively transition from people seeing us as primarily being a social media company to being a metaverse company. And obviously, all of the work that we’re doing across the apps that people use today contribute directly to this vision in terms of building community and creators. So there’s a lot to jump into here. I’m curious what direction you want to take this in. But this is something that I’m spending a lot of time on, thinking a lot about, we’re working on a ton. And I think it’s just a big part of the next chapter for the work that we’re going to do in the whole industry.
+This feels like a fairly far-future vision, even though parts of it are visible now and coming together. I think overall, it feels like a very maximalist version of what the internet could be. You talk to employees about, “from the moment we wake up to the moment we go to bed, being able to jump into the metaverse to do almost anything you can imagine.” And probably some of us are using the internet that way already.
+But this description feels more like the metaverse that might be familiar to us from books like
+Ready Player One
+or
+Snow Crash
+, or maybe like
+Fortnite
+today, where some of the most important aspects of our lives, including our work, are being lived and done inside these virtual spaces. Are those good analogs for the kind of world that you’re talking about?
+Well, what I’m excited about is helping people deliver and experience a much stronger sense of presence with the people they care about, the people they work with, the places they want to be. And the reality is that today with the mobile internet, we already have something that a lot of people access from the moment they wake up to when they go to bed. I don’t know about you, but a lot of mornings, I reach for my phone by my bedside before I even put on my glasses, just to make sure, get whatever text messages I got during the middle of the night and make sure that nothing has gone wrong that I need to jump into immediately upon waking up. So I don’t think that this is primarily about being engaged with the internet more. I think it’s about being engaged more naturally.
+And today, I think about the computing platforms that we have. We have these phones. They’re relatively small. A lot of the time that we’re spending, we’re basically mediating our lives and our communication through these small, glowing rectangles. I think that that’s not really how people are made to interact. A lot of the meetings that we have today, you’re looking at a grid of faces on a screen. That’s not how we process things either. We’re used to being in a room with people and having a sense of space where if you’re sitting to my right, then that means I’m also sitting to your left, so we have some shared sense of space in common. When you speak, it’s coming from my right. It’s not just all coming from the same place in front of me.
+I don’t know how much you’ve had this experience, but I have a bunch, in work meetings over the last year, where I sometimes find it hard to remember what meeting someone said something in because they all look the same and they all blend together. And I think part of that is because we don’t have this sense of presence in space. What virtual and augmented reality can do, and what the metaverse broadly is going to help people experience, is a sense of presence that I think is just much more natural in the way that we’re made to interact. And I think it will be more comfortable. The interactions that we have will be a lot richer, they’ll feel real. In the future, instead of just doing this over a phone call, you’ll be able to sit as a hologram on my couch, or I’ll be able to sit as a hologram on your couch, and it’ll actually feel like we’re in the same place, even if we’re in different states or hundreds of miles apart. So I think that that is really powerful.
+I’ve been thinking about some of this stuff since I was in middle school and just starting to code. I remember when I was in math class, I would have my notebook and I’d basically just sit there and write code and ideas for things I wanted to go code when I got home from school that day. And some of them I was able to do back then, but one of the things that I really wanted to build was basically the sense of an embodied internet where you could be in the environment and teleport to different places and be with friends.
+I think some combination of the fact that I probably didn’t know enough math to pull it off then, and just the technology was decades away from really being ready to do that in a good way — that wasn’t the direction that I gravitated in originally, in terms of building different social experiences. But this is something that I’ve been excited about. I’ve thought that this would be the holy grail of social interactions from well before when I started Facebook. And it’s really exciting to me that now the next set of platforms are going to be able to do this.
+“People aren’t meant to navigate things in terms of a grid of apps”
+One of the reasons why we’re investing so much in augmented and virtual reality is mobile phones kind of came around at the same time as Facebook, so we didn’t really get to play a big role in shaping the development of those platforms. So they didn’t really develop in a very natural way, from my perspective. People aren’t meant to navigate things in terms of a grid of apps. I think we interact much more naturally when we think about being present with other people. We orient ourselves and think about the world through people and the interactions we have with people and what we do with them. And I think if we can help build the next set of computing platforms and experiences across that in a way that’s more natural and lets us feel more present with people, I think that’ll be a very positive thing.
+I’m not sure that people would necessarily find it more natural to work all day wearing a VR helmet, but maybe it’s something we get used to. But I am really interested in some of the things that you’ve said about the way a metaverse could create jobs that don’t exist today, like whole economies springing up inside of this metaverse. What novel new forms of work do you see happening in this world you want to build?
+So, let me get to that in a second. But just to go back to your comment about people not working in
+[a VR helmet]
+all day long — there’s clearly an evolution, or multiple, in the technology that are going to need to be possible, that will need to happen before this is the main way that people work. But I think we’re going to be there by the end of this decade. Today, the VR headsets, they’re still kind of a bit clunky, they may be a bit heavier than you would ideally like them to be. There need to be advances in being able to express yourself and having higher resolution, being able to read text better, a number of things like that. But we’re getting there, and each version is better and better. And Quest 2 has been a real hit so far in terms of how people are using it. I’ve been surprised.
+Listen to
+Decoder
+, a show hosted by
+The Verge
+’s Nilay Patel about big ideas — and other problems. Subscribe
+here
+!
+We planned on it mostly being used for games and thought that a lot of these social interactions or things around work wouldn’t come until later, but a lot of the biggest experiences on Quest 2, that people spend the most time in, are already just hanging out socially. And there are a number of things around work and productivity. There are even experiences that I really hadn’t thought about, things like fitness. These apps like
+Supernatural
+and FitXR, which you can kind of think about it like Peloton, but instead of having a bike or a treadmill, the device is your VR headset and you’re basically taking a class in there, where you’re boxing or dancing. And it’s really fun. I think if you haven’t tried it out, it’s something that a lot of people are enjoying.
+But going back to your point about work, and how this is going to work, I also don’t think this is going to be all VR. I think it’s going to be AR too. And part of the reason why VR is available, and why you have things like the Quest 2 years before you’re going to have AR glasses is because it’s a little more socially acceptable to wear something like a VR headset in the comfort of your own home. But I think to get AR glasses that we wear around throughout the day, they have to be normal-looking glasses, right? So you’re basically cramming all of these materials to build what we would’ve thought of as a supercomputer 10 years ago into the frame of glasses that are about five millimeters thick — you have computer chips, and networking chips, and holographic wave guides, and things for sensing and mapping out the world, and batteries and speakers, all this stuff, and it just needs to fit into these glasses — so that is a real challenge.
+And I actually would go so far as to say that I think that might be one of, if not the biggest technological challenge that our industry will face in the next decade. We tend to really celebrate things that are big, right? But I actually think miniaturizing things and getting a supercomputer to fit into a pair of glasses is actually one of the bigger challenges. But once you have that, so you have those glasses and you have your VR headset, I think that’s going to enable a bunch of really interesting use cases.
+So, one is you will be able to, with basically a snap of your fingers, pull up your perfect workstation. So anywhere you go, you can walk into a Starbucks, you can sit down, you can be drinking your coffee and kind of wave your hands and you can have basically as many monitors as you want, all set up, whatever size you want them to be, all preconfigured to the way you had it when you were at your home before. And you can just bring that with you wherever you want.
+“We tend to really celebrate things that are big, right?”
+If you want to talk to someone, you’re working through a problem, instead of just calling them on the phone, they can teleport in, and then they can see all the context that you have. They can see your five monitors, or whatever it is, and the documents or all the windows of code that you have, or a 3D model that you’re working on. And they can stand next to you and interact, and then in a blink they can teleport back to where they were and kind of be in a separate place.
+So I think for focus time and individual productivity, I think being able to have your ideal setup, we call this “infinite office.” We already have a version of this for our VR headsets, and it’s improving very quickly. I think it’s going to be great for multitasking and for getting your environment set up everywhere. There’ve been a lot of studies that show that people are more effective when they can pull up multiple of the things that they’re working on that are related to each other at once. If you’re coding, having multiple windows open rather than single-tasking, that’s a big deal. So I think that that’s going to be one.
+The other area that I think is going to be pretty exciting is basically doing meetings. And I already do a bunch of meetings in VR. Even though the avatars aren’t as realistic today as they will be in a few years, in a lot of ways it already feels almost more real, and more like you have a sense of space, than a Zoom call, because you have the shared sense of space. So if someone is sitting to your right, you’re sitting to their left. If you’re sitting in a circle, everyone can kind of remember what order people were in. There’s spatial audio. You look over to the head of the table and there could be a screen there, where people who can’t be in VR or AR can videoconference in and be a part of your meeting from outside. You can project and different people can share as many documents as they want. So it’s no more of this, “Oh, I can only share one document at a time,” because everyone, you presume, only has one screen. And in VR, people can pull up as many screens as they want so you can share as much context as you want during a meeting. You have a whiteboard, people can draw. It’s pretty wild.
+And we’re clearly just at the beginning of this. So I think that that’s going to be very exciting and people can customize their office space, and have it feel like what their physical office is and just be a digital continuation of that. So I think that’s pretty neat.
+“You can teleport instantaneously”
+But then I think what you were also asking about is, aside from doing the kind of knowledge work that we would typically do in offices today, but instead doing it in the metaverse, I do think that there will be entirely new types of work too. So in terms of designing places where people hang out, this is going to be a massive part of the creator economy, I think. You’ll have individual creators designing experiences and places. You’ll have artists doing things, whether it’s a comedy show ... We did this comedy show on our team in Horizon the other day and it was just kind of funny, you feel like you’re there with other people, and there’s something to it that’s a little more engaging than just all looking at a screen independently and watching it yourself. There’s just something to the energy.
+What was this show? Did you tell jokes during the show?
+I was not the comedian, fortunately for the other participants who were there. But no, the team that’s developing Horizon, which is a big part of our internal efforts in this space, they try to do fun things like this, just to kind of build out and test how the development of the work is going. And I thought that that was pretty funny. But you’d get concerts in there. You have this whole set of creators who are building out different experiences, ranging from an individual creator to teams of dozens of people building AAA games, where you can have your avatar and you can go across these experiences. You can teleport instantaneously. You can bring your outfits and your digital objects with you. So I think that there’s going to be a whole economy around this.
+And I guess one broader point that I’d make here is, one lesson that I’ve taken from running Facebook over the last five years is that I used to think about our job as building products that people love to use. But you know, now I think we just need to have a more holistic view of this. It’s not enough to just build something that people like to use. It has to create opportunity and broadly be a positive thing for society in terms of economic opportunity, in terms of being something that, socially, everyone can participate in, that it can be inclusive. So we’re really designing the work that we’re doing in the space with those principles from the ground up. This isn’t just a product that we’re building. It needs to be an ecosystem. So the creators who we work with, the developers, they all need to be able to not only sustain themselves, but hire a lot of folks.
+And this is something that I hope eventually millions of people will be working in and creating content for — whether it’s experiences, or spaces, or virtual goods, or virtual clothing, or doing work helping to curate and introduce people to spaces and keep it safe. I just think this is going to be a huge economy and frankly, I think that that needs to exist. This needs to be a rising tide that lifts a lot of boats. We can’t just think about this as a product that we’re building.
+“overall I’m quite proud of how we’ve shown up and what I think our net impact has been here”
+Yeah, so let’s talk about some of those principles that you’re going to use to build this. Because I know some people are going to hear this vision for the metaverse and just reflexively wish that you wouldn’t build it. They’ll say, Facebook wasn’t governed effectively when it was in two dimensions, and trying to build it in three dimensions is pure hubris. And people feel that way for different reasons. But one that has come up a lot over the past couple of weeks is misinformation. President Biden has since walked this back, but on Friday he was talking about misinformation related to COVID vaccines. And he said, “Facebook is killing people.” How do you respond to the idea that Facebook has played a role in making people hesitant about getting vaccinated?
+Well, I think that our basic role here — and I appreciate you mentioning the fullness of the context there, because I do think that the president offered more context on that after his original comment. There’s multiple prongs here. One part of it is we need to basically help push out authoritative information. We do that. We’ve helped, I think it’s more than 2 billion people around the world, access authoritative information about COVID over the course of the pandemic by putting it at the top of Facebook and Instagram. We’ve helped millions of people, including here in the US, basically go use our vaccine finder tool to actually go get their vaccine. So I’m quite confident, just looking at the analytics and the net impact, that we’ve been a positive force here.
+And in fact, if you look at vaccine acceptance amongst people who use our products, it has increased quite a bit over the last few months. So to the extent that there are pockets of the population for which hesitancy is growing, that hasn’t been the trend of what we’ve seen overall on Facebook. And I also think that broadly, when you’re looking at what’s going on in any given country, it’s useful to look at this from the perspective that Facebook and Instagram and all these tools are widely used in almost every country in the world. So if one country is not reaching its vaccine goal, but other countries that all these same social media tools are in are doing just fine, then I think that that should lead you to conclude that the social media platforms are not the decisive element in terms of what is going on there.
+But nonetheless, I do think we have a big role and we have a range of strategies that we employ. We take down content that could lead to imminent harm, and we flag and decrease the distribution of content that our fact checkers flag as misinformation, but that is not going to lead to imminent harm. So we treat those two differently, and I think that’s the right thing to do. So overall, I think we’ve taken a lot of efforts on this. I think our company has made a lot of progress in this space over the last five years since the 2016 election. It’s tough to say that anyone was well-prepared for the pandemic, but I think we’d built a lot of systems that I think could really come in handy on this. And overall I’m quite proud of how we’ve shown up and what I think our net impact has been here.
+But managing the integrity of these communities, whether you’re talking about misinformation on Facebook or other types of harm — we track about 20 different types of harm, everything from terrorism to child exploitation to incitement of violence. There are lots of different types of harm. You need to build specific systems to handle them. We have, I think at this point it’s more than 1,000 people working on building the AI and technical systems. And I think it’s more than 30,000 or 35,000 people helping to review the content. And that kind of apparatus that we built up I think will carry naturally to all the work that we’ll do going forward.
+But when you think about the integrity of a system like this, it’s a little bit like fighting crime in a city. No one expects that you’re ever going to fully solve crime in a city. The police department’s goal is not to make it so that if there’s any crime that happens, that you say that the police department is failing. That’s not reasonable. I think, instead, what we generally expect is that the integrity systems, the police departments, if you will, will do a good job of helping to deter and catch the bad thing when it happens and keep it at a minimum, and keep driving the trend in a positive direction and be in front of other issues too. So we’re going to do that here.
+And for the metaverse, I think that there are different types of integrity questions. One of the big issues that I think people need to think through is right now there’s a pretty meaningful gender skew, at least in virtual reality, where there’s a lot more men than women. And in some cases that leads to harassment. And I think one of the things that we’ve been able to do better in some of our experiences than some of the other games and things out there is give people easier tools to block people, just be able to have a sense of when there might be harassment going on, to keep it a safe space that can be inclusive for everyone, that everyone wants to be a part of.
+“I think that the mix of the problems that we see may vary, and I’m sure there’ll be new ones too”
+Because ultimately, you’re not going to have a healthy and vibrant community if it skews so much towards one gender or the other, or a whole part of the population just doesn’t feel safe. So this stuff is going to be critical. It’s not just critical for having a good social impact, it’s critical for building good products. And it’s something that we’re focused on from the beginning here.
+One of the things I’ve been thinking about as I’ve been reading more about the metaverse is that it seems to me that it promises to host much more information, generally, than social networks do today. This isn’t a network where I’m spending 20 or 30 minutes a day scrolling through a feed. Potentially, I’m spending eight-plus hours here working. And, as you noted, it’s not just text or voice communications, you’re also virtually moving through these spaces; it’s an office, it’s a performance space. So do you think that the systems that you have now to work on making spaces safe and healthy extend naturally? Or are we going to have to rethink this, just given the volume of information that is contained here?
+Well, there will clearly be new challenges. Even in just the 2D world of the social media apps that we work on, there are going to be new challenges. So this is not a thing that you’re ever done with. But when we started working on a lot of these problems in a much bigger way, through the middle of the 2010s leading up to the 2016 election, and really turbocharged it a lot after that, we just knew that if you’re going to go and try to build these AI systems to be able to proactively identify harmful content — that’s not something that you can stand up in six months. We basically put together a roadmap that was a three- or four-year roadmap to get through all of the work that we needed to get to a good place.
+And sometimes when you’re working on long-term projects, it can be a little painful because you realize, “Hey, we want this today.” But it’s going to take a few years to get there. But I do think the reality is that now that we’ve built up a lot of that AI work and we’ve hired a lot of the content moderators, I think it will be easier to add new use cases and be able to adapt the systems that we’ve built to different types of harms. So it’s something that we’re thinking about from the beginning. For example, the gender skew that I just mentioned, the feeling that a number of women have around being harassed in the space, those are somewhat more acute problems, potentially, in gaming and in VR. Obviously that’s a thing that exists in the other platforms as well. But I think that the mix of the problems that we see may vary, and I’m sure there’ll be new ones too. So this is just something that we’ll need to keep focused on.
+I want to ask one more question about responsibility. I was talking to Nilay, who runs
+The Verge
+, about all this. And he asked me the question, “Who gets to augment reality?” And he talked about a world where we’re all wearing our headsets, and we’re looking at the US Capitol building. And most of us might have an overlay that says, “This is the building where Congress works.” And then some people might see an overlay that says, “On January 6, 2021, our glorious revolution began.” And then maybe some other people see an overlay that says, “Lizard people are inside doing experiments on humans.” And I think the real question in there is: does this metaverse further splinter our sense of shared reality? Does it let us sort ourselves into a bunch of unrelated bubbles? Should we be worried about that?
+Well, this, I think, is one of the central questions of our time. And I think there are clear pros and cons of this. I think the positive version of this is that if you go back 20 or 30 years, a lot of people’s individual opportunities and experience was dictated by their physical proximity. Right?
+So [when] I grew up, I played Little League baseball in my town, not because I am made to be a baseball player, but because that was one of the few activities that was available. There was, I think, one other kid in the town who was interested in computers — I was lucky that there was one other kid. And that was my world. If I wanted to call someone who I met when I was at camp or something and wanted to stay in touch with a friend, I would have to pay a lot more because long-distance calls cost more than talking to people nearby.
+I think one of the things that is most magical about the present, and that I think is going to get even more so, is that flattening out distance creates a lot more opportunities for people. Not just in the sense that a version of me growing up today wouldn’t be stuck playing Little League, that I’d get to find people who are interested in the same things, so I could explore coding and have a much more vibrant community around that, or surfing, or whatever the thing is that you’re interested in. I think that that’s probably quite compelling and positive. I also think it is really important for economic opportunity. One of the big issues today in society is inequality. And one of the people I think has done the
+most interesting research
+on this is this guy, Raj Chetty, I think he’s at Harvard now. And basically some of the research that he’s done shows that the zip code in which you were born and raised is highly correlated with your future mobility and what your income is going to be. And I think that that just goes against the sense that we have in this country that people should have equal opportunity.
+But in a world where there can be more remote work, I don’t know what
+The Verge
+is doing, but I can tell you at Facebook, since we knew that this pandemic was going to be going on for a while, and we probably weren’t going be in offices, pretty early on, I basically just told our team, “Okay, look, stop just constraining ourselves from hiring people who are physically close to an office that they can’t go into anyway. Remote work is going to be a bigger part of the future. I think within five to 10 years, probably about half the company is going to be remote. Let’s double down on that now and hire people in all these different places, which I think is going to create more opportunity.” But then you have this question, which is, now that we’re going back and you have this hybrid world, there are all these cultural questions of, “Okay, will the people who are working remotely really be able to have exactly the same opportunities as the people who are physically there with each other?”
+And I think when you have technologies like holograms from augmented and virtual reality, the answer gets closer to “yes” than it would have been before. When those people were just videoconferencing in on a flat screen or doing phone calls or not seeing each other as often. The better that this technology for presence gets, the more you can live where you want, be a part of the communities that you want to. And I think that that’s more positive in terms of creating more opportunity for people. Now, obviously, you also have the downsides of that that need to get managed. In order to have a cohesive society, you want to have a shared foundation of values and some understanding of the world and the problems that we all face together.
+And I think part of what we’re all trying to figure out now is, how do you build that in a world where people have so much freedom and opportunity to go explore the things that are interesting to them and get different opportunities, but are less anchored physically? But I think we’re probably just going to go more in that direction. I think we will solve, or at least figure out how to come to an equilibrium on, the cohesion point. But I think overall, we should be celebrating the fact that this is going to, I believe, create more opportunity for people, not just in all places in the US but around the world.
+How do you think about how the metaverse will be governed? If it’s a consortium of different companies, who’s going to be responsible for shaping these policies?
+Well, I think that there will be a number of different layers to this. I think a good vision for the metaverse is not one that a specific company builds, but it has to have the sense of interoperability and portability. You have your avatar and your digital goods, and you want to be able to teleport anywhere. You don’t want to just be stuck within one company’s stuff. So for our part, for example, we’re building out the Quest headsets for VR, we’re working on AR headsets. But the software that we build, for people to work in or hang out in and build these different worlds, that’s going to go across anything. So other companies build out VR or AR platforms, our software will be everywhere. Just like Facebook or Instagram is today.
+So I think part of this is, I think it’ll be good if companies build stuff that can work together and go across lines rather than just being locked into a specific platform. But I do think that, just like you have the
+W3C
+that helps set standards around a bunch of the important internet protocols and how people build the web, I think there will need to be some of that here, too, for defining how developers and creators can build experiences that allow someone to take their avatar and their digital goods and their friends, and be able to teleport seamlessly between all these different experiences.
+“In order to have a cohesive society, you want to have a shared foundation of values and some understanding of the world and the problems that we all face together”
+So we’re already starting to do some of this. There’s an
+XR consortium
+that we are in with Microsoft and a bunch of other companies that are working on some of this as well. But I think that that’s going to be one of the big questions. I don’t think every company is going to have exactly the same vision here. I think some are going to have more siloed visions, and I, at least, believe that in order for this to work really well, you want it to be very portable and interconnected.
+There’s this
+great essay
+that the venture capitalist Matthew Ball wrote last year about the metaverse. I imagine you’ve read it, but he talks about “unprecedented interoperability” as one of the defining features of this metaverse. And we live at this time when the biggest tech platforms are barely interoperable; at most, they might let you share some contact data or export some photos. So it sounds like you’re saying that you’re preparing to build systems that are much more interoperable than the ones we have today, at least on Facebook’s end.
+Yeah. I think that that aligns with our mission and worldview. We’re generally not trying to serve a smaller number of people but have them pay us a large premium. That’s not our business model. We’re here to serve as many people as possible and to help people connect. And when you’re building social systems primarily, you want everyone to be able to be a part of the same systems. So we want to make them as affordable as possible, we want to make them as unified as possible, and part of that is making sure that things can run everywhere, can run across different platforms, can talk to each other. There are a bunch of big questions about how you do that. There will be privacy questions, there’ll be intellectual property questions.
+I thought Matthew Ball’s essays, by the way, were great, and anyone who’s trying to learn about this, I think he wrote a
+nine-part piece
+on a bunch of the different aspects of what the metaverse could be, and I highly recommend all of them. But I’d say that, I think sometimes people may be a little idealistic about assuming that this will develop in a certain way. I think the vision that Matthew lays out, for example, of being extremely interoperable, is the vision that I hope comes about. But I think we’ve seen from modern computing that there are different companies that push in different directions. So I think from my perspective, without a doubt, you’re going to have some companies that are trying to build incredibly siloed things, and then some that are trying to build more open and interoperable ones.
+And I don’t even think it’s a question of, is one going to win over the other? I mean, has open-source won over closed-source? There were just multiple things at different times, some are expressed more in the technology industry than others, but we’re going to be contributing to trying to build a more open and interoperable one, and that’s kind of our goal here. But even within that, there’s a lot of questions about how that works. Is it interoperable because it’s decentralized, in the way that a bunch of the crypto work is being designed now, so there’s kind of no central dependency? It’s not just interoperable, but there’s no centralized control points? Or is it interoperable because there are some bodies that set standards and enable a bunch of these experiences to work together? And I think you’ll probably see multiple approaches on that too. So I think this is going to be one of the big questions in terms of how this evolves.
+I think I have time for two more questions. So one of them is a little bit nerdy, but when you read books and watch movies about the metaverse, the fact that these spaces are owned by giant corporations are often the subject of satire. Do you see any room here for public, government-owned spaces in the metaverse? Something like, I don’t know, libraries, parks, and is this something that governments should start thinking about so that they have a role to play as this stuff gets built?
+I certainly think that there should be public spaces. I think that’s important for having healthy communities and a healthy sphere. And I think that those spaces range from things that are government-built or administered, to nonprofits, which I guess are technically private, but are operating in the public interest without a profit goal. So you think about things like Wikipedia, which I think is really like a public good, even though it’s run by a nonprofit, not a government.
+“each company should not have its own metaverse”
+One of the things that I’ve been thinking about a lot is: there are a set of big technology problems today that, it’s almost like 50 years ago the government, I guess I’m talking about the US government here specifically, would have invested a ton in building out these things. But now in this country, that’s not quite how it’s working. Instead, you have a number of Big Tech companies or big companies that are investing in building out this infrastructure. And I don’t know, maybe that’s the right way for it to work. When 5G is rolled out, it’s tough for a startup to really go fund the tens of billions of dollars of infrastructure to go do that. So, you have Verizon and AT&T and T-Mobile do it, and that’s pretty good, I guess.
+But there are a bunch of big technology problems, [like] defining augmented and virtual reality in this overall metaverse vision. I think that that’s going to be a problem that is going to require tens of billions of dollars of research, but should unlock hundreds of billions of dollars of value or more. I think that there are things like self-driving cars, which seems like it’s turning out to be pretty close to AI-complete; needing to almost solve a lot of different aspects of AI to really fully solve that. So that’s just a massive problem in terms of investment. And some of the aspects around space exploration. Disease research is still one that our government does a lot in.
+But I do wonder, especially when we look at China, for example, which does invest a lot directly in these spaces, how that is kind of setting this up to go over time. But look, in the absence of that, yeah, I do think having public spaces is a healthy part of communities. And you’re going to have creators and developers with all different motivations, even on the mobile internet and internet today, you have a lot of people who are interested in doing public-good work. Even if they’re not directly funded by the government to do that. And I think that certainly, you’re going to have a lot of that here as well.
+But yeah, I do think that there is this long-term question where, as a society, we should want a very large amount of capital and our most talented technical people working on these futuristic problems, to lead and innovate in these spaces. And I think that there probably is a little bit more of a balance of space, where some of this could come from government, but I think startups and the open-source community and the creator economy is going to fill in a huge amount of this as well.
+Last question: If you succeed in building a metaverse, will you at least consider giving it all away to the first person who solves a scavenger hunt?
+I appreciate the
+Ready Player One
+reference.
+I mean, just to nitpick on something here for a second, I don’t think in the future, people are going to call the work that individual companies do a metaverse. Hopefully, if we’re successful collectively in building a system that’s more interoperable, and where you can teleport between things, it should all be the metaverse, each company should not have its own metaverse. Hopefully in the future, asking if a company is building a metaverse will sound as ridiculous as asking a company how their internet is going. So I think just in terms of giving a sense of sort of where this should go, but within that ... now I’ve lost track of what your question was.
+It was a joke question. But look, as always, there’s a lot to think about here and I appreciate you coming on and sharing some of the vision
+.
+I mean, this is an exciting area. It’s going to be a big focus, and I think that this is just going to be a big part of the next chapter for the way that the internet evolves after the mobile internet. And I think it’s going to be the next big chapter for our company too, really doubling down in this area. For the last 17 years, we’ve worked a lot on building different apps for people to connect, and the main way that they’ve done that is on phones. And I think if we’re successful, then maybe five years from now, or seven years from now, people will primarily think about us as a metaverse company, rather than a mobile internet company, that’s kind of helping to build these kinds of experiences. And I think it’s just going to span so much.
+“people will primarily think about us as a metaverse company, rather than a mobile internet company”
+People will hang out, you’ll be able to really feel like you’re present with other people, you’ll be able to do all kinds of different work, there’ll be new jobs, new forms of entertainment. Whether it’s gaming or incredibly complex scavenger hunts like you’re talking about, or more and more enjoyable ways of doing fitness or concerts, or getting together at the comedy show that we talked about. I just think that there’s a ton here, and I think we can do this in a way that creates a lot of economic opportunity where millions of people around the world can be doing creative work that they really enjoy, building experiences or virtual items or art or different things that are more inspiring to them than whatever the jobs are that they may feel like they can do today. So I’m really looking forward to helping to play some role in building out this next chapter for the internet. And I’m sure over the years, we’re going to have many conversations about this, Casey.
+For sure. I’m looking forward to writing about all of the unanticipated problems that come about as a result of the metaverse! But the good things, too. Mark, thank you for coming on
+The Vergecast
+.
+Happy to do it. All right. Talk soon.
+Follow topics and authors
+from this story to see more like this in your personalized homepage feed and to receive email updates.
+Casey Newton
+Close
+Casey Newton
+Last published Aug 18, 2025
+Posts from this author will be added to your daily email digest and your homepage feed.
+Follow
+Follow
+See All by
+Casey Newton
+Facebook
+Close
+Facebook
+Posts from this topic will be added to your daily email digest and your homepage feed.
+Follow
+Follow
+See All
+Facebook
+Meta
+Close
+Meta
+Posts from this topic will be added to your daily email digest and your homepage feed.
+Follow
+Follow
+See All
+Meta
+Podcasts
+Close
+Podcasts
+Posts from this topic will be added to your daily email digest and your homepage feed.
+Follow
+Follow
+See All
+Podcasts
+Tech
+Close
+Tech
+Posts from this topic will be added to your daily email digest and your homepage feed.
+Follow
+Follow
+See All
+Tech
+Vergecast
+Close
+Vergecast
+Posts from this topic will be added to your daily email digest and your homepage feed.
+Follow
+Follow
+See All
+Vergecast
+Most Popular
+Most Popular
+Apple’s new M5 Max feels like a huge upgrade if you bought your laptop three years ago
+Apple is going high-end with new ‘Ultra’ products next
+The iPhone 17E is good, but you probably shouldn’t buy it
+The uncomfortable truth about hybrid vehicles
+Apple Studio Display XDR review: pro at a premium
+The Verge Daily
+A free daily digest of the news that matters most.
+Email (required)
+Sign Up
+By submitting your email, you agree to our
+Terms
+and
+Privacy Notice
+.
+This site is protected by reCAPTCHA and the Google
+Privacy Policy
+and
+Terms of Service
+apply.
+Advertiser Content From
+This is the title for the native ad
+More in
+Tech
+Yamaha launches Creator Pass for music makers and podcasters
+Sonos just launched Play, a new $299 portable speaker
+iRobot’s Roomba Mini can clean where its larger robovacs can’t reach
+You can now ask Photoshop’s AI assistant to edit images for you
+9
+Verge Score
+MacBook Neo review: the Mac for the masses
+Google’s Gemini AI is getting a bigger role across Docs, Sheets, and Slides
+Yamaha launches Creator Pass for music makers and podcasters
+Terrence O'Brien
+An hour ago
+Sonos just launched Play, a new $299 portable speaker
+John Higgins
+Two hours ago
+iRobot’s Roomba Mini can clean where its larger robovacs can’t reach
+Andrew Liszewski
+Two hours ago
+You can now ask Photoshop’s AI assistant to edit images for you
+Jess Weatherbed
+Two hours ago
+MacBook Neo review: the Mac for the masses
+Antonio G. Di Benedetto
+Two hours ago
+Google’s Gemini AI is getting a bigger role across Docs, Sheets, and Slides
+Emma Roth
+Two hours ago
+Advertiser Content From
+This is the title for the native ad
+Top Stories
+Two hours ago
+MacBook Neo review: the Mac for the masses
+9:00 AM UTC
+The laid-off lawyers and PhDs training AI to steal their careers
+Two hours ago
+Project Hail Mary is popcorn sci-fi at its best
+Mar 9
+Apple Studio Display XDR review: pro at a premium
+Mar 9
+Employees across OpenAI and Google support Anthropic’s lawsuit against the Pentagon
+Mar 9
+The iPhone 17E is good, but you probably shouldn’t buy it

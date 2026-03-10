@@ -1,0 +1,195 @@
+Mastering Behavioral Interviews
+Subscribe
+Sign in
+Getting the Most Out of Mock Behavioral Interviews
+How to turn $300 into a six-figure offer
+Austen McDonald
+Mar 22, 2025
+18
+3
+Share
+🙋‍♂️ Hi there, I’m Austen, a former Senior Engineering Manager and Hiring Committee Chair at Meta where trained 100s of interviewers. Since then, I’ve coached over 200 candidates from interns to managers on how to rock their behavioral interviews and I share those insights here, on my
+Mastering the Behavioral Interview
+newsletter.
+Mock interviews are not cheap. If you want a mock interview from an experienced interviewer at the FAANG+ you’re applying for, it can be ~$300 for a one hour session.
+You don’t want to waste that.
+Let me share with you the advice I give mentees on how to leverage the time with experts, what to use humans vs AI for, and what to do if you don’t have access to a professional interviewer.
+Know someone who’s prepping? Share this post to help them!
+Share
+Where Mocks Fit Into Your Prep Process
+Preparing for your behavioral interview is
+more important than ever in 2025
+and it’s likely you’re underinvesting in it.
+Take a structured approach to preparing for behaviorals, just as you would for coding and system design, by following a simple
+roadmap
+. If you’re in a hurry, here’s the tl;dr:
+Identify key stories
+from your career, ones that demonstrate many repeatable actions at the target level for the position you’re applying for.
+Journal about each of those projects
+, roughly following a
+STAR or CARL pattern
+.
+Align those ideas
+with the
+signal areas for behavioral interviews
+and company values for the target company.
+Craft detailed and organized stories
+for the Big Three:
+Tell me about yourself
+,
+Tell me about your favorite project
+(ideally with
+sub-sections for longer stories
+), and
+Tell Me about a time when you had a conflict
+(haven’t written a post for this one yet).
+Practice delivering those stories
+and polish them.
+Ideally you should be engaging with a
+mock interviewer during step #5 and not before
+. If you haven’t had a chance to identify your stories, craft them according to STAR/CARL, and get a little by-yourself practice in, you will be wasting your money on mocks.
+Thanks for reading Mastering the Behavioral Interview! Subscribe for free to receive new posts!
+Subscribe
+Why Get a Mock Interview
+Unlike coding and perhaps even system design, it is much harder for you to know if your behavioral responses are sufficient for a hire—it’s fundamentally subjective and depends heavily on the company you’re applying to.
+To help you wade through that subjectivity, a
+mock interviewer
+help:
+Calibration:
+a skilled mock interviewer will help ensure you’ve picked stories that fit the target level for the open position at that company. You need to be telling stories about projects that are similar to the ones you’ll work on if you get hired.
+Pressure:
+telling stories on the spot, to a real human, is better than writing them down, going over them in your head, or even responding to an AI (see next section).
+Follow Ups:
+interviewers will push you to answer follow ups relevant to your stories, which will help you anticipate common reactions from interviewers. This is especially important if your stories involve you making mistakes.
+Coaching:
+a good mock interviewer will give you actionable feedback to improve your stories.
+Accountability:
+if you have more than one mock scheduled, then you’ll be held accountable to make the necessary changes to your stories between mocks. Preparing for behavioral interviews is not easy so accountability is always welcome.
+Encouragement:
+preparing for interviews can be a slog and having a human who cares about you express interest in your process and encouragement along the way can be truly beneficial for your mental health.
+Confidence:
+likewise, having a skilled interviewer tell you that you’re ready will give you confidence, which is part of the battle in the interview itself.
+🔥 Free tip:
+the #1 most common feedback I have for candidates is to add more
+repeatable actions
+they themselves did during the course of the project and not to hide behind
+generic descriptions of what happened on the project
+.
+🌶️ Take: AI is Great But You Still Need a Human
+“But Austen, live in the now. Can’t I get all this from AI?”
+Possibly, and with increasingly likelihood in the future, but if all you’re using is a general purpose LLM (like ChatGPT or Claude)
+1
+then you won’t get high quality responses at least in March 2025. You certainly won’t get realistic
+Pressure
+,
+Calibration
+,
+Encouragement
+, or
+Confidence
+.
+Here’s an example extracted from a recent mock I conducted, with the names changed to protect the guilty.
+Admittedly this is a basic prompt, but my assumption is you don’t know what to put in the prompt otherwise you wouldn’t need the advice:
+Prompt
+You are a software engineering career coach, giving feedback on behavioral interview responses. The question is, “Pick some big project or something that you did that you're particularly proud of, that you feel really good about, and then tell me that story end to end.”
+Input
+The most impactful project I worked on was the first piece of work I got when I came into DataViz Solutions. It was called the feedback portal.
+The feedback portal is a web application for tracking retail workers' interactions with our store. Store managers use their tablets to keep notes about workers during their visits and record ratings on the products they purchased.
+This project started as a necessity for us to get our foot in the door to be part of the retail chain's customer experience management system. We did it really well, and from there, it bloomed into several different contracts.
+The feedback portal became the centralized data aggregation point that drove the screens for everything else we were building - from our inventory management software to our data analytics dashboards. It even drove most of the marketing campaign logic and how customers' loyalty ratings compared to their previous shopping habits.
+These assessments also substituted for annual reviews. Certain types of feedback became crucial metrics, and if workers didn't exceed certain satisfaction scores during their visit, they would be flagged for attention, classified as different priority, or moved to different performance tiers.
+This first project gave me a large knowledge base of what the client was looking for. It played a role in every future part of the application and our work with the client. It also helped us secure several contracts with different retail chains - grocery stores, department stores, and electronics retailers all came on board because of that initial success.
+Feedback
+Here’s what Claude 3.7 (Sonnet) gave me on Normal mode:
+Strengths
+You identified a truly impactful project with clear business value
+You explained how the project expanded into other contracts
+You highlighted the technical interconnections with other systems
+Areas for Improvement
+Structure Your Response with STAR Method
+Your response would benefit from following the STAR format (Situation, Task, Action, Result):
+Situation
+: Begin with context about iPerformX and the need for the grade sheet
+Task
+: Clarify your specific role and responsibilities in the project
+Action
+: Detail your personal contributions and how you executed them
+Result
+: Quantify the impact (which you started to do with the contracts won)
+Be Specific About Your Individual Contribution
+Your response focuses on what the grade sheet does and its impact, but not enough on:
+What was your specific role on the team?
+What technical or leadership challenges did you personally overcome?
+What specific actions did YOU take to ensure the project's success?
+Quantify Your Results
+Add specific metrics when discussing impact:
+How much time did the grade sheet save instructors?
+What percentage of new contracts came from this work?
+How much revenue resulted from the additional contracts?
+This AI feedback is at least accurate, but it's pretty limited and generic. It doesn't adapt to the specific level the candidate is interviewing for or provide the customized, nuanced feedback a human interviewer would.
+It does tell you where the response is lacking but it doesn’t help provide much guidance on filling the hole. During the actual mock interview, we spent some time identifying actions to fill in the gap, with brainstorming and feedback going back and forth between us.
+You can still use AI to help you organize and polish your stories. It just won’t replace a mock interviewer.
+Maximizing Your Time with Mock Interviewers
+Here’s how you can sequence your preparation and mock interviews to maximize the time you have with them:
+Come prepared
+: Be sure to bring basic stories prepared and practice by yourself a few times to get comfortable.
+Set clear goals
+: Discuss your objectives with the interviewer before you begin. You might want to work on connection to company values or get feedback on whether the scope is right for the target level.
+Plan for two sessions:
+Everyone’s situation is different but for the average candidate, I recommend you have
+two mocks:
+In the first mock, cover the Big Three and get feedback on overall story telling structure and technique.
+Apply that feedback to the other stories you have and ensure you have your stories aligned with signal areas and company values. Schedule your mocks with enough time between them, at least a couple of days, so you can focus on implementing the feedback.
+In the second mock, practice questions related to the company values or the
+signal areas
+. The goal is not to prepare for specific questions but rather to ensure you can pair the question with the best project on the fly.
+Record and review
+: Ask your interviewer if you can record the session and get a written summary of their feedback from them, if that’s not something they’re already planning to do.
+Conclusion
+Mock behavioral interviews are an essential part of your interview preparation, especially as soft skills become increasingly important in the AI-driven engineering landscape of 2025.
+While they represent an investment of time and money, the returns are substantial. You should come out with stronger stories, better delivery, and increased confidence going into the real thing.
+Don't just wing it. Identify your stories, structure them properly, practice them diligently, and get tailored feedback.
+The difference between a good engineer who gets rejected and a good engineer who gets hired often comes down to their ability to effectively communicate their impact through compelling behavioral responses.
+💚 Good luck!
+1
+There are an increasing number of AI products trained on human interviewer feedback so I imagine they will get better and better. These comments are not about those products. Evaluating those is a post for another day.
+18
+3
+Share
+Discussion about this post
+Comments
+Restacks
+Siddharth Singh
+May 19, 2025
+Liked by Austen McDonald
+This was super useful, and I really appreciate the effort. Thank you for sharing this!
+Reply
+Share
+Khadejah J
+Mar 26, 2025
+Liked by Austen McDonald
+Hey Austen, this was a super interesting read! Had no idea mock interviews even existed to be honest lol. I love the points you made about AI vs. mock interviewers. AI tends to make stories hollow and you don’t want that when preparing for an interview. Super important to build that connection with the interviewer early on as well.💪💪💪
+Reply
+Share
+1 reply by Austen McDonald
+1 more comment...
+Top
+Latest
+Discussions
+No posts
+Ready for more?
+Subscribe
+© 2026 Austen McDonald
+·
+Privacy
+∙
+Terms
+∙
+Collection notice
+Start your Substack
+Get the app
+Substack
+is the home for great culture
+This site requires JavaScript to run correctly. Please
+turn on JavaScript
+or unblock scripts

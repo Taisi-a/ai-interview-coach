@@ -1,0 +1,65 @@
+Our
+sorting method
+Powersort
+is used as default
+list.sort()
+algorithm in CPython, the reference implementation of the 
+Python programming language.
+Join the
+Powersort Competition
+Help us study Timsort and Powersort and win substantial prizes!
+See my
+PyCon US talk
+for the full story.
+Here’s the entry from the official
+Python changelog
+:
+bpo-34561
+:
+List sorting now uses the merge-ordering strategy from Munro and Wild’s
+powersort()
+.
+Unlike the former strategy, this is provably near-optimal in the entropy of the distribution of run lengths. Most uses of
+list.sort()
+probably won’t see a significant time difference, but may see significant improvements in cases where the former strategy was exceptionally poor. However, as these are all fast linear-time approximations to a problem that’s inherently at best quadratic-time to solve truly optimally, it’s also possible to contrive cases where the former strategy did better.
+The change had been included in the development version of CPython,
+but with the official release of
+Python 3.11
+, Powersort is now on route to be deployed to hundreds of millions of devices, on top of already being in active use in
+PyPy
+.
+Update (June 2025)
+Powersort has also been adopted for
+numpy
+, replacing the former Timsort implementation.
+The
+University of Liverpool Powersort Competition
+is also still underway, with lots of prizes up for grabs!
+Powersort is explained in my
+PyCon US 2023 talk
+(in my biased opinion in a much clearer way than in 
+our
+original publication
+😅);
+More context is given in my
+Efficient Algorithms
+module in the unit on sorting,
+which has an
+intro to adaptive sorting (34min)
+and then covers
+Powersort itself (15min)
+.
+We showed how to extend Powersort to
+multiway merges
+, looking
+very promising in first experiments
+.
+Coverage
+ACM TechNews
+(2022-12-14)
+University of Liverpool News story
+(2022-12-12)
+on
+LinkedIn post
+TechXPlore
+London Daily News

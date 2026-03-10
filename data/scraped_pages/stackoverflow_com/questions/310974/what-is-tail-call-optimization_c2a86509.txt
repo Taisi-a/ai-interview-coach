@@ -1,0 +1,1160 @@
+Collectives™ on Stack Overflow
+Find centralized, trusted content and collaborate around the technologies you use most.
+Learn more about Collectives
+Stack Internal
+Knowledge at work
+Bring the best of human thought and AI automation together at your work.
+Explore Stack Internal
+What is tail call optimization?
+Ask Question
+Asked
+17 years, 3 months ago
+Modified
+4 years, 4 months ago
+Viewed
+323k times
+1145
+Very simply, what is tail-call optimization?
+More specifically, what are some small code snippets where it could be applied, and where not, with an explanation of why?
+algorithm
+recursion
+language-agnostic
+tail-recursion
+tail-call-optimization
+Share
+Improve this question
+Follow
+edited
+Apr 18, 2020 at 17:43
+Peter Mortensen
+31.2k
+22
+22 gold badges
+111
+111 silver badges
+134
+134 bronze badges
+asked
+Nov 22, 2008 at 6:56
+majelbstoat
+13.6k
+4
+4 gold badges
+31
+31 silver badges
+27
+27 bronze badges
+2
+25
+TCO turns a function call in tail position into a goto, a jump.
+Will Ness
+–
+Will Ness
+2016-07-18 08:34:19 +00:00
+Commented
+Jul 18, 2016 at 8:34
+As Will Ness says, IMHO Christoph's is better than Kyle Cronin's. Also see this QA answer
+stackoverflow.com/a/1240613/21294350
+which says the relation between tail-call optimization and tail-recursion optimization. It also says how
+goto
+or
+jump
+is used.
+An5Drama
+–
+An5Drama
+2024-10-27 03:30:07 +00:00
+Commented
+Oct 27, 2024 at 3:30
+Add a comment
+|
+10 Answers
+10
+Sorted by:
+Reset to default
+Highest score (default)
+Trending (recent votes count more)
+Date modified (newest first)
+Date created (oldest first)
+991
+Tail-call optimization is where you are able to avoid allocating a new stack frame for a function because the calling function will simply return the value that it gets from the called function. The most common use is tail-recursion, where a recursive function written to take advantage of tail-call optimization can use constant stack space.
+Scheme is one of the few programming languages that guarantee in the spec that any implementation must provide this optimization, so here are two examples of the factorial function in Scheme:
+(define (fact x)
+  (if (= x 0) 1
+      (* x (fact (- x 1)))))
+
+(define (fact x)
+  (define (fact-tail x accum)
+    (if (= x 0) accum
+        (fact-tail (- x 1) (* x accum))))
+  (fact-tail x 1))
+The first function is not tail recursive because when the recursive call is made, the function needs to keep track of the multiplication it needs to do with the result after the call returns. As such, the stack looks as follows:
+(fact 3)
+(* 3 (fact 2))
+(* 3 (* 2 (fact 1)))
+(* 3 (* 2 (* 1 (fact 0))))
+(* 3 (* 2 (* 1 1)))
+(* 3 (* 2 1))
+(* 3 2)
+6
+In contrast, the stack trace for the tail recursive factorial looks as follows:
+(fact 3)
+(fact-tail 3 1)
+(fact-tail 2 3)
+(fact-tail 1 6)
+(fact-tail 0 6)
+6
+As you can see, we only need to keep track of the same amount of data for every call to fact-tail because we are simply returning the value we get right through to the top. This means that even if I were to call (fact 1000000), I need only the same amount of space as (fact 3). This is not the case with the non-tail-recursive fact, and as such large values may cause a stack overflow.
+Share
+Improve this answer
+Follow
+edited
+Feb 12, 2021 at 8:29
+tiagob
+1,119
+1
+1 gold badge
+12
+12 silver badges
+14
+14 bronze badges
+answered
+Nov 22, 2008 at 7:07
+Kyle Cronin
+79.4k
+45
+45 gold badges
+152
+152 silver badges
+167
+167 bronze badges
+Sign up to request clarification or add additional context in comments.
+11 Comments
+Add a comment
+Kyle Cronin
+Kyle Cronin
+Over a year ago
+If you want to learn more about this, I suggest reading the first chapter of Structure and Interpretation of Computer Programs.
+2008-11-22T16:05:08.437Z+00:00
+139
+Reply
+Copy link
+J D
+J D
+Over a year ago
+Strictly speaking, tail call optimization does not necessarily replace the caller's stack frame with the callees but, rather, ensures that an unbounded number of calls in tail position require only a bounded amount of space. See Will Clinger's paper "Proper tail recursion and space efficiency":
+cesura17.net/~will/Professional/Research/Papers/tail.pdf
+2013-08-12T20:47:58.233Z+00:00
+25
+Reply
+Copy link
+dclowd9901
+dclowd9901
+Over a year ago
+Is this just a way to write recursive functions in a constant-space way? Because couldn't you achieve the same results using an iterative approach?
+2016-04-25T18:31:41.357Z+00:00
+6
+Reply
+Copy link
+0xChaitanya
+0xChaitanya
+Jul 21, 2025 at 8:49
+Sometimes it is easier to write a recursion logic, say binary tree algorithms...
+2025-07-21T08:49:13.61Z+00:00
+0
+Reply
+Copy link
+mcoolive
+mcoolive
+Over a year ago
+@dclowd9901, TCO allows you to prefer a functional style rather that a an iterative loop. You can prefer imperative style. Many languages (Java, Python) doesn't provide TCO, then you have to know that a functional call costs memory... and the imperative style is prefered.
+2016-11-07T12:41:33.307Z+00:00
+9
+Reply
+Copy link
+mbomb007
+mbomb007
+Over a year ago
+It should be noted that support for TCO by the browsers is not guaranteed, and may never be supported.
+stackoverflow.com/a/42788286/2415524
+2017-11-16T17:52:28.097Z+00:00
+2
+Reply
+Copy link
+Add a comment
+|
+Show 5 more comments
+749
+Let's walk through a simple example: the factorial function implemented in C.
+We start with the obvious recursive definition
+unsigned fac(unsigned n)
+{
+    if (n < 2) return 1;
+    return n * fac(n - 1);
+}
+A function ends with a tail call if the last operation before the function returns is another function call. If this call invokes the same function, it is tail-recursive.
+Even though
+fac()
+looks tail-recursive at first glance, it is not as what actually happens is
+unsigned fac(unsigned n)
+{
+    if (n < 2) return 1;
+    unsigned acc = fac(n - 1);
+    return n * acc;
+}
+ie the last operation is the multiplication and not the function call.
+However, it's possible to rewrite
+fac()
+to be tail-recursive by passing the accumulated value down the call chain as an additional argument and passing only the final result up again as the return value:
+unsigned fac(unsigned n)
+{
+    return fac_tailrec(1, n);
+}
+
+unsigned fac_tailrec(unsigned acc, unsigned n)
+{
+    if (n < 2) return acc;
+    return fac_tailrec(n * acc, n - 1);
+}
+Now, why is this useful? Because we immediately return after the tail call, we can discard the previous stackframe before invoking the function in tail position, or, in case of recursive functions, reuse the stackframe as-is.
+The tail-call optimization transforms our recursive code into
+unsigned fac_tailrec(unsigned acc, unsigned n)
+{
+TOP:
+    if (n < 2) return acc;
+    acc = n * acc;
+    n = n - 1;
+    goto TOP;
+}
+This can be inlined into
+fac()
+and we arrive at
+unsigned fac(unsigned n)
+{
+    unsigned acc = 1;
+
+TOP:
+    if (n < 2) return acc;
+    acc = n * acc;
+    n = n - 1;
+    goto TOP;
+}
+which is equivalent to
+unsigned fac(unsigned n)
+{
+    unsigned acc = 1;
+
+    for (; n > 1; --n)
+        acc *= n;
+
+    return acc;
+}
+As we can see here, a sufficiently advanced optimizer can replace tail-recursion with iteration, which is far more efficient as you avoid function call overhead and only use a constant amount of stack space.
+Share
+Improve this answer
+Follow
+edited
+Jul 8, 2015 at 13:57
+Alex
+172
+2
+2 silver badges
+10
+10 bronze badges
+answered
+Mar 22, 2012 at 0:04
+Christoph
+171k
+38
+38 gold badges
+189
+189 silver badges
+246
+246 bronze badges
+5 Comments
+Add a comment
+Shasak
+Shasak
+Over a year ago
+can you explain what a stackframe means precisely? Is there a difference between the call stack and stackframe?
+2015-11-05T12:40:04.83Z+00:00
+2
+Reply
+Copy link
+Christoph
+Christoph
+Over a year ago
+@Kasahs: a stack frame is the part of the call stack that 'belongs' to a given (active) function; cf
+en.wikipedia.org/wiki/Call_stack#Structure
+2015-11-05T19:08:24.71Z+00:00
+21
+Reply
+Copy link
+agm1984
+agm1984
+Over a year ago
+I just had fairly intense epiphany after reading this post after reading
+2ality.com/2015/06/tail-call-optimization.html
+2017-11-12T21:31:56.75Z+00:00
+2
+Reply
+Copy link
+Jose Quinteiro
+Jose Quinteiro
+Over a year ago
+Nice C iteration example
+2020-06-11T01:20:02.623Z+00:00
+2
+Reply
+Copy link
+JenyaKh
+JenyaKh
+Over a year ago
+Thank you. I find your explanation most understandable.
+2023-03-06T15:05:31.373Z+00:00
+2
+Reply
+Copy link
+Add a comment
+275
+TCO (Tail Call Optimization) is the process by which a smart compiler can make a call to a function and take no additional stack space. The
+only situation in which this happens is if the last instruction executed in a function
+f
+is a call to a function g
+(Note:
+g
+can be
+f
+). The key here is that
+f
+no longer needs stack space - it simply calls
+g
+and then returns whatever
+g
+would return. In this case the optimization can be made that g just runs and returns whatever value it would have to the thing that called f.
+This optimization can make recursive calls take constant stack space, rather than explode.
+Example: this factorial function is not TCOptimizable:
+from dis import dis
+
+def fact(n):
+    if n == 0:
+        return 1
+    return n * fact(n-1)
+
+
+dis(fact)
+  2           0 LOAD_FAST                0 (n)
+              2 LOAD_CONST               1 (0)
+              4 COMPARE_OP               2 (==)
+              6 POP_JUMP_IF_FALSE       12
+
+  3           8 LOAD_CONST               2 (1)
+             10 RETURN_VALUE
+
+  4     >>   12 LOAD_FAST                0 (n)
+             14 LOAD_GLOBAL              0 (fact)
+             16 LOAD_FAST                0 (n)
+             18 LOAD_CONST               2 (1)
+             20 BINARY_SUBTRACT
+             22 CALL_FUNCTION            1
+             24 BINARY_MULTIPLY
+             26 RETURN_VALUE
+This function does things besides call another function in its return statement.
+This below function is TCOptimizable:
+def fact_h(n, acc):
+    if n == 0:
+        return acc
+    return fact_h(n-1, acc*n)
+
+def fact(n):
+    return fact_h(n, 1)
+
+
+dis(fact)
+  2           0 LOAD_GLOBAL              0 (fact_h)
+              2 LOAD_FAST                0 (n)
+              4 LOAD_CONST               1 (1)
+              6 CALL_FUNCTION            2
+              8 RETURN_VALUE
+This is because the last thing to happen in any of these functions is to call another function.
+Share
+Improve this answer
+Follow
+edited
+Oct 19, 2021 at 8:57
+jackotonye
+3,853
+27
+27 silver badges
+31
+31 bronze badges
+answered
+Nov 22, 2008 at 7:12
+Claudiu
+231k
+175
+175 gold badges
+508
+508 silver badges
+703
+703 bronze badges
+8 Comments
+Add a comment
+majelbstoat
+majelbstoat
+Over a year ago
+The whole 'function g can be f' thing was a little confusing, but I get what you mean, and the examples really clarified things.  Thanks a lot!
+2008-11-22T15:00:52.107Z+00:00
+4
+Reply
+Copy link
+rmcc
+rmcc
+Over a year ago
+Excellent example that illustrates the concept. Just take into account that the language you choose has to implement tail call  elimination or tail call optimization. In the example, written in Python, if you enter a value of 1000 you get a "RuntimeError: maximum recursion depth exceeded" because the default Python implementation does not support Tail Recursion Elimination. See a post from Guido himself explaining why that is:
+neopythonic.blogspot.pt/2009/04/tail-recursion-elimination.html
+.
+2012-11-07T17:07:47.073Z+00:00
+24
+Reply
+Copy link
+Will Ness
+Will Ness
+Over a year ago
+"The
+only
+situation" is a bit too absolute; there's also
+TRMC
+, at least in theory, which would optimize
+(cons a (foo b))
+or
+(+ c (bar d))
+in tail position in the same way.
+2016-09-20T16:58:37.51Z+00:00
+0
+Reply
+Copy link
+Nithin
+Nithin
+Over a year ago
+I liked your f and g approach better than the accepted answer, maybe because i am a maths person.
+2017-10-05T13:17:00.467Z+00:00
+0
+Reply
+Copy link
+Jacques Mathieu
+Jacques Mathieu
+Over a year ago
+I think you mean TCOptimized. Saying it's not TCOptimizable infers that it can never be optimized (when it in fact can)
+2017-12-01T02:01:04.07Z+00:00
+0
+Reply
+Copy link
+Add a comment
+|
+Show 3 more comments
+83
+Probably the best high level description I have found for tail calls, recursive tail calls and tail call optimization is the blog post
+"What the heck is: A tail call"
+by Dan Sugalski. On tail call optimization he writes:
+Consider, for a moment, this simple function:
+sub foo (int a) {
+  a += 15;
+  return bar(a);
+}
+So, what can you, or rather your language compiler, do? Well, what it can do is turn code of the form
+return somefunc();
+into the low-level sequence
+pop stack frame; goto somefunc();
+. In our example, that means before we call
+bar
+,
+foo
+cleans itself up and then, rather than calling
+bar
+as a subroutine, we do a low-level
+goto
+operation to the start of
+bar
+.
+Foo
+'s already cleaned itself out of the stack, so when
+bar
+starts it looks like whoever called
+foo
+has really called
+bar
+, and when
+bar
+returns its value, it returns it directly to whoever called
+foo
+, rather than returning it to
+foo
+which would then return it to its caller.
+And on tail recursion:
+Tail recursion happens if a function, as its last operation,
+returns
+  the result of calling itself
+. Tail recursion is easier to deal with
+  because rather than having to jump to the beginning of some random
+  function somewhere, you just do a goto back to the beginning of
+  yourself, which is a darned simple thing to do.
+So that this:
+sub foo (int a, int b) {
+  if (b == 1) {
+    return a;
+  } else {
+    return foo(a*a + a, b - 1);
+  }
+gets quietly turned into:
+sub foo (int a, int b) {
+  label:
+    if (b == 1) {
+      return a;
+    } else {
+      a = a*a + a;
+      b = b - 1;
+      goto label;
+   }
+What I like about this description is how succinct and easy it is to grasp for those coming from an imperative language background (C, C++, Java)
+Share
+Improve this answer
+Follow
+edited
+Feb 12, 2016 at 20:57
+Will Ness
+71.6k
+10
+10 gold badges
+105
+105 silver badges
+193
+193 bronze badges
+answered
+Aug 26, 2012 at 1:27
+btiernay
+8,189
+5
+5 gold badges
+47
+47 silver badges
+50
+50 bronze badges
+6 Comments
+Add a comment
+NedStarkOfWinterfell
+NedStarkOfWinterfell
+Over a year ago
+I didn't get it, isn't the initial
+foo
+function tail call optimized? It is only calling a function as its last step, and it is simply returning that value, right?
+2014-10-08T21:51:07.12Z+00:00
+0
+Reply
+Copy link
+Will Ness
+Will Ness
+Over a year ago
+@Cupidvogel correct, though it is not TCOptimized, but rather TCOptimizable.
+2015-04-08T10:57:53.05Z+00:00
+0
+Reply
+Copy link
+btiernay
+btiernay
+Over a year ago
+@TryinHard maybe not what you had in mind, but I updated it to give a gist of what it is about. Sorry, not going to repeat the whole article!
+2015-09-10T13:27:32.667Z+00:00
+1
+Reply
+Copy link
+Sevin7
+Sevin7
+Over a year ago
+Thank you, this is simpler and more understandable than the most up-voted scheme example (not to mention, Scheme is not a common language that most developers understand)
+2015-10-25T12:31:00.393Z+00:00
+2
+Reply
+Copy link
+James Beninger
+James Beninger
+Over a year ago
+As someone who rarely dives into functional languages, it's gratifying to see an explanation in "my dialect".  There's an (understandable) tendency for functional programmers to evangelize in their language of choice, but coming from the imperative world I find it so much easier to wrap my head around an answer like this.
+2016-12-25T16:16:41.29Z+00:00
+2
+Reply
+Copy link
+Add a comment
+|
+Show 1 more comment
+29
+GCC C minimal runnable example with x86 disassembly analysis
+Let's see how GCC can automatically do tail call optimizations for us by looking at the generated assembly.
+This will serve as an extremely concrete example of what was mentioned in other answers such as
+https://stackoverflow.com/a/9814654/895245
+that the optimization can convert recursive function calls to a loop.
+This in turn saves memory and improves performance, since
+memory accesses are often the main thing that makes programs slow nowadays
+.
+As an input, we give GCC a non-optimized naive stack based factorial:
+tail_call.c
+#include <stdio.h>
+#include <stdlib.h>
+
+unsigned factorial(unsigned n) {
+    if (n == 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
+
+int main(int argc, char **argv) {
+    int input;
+    if (argc > 1) {
+        input = strtoul(argv[1], NULL, 0);
+    } else {
+        input = 5;
+    }
+    printf("%u\n", factorial(input));
+    return EXIT_SUCCESS;
+}
+GitHub upstream
+.
+Compile and disassemble:
+gcc -O1 -foptimize-sibling-calls -ggdb3 -std=c99 -Wall -Wextra -Wpedantic \
+  -o tail_call.out tail_call.c
+objdump -d tail_call.out
+where
+-foptimize-sibling-calls
+is the name of generalization of tail calls according to
+man gcc
+:
+-foptimize-sibling-calls
+       Optimize sibling and tail recursive calls.
+
+       Enabled at levels -O2, -O3, -Os.
+as mentioned at:
+How do I check if gcc is performing tail-recursion optimization?
+I choose
+-O1
+because:
+the optimization is not done with
+-O0
+. I suspect that this is because there are required intermediate transformations missing.
+-O3
+produces ungodly efficient code that would not be very educative, although it is also tail call optimized.
+Disassembly with
+-fno-optimize-sibling-calls
+:
+0000000000001145 <factorial>:
+    1145:       89 f8                   mov    %edi,%eax
+    1147:       83 ff 01                cmp    $0x1,%edi
+    114a:       74 10                   je     115c <factorial+0x17>
+    114c:       53                      push   %rbx
+    114d:       89 fb                   mov    %edi,%ebx
+    114f:       8d 7f ff                lea    -0x1(%rdi),%edi
+    1152:       e8 ee ff ff ff          callq  1145 <factorial>
+    1157:       0f af c3                imul   %ebx,%eax
+    115a:       5b                      pop    %rbx
+    115b:       c3                      retq
+    115c:       c3                      retq
+With
+-foptimize-sibling-calls
+:
+0000000000001145 <factorial>:
+    1145:       b8 01 00 00 00          mov    $0x1,%eax
+    114a:       83 ff 01                cmp    $0x1,%edi
+    114d:       74 0e                   je     115d <factorial+0x18>
+    114f:       8d 57 ff                lea    -0x1(%rdi),%edx
+    1152:       0f af c7                imul   %edi,%eax
+    1155:       89 d7                   mov    %edx,%edi
+    1157:       83 fa 01                cmp    $0x1,%edx
+    115a:       75 f3                   jne    114f <factorial+0xa>
+    115c:       c3                      retq
+    115d:       89 f8                   mov    %edi,%eax
+    115f:       c3                      retq
+The key difference between the two is that:
+the
+-fno-optimize-sibling-calls
+uses
+callq
+, which is the typical non-optimized function call.
+This instruction pushes the return address to the stack, therefore increasing it.
+Furthermore, this version also does
+push %rbx
+, which
+pushes
+%rbx
+to the stack
+.
+GCC does this because it stores
+edi
+, which is the first function argument (
+n
+) into
+ebx
+, then calls
+factorial
+.
+GCC needs to do this because it is preparing for another call to
+factorial
+, which will use the new
+edi == n-1
+.
+It chooses
+ebx
+because this register is callee-saved:
+What registers are preserved through a linux x86-64 function call
+so the subcall to
+factorial
+won't change it and lose
+n
+.
+the
+-foptimize-sibling-calls
+does not use any instructions that push to the stack: it only does
+goto
+jumps within
+factorial
+with the instructions
+je
+and
+jne
+.
+Therefore, this version is equivalent to a while loop, without any function calls. Stack usage is constant.
+Tested in Ubuntu 18.10, GCC 8.2.
+Share
+Improve this answer
+Follow
+edited
+Jun 10, 2020 at 13:06
+answered
+Mar 18, 2019 at 21:39
+Ciro Santilli OurBigBook.com
+395k
+121
+121 gold badges
+1.3k
+1.3k silver badges
+1.1k
+1.1k bronze badges
+Comments
+Add a comment
+18
+Note first of all that not all languages support it.
+TCO applys to a special case of recursion. The gist of it is, if the last thing you do in a function is call itself (e.g. it is calling itself from the "tail" position), this can be optimized by the compiler to act like iteration instead of standard recursion.
+You see, normally during recursion, the runtime needs to keep track of all the recursive calls, so that when one returns it can resume at the previous call and so on. (Try manually writing out the result of a recursive call to get a visual idea of how this works.) Keeping track of all the calls takes up space, which gets significant when the function calls itself a lot. But with TCO, it can just say "go back to the beginning, only this time change the parameter values to these new ones." It can do that because nothing after the recursive call refers to those values.
+Share
+Improve this answer
+Follow
+answered
+Nov 22, 2008 at 7:09
+J Cooper
+17.1k
+15
+15 gold badges
+70
+70 silver badges
+112
+112 bronze badges
+5 Comments
+Add a comment
+Brian
+Brian
+Over a year ago
+Tail calls can apply to non-recursive functions as well.  Any function whose last computation before returning is a call to another function can use a tail call.
+2008-11-22T08:31:36.823Z+00:00
+6
+Reply
+Copy link
+Steve Gilham
+Steve Gilham
+Over a year ago
+Not necessarily true on a language by language basis -- the 64 bit C# compiler may insert tail opcodes whereas the 32-bit version will not; and F# release build will, but F# debug won't by default.
+2009-08-06T18:53:10.707Z+00:00
+0
+Reply
+Copy link
+J D
+J D
+Over a year ago
+"TCO applys to a special case of recursion". I'm afraid that is completely wrong. Tail calls apply to any call in tail position. Commonly discussed in the context of recursion but actually nothing specifically to do with recursion.
+2013-08-12T20:31:34.373Z+00:00
+3
+Reply
+Copy link
+NedStarkOfWinterfell
+NedStarkOfWinterfell
+Over a year ago
+@Brian, look at the link @btiernay provided above. Isn't the initial
+foo
+method tail call optimized?
+2014-10-08T21:52:07.74Z+00:00
+0
+Reply
+Copy link
+Владислав Король
+Владислав Король
+Over a year ago
+A truly great answer that explains the whole point of the recursion. Simple and low-level.
+2022-11-10T10:35:20.853Z+00:00
+0
+Reply
+Copy link
+Add a comment
+11
+Look here:
+http://tratt.net/laurie/tech_articles/articles/tail_call_optimization
+As you probably know, recursive function calls can wreak havoc on a stack; it is easy to quickly run out of stack space. Tail call optimization is way by which you can create a recursive style algorithm that uses constant stack space, therefore it does not grow and grow and you get stack errors.
+Share
+Improve this answer
+Follow
+answered
+Nov 22, 2008 at 7:05
+BobbyShaftoe
+28.5k
+7
+7 gold badges
+56
+56 silver badges
+75
+75 bronze badges
+Comments
+Add a comment
+6
+The recursive function approach has a problem. It builds up a call stack of size O(n), which makes our total memory cost O(n). This makes it vulnerable to a stack overflow error, where the call stack gets too big and runs out of space.
+Tail call optimization (TCO) scheme. Where it can optimize recursive functions to avoid building up a tall call stack and hence saves the memory cost.
+There are many languages who are doing TCO like (JavaScript,
+Ruby
+and few C) whereas Python and Java do not do TCO.
+JavaScript language has confirmed using  :)
+http://2ality.com/2015/06/tail-call-optimization.html
+Share
+Improve this answer
+Follow
+edited
+Apr 18, 2020 at 17:55
+Peter Mortensen
+31.2k
+22
+22 gold badges
+111
+111 silver badges
+134
+134 bronze badges
+answered
+Jul 30, 2018 at 1:34
+Rupesh Kumar Tiwari
+967
+11
+11 silver badges
+20
+20 bronze badges
+Comments
+Add a comment
+3
+We should ensure that there are no goto statements in the function itself .. taken care by function call being the last thing in the callee function.
+Large scale recursions can use this for optimizations, but in small scale, the instruction overhead for making the function call a tail call reduces the actual purpose.
+TCO might cause a forever running function:
+void eternity()
+{
+    eternity();
+}
+Share
+Improve this answer
+Follow
+edited
+Aug 20, 2012 at 11:30
+j0k
+22.8k
+28
+28 gold badges
+82
+82 silver badges
+91
+91 bronze badges
+answered
+Aug 20, 2012 at 10:12
+grillSandwich
+107
+6
+6 bronze badges
+7 Comments
+Add a comment
+nomen
+nomen
+Over a year ago
+3 hasn't been yet optimized.  That is the unoptimized representation which the compiler transforms into iterative code which uses constant stack space instead of recursive code.  TCO is not the cause of using the wrong recursion scheme for a data structure.
+2013-03-22T18:38:56.713Z+00:00
+0
+Reply
+Copy link
+grillSandwich
+grillSandwich
+Over a year ago
+"TCO is not the cause of using the wrong recursion scheme for a data structure" Please elaborate how this is relevant to the given case. The above example just points out an example of the frames are allotted on the call stack with and without TCO.
+2013-03-23T19:02:21.197Z+00:00
+0
+Reply
+Copy link
+nomen
+nomen
+Over a year ago
+You chose to use unfounded recursion to traverse ().  That had nothing to do with TCO.  eternity happens to be tail-call position, but tail-call position is not necessary: void eternity() { eternity(); exit(); }
+2013-03-24T18:19:32.177Z+00:00
+0
+Reply
+Copy link
+nomen
+nomen
+Over a year ago
+While we're at it, what is a "large scale recursion"?  Why should we avoid goto's in the function?  This is neither necessary nor sufficient to allow TCO.  And what instruction overhead?  The whole point of TCO is that the compiler replaces the function call in tail position by a goto.
+2013-03-26T00:25:54.123Z+00:00
+0
+Reply
+Copy link
+grillSandwich
+grillSandwich
+Over a year ago
+TCO is about optimizing the space used on call stack. By large scale recursion, I'm referring to size of frame. Everytime a recursion occurs, if I need to allot a huge frame on call stack above the callee function, TCO would be more helpful and allow me more levels of recursion. But in case my frame size is less, I can do without TCO and still run my program well (I'm not talking about infinite recursion here).  If you are left with goto in the function, "tail" call is not actually tail call and TCO is not applicable.
+2013-03-27T01:16:03.93Z+00:00
+0
+Reply
+Copy link
+Add a comment
+|
+Show 2 more comments
+0
+In a functional language, tail call optimization is as if a function call could return a partially evaluated expression as the result, which would then be evaluated by the caller.
+f x = g x
+f 6 reduces to g 6. So if the implementation could return g 6 as the result, and then call that expression it would save a stack frame.
+Also
+f x = if c x then g x else h x.
+Reduces to f 6 to either g 6 or h 6. So if the implementation evaluates c 6 and finds it is true then it can reduce,
+if true then g x else h x ---> g x
+
+f x ---> h x
+A simple non tail call optimization interpreter might look like this,
+class simple_expresion
+{
+    ...
+public:
+    virtual ximple_value *DoEvaluate() const = 0;
+};
+
+class simple_value
+{
+    ...
+};
+
+class simple_function : public simple_expresion
+{
+    ...
+private:
+    simple_expresion *m_Function;
+    simple_expresion *m_Parameter;
+
+public:
+    virtual simple_value *DoEvaluate() const
+    {
+        vector<simple_expresion *> parameterList;
+        parameterList->push_back(m_Parameter);
+        return m_Function->Call(parameterList);
+    }
+};
+
+class simple_if : public simple_function
+{
+private:
+    simple_expresion *m_Condition;
+    simple_expresion *m_Positive;
+    simple_expresion *m_Negative;
+
+public:
+    simple_value *DoEvaluate() const
+    {
+        if (m_Condition.DoEvaluate()->IsTrue())
+        {
+            return m_Positive.DoEvaluate();
+        }
+        else
+        {
+            return m_Negative.DoEvaluate();
+        }
+    }
+}
+A tail call optimization interpreter might look like this,
+class tco_expresion
+{
+    ...
+public:
+    virtual tco_expresion *DoEvaluate() const = 0;
+    virtual bool IsValue()
+    {
+        return false;
+    }
+};
+
+class tco_value
+{
+    ...
+public:
+    virtual bool IsValue()
+    {
+        return true;
+    }
+};
+
+class tco_function : public tco_expresion
+{
+    ...
+private:
+    tco_expresion *m_Function;
+    tco_expresion *m_Parameter;
+
+public:
+    virtual tco_expression *DoEvaluate() const
+    {
+        vector< tco_expression *> parameterList;
+        tco_expression *function = const_cast<SNI_Function *>(this);
+        while (!function->IsValue())
+        {
+            function = function->DoCall(parameterList);
+        }
+        return function;
+    }
+
+    tco_expresion *DoCall(vector<tco_expresion *> &p_ParameterList)
+    {
+        p_ParameterList.push_back(m_Parameter);
+        return m_Function;
+    }
+};
+
+class tco_if : public tco_function
+{
+private:
+    tco_expresion *m_Condition;
+    tco_expresion *m_Positive;
+    tco_expresion *m_Negative;
+
+    tco_expresion *DoEvaluate() const
+    {
+        if (m_Condition.DoEvaluate()->IsTrue())
+        {
+            return m_Positive;
+        }
+        else
+        {
+            return m_Negative;
+        }
+    }
+}
+Share
+Improve this answer
+Follow
+answered
+Mar 21, 2020 at 5:46
+Peter Driscoll
+181
+1
+1 silver badge
+5
+5 bronze badges
+Comments
+Add a comment
+Protected question
+. To answer this question, you need to have at least 10 reputation on this site (not counting the
+association bonus
+). The reputation requirement helps protect this question from spam and non-answer activity.
+Start asking to get answers
+Find the answer to your question by asking.
+Ask question
+Explore related questions
+algorithm
+recursion
+language-agnostic
+tail-recursion
+tail-call-optimization
+See similar questions with these tags.
+The Overflow Blog
+DeveloperWeek 2026: Making AI tools that are actually good
+Building brains for bulldozers
+Featured on Meta
+Logo updates to Stack Overflow's visual identity
+Policy: Generative AI (e.g., ChatGPT) is banned
+New site design and philosophy for Stack Overflow: Starting February 24, 2026...
+I’m Jody, the Chief Product and Technology Officer at Stack Overflow. Let’s...
+Linked
+0
+In ES6, how the "Tail Calls" avoid the stack overflow?
+0
+Tail Recursion, why it's efficent?
+2084
+What is tail recursion?
+571
+Flatten an irregular (arbitrarily nested) list of lists
+283
+Recursion or Iteration?
+580
+What do the terms "CPU bound" and "I/O bound" mean?
+305
+Does Python optimize tail recursion?
+212
+How to print a stack trace whenever a certain function is called
+150
+What is the function of the push / pop instructions used on registers in x86 assembly?
+73
+How do I check if gcc is performing tail-recursion optimization?
+See more linked questions
+Related
+2084
+What is tail recursion?
+21
+What's the big deal with tail-call optimization and why does Python need it?
+41
+What is tail-recursion elimination?
+4
+The Definitive Tail-Call Recursion Question
+29
+Tail call optimization in Mathematica?
+1
+Does tail call optimization target performance/cpu or it only saves memory?
+5
+Tail call optimization besides tail recursion?
+1
+Tail recursion optimization and recursion in Java
+10
+Doing tail recursion in C++
+2
+Does tail-call optimization apply to calls other than recursive calls?
+Hot Network Questions
+Bead of force and AoE persistent spells interaction
+Why does sodium exist in space as free atoms/ions while chlorine as HCl?
+Relying on declaration order vs explicit lifecycle (breaking Rule of Zero)?
+YA book series about a girl who must avoid turning into a Valkyrie
+How to read Luna diagram for spherical variety
+How does a spherical bearing work in bridges?
+Why Do Christians Force Divinity Upon Jesus Pbuh?
+Identify TV movie - woman dresses as a man to prove discrimination in job hiring
+Convergence of a Power Series at endpoints
+The knotted cube
+“Certain wands of Jacob’s wit” in Keats’ ‘Sleep and Poetry’
+The hacker's command. Revised!
+Why is a group defined as an ordered pair and not a set?
+Were Paul and Leto II the only ones who could have become God Emperor?
+Address Book project using MVC with Tkinter
+Does the Open Source Maintenance Fee's EULA match the projects stated goals?
+Is a big jackhammer right for busting concrete-filled planter?
+Why is this Excel replace behaviour unintuitive? (Using `*` asterisk wildcard)
+Electron flow in conventional vs electron flow diagrams
+Contrails on Ground?
+Why does this disinfectant/cleaner contain three different types of alcohol?
+How to make a jungle absolutely impenetrable and inimical to 'modern' humans without resorting to magic
+Can the Wh-Movement interrogative method be used in subject clauses?
+Draw a direction field and sketch a few trajectories
+more hot questions
+Question feed
+Subscribe to RSS
+Question feed
+To subscribe to this RSS feed, copy and paste this URL into your RSS reader.

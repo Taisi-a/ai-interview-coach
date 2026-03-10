@@ -1,0 +1,838 @@
+Skip to content
+System Design Interview Handbook
+Only 1 in 5 candidates pass the entire technical interview process at tech companies—their most common pitfall is the System Design Interview. When it comes to System Design Interview preparation, it’s not enough to practice System Design Interview questions. This is because, unlike other technical interviews, there are many possible solutions to a given System Design problem. Rather, to excel in these interviews, you must be able to demonstrate the soft skills and thought processes that interviewers are looking for.
+In this handbook, you’ll learn to master the behavioral aspects of the System Design Interview from a former FAANG engineer with 15+ years of experience designing distributed systems and conducting System Design Interviews. Whether you’re interviewing for a role as a software engineer, technical project manager, or engineering leader, this essential System Design Interview prep handbook will prepare you with actionable best practices so you can confidently enter your next System Design Interview.
+Grokking System Design Interview: Patterns & Mock Interviews
+A modern approach to grokking the System Design Interview. Master distributed systems & architecture patterns for System Design Interviews and beyond. Developed by FAANG engineers. Used by 100K+ devs.
+Intermediate
+26hr
+Start Learning
+What You'll Learn
+Simulate the real-world design process in the interview.
+Tackle any System Design problem with an 8-step method.
+Discuss the appropriate talking points for your desired role.
+Demonstrate collaboration skills, adaptability, and a growth mindset.
+Complete your high-level design under a time crunch.
+Evaluate trade-offs between common System Design attributes.
+Recognize commonly used components in any System Design (e.g., cache, load balancer, etc.).
+Understand the importance of mastering System Design Interviews at tech companies.
+Handbook Content
+Introduction to the System Design Interview Handbook
+This chapter teaches system design interview basics, focusing on communication skills, best practices, and strategies for effectively tackling design challenges.
+About This Handbook
+What to Expect
+System Design 101
+This chapter focuses on understanding what system design is and how to prepare for system design interviews with essential concepts and techniques.
+What is System Design?
+The System Design Interview
+Sending Hireable Signals
+This chapter teaches navigating trade-offs, effective communication and time management, and demonstrating your experience-level during system design interview.
+Navigating Trade-Offs
+Communicating for Impact
+Showing Your Vantage Point
+Managing Your Time
+Getting to the Finish Line
+This chapter teaches common strategies (SLIC FAST) and using the RESHADED framework to tackle unseen design problems efficiently in interviews.
+A Starting Point: The Common 8 (SLIC FAST)
+Getting to the Finish Line with RESHADED
+How to Tackle a Problem You’ve Never Seen Before
+Mastering the System Design Interview
+This chapter is about revising your key takeaways from this system design interview handbook and the next steps towards system design mastery.
+Key Takeaways
+Mastering the System Design Interview
+About This Handbook
+Get an introduction to System Design and what to expect from this handbook.
+The System Design Interview
+Two decades ago,
+System Design
+—the discipline of designing distributed systems—was a very niche topic. Systems engineers and academics were experimenting, making mistakes, and learning. Their experiences and collaborations laid the groundwork for what is now the formalized discipline of System Design.
+Today, we live in a world where nearly every application interacts with a distributed system. As such, almost every technical role in the software industry will also be exposed to these complex systems—and many of these roles need to understand how these systems work. The System Design Interview is how hiring teams assess a candidate’s System Design skills.
+The
+System Design Interview
+is inherently different from other technical interviews. For one, it’s highly discussion-based. There’s also no single right answer to a System Design problem. This opens up the System Design Interview to technical ambiguity and human error. Therefore, how you navigate the interview from a behavioral standpoint is just as important as your technical knowledge—and sometimes, it’s more important.
+Why you need this handbook
+It’s not enough to just drill practice problems for a System Design Interview. After all, a candidate can present a decent design solution in their System Design Interview and still not be selected for hire.
+I’ve seen experienced candidates lose job opportunities to various performance downfalls, including:
+An inability to demonstrate the depth and nuance of their knowledge.
+Not responding well to feedback.
+Failing to address a flaw in their design.
+Making assumptions instead of taking action to ensure they weren’t missing unknowns.
+Not communicating their thought process effectively.
+Meet your instructor: Fahim ul Haq
+My name is
+Fahim ul Haq
+. I know System Design better than most. I was fortunate enough to be among the first generation of engineers to get hands-on with System Design.
+I learned System Design in my free time and on the job. In 2008, I was a part of Project Red Dog, the pre-launch team for Microsoft Azure. Since then, I’ve designed many large-scale distributed systems at Microsoft and Facebook and conducted hundreds of System Design Interviews.
+In this handbook, I’ll share best practices and tools I’ve developed from my 15+ years of experience designing distributed systems and conducting System Design Interviews.
+Who is this handbook for?
+This handbook is suitable for anyone who is preparing for a System Design Interview. Because the people in these roles will likely have to demonstrate System Design knowledge in a System
+Design Interview, this handbook will benefit current or aspiring:
+Software developers
+Principal engineers
+Engineering leaders
+Solutions architects
+Support engineers
+Technical product managers
+Project managers
+What to Expect
+Get an introduction to System Design and what to expect from this handbook.
+Objectives
+This handbook will give you actionable tips and best practices for performing well in System Design Interviews.
+After this handbook, you will know how to:
+Demonstrate your knowledge to the interviewers.
+Communicate to show you’re a great addition to a team.
+Perform according to the expectations of the role you’re applying for.
+Manage your time, and complete a design under a time crunch.
+Tackle a problem you’ve never seen before.
+Simulate real-world design processes in under 45 minutes.
+Together with a strong fluency in distributed systems and System Design fundamentals, this handbook will prepare you for success in your System Design Interviews.
+A note on technical scope
+This handbook is unique because it focuses almost exclusively on the soft skills (or people skills) you need in order to perform well in the
+System Design Interview
+. While we will provide a high-level overview of distributed systems and System Design, we won’t explain these topics in-depth, as that level of detail is outside the scope of this handbook’s core learning objectives.
+This handbook will be most beneficial for those who have a basic understanding of the following:
+Distributed systems
+—The principal techniques used to develop highly functional, scalable, and available systems hosted on separate, networked devices.
+Programming fundamentals
+—An algorithmic approach toward problem-solving and the basic concepts concerning computer programming languages.
+Modern web architecture
+—The fundamentals for designing and developing a web application by introducing different web components and architectural styles.
+This handbook is an excellent precursor or supplementary resource to other System Design or System Design Interview handbook.
+That said, everyone is different. If at any point you feel a gap in technical knowledge is making it difficult to absorb this handbook’s material, consider pausing to learn some fundamentals of distributed systems and System Design and revisiting this handbook material afterward.
+Note: To master System Design fundamentals and get practice designing 13 real-world problems, check out our comprehensive handbook,
+Grokking the Modern System Design Interview for Engineers &amp; Managers
+.
+Handbook structure
+This handbook consists of four chapters. These chapters can be segmented into different sections, as shown below:
+System Design 101
+—This chapter is a brief introduction to System Design and SystemDesign Interviews, with a lesson focusing on each. It offers a succinct primer to the System Design process and will acquaint you with some of the most interesting and challenging aspects of the System Design Interview.
+Sending Hireable Signals
+—This chapter consists of four lessons outlining the best practices that will help you demonstrate crucial soft skills to your interviewers. You’ll find a brief section summarizing key takeaways at the end of each lesson. The advice in this chapter comes from my years of experience conducting hundreds of System Design Interviews.
+Getting to the Finish Line
+—This chapter addresses some technical tools that will help you complete your design within the short interview window. You will learn how to start a solution by referencing the common 8 elements of a system, and how to complete your design process with the 8-step RESHADED method. I will then share tips to help you if you encounter a problem you’ve never seen before in your interview.
+Mastering the System Design Interview
+—This chapter discusses how this handbook’s takeaways can help you master the System Design interview, along with a working understanding of the fundamentals of System Design. For those with knowledge gaps, I’ll recommend the best strategy for learning the fundamentals and getting hands-on experience with System Design.
+What Is System Design?
+Learn about what System Design is.
+System Design is the process of defining components and their integration, APIs, and data models to build large-scale systems that meet a specified set of functional and non-functional requirements. This discipline aims to develop large-scale, effective, and maintainable systems.
+System Design has gone from being virtually unheard of to becoming an in-demand skill for many tech professionals. As distributed systems become increasingly essential to our everyday lives, being able to understand and hold discussions about them has become indispensable.
+System Design primarily borrows concepts from distributed systems. Distributed systems are computing systems that constitute a web service, with elements housed across different networked devices. There are various elements used in a distributed system, such as:
+Load balancers
+—A load balancer fairly divides all clients’ requests among the pool of available servers, which helps prevent server overload.
+Storage
+—Storage in distributed systems refers to the process of storing data across multiple nodes in a network rather than on a single centralized server. This allows for improved scalability, fault tolerance, and performance in handling large amounts of data.
+Front-end servers
+—A front-end server, or web server, serves static content and responds to client requests on the
+World Wide Web
+(WWW). These servers are responsible for handling clients’ HTTP requests.
+Cache
+—A cache refers to a temporary storage location that is used to store frequently accessed data closer to the point of use in order to improve performance and reduce the amount of network traffic.
+System Design employs these components, as well as others, to orchestrate numerous large-scale distributed systems. These components are also known as the building blocks of System Design. We’ll discuss them later in the handbook, but selecting the right building blocks and integrating them so that they achieve a common goal is a key aspect of System Design.
+Note: Even though distributed systems are vital to System Design concepts, other disciplines like computer networking, operating systems, programming, and security are equally important to the domain of System Design.
+Goal of System Design
+The goal of System Design is to design distributed systems that are:
+Reliable
+—They can handle faults and errors.
+Effective
+—They can meet user needs and business requirements.
+Maintainable
+—They can scale easily and are flexible when there are changes to requirements and constraints.
+Designing distributed systems is complex. Thankfully, today’s System Design discipline is mature and well-defined. We can draw from best practices of System Design to effectively build large-scale systems that can scale for the future.
+That said, System Design is a creative process. There can be many ways to solve a particular problem.
+As with all design processes, System Design is iterative. Improvements can and should be made to the design over time (just as circumstances are likely to change over time). For example, if we design a service that can host 1,000 users today, we should be prepared to adapt this system if the number of users grows drastically to reach billions in a year.
+Knowing System Design gives you immense perspective. We can picture the difference between knowing and not knowing System Design through the comparison of being a line cook or head chef of a restaurant. The head chef has a broader perspective on the kitchen (system) as a whole. They know each staff member’s role and operations and how they depend on each other. They’re prepared to have backups take over if one person can’t complete their duties. Because it’s not required of them, a line cook usually lacks this vision of the big picture to which they contribute.
+Line cook vs. Head chef
+Why learn System Design?
+Distributed systems are becoming increasingly commonplace in modern software, so most developers will have to deal with them at some point in their careers. Understanding System Design gives you a broader perspective, which will help you land better jobs, advance your career, negotiate for higher salaries, and be more effective as a senior leader, project manager, or engineer.
+Even if advancing into a higher role isn’t your goal, every developer should learn System Design. Distributed systems permeate most of our crucial technologies today. As a developer, you’ll most likely make an application that has to interact with a distributed system, and understanding System Design fundamentals will help you make a more effective application.
+Here are a few benefits you can gain by learning System Design.
+Most top tech companies organize their engineering teams into skill-based levels so that they can effectively coordinate, train, and scale their teams.
+While each company is different, here’s a quick breakdown:
+SWE I (Junior)
+—Handles small tasks and limited features under the mentorship of senior engineers.
+SWE II (Mid)
+—Handles larger tasks and works on multiple features with more independence.
+Senior Engineer
+—Performs several engineering tasks simultaneously and leads teams.
+Staff Engineer
+—Leads engineering teams and oversees product lifecycle.
+Principal/Distinguished Engineer
+—Leads several teams, aligning teams to company strategy.
+Job levels based on skillset in different tech companies
+When interviewing, a mismatch between a role’s required skills and a candidate’s proficiency can result in two cases:
+Down-leveling—When a company offers a candidate a job at a level lower than the role to which they applied.
+Up-leveling—When a company offers a candidate a job at a level higher than the role to which they applied.
+Down-leveling happens to many experienced engineers, regardless of their years of experience. This is because levels are ultimately skill-based. While down-leveling is unfortunate, it’s necessary for companies to maintain their team’s organization. Often, the pitfall that down-levels engineers is a lack of proficiency in System Design. (In fact, each level will be expected to have a different approach and perspective during the System Design Interview, which we’ll discuss in this handbook.)
+To avoid down-leveling and to advance into your desired roles, you’ll need to get proficient in System Design (and subsequently, the System Design Interview).
+It’s never too early to learn
+Even if you’re new to software development, don’t assume you can procrastinate on learning System Design. Some companies are putting even junior engineers through System Design Interviews. Some might find this unfair or unreasonable for engineers early in their careers. But a company might do this for many reasons—and we can likely expect the trend to continue.
+Given that many universities and colleges are teaching distributed systems and System Design as part of their curriculums, it’s reasonable for companies to expect this knowledge from junior engineers. Some companies expose junior engineers to working with distributed systems, and coming into such a role with some System Design knowledge can be especially helpful if a company isn’t able to provide extensive on-the-job training.
+Hopefully, you can see how upskilling in System Design pays dividends in your interviews and long-term career growth.
+The System Design Interview
+Learn about the key phases in the System Design Interview and how it differs significantly from other technical interviews, such as coding interviews.
+What’s unique about System Design Interviews?
+System Design Interviews
+are some of the most creative technical interviews. There is no single right or wrong answer to a System Design problem—every problem can have many solutions.
+With many different paths to the same outcome, your reasoning behind the solution (and how you present it) is key to showing your interviewers your technical skill set and ability to collaborate with a team.
+What does a System Design solution involve?
+The interview is a
+design process
+that involves much discussion with your interviewer. Let’s discuss what the design process looks like from a birds-eye view.
+A
+good
+System Design solution will involve a structured approach. We will provide an example of a structured solution later in the handbook.
+Problem statement
+With a System Design Interview, you begin with a vague problem statement that asks you to design a web service. This statement will likely be something like the following:
+Design a search engine
+Design a rideshare app
+Design a messaging service
+Design a URL shortener
+Requirements and constraints
+From here, you identify the essential functions of the system you’ve been asked to design. These functions are known as
+requirements
+and are categorized into two types:
+Functional requirements—
+Specific functionalities that bring the user to the service. These specific functions are directly adjacent to providing the key service.
+Non-functional requirements—
+Functionalities that affect the overall operation of the system but are broader system functions that aren’t adjacent to specific functions of a service. Examples include scalability, reliability, usability, security, and performance.
+You also want to understand any constraints for your system. Perhaps a company’s budget is low, which means they can’t afford expensive hardware for their storage solutions.
+Note: To understand the problem, you will need to ask your interviewer questions.
+Designing
+After determining your requirements and constraints, you’ll start designing your system. This will involve identifying the components, technologies, and APIs that will work together to help you achieve your goal. The components can include front-end servers, analytics, and more. We’ll discuss more components later in the course.
+There are many ways to approach a design, and design choices come with limitations. It’s essential that you allow your interviewers to hear your thought process regarding your solution. This includes how you’ve connected the elements of your design to requirements, and how you’ve reasoned through making compromises in your design (these compromises are known as trade-offs, which we’ll discuss in the next chapter).
+Identifying shortcomings
+Finally, you will reflect on your design. Nobody can design a perfect system in less than 45 minutes. If you’re aware of shortcomings in your design, begin to address them and discuss other design choices you could’ve made, or explain your decision based on your understanding of the given requirements and constraints.
+Ideally, you will be getting feedback and conversing with your interviewer both during and throughout the design process. Your interviewer may point out shortcomings or ask about certain choices you made to give you an opportunity to demonstrate and explain your thinking.
+Second iteration
+If time allows, you can also do a second iteration of your design based on your new findings and takeaways.
+Knowing System Design gives you immense perspective. We can picture the difference between knowing and not knowing System Design through the comparison of being a line cook or head chef of a restaurant. The head chef has a broader perspective on the kitchen (system) as a whole. They know each staff member’s role and operations and how they depend on each other. They’re prepared to have backups take over if one person can’t complete their duties. Because it’s not required of them, a line cook usually lacks this vision of the big picture to which they contribute.
+System Design Interview prep: timeline and considerations
+Successfully preparing for the System Design Interview won’t be as simple as memorizing answers. Proper preparation requires internalizing and reflecting on the concepts you are learning. This process takes time and effort—and it cannot be rushed.
+The duration of your preparation will be determined by several factors, including:
+Your individual circumstances
+Your learning pace
+Your daily study routine
+Your current proficiency level in System Design
+Your target role
+Your daily time allocation
+If you commit two to three hours a day to your preparation, five days a week, you can expect it to take:
+4 to 10 weeks
+if you’re starting with minimal System Design experience or need more time to absorb and retain information.
+3 to 6 weeks
+if you have some experience.
+Navigating Trade-Offs
+Learn how you can manage trade-offs between incompatible requirements in real-life problems.
+Your interview is an opportunity to do more than solve a problem. It’s a chance to demonstrate the behavioral traits that make you great to work with.
+With no right or wrong answer to a System Design problem, it is
+how
+you come to an answer that will give your interviewers hireable signals. In this chapter, I’ll share the best practices that will help set you apart in your System Design Interview.
+Understanding trade-offs
+A
+trade-off
+is a compromise that is made between two desired but incompatible features. Trade-offs are performed mostly between the
+non-functional requirements in the System Design world
+, as we will see below.
+In order to show that you can devise a real-world solution in your interview, you need to be able to navigate trade-offs. This becomes increasingly important as you advance in your career.
+Every system is optimized at the cost of trade-offs. Otherwise, you’re trying to build an impossible system. Optimizing for all features—such as the ability to have fast writes and reads
+and
+scale to billions of users with lots of data—is impossible.
+In this section, we’ll explore some of the most obvious and common trade-offs that happen in an engineer’s everyday work and how you can reflect a real-world thought process in your interview.
+Types of trade-offs
+Have you ever experienced freezing or slow load times while using a banking app? This is not a fluke—in fact, it’s a necessity of System Design.
+You can’t have a perfect app that satisfies all requirements, so you’ll want to get comfortable identifying the most important requirements for your system. In some cases, one requirement will necessitate and justify trade-offs in various other areas. A banking app is a good example of an app that must be secure and will have to accept less flexibility and lower performance.
+Trade-offs can occur at any stage of the design process and can affect various features and requirements of a system. For every requirement a solution can fulfill, another may have to be compromised. While the list below is not exhaustive, some common trade-offs revolve around the following:
+Storage
+Security
+Caching
+Availability
+Cost
+Latency
+Consistency
+Data Structure
+Reliability
+Read/Write Throughput
+Demonstrating your understanding of trade-offs
+It’s up to you to perform in such a way that your understanding of trade-offs is apparent to your interviewer. Here are my suggestions for how to highlight your ability to navigate trade-offs in your interview:
+Consider 2-3 possible solutions.
+Narrate the trade-offs between the solutions.
+Justify your chosen trade-off.
+Let’s go into detail for each of these points.
+Consider 2-3 possible solutions
+Instead of jumping to one solution, you can briefly consider 2-3 possible solutions to your problem wherever it makes sense. This gives interviewers an opportunity to see how you weigh trade-offs between each solution and land on the solution that seems to best satisfy your requirements (within your known constraints).
+At this stage, you can:
+Narrate the trade-offs of each solution.
+Ask clarifying questions as needed.
+Eliminate the solutions that don’t align with the priorities of the system.
+Wherever there’s room for clarification, it’s a good idea to double-check with your interviewers about the priorities of your system. For example, let’s say you’ve been asked to design an audio streaming app like Spotify. Based on your requirements, you’ve pitched two solutions with different optimizations:
+A solution that provides streaming of high-quality audio at the cost of higher bandwidth requirements.
+A solution that provides accessible service to users with varying speeds of internet at the cost of streaming quality.
+Narrate the trade-offs between the solutions
+You can then narrate the trade-offs that come between them:
+“While providing high-quality streaming would be an amazing user experience, it would only work for people with access to broadband or 5G internet, which is a small fraction of the world’s population. If accessibility is the bigger priority, then we’ll have to sacrifice some of the quality of the media and stream at a lower bitrate. People who can hear the nuances in the audio won’t be happy with it. However, we’ll reach more people.”
+By weighing the pros and cons and narrating your thought process here, you show that you’re considering the implications of your design. You can then ask your interviewers about the priorities of the system. Depending on your interviewer, you might be given more details that will help you make an informed decision. However, if you only get brief or ambiguous responses, simply make some assumptions and move forward. The important thing is to get to the next step and to show that you’re strategic about your decisions.
+Justify your chosen trade-off
+When you land on a solution, you should justify why it’s the solution with the most acceptable trade-offs. Which requirements will you be able to fulfill? Why is this best for solving the problem, given what you know?
+Let’s say your interviewer asked you to design YouTube. As you discussed the problem, you could have identified a trade-off you needed to make. For example, you may need to decide between prioritizing the speed of:
+Uploading a video, if you optimize storage for write efficiency.
+Viewing a video, if you optimize storage for read efficiency.
+Now, when you make your decision, justify it. You could say: “
+I’d compromise uploads for optimal streaming
+.” Then, explain why:
+“There are fewer people uploading videos than watching
+.”
+“The user experience suffers most for delays in viewing videos vs. uploading videos
+.”
+In the end, you may receive feedback and learn that you
+’
+ve chosen one of the less ideal trade-offs—and that
+’
+s ok! The important thing is that you did your best with the information and understanding that you had and that you addressed your solution
+’
+s shortcomings appropriately. We
+’
+ll discuss how you can handle this kind of situation in the next lesson.
+Mastering the game of trade-offs
+Here are some key points to remember about trade-offs:
+Trade-offs can occur at any point of the design process.
+Always justify trade-offs and narrate your thought process for your interviewers.
+By considering several potential solutions in the beginning of your design process, you can give yourself the opportunity to demonstrate more knowledge about trade-offs.
+Communicating for Impact
+Learn why communication skills are important in the interview.
+Communicating for impact
+People often forget one important thing about the System Design Interview—more than an interview; it is a simulation of real-world conversation and collaboration.
+Let’s look at some key ways to impress with your communication.
+Asking strategic questions
+When designing real-world projects, you
+’
+d usually ask questions early in the process to understand your problem. Similarly, you should begin your System Design Interview by asking questions.
+There are two big reasons why asking questions is crucial at the beginning of the interview:
+Your interviewers won’t give you all the requirements upfront.
+System Design Interview problems are intentionally vague. Interviewers might deliberately withhold information to see how you get enough clarification to move on to your next steps.
+You can avoid faulty assumptions.
+When you practice enough design problems, you may see patterns. However, you should never fall prey to assumptions. Every system has unique challenges and constraints, and it’s your responsibility to glean this information from your interviewers.
+Your strategic questions should aim to:
+Clarify requirements
+and identify the big components to help you solve your problem. For example, what efficiencies are you trying to achieve?
+Understand the scale
+of your system. For example, are you solving for hundreds of thousands of users or millions?
+Understand the constraints
+of the organization. For example, are you facing certain latency limitations?
+Tip: Targeting these goals will help you arrive at the most informed solution possible during your 45-minute interview.
+The power of good questions
+Good questions will show your thought process and understanding of the system. Once you understand the must-haves in the system, you can hone your solution toward meeting those requirements (and make better judgments when navigating trade-offs, as we discussed earlier).
+It
+’
+s important to consider a system’s nuances as you ask questions. For instance, you might ask your interviewer how many users log into the system daily. If they tell you the daily average is 100 million users and you design a system accordingly, you could base your decisions on the average load. However, you’d be overlooking a critical piece of information—you don’t know the peak load! It could very well be that half of those 100 million users show up within a certain two hour window. You need to be able to design your system to account for nuances such as peak load. More experienced engineers should be able to extrapolate how this peak load might evolve in the future—this sort of thinking can earn you bonus points!
+Demonstrating your communication skills
+As your interviewer gives you feedback and new information, your communication should show your capacity to collaborate, adapt to changes, and grow.
+Remember: The most successful interviews don’t go through one sequential solution. Rather, they meander through several different options before converging on a solution.
+Capacity for collaboration
+Design is a collaborative process. As such, the way you communicate throughout your process will help your interviewer see they can work with you.
+Let’s consider a home-building analogy. As an architect, you may initially know what to expect from a client’s request. They’ll probably want a bedroom, but they’re probably not going to request a mining shaft.
+For instance:
+If the client wants a bigger bathtub, you might tell them the closet will be smaller.
+They may respond that the closet is actually the most important requirement, so you tell them they’ll need a standing shower instead of a bathtub.
+The client considers their overall requirements and agrees on that trade-off.
+Similarly, as you explore ideas with your interviewers, you should be able to show that you can adjust to constraints and land on trade-offs throughout the process.
+Adaptability
+An experienced problem solver can adapt well to surprises. Your interviewer might even throw you deliberate curveballs to see
+how
+you adapt
+.
+In both the interview and the real world, you must be able to reevaluate your design based on feedback and emerging requirements. You never get ironclad requirements in the beginning of the design process. Rather, you’ll tweak your design as requirements change.
+Note: If you get information late in your interview that points to a more appropriate solution, you don’t need to implement a completely new design. But you should explain what else you could have done and why that path might have achieved the essential system requirements more effectively.
+Growth mindset
+The most real-world moment of the interview is the last 5-10 minutes when you’ve put your solution on the board and are fielding questions from your interviewer. At this stage, you want to convey that you have a growth mindset. Be open to feedback and show you’re eager to learn from your failures.
+It’s common for interviewers to press you on why you’ve chosen a certain solution. After all, you may not have chosen the best solution possible. While this wouldn’t necessarily eliminate you as a potential hire, how you address your interviewer
+can
+be a deal breaker.
+Consider these tips for when your interviewer challenges you:
+Keep an open mind and suggest with words and body language that you’re willing to adapt.
+Don’t stubbornly defend your original solution. There are no points for doubling down.
+If you missed a better solution because you didn’t fully understand the requirements, admit it. Acknowledge that your design falls short and a better path exists.
+How much communication is enough?
+Communication should happen at multiple points in your interview. While there’s no strict formula for an appropriate amount of communication, there can be too little. If you’re working on the whiteboard for 30 minutes without any discussion, you need to communicate more.
+Most great interviews wrap up in the middle of a discussion. If the ending is messy, that’s good. It means you got into the weeds. Your interviewer will likely be able to see that you fully understood the problem and would be able to reevaluate your design based on feedback.
+Communication pointers
+Here are some key takeaways for communication in your interview:
+Ask strategic questions in the beginning of your interview.
+Adapt to any new information you receive.
+Display a growth mindset if you make mistakes or oversights.
+Communicate at multiple points in your interview.
+Showing Your Vantage Point
+Learn how to demonstrate that you are fit for a role through your unique vantage point.
+From junior engineers to managerial roles, each role has a unique point of view, perspective, or in other words,
+vantage point
+that they have on a system’s design.
+Showing your vantage point
+Once you’ve completed a high-level design, you can then move on to discussing more detailed aspects of your design. While it’s easy to naturally gravitate toward your own interests or specialization, you’ll be expected to touch on specific talking points depending on the level of the role to which you’re applying. If you’re unable to demonstrate a vantage point specific to that role, you may be at risk of being down-leveled.
+How each level’s vantage point differs
+While the kernel of an answer may stay the same, the vantage point of an engineer changes based on their level.
+A
+junior engineer
+will usually get into the details of a few components (for instance, how they’ve optimized their system to store, retrieve, modify, and delete large amounts of data). They will not be able to think about the more far-reaching implications of their design, and that’s generally acceptable given their level. On the other hand, the expectations for a senior engineer reach far beyond these starting points.
+A more
+senior engineer
+can see the bigger picture. They won’t necessarily go into the details of certain optimizations because they know they have a team of engineers helping them. Rather, their unique input for the design of the system will be tailored toward making the system more scalable and resilient.
+As you get more experienced, interviewers want to see that you have the foresight to design a system
+for the future
+. There’s no sense in designing a system that will be obsolete by the time you ship it. A junior engineer might get away with that, but a senior engineer cannot. For instance, if a senior engineer is asked to design a post search feature for Facebook today, and they currently have 100 million users, they should design a system for maybe a billion users so that the system can last a few years or decades.
+A
+principal/distinguished
+engineer has even more insight into how to make a system successful, even if unforeseen problems arise. Because problems are inevitable, they must address how to scope the problem and limit its impact. They must be able to mitigate them. They’ll be concerned with making the system easily debuggable and maintainable in the face of many issues, such as a prolonged system outage. They also consider how problems impact broader concerns that are crucial to the business—for instance, the impact of a privacy breach on user experience and product reputation.
+The ability to address unforeseen circumstances shows that an engineer understands real-world problems. You can’t always rely on power backups to prevent outages. Your data center could be hit by lightning. It could even catch fire. Then what would you do? Obviously, you cannot code against natural disasters. If a big hurricane hits your data centers, no amount of software can protect them from going down. But you can design your system so that data centers in different parts of the world can take over the load when others are down. This is called
+regional failover
+.
+Talking points for each level
+What you discuss in the interview will be different based on your level. As your level goes up, you’re expected to quickly address the topics of the previous levels, as well as the more advanced topics expected for your level. The following table expands on the expectations of different roles during an interview:
+Levels
+Talking Points
+SWE-I/SWE-II
+Describe the basic components of the system
+Dive deep into 1-2 areas
+Discuss trade-offs
+Senior engineer
+Describe components and their interaction
+Describe the complete lifecycle of a request (e.g., from client to server to back-end services)
+Drive the conversation toward diving deep into components
+Explain and align the trade-offs with the desired product goals and user experience
+Staff engineer
+Describe components and identify the critical components
+Identify potential choke points and bottlenecks
+Identify future problems as systems need to scale and offer solutions
+Demonstrate an ability to build a solution for immediate needs while keeping in mind potential improvements that will help scale in the future
+Describe failover (e.g., talk about recovery paths when machines fail)
+Talk about the user experience when failures happen and how that impacts Service Level Agreements (SLAs)
+Think about privacy across the product (e.g., GDPR compliance)
+Principal/Distinguished engineer
+Discuss real-world implications of the solutions deployed
+Talk about data center failovers, regional backups, and disaster recovery
+Talk about usage patterns (e.g., query patterns, peak loads, handling DDOS attacks, and graceful degradations of the service)
+Talk about the negative impact on the company’s reputation in case of security breaches and service outages and how to manage those SLA expectations
+Technical project manager/Project manager
+Discuss how scalable systems work (e.g., Facebook storage systems)
+Discuss core concepts and building blocks of a distributed system and how they interact with each other at an abstract level
+Talk about how budget, stakeholder commitment, and other variables will affect the technologies they choose to use
+What if I don’t have knowledge in a certain area?
+You might be asked follow-up questions that surpass the limits of your knowledge. Your interviewers might challenge what you’ve said or simply ask your thoughts on an area in which you don’t have an adequate depth of knowledge. In these cases, being honest with your interviewer is always better.
+Being honest will result in a far better use of your interviewing time. If you’re honest about things you don’t know upfront, then an interviewer can assess your knowledge in different areas instead. You’re not expected to know everything. You just need to know enough to show that you can design a system collaboratively.
+People sometimes feel they have to pretend to know the answer to every question—but this can get you into
+more
+trouble if you lack the knowledge to answer well.
+Remember: There’s nothing wrong with allowing you and the interviewer to move on to another topic by saying, “I’m sorry. I don’t understand [x] at this level. My understanding is quite superficial and I honestly don’t know more about it at this time.”
+Owning your vantage point
+In summary, some takeaways to remember are:
+Target the talking points that are appropriate for the level of your desired role.
+Junior level candidates address the basic workflow and interactions between components.
+Senior level candidates address the broader consequences of their design choices.
+Be honest about your knowledge gaps.
+Managing Your Time
+Learn how you can effectively manage your time in the interview.
+Managing your time
+All of the advice in this handbook revolves around the goal of getting you to a reasonable stage of success in 45 minutes. Most System Design Interviews are 45 minutes long, but this doesn’t mean you have 45 minutes to design your system.
+It’s important to consider budgeting your time and structuring your conversation to hit all the right notes in your limited time frame.
+Budgeting time
+Within your 45 minutes, you’ll want to budget time for the following:
+Introductions and icebreakers—5 minutes
+Being asked questions at the end—5 minutes
+This leaves you 30-35 minutes to solve the problem. Even in those 35 minutes, you’re not designing the whole time. You’re asking clarifying questions and checking on assumptions, which leaves about 20-25 minutes of actual designing.
+To ensure you get a solid 20-25 minutes of designing, here are some tips to help you manage your time well.
+Limit your clarifying questions
+When designing a real-world system, you’d probably make a two-week exploratory journey with stakeholders. But in your interview, you just need enough detail to start moving forward with a solution.
+Asking questions will help you make a well-informed decision on trade-offs. However, you don’t have all the time in the world to do this. Besides, you can’t possibly hash out all the requirements for a real-world system in 45 minutes.
+To make the most of this time, ask questions to:
+Collect information to help you put the big black boxes on the whiteboard.
+Identify the core functional requirements of your system.
+Try to limit your clarifying questions to 10 minutes—5 minutes at the beginning of the interview and 5 minutes throughout the interview (if needed).
+Expect (and accept) some ambiguity
+Keep in mind that sometimes you’ll have to decide on your trade-off. You can’t get hung up on a lack of specific details, so you’ll have to move on as best you can with what you have, even if it feels ambiguous.
+Being able to move forward with some ambiguity is a good signal to your interviewers. Needing too many prompts and too much support may leave the impression that you won’t be able to work independently.
+Avoid the rabbit hole
+Ideally, you’ll want the opportunity to demonstrate
+all
+the knowledge you have to your interviewers. But you should also be mindful of doing this, in the interest of time.
+I often see people make the mistake of trying to show exceptional knowledge too early in their interview. They end up going down a rabbit hole. But this isn’t what interviewers want. Rather, they want an overview of how the system works first—you can zoom in and go into detail later.
+If you go down a rabbit hole too early, the interviewer may not get the signal that you understand the big picture, which will make you seem less hireable. The key to making sure you hit all the right points within your 45-minute interview is to
+start wide,
+then
+go deep
+—
+in an area that’s appropriate to your level—later in your interview.
+From breadth to depth
+When shaping the conversation, you’ll want to start broad and become more pointed toward the end.
+In the beginning, you’ll be given a vague problem that you seek to understand better. You’ll start by talking superficially about many solutions and components. Be mindful not to go too in-depth into the complexities of one aspect at this point.
+Towards the end, after you’ve done a high-level design, you can start talking about a handful of things in detail. This shows your ability to zoom in and zoom out based on the requirements and where your team is at. You can think of this as an upside-down pyramid—start wide, and go deep toward the end.
+Remember: There’s nothing wrong with allowing you and the interviewer to move on to another topic by saying, “I’m sorry. I don’t understand [x] at this level. My understanding is quite superficial and I honestly don’t know more about it at this time.”
+Staying in your lane
+If you’re a junior engineer, reaching beyond your grasp to try and address more senior-level concerns won’t necessarily impress your interviewers. Rather, it may leave a strange impression.
+When you go in-depth, consider your lane—and stay in it. Your lane is defined by the level of the role you’re applying for and the needs of the role itself.
+It can also be exciting to demonstrate your knowledge in a particular specialization. Still, you should balance your enthusiasm with a grounded understanding of what the interviewer wants to hear from you. Sometimes you won’t have the time to get specific in the area of your choice, and this is okay. Prioritize the expectations for your role over cramming in irrelevant topics.
+Keeping the time
+To help manage your time during the interview, remember these key takeaways:
+Budget only 20-25 minutes for your design process.
+Budget 5-10 minutes for your clarifying questions.
+Cover the high-level design of your solution before discussing more in-depth, specific topics.
+A Starting Point: The Common 8 (SLIC FAST)
+Learn about the 'common 8' components that are used in several systems.
+Introduction
+While you don’t need to design a perfect solution in your interview, you do need to design a
+complete
+solution. And as we discussed in the previous chapter, you only have 20-25 minutes to design your solution after accounting for discussion time and introductions.
+To help you get to the finish line with your design, I’d like to offer some tools and tips to help add structure to your design process in this chapter:
+The common 8—
+A
+starting point to get you off the ground in the beginning of a system design solution.
+Completing your solution with RESHADED—
+An 8-step method for completing a system design solution.
+How to tackle a problem you’ve never seen before—
+Tips to prepare you for the unknown.
+For this lesson, let’s focus on the common eight, which serve as some of the building blocks of any system.
+Building blocks
+When under pressure, it can be easy to forget some essential system components—which can make your design fall short. To help prevent missing any important components, you can start with a foundation of the most common components in a system.
+At a high level, every system needs a few basic things. Imagine that you’re designing a single-family house. Two competing designs could each have a garage, two bathrooms, a living room, three bedrooms, and so on. Despite sharing these components, the details of the blueprints might be quite different.
+Similarly, you’ll customize your System Design Interview solution according to your requirements, but the structure of the solution will have some basic features.
+You can start by considering the eight most common system design components:
+System Design Interview: Dos & Don’ts
+Components (SLIC)
+Components (FAST)
+Search indexer
+Front-end servers
+Load balancer
+Analytics
+Interaction with a CDN
+Storage
+Cache
+Task queue
+Tip: To help you remember these components, you can refer to the mnemonic device: SLIC FAST.
+Many systems have several of these components—but not all of them. However, remembering these eight can give you a valuable starting point from which you can build your solution for your particular requirements.
+Let’s discuss these common components.
+1. Search system
+Where would we be without search? Most applications have a search component, enabling users to find data easily, such as a song on Spotify or a person on LinkedIn. When you have a content-rich system, there needs to be a way for users to find what they’re looking for.
+A search system enables this, and that system generally has three components:
+Crawler—
+Fetches content and creates documents.
+Indexer—
+Builds a searchable index of available data.
+Searcher—
+Runs users’ search queries on this index to return relevant information.
+We could detail each of these components, but for now, suffice it to say that search needs to be part of your solution.
+2. Load balancer
+You can have all the servers in the world, but without a load balancer in front of them, you’re asking for problems. The load balancer works to divide incoming requests fairly among the pool of available servers. In the process, it prevents overloading or crashing your servers.
+The load balancing layer is the first point of contact within a data center after the firewall. A load balancer is optional if a service entertains a few hundred or even a few thousand requests per second. However, for increasing client requests, load balancers can help in improving availability, scalability, and performance.
+3. Interaction with a CDN
+A
+Content Delivery Network
+(CDN) is a distributed network of servers that work together to deliver content to users over the internet. CDNs are designed to improve content delivery speed, reliability, and security by caching content closer to the end user.
+Imagine someone in Argentina trying to access a video on Instagram. The servers are in the United States because that’s where the user who uploaded it lives. The video will have a long latency. Even with the fastest internet, the transmission will be slow.
+We can deploy a CDN to improve performance, and the content will be replicated via the network. So if our user in Argentina opens Instagram and wants to watch a video, they will access that content through a server closer to their location—and they’ll experience lower latency.
+In this way, CDNs are frequently used to optimize systems.
+4. Cache
+A cache is temporary data storage that speeds up data serving to requesting nodes by keeping the most frequently accessed entries in memory. Caches prevent performance degradation and database overloading. A cache can be implemented at various levels of the system architecture to optimize performance and reduce latency. For example, a web server may use a cache to store frequently accessed web pages or resources in memory, reducing the need to retrieve them from disk or generate them dynamically. Similarly, a database may use a cache to store frequently accessed data in memory, reducing the number of disk reads required to satisfy queries.
+A comparison of data access with and without a cache
+Let’s look at a simple example. Say a user request reaches your front-end server. The request retrieves data from the cache, which is called a cache hit, and it serves the user. If the data is unavailable in the cache, this is called a cache miss. Then, the data would be queried from the database. At the same time, the cache is populated with the new value to avoid a cache miss the next time the data is requested.
+5. Front-end servers
+A front-end server, also known as a web server, is a type of server that serves static content and responds to client requests on the World Wide Web. These servers are responsible for receiving HTTP requests from clients, typically web browsers, and responding with the appropriate content, including HTML, CSS, JavaScript, images, and other media files.
+Front-end servers are an essential part of web architecture, as they are the first point of contact for clients accessing a web application or website. They often work with back-end servers, which handle dynamic content, database access, and other downstream functionalities.
+The role of front-end server in the overall architecture of a system
+6. Analytics
+Analytics is a broad area with many forks. At a fundamental level, you want analytics to measure your system’s
+internal performance
+and
+external interactions.
+Internally, you want to know how the system performs for users and if some part isn’t working. We want to ensure that the system is performing as expected and our services are all available.
+Externally, you might want to know how many users have viewed or liked the content or interacted with your application. These analytics can be used to get valuable feedback from the users, and then that feedback can be used to improve your system.
+During your interview, you’ll decide which analytics you want to focus on based on the requirements for your solution.
+7. Storage
+We use
+databases and other storage solutions to make it simpler to store, retrieve, modify, and delete data in connection with different procedures. Different storage solutions offer advantages and disadvantages. The
+database
+is a part of the persistence layer where data is stored permanently for later use. In particular, with the rise of data science, different data analytics are performed to improve efficiency and performance. The stored data can also be helpful in forecasting and planning.
+Your storage solution might be a
+relational database
+, which is structured and organized with predetermined schemas.
+Alternatively, you might use a
+non-relational database
+, which is unstructured and scattered with a dynamic schema. Non-relational databases are divided into various categories based on the nature of the operations and features.
+Relational vs. non-relational database
+Another option for unstructured data is a
+blob store
+, in which multimedia items are stored in a flat data organization pattern with no hierarchies.
+8. Task queue
+A
+task
+is a piece of computational work that requires resources. These resources might include CPU time, memory, storage, network bandwidth, and so on. These resources are limited, so a task queue (or task scheduler) allows you to complete a large number of tasks by scheduling work that cannot be done immediately. These queues are best used when handling
+asynchronous
+tasks.
+Let’s say a user uploads a video to a platform like YouTube, Facebook, or Instagram. Before the video becomes available, it must be encoded into different formats. Your system can’t ask the user to stand by for the encoding tasks to finish without ruining the user experience. Instead, your system could confirm the upload, inform the user the video will be available soon, and schedule the encoding work in a task queue behind the scenes.
+Specializing your solution
+Remembering these eight components will give you somewhere to start with your System Design solution. However, each solution is different.
+To specialize your solution, you’ll need to tailor your design based on how you optimize for requirements and the trade-offs that come as a result of those requirements. Some designs won’t require each of the common 8 (or SLIC FAST) we’ve discussed, while others will require other components not listed in this lesson.
+The better you understand building blocks, and how to use them, the better decisions you’ll make about when are where to use them.
+Remember: We have only covered a limited number of building blocks here. In reality, the number of building blocks is much larger. For instance, Sequencer is one such building block we didn’t mention that generates unique IDs for identifying the flow of events across the system. You may want to come up with your own set of building blocks and mnemonic device to best prepare for your System Design Interview.
+Getting to the Finish Line with RESHADED
+Learn an 8-step method for structuring your design process.
+The RESHADED method
+To take your solution to the finish line, use the RESHADED approach to solve design problems.
+As illustrated below,
+RESHADED
+is an 8-step method consisting of the following steps:
+The 8-steps of RESHADED
+Let’s review the steps of RESHADED. We’ll provide some examples of how these steps would be applied to a commonly known System Design problem—designing
+TinyURL
+.
+Requirements
+In this step you compile a complete image of the system’s functional and
+non-functional requirements
+. You can create a matrix of these requirements on the whiteboard.
+To clarify requirements, ask your interviewer about the system’s constraints and what needs to be considered. Don’t make too many assumptions; be honest about anything you don’t know.
+For instance, you could ask the interviewer some questions such as:
+“What are the average daily active users (DAU) for the system
+?”
+“Are there any hardware constraints that I should know about
+?”
+For example, TinyURL’s requirements would include the following:
+Short URL generation—
+Generate a unique shorter alias of a given URL.
+Redirection—
+Redirect the user from the short URL to the original URL.
+Estimation
+In this step, your goal is to estimate the hardware and infrastructure required to complete the core action at the desired scale. Your estimate might include things like data storage, the number of servers needed, and network requirements.
+For TinyURL, we would determine the amount of bandwidth, storage, and servers we need to handle our requests.
+Storage schema (optional)
+This is where you’ll define the structure of your data. This is especially vital for systems that require multiple types of data to be stored/produced. Though this step is optional, it is usually helpful for the planning process to determine how to handle your data effectively. Depending on the expertise required for your role, your interviewers may ask you relevant storage questions to test your knowledge.
+High-Level design
+This is where you’ll confirm which of the building blocks of System Design you’ll need to complete the previously defined functional requirements of the system. Apart from employing some (or all) of your building blocks, you will need to use components unique to your design problem, as you will see shortly.
+For TinyURL, our building blocks would include some of the common SLIC FAST components we discussed:
+A
+Database
+(storage) to store the mapping of original URLs and corresponding short URLs.
+Load balancers
+to ensure smooth requests distribution among available servers.
+Caches
+to store the most frequent short URLs related requests.
+Front-end servers to handle and navigate service requests.
+Outside of the common 8, TinyURL requires a couple other components to fit its unique needs:
+Rate limiters
+to prevent system exploitation.
+A Base-58 encoder to change the sequencer’s output into a more readable alphanumeric form.
+Application Programming Interfaces (APIs)
+APIs enable clients (internal or external) to access different services of our system through
+endpoints
+. In this step you map the functional requirements of our system to the various endpoints of our API. Thus, APIs can be considered the intermediary between back-end services and the clients requesting those services.
+For instance, with TinyURL, we would use REST APIs to:
+Shorten URLs
+Redirect short URLs
+Delete short URLs
+High-Level design of TinyURL
+Detailed design
+This step is where the non-functional requirements you gathered earlier will come into play. By implementing components that meet the non-functional requirements, you are polishing your final design. This step should produce a fully realized outline of which components and technologies will be used.
+On the whiteboard, your design for TinyURL might look like this:
+Evaluation
+Now it’s time to compare your design to the non-functional and functional requirements of the system. You will be expected to acknowledge any trade-offs you made during the process and how you weighed the strengths and weaknesses of various solutions. This phase is also useful to further polish certain aspects of the design. For example, you can improve your solution’s reliability by considering disaster recovery and adding regional failover features to the final design.
+Distinctive component/feature
+Each system you’ll be asked to design has unique components and/or features. Depending on what your system’s needs are, you may need to add a unique feature to your system to meet the distinctive functional or non-functional requirements.
+This step can be done at any point in the design process and does not have to come last. For TinyURL, a distinctive component could be the Base-58 encoder.
+Note: To see the full walkthrough of designing TinyURL and 12 other real-world design problems, check out Grokking Modern System Design for Engineers & Managers.
+How to Tackle a Problem You’ve Never Seen Before
+Learn tips to prepare you for the unknown.
+In an interview, it’s not uncommon to encounter a problem you haven’t seen before.
+Even a well-prepared candidate can get stumped because they are unfamiliar with the specifics of the system they’ve been asked to design. For example, being asked about the architecture of a company such as Stripe can be quite challenging when you’re unfamiliar with what services Stripe offers or with the complexities of payment gateway systems.
+Let’s go over two tips to help you pass this type of obstacle.
+Relate the unknown to the known
+Let’s say that you are asked about
+how to design Ticketmaster
+in your interview, and you are unfamiliar with that product. Maybe you don’t spend much time going to concerts and therefore haven’t used Ticketmaster. You may be a bit lost if you’re asked to design Ticketmaster’s cart and checkout service.
+To start taking steps forward, try relating the unknowns of your new problem to your existing knowledge. For instance, you can relate using Ticketmaster to the time you spend shopping on Amazon. Based on your knowledge of how the checkout process looks on sites with a similar goal, you can figure out the design of an unfamiliar product.
+If you’re unclear on the details of a system, don’t be afraid to ask your interviewer to clarify any missing information. The hiring committee is much more focused on how you articulate your design solution than whether or not you know the specific inner workings of a particular service. As long as you can be honest about what you don’t know and think critically through the problem, you can move forward.
+Pinpoint the system’s distinct problem
+Understanding the distinct problem that every system aims to solve is key to figuring out how an unfamiliar system operates. If you’ve never seen the problem before, you may not know all the requirements for the service you’ve been asked to design.
+Each system’s functional requirements work together to complete a unique task at a large scale. The more functional requirements of the system you can pin down, the more likely you can decipher the end goal of the system.
+You should definitely be asking questions to help clarify requirements. This is true for any System Design problem—and it’s especially important for one you’re unfamiliar with!
+The questions you could ask to clarify the unknown functional requirements could be as simple as this:
+“I’m unfamiliar with Stripe; what services do they provide?”
+“What does Stripe’s system need to accomplish?”
+“What are the key features of the system?”
+“What are the customer’s expectations and goals?”
+“What are the system’s main constraints?”
+Once you have a strong understanding of the functional requirements, the next phase is to explain how these requirements perform the task at a large scale, which is what our RESHADED approach walks you through.
+Key Takeaways
+An overview of the interviewing tips and tools we discussed.
+We’ve discussed a lot today. Now, let’s revisit some of the key points we went over.
+Sending hireable signals
+The best practices we discussed in this chapter are summarized below.
+Navigating Trade-Offs:
+Trade-offs occur at various stages of the design process.
+Narrate your thought process and justify the trade-off you choose.
+Communicating for Impact:
+Convey that you’re collaborative, adaptable, and open to growth.
+Ask clarifying, strategic questions.
+Showing Your Vantage Point:
+Discuss talking points that are relevant to the level of your desired level.
+Be honest about what you don’t know.
+Managing Your Time:
+45 minutes will fly by quickly—budget your time well.
+Budget 5-10 minutes for clarifying questions.
+Budget 20-25 minutes for your design process.
+Don’t discuss in-depth topics until you’ve completed your high-level design.
+In this table, we’ll see a side-by-side comparison of some of these best practices and common mistakes:
+System Design Interview: Dos & Don’ts
+Do
+Don’t
+Plan your 45 minutes
+Dive into details without finishing your design
+Ask clarifying questions
+Assume you have all the requirements at the start
+Justify trade-offs
+Jump into a solution without explaining your decision-making
+Be open to feedback
+Get too attached to your initial design
+Be honest about knowledge gaps
+Get defensive if you’re challenged about your solution
+Demonstrate the vantage point appropriate for your level
+Extend your talking points to matters outside of your level
+Design with the future in mind
+Overlook the future needs of your system
+Tip: To make these protocols second nature, treat your practice time as a mock interview. Pause while you practice design problems, and be mindful to ask questions and narrate your thought process.
+Getting to the finish line
+These tips and tricks can help you ensure you complete your design, so you can be sure you have time to implement the best practices we discussed in Sending Hireable Signals.:
+Lean on frameworks to help structure your design process and get you to the finish line:
+The common 8 components are a starting point for elements used in many systems.
+The RESHADED method can guide you through each step of your solution.
+When facing unfamiliar problems:
+Relate them to problems you know.
+Ask questions that pinpoint the core problem your service should solve.
+Note: As we discussed before, the System Design Interview isn’t about memorization. Even if you forget these frameworks in the interview, you will be fine, provided you’ve brought a strong understanding of System Design fundamentals and managed to convey that to your interviewer.
+Mastering the System Design Interview
+Are you ready for the next step in your career?
+As you compete for roles in today’s job market, remember that interviewing is a skill in and of itself. The more you practice it, the better you’ll get. And now that you know what interviewers are looking for in the System Design Interview, you can apply the best practices you learned in this handbook to indicate that you’re a strong hire.
+The truth is that interviews can be unpredictable and high-stress situations. The good news is that you don’t have to remember everything we discussed today in your interview because there’s no universal playbook for acing the System Design Interview. Ultimately, the interview is meant to assess your System Design knowledge, and you can showcase that knowledge in many ways—as long as you have a working understanding of System Design fundamentals.
+Ready for the unknown?
+Now that you have completed this handbook, it’s time to make sure you have a firm understanding of System Design fundamentals. Once you build a strong foundation of the preliminary System Design concepts, you only need to trust your instincts, communicate clearly, and do your best with the knowledge you have during the interview.
+To master the technical fundamentals of System Design, check out the Educative handbook,
+Grokking Modern System Design Interview for Engineers & Managers
+In that handbook, you’ll learn:
+A modern approach to designing complex systems using smaller building blocks.
+How to apply the RESHADED method to solve any System Design problem.
+How to design 13 real-world projects, including YouTube, Uber, and more.
+How to incrementally improve your design by evaluating it and addressing bottlenecks.
+More best practices and advice through contributions from FAANG experts and interviewers.
+Congratulations!!
+Congratulations on completing this handbook. I wish you the best of luck with your interviews. By combining what you learned today with
+Grokking Modern System Design Interview
+, you’ll have the foundational knowledge and tools to enter any System Design Interview confidently.
+Happy learning!
+Popular Guides
+System Design
+AI System Design
+ML System Design
+System Design Primer
+System Design Interview
+System Design Fundamentals
+System Design Interview Questions
+Interview Guides
+Adobe system design interview
+Adyen system design interview
+Affirm system design interview
+Ai system design
+Airbnb system design interview
+Amazon system design interview
+Anduril system design interview
+Anthropic system design interview
+Apple system design interview
+Atlassian system design interview
+Bloomberg system design interview
+Booking com system design interview
+Bytedance system design interview
+Capital one system design interview
+Chatbot system design interview
+Cisco system design interview
+Citadel system design interview
+Cloudflare system design interview
+Coinbase system design interview
+Coupang system design interview
+Crunchyroll system design interview
+Databricks system design interview
+Datadog system design interview
+Deliveroo system design interview
+Doordash system design interview
+Dropbox system design interview
+Ebay system design interview
+Flexport system design interview
+Frontend system design interview
+Geico system design interview
+Generative ai system design interview
+Github system design interview
+Goldman sachs system design interview
+Google l4 system design
+Google l5 system design
+Google ml system design interview
+Google system design interview
+Grammarly system design interview
+Hubspot system design interview
+Instacart system design interview
+Intuit system design interview
+Jp morgan system design interview
+Linkedin system design interview
+Llm system design
+Lyft system design interview
+Machine learning system design in a hurry
+Machine learning system design interview
+Meta ml system design interview
+Meta system design interview
+Microsoft system design interview
+Miro system design interview
+Ml system design
+Mobile system design interview
+Mock interview for software engineer
+Netflix system design interview
+Nextdoor system design interview
+Notion system design interview
+Nvidia system design interview
+Object oriented design interview
+Openai system design interview
+Oracle system design interview
+Palantir system design interview
+Paypal system design interview
+Personio system design interview
+Pinterest system design interview
+Revolut system design interview
+Rippling system design interview
+Robinhood system design interview
+Roblox system design interview
+Salesforce system design interview
+Sap system design interview
+Scale ai system design interview
+Servicenow system design interview
+Shopify system design interview
+Sig system design interview
+Slack system design interview
+Snap system design interview
+Snowflake system design interview
+Soft skills for software engineers
+Spacex system design interview
+Spotify system design interview
+Stripe system design interview
+System design in a hurry
+System design interview preparation
+System design mock interview
+System design statistics and trends
+Tesla system design interview
+Tiktok system design interview
+Twilio system design interview
+Uber system design interview
+Vmware system design interview
+Walmart system design interview
+Wise system design interview
+Workday system design interview
+X system design interview
+Yelp system design interview
+Zillow system design interview
+Get up to
+68% off
+lifetime System Design learning with Educative
+Preparing for System Design interviews or building a stronger architecture foundation? Unlock a lifetime discount with in-depth resources focused entirely on modern system design.
+System Design interviews
+Scalable architecture patterns
+Distributed systems fundamentals
+Real-world case studies
+Claim Discount

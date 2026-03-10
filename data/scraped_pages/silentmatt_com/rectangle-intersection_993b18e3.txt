@@ -1,0 +1,15 @@
+JavaScript Disabled
+Certain features of this site may not function correctly without JavaScript enabled
+Find out how to enable JavaScript in your browser
+Rectangle Intersection Demonstration
+A.X1 < B.X2:
+A.X2 > B.X1:
+A.Y1 < B.Y2:
+A.Y2 > B.Y1:
+Intersect:
+A
+(x1,y1)
+(x2,y2)
+B
+(x1,y1)
+(x2,y2)

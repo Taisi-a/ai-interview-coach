@@ -1,0 +1,8 @@
+Online-Utility.org
+Utilities for Online Operating System
+Text Analyzer
+Tweet
+Free software utility which allows you to find the most frequent phrases and frequencies of words. Non-English language texts are supported.
+    It also counts number of words, characters, sentences and syllables. Also calculates lexical density.
+Enter text (copy and paste is fine) here:
+or read it from a website URL (plain text .TXT preferred) :

@@ -5,6 +5,7 @@ networks:
 
 volumes:
   postgres_data:
+  rag_store:
 
 services:
   api:
@@ -17,11 +18,14 @@ services:
       - "${APP_PORT}:${APP_PORT}"
     environment:
       - DATABASE_URL=postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
+      - VLLM_BASE_URL=http://host.docker.internal:8001/v1
     env_file:
       - path: ./.env
         required: true
     volumes:
       - ./app:/app/app
+      - ./tech-interview-handbook-main:/app/tech-interview-handbook-main:ro
+      - rag_store:/app/rag_store
     restart: unless-stopped
     networks:
       - interview_coach_network

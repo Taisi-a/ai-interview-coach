@@ -1,0 +1,71 @@
+Back to blog search
+Back to blog search
+Jul 10 2020
+Enterprise Engineering in APAC: Building Products That Scale
+By Meta Careers
+Share to LinkedIn
+Share to Facebook
+Share to Threads
+Share to Twitter
+Share to Copy
+Link copied
+This post was published before the Facebook company became Meta. For the most recent Meta Careers blog posts, visit our
+blog homepage
+.
+The Facebook company office in Singapore is home to a diverse community of engineers and their cross functional partners working on impactful products that will shape the future of how people and businesses connect in the Asia Pacific (APAC) region. In this story, we chat with three enterprise engineers about how they build enterprise products for Facebook’s infrastructure, support each other during challenging times, and take ownership of their own career paths.
+Scaling the network with automation
+“I was first introduced to network engineering while learning to set up computer communications during my military service vocation. Thereafter, I worked for one of the biggest communications companies in Singapore. During this period, the more I heard about Facebook, the more I wanted to be part of the team. Engineers love solving complex problems. With Facebook’s scale, we’re able to solve problems, big and small, that wouldn’t be possible otherwise.
+Here in Singapore, there are massive opportunities for problem solvers as we continue to grow our engineering teams. As an engineer on the Enterprise Network Reliability team, I help to design and visualise Facebook enterprise networks and maintain our gears across offices and data centres globally. As we solve problems at scale, you might wonder, how do 10-15 engineers manage 9,000 gears? How do we pivot to manage our work at home? Automation empowers us to manage, maintain, and scale our network efficiently and effectively.
+Aside from experience coding and designing large scale networks, soft skills一such as the ability to communicate clearly, collaborate effectively, and influence strategy一are critical for succeeding as a network engineer. But you don’t have to know everything when you get here! There are people across teams who are happy to help, personally and professionally. You’re never alone.” 一Kent L., Network Engineer
+Ensuring high-quality enterprise products
+“Nothing is someone else’s problem is a Facebook motto I love. Working here has helped me become a more well-rounded engineer. We’re more than just coders. We choose the projects we want to work on, we fix bugs that aren’t our own, and we all contribute to our diverse and inclusive culture.
+My team works hard to ensure our infrastructure is reliable at scale, and that we’re deploying enterprise products of the highest quality. We support the quality of tests for more than 20 enterprise products, and are responsible for ensuring the infrastructure backing these tests provides fast signals so that everything works smoothly. I love my role because each thing I do has a direct impact on the business.
+The Singapore office is in a unique position as the APAC hub for Facebook. Our teams are very lean. During normal times, leaders from Menlo Park often travel to Singapore to spend time with us, so we get a lot of face time and there’s a huge opportunity for visibility. It’s a privilege to work here in Singapore, where we get the best of both worlds: meaningful interactions with our leaders and teammates in Menlo Park, as well as the opportunity to drive our own projects and make a significant impact.” 一Shreya B., Engineer
+Learning to pivot with changing engineering needs
+“Before Facebook, I served in the Singapore Navy for a decade. Though I was initially hired at Facebook as a software engineer, I later transitioned into a production engineer position and then transferred to the Enterprise Engineering team. I spent my first four years at the company as an individual contributor before becoming a manager.
+Looking back, I remember that one of the first things that really struck me about Facebook was the company’s empowering culture. I was presented with challenges and the autonomy to solve them, which inspired me to take the wheel and drive. This sense of leadership has been consistent throughout my experience here, no matter my role.
+When the coronavirus outbreak began, my team had to adapt quickly. In addition to learning how to work together remotely, we were also tasked to work with our operation partners to figure out how to support Facebook team members across the company. With our physical employee help desk shut down, we approached the obstacle as we would any other. We started by using data to understand the problem, and then we worked together to devise a strategy for tackling it.
+Supporting a remote workforce is challenging, but we’re confident that we’ll be able to build an effective system for the future. Our team in Singapore is small, but we have a great impact and we’re growing quickly. Now is definitely a great time to join us and get ahead of our growth curve.” —Shuhong W., Enterprise Engineering Manager
+Join our engineering teams in Singapore!
+As the engineering hub for the APAC region, Facebook’s Singapore office provides exciting opportunities for engineers to shape their career paths, tackle unique challenges, and build new products from the ground up.
+Click here to learn more about our opportunities!
+Learn more about other engineering opportunities in Singapore here:
+Building for Rapid Growth
+Driving Impact With Partners
+Join us and help us build for the future!
+This post was published before the Facebook company became Meta. For the most recent Meta Careers blog posts, visit our
+blog homepage
+.
+Stay Connected!
+Learn about life at Facebook on Instagram (
+@FacebookLife
+).
+Like our
+Facebook Careers Talent Community Page
+for the latest updates.
+share-external
+Related Posts
+META TECH PODCAST
+Multimodal AI for Ray-Ban Meta glasses
+How is Meta building AI for Ray-Ban smart glasses? Shane Moon explains multimodal learning, computer vision, and foundational models with Pascal Hartig.
+Read more
+META TECH PODCAST
+Multimodal AI for Ray-Ban Meta glasses
+How is Meta building AI for Ray-Ban smart glasses? Shane Moon explains multimodal learning, computer vision, and foundational models with Pascal Hartig.
+Read more
+META TECH PODCAST
+Open-sourcing Pyrefly - A faster Python type checker written in Rust
+What is Pyrefly? Meta engineers Neil Mitchell, Rebecca Chen, Maggie Moss discuss Meta's new developer tool, workflow optimization, and engineering culture.
+Read more
+META TECH PODCAST
+Open-sourcing Pyrefly - A faster Python type checker written in Rust
+What is Pyrefly? Meta engineers Neil Mitchell, Rebecca Chen, Maggie Moss discuss Meta's new developer tool, workflow optimization, and engineering culture.
+Read more
+META TECH PODCAST
+Taking the plunge - The engineering journey of building Subsea Cable
+Meta submarine cable engineers Andy Palmer-Felgate and Pascal Pecci discuss with host Pascal Hartig subsea cable infrastructure and connectivity underwater.
+Read more
+META TECH PODCAST
+Taking the plunge - The engineering journey of building Subsea Cable
+Meta submarine cable engineers Andy Palmer-Felgate and Pascal Pecci discuss with host Pascal Hartig subsea cable infrastructure and connectivity underwater.
+Read more

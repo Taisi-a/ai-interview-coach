@@ -1,0 +1,170 @@
+Menu
+Close
+Home
+Newsletter
+Popular Articles
+The Software Engineer's Guidebook
+My Books
+Early trends
+Reading List
+Ethics statement
+Write a guest article
+Sponsors
+Investing
+Now
+Contact me
+About
+RSS Feed
+bluesky
+twitter
+youtube
+linkedin
+Subscribe
+Home
+Newsletter
+Popular Articles
+The Software Engineer's Guidebook
+My Books
+Early trends
+Reading List
+Ethics statement
+Write a guest article
+Sponsors
+Investing
+Now
+Contact me
+About
+RSS Feed
+bluesky
+twitter
+youtube
+linkedin
+12 questions to get a sense of what a tech company is like to work at, based on things most job postings do
+not
+mention.
+I created this test to reflect healthy software engineering cultures in 2021 better. I've found the now 20-year-old
+the Joel test
+to be a baseline expectation at almost all companies by now, and missing many things you expect from great engineering organizations.
+Equity or profit sharing.
+If you're a venture-funded startup or a publicly traded company, do all engineers get equity allocation? If you're a private, non-venture-funded company, do engineers get
+generous
+profit sharing? Caveats: publicly traded companies offering discounted equity purchases - also known as
+ESOP
+- does not count. Generous profit sharing means at least 15-20% of annual salary in good years.
+Roadmap/backlog that engineers contribute to.
+Do you have one for most teams, and do engineers regularly contribute to the one for their team?
+Engineers directly working with other ICs.
+Do engineers work directly with other individual contributors (ICs) like other engineers, designers, PMs, data scientists etc? Answer "no" if they are expected to go through e.g. (project) managers instead of direct communication.
+Code reviews and testing.
+Are they both part of the everyday development process?
+CI and engineers pushing to prod.
+Do you have CI in place? When engineers finish coding, does the code either automatically get pushed to prod (through CD), or can engineers manually trigger this step?
+Internal open source
+. Do you follow an internal open-source model, where any engineer can access and contribute to most other codebases - with appropriate code ownership in place?
+Healthy oncall as a priority.
+For teams where developers are oncall, do you measure oncall health and the impact on developers? Does fixing an unhealthy oncall have priority over any product work?
+Technical managers.
+Are managers software engineers report to technical - meaning they have also been software engineers earlier in their career?
+Career ladder
+(when above 10 engineers)
+.
+Do you have a career ladder, with levels, and expectations at each of the level defined?
+Parallel IC & manager tracks
+(when above 30 engineers)
+. Do you have parallel IC & management career paths that run up to a level or two above the entry-level engineering manager role?
+Feedback culture
+.
+When above 30 engineers: do you have at least two of the following three:  a) 360 performance reviews (where directs also give feedback to managers) b) Peers giving feedback to each other c) Company-wide surveys collecting workplace feedback, and acting on this.
+When smaller than 30 engineers: do you encourage a culture where you give constructive and direct feedback to each other to improve?
+Investing in professional growth.
+Do you have at least two of the following three: a) Professional development stipend for books/training b) Recognizing time taken to do learning as a good use of work time, and encouraging this. c) A mentorship program within the company.
+Take the test for your company here
+and leave comments as feedback on the questions. I'd like to amplify companies who score highly on the above questions.
+A higher score reflects companies that have more engineering-friendly and predictable cultures, and are typically more
+"Silicon Valley-like" in how they leverage engineers
+. The test is based on ideas explored in
+A Software Engineering Culture Test
+.
+Scores will be specific to teams, instead of companies, as questions like a healthy oncall, or even pushing to production can be different for various teams in a large organization.
+See companies who score high on this test, and are hiring on
+The Pragmatic Engineer Job Board
+.
+Results based on 200 submissions
+show that 31% of submissions check all 12 conditions (!) and 68% of these submission score at least 10 points. I realize there is lots of selection bias at play here - teams who score higher on these questions are more likely to fill it out. However, it's still impressive that there are a confirmed
+~
+120 teams at different companies scoring at 10 or above on this "test":
+The most common "missing" points are on equity and healthy oncall:
+A screenshot of some of the results from the test
+Companies with teams reporting a 12/12 score
+(at least in
+some
+teams, that is):
+Amazon, Apple, Facebook, Google, Microsoft, Netflix
+Atlassian, Cloudfare, GitHub, Robinhood, Roblox, Square, Twitter, Shopify, Spotify, Stripe, Uber
+Auth0, Expedia, Eventbrite, Freshbooks, HashiCorp, Intercom, Sumo Logic, Udemy, Yelp, Wise
+ClassPass, Gocardless, Glovo, Impala, KeepTruckin, Loom, NerdWallet, Miro, Monzo, Noom, Rippling, Scribd, Sonder, Zocdoc
+Birdie, Bud Financial, Butternut Box, CommonBond, Codat, Helge Scheil, Hubs, Indigo Ag, Kensho Technologies, Litmus, Pollen, Postscript, Orbit, Rev, Rows.com, Smartly.io, Quizlet, Northern.tech, ThoughtSpot
+Companies with teams reporting a 11/12 score
+Oncall health missing
+(props that they were honest on this): Box, OpenTable, New Relic, Wayfair, Delivery Hero, FindHotel, Good Dog, Kraken, Signal AI, Stash
+Equity/generous profit sharing for all engineers missing
+: BBC, Just Eat Takeaway, Skyscanner, moonpig, Trainline, Zalando
+Startups and small companies with less than 20 engineers answering "no" to #9 (career ladder), #10 (parallel career tracks) and #11 (feedback culture) is expected - but as the company grows, they won't have an excuse to not implement those improvements.
+Growing startups with a 10-11/12 score
+where some of #9, #10 or #11 are missing (but engineering leadership confirmed they are addressing those as they're growing) include Fonoa, Linear Product Hunt and Udaan.
+Ask the above questions as part of "reverse interviewing"
+companies, after you get an offer, to get a sense of how your future team operates, and how engineering-friendly the culture is.
+Subscribe to my weekly newsletter
+to get articles like this in your inbox. It's a pretty good read - and the
+#1 tech newsletter
+on Substack.
+by
+Gergely Orosz
+Menu
+Close
+Home
+Newsletter
+Popular Articles
+The Software Engineer's Guidebook
+My Books
+Early trends
+Reading List
+Ethics statement
+Write a guest article
+Sponsors
+Investing
+Now
+Contact me
+About
+RSS Feed
+bluesky
+twitter
+youtube
+linkedin
+Subscribe
+Home
+Newsletter
+Popular Articles
+The Software Engineer's Guidebook
+My Books
+Early trends
+Reading List
+Ethics statement
+Write a guest article
+Sponsors
+Investing
+Now
+Contact me
+About
+RSS Feed
+bluesky
+twitter
+youtube
+linkedin
+Subscribe via email
+Subscribe in a reader
+Reverse Interviewing Your Future Manager and Team
+I don't know of many career hacks that get you ahead over consistently putting
+in the work.…
+How Big Tech Runs Tech Projects and the Curious Absence of Scrum
+A survey of how tech projects run across the industry highlights Scrum being absent from Big Tech. Why is this, and are there takeaways others should take note of?…

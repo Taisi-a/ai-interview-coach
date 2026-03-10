@@ -1,0 +1,86 @@
+Back to blog search
+Back to blog search
+Oct 13 2022
+Help 10 people—or billions? Engineering impact on a global scale
+By Meta Careers
+Share to LinkedIn
+Share to Facebook
+Share to Threads
+Share to Twitter
+Share to Copy
+Link copied
+Growing up in a small town in India and attending an all-girls high school, Nishita A. remembers feeling like she had to often choose between being either fun or smart—but not both. Joining Meta as an intern opened her eyes to a new perspective. “I met engineers, managers and leaders who were not only the smartest people I’d ever worked with, but outside of work—had some passion or another that they were outstanding at.” Nishita explains. “For the first time, I saw that it was possible to work hard and play hard. I was inspired."
+That was just the beginning of Nishita’s journey at Meta, where she has spent the last eight years building world-class engineering teams, setting up Meta offices around the world and growing the company’s
+Enterprise Engineering (EE) presence in APAC
+. “So much of what we do within Enterprise Engineering is focused on the teams that enable the end user, or the people who use and love our products,” she explains. “Empowering our internal teams to scale processes across different parts of the business—be it sales, marketing or customer Support—and global sites is essential for meeting demand for Meta’s technologies. We’re developing innovative technology that can bring the world closer together.”
+Nishita enjoying a game of chess at the Meta office in London.
+AR/VR is changing the way people around the world connect. Can you tell us a bit about your team’s recent work and what you’re seeing?
+We’re getting to a place where more and more, we’re able to purposefully connect with AR/VR. We launched
+Meta Quest 2
+last year, our latest headset and most popular Meta Quest launch to date. My team was at the forefront of those efforts, working behind the scenes to help the
+Reality Lab (RL) sales
+, marketing, and operations teams get the headset into as many people’s lives as possible.
+Our
+Meta Portal
+devices have also become incredibly popular during the pandemic, as people have looked for ways to connect with the people they love during a time of self-isolation. Reading user reviews for Portal gives me goosebumps each time we hear stories like, “I just had a baby, and he hasn’t met his grandparents yet. But with Portal, we can connect with them every day.” I always think, “Oh gosh, this is why we do what we do.”
+Technology can help take us to new horizons, too. For example, with Meta Quest, I could be sitting here in Singapore while learning everything about the pyramids in Egypt on a virtual tour. I think about my own upbringing in India and how different my education might have been if there was technology that enabled me to experience and understand things without the limitation of physical space or region. We’re making it possible for people to have those experiences with the people they love. Shared experiences tighten the bonds between people.
+“With AR/VR, we're able to virtually connect with each other in meaningful ways. We’re not restricted by our space or physicality.”
+From working on new technology to building and managing teams, what’s your biggest focus right now? Over the next year?
+When it comes to building teams, I care deeply about two things: making sure we’re creating amazing, high-quality products that bring value in people’s lives, and ensuring everyone on the team has an opportunity to learn and grow.
+We’re working on cutting-edge technology and solving complex challenges. We’re pushing the boundaries with what’s currently possible, whether that’s helping people experience Virtual Reality on a 2D webpage or what next-gen customer support looks like in the ecommerce space. Any of those things may be top of mind for me at any given time, while I’m also helping define the long-term vision for our organization – what problems will we be solving in a year’s time? Are we setting high enough goals for ourselves? The balance is an art.
+In addition to solving technical challenges, a core part of my role is building and scaling high-performing teams. I think about questions like, “Who do we need to hire?” and “What expertise do we need?” Our work on Meta Quest is a good example, as we need to consider the AR/VR business, industry needs and the expansion of our team to keep up with the scale.
+What characteristics do you look for when hiring engineers? What attributes make someone a strong manager?
+To be a successful engineer, empathy is key. I’ve known people who are phenomenal engineers, but without empathy for their teammates and the user or customer, they limit their success. Passion matters, too. With engineering candidates, personal projects make a big difference because they show what you care about.
+With managers, it’s additionally about having a strong sense of values and the kind of culture you want to build on your team. I ask candidates about how they prioritize their responsibilities. And I always inquire about how bullish a person is about supporting the people on their team and finding opportunities for them to grow.
+“At Meta, no matter your role, having a growth mindset is critical. Things are always changing and the industry is evolving quickly. People who do well here are passionate and genuinely excited to learn.”
+Two of Nishita’s teams came together to build terrariums.
+How do you cultivate a culture that encourages creativity and inclusivity? Do you have any tips for encouraging autonomy and accountability to empower people to do their best work?
+Being a manager is about enabling growth, which can be a balance between offering encouragement, radical candor and sometimes, tough love. A good manager is able to serve as a strong advocate for each person they’re supporting, helping them achieve their goals. It’s important to give constructive feedback and have honest, difficult conversations.
+I’ve found that when you give people a sense of trust and ownership, they’ll often exceed your expectations. People on my team are extremely smart and kind, and everyone goes above and beyond. They want to help, and we look out for one another. I encourage people to take risks, and I let them know I’ll be there as a safety net.
+As leaders, everything starts with us. We’re role models, and when it comes to something like inclusion, you need someone who’s inside the group to bring others in. I make it a point to consciously do that for people who are new to the team or may not be as vocal. A strong culture is one in which people are comfortable supporting one another, rather than worrying about making mistakes. I want people to feel that when mistakes are made, there’s always someone to help them stand back up again.
+What sparked your initial interest in technology? How did your early experience influence the work you do today?
+I attended the
+Grace Hopper conference
+in 2009, before I accepted my internship at Meta. Prior to attending Grace Hopper, I hadn’t seen a lot of female role models. It didn’t help that one of my male friends in college told me, “You should just accept that you’re never going to be as good as us.” I had questioned my place in tech, but the conference changed that. I saw so many powerful women and I saw people I really respected. I thought, “Yes, that’s who I want to be.”
+Having the right role models can change how you see your future and what you believe you can do. Now more than a decade later, I’m a leader who cares deeply about values—such as openness, trust and kindness—and using them to empower people across our engineering teams. With these values as a guide, we’re constantly thinking about how we can serve all of the people we build products for around the world.
+What was the most valuable lesson you learned early on at Meta?
+I came from an environment where you needed to know everything before you did something, and I had a huge mindset change when I came to Meta. I learned that it was okay to feel comfortable with whatever little bit of information you know, as long as you’re willing to learn and grow.
+I’ve embraced this ever since, and it’s given me so much confidence to take on new challenges. I don’t feel held back by thinking I’m not good at something or I don’t know something. Instead, I think, “I might not know it inside and out, but I’ll learn on the job, make mistakes and get better.” I always tell everyone on my team that it’s great to make mistakes as long as you don’t repeat them.
+This thinking has empowered me to move to different offices, explore different opportunities with building a site or organization, and even transitioning from an engineer to a manager. The key is to keep challenging yourself, which is a defining factor at Meta. As long as you push yourself forward with the knowledge you already have, you have the right people supporting you, and you have access to new opportunities, you'll be fine.
+Join our engineering teams in Singapore
+As the engineering hub for the APAC region, Meta’s Singapore office provides exciting opportunities for engineers to shape their career paths, tackle unique challenges and build new products from the ground up.
+Click here to learn more about our opportunities.
+This post, originally published on June 22, 2021, was updated on October 13, 2022, to reflect our shift to Meta and new details about team members, roles and responsibilities.
+Stay connected
+Learn about Life at Meta on Instagram (
+@lifeatmeta
+).
+Like our
+Life at Meta Facebook Page
+for the latest updates.
+share-external
+Related Posts
+META TECH PODCAST
+What it's like to write code at Meta
+How do Meta engineers ship code? Dustin Shahidehpour and Katherine Zak reveal the development process, engineering culture, and building products at scale.
+Read more
+META TECH PODCAST
+What it's like to write code at Meta
+How do Meta engineers ship code? Dustin Shahidehpour and Katherine Zak reveal the development process, engineering culture, and building products at scale.
+Read more
+META CAREERS
+AR glasses explained: why hand gestures hold the future
+A research scientist illustrates the next-gen innovation fueling AR wearables at Meta — from EMG and AI to computer vision.
+Read more
+META CAREERS
+AR glasses explained: why hand gestures hold the future
+A research scientist illustrates the next-gen innovation fueling AR wearables at Meta — from EMG and AI to computer vision.
+Read more
+META CAREERS
+How Ray-Ban Meta glasses use AI to bridge language gaps
+Fei W., software engineering manager, shares a behind-the-scenes look at his experience developing live translation for Ray-Ban Meta glasses.
+Read more
+META CAREERS
+How Ray-Ban Meta glasses use AI to bridge language gaps
+Fei W., software engineering manager, shares a behind-the-scenes look at his experience developing live translation for Ray-Ban Meta glasses.
+Read more

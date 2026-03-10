@@ -1,0 +1,1141 @@
+About
+Submit
+Subscribe
+Explore the product
+Build your framework for free
+No credit card required.
+Sign up with Google
+Sign up with Email
+By creating a Progression account you're agreeing to our
+Privacy Policy
+and
+Terms of Service
+Career framework inspiration from the world's best companies.
+Progression.fyi is a collection of public and open source career frameworks and templates brought to you by
+Progression
+.
+Team discipline
+Location
+Displaying
+1 - 75
+of
+75
+in total -
+Reset
+Circle CI:
+Engineering Competency Matrix
+Engineering
+Hiring!
+Lena Reinhard
+2018
+San Francisco
+CC BY-SA 4.0 License
+A six-level engineering-focused framework from the globally distributed continuous integration and delivery experts. The framework was developed and introduced in 2018.
+About
+Matrix
+Guidelines (PDF)
+Introductory Blog Post
+3 templates from Progression
+→
+Intercom:
+PM/Design Career Ladders
+Product Management
+Product Design
+Content Design
+Hiring!
+The Intercom team
+2019
+Dublin
+CC BY-SA 4.0 License
+Frameworks for product management and design from Dublin-based product legends intercom.
+Product Management: Described as helping PMs to “Identify the most valuable problems to solve, enable your team to ship and iterate high-quality solutions quickly, and validate market impact”. Breaks skills into five areas – 1) Insight Driven, 2) Strategy, 3) Execution, 4) Driving Outcomes and 5) Leadership Behaviors.
+The product and content design framework is one of several open source resources on the beautiful intercom.design site, the format matches the PM ladder in part, though picking ‘Products and Teams’, ‘Execution’, ‘Behaviours’ and ‘Results’ as topics.
+PM Introduction
+PM Ladder (PDF)
+intercom.design
+Product/Content Design Ladder (IC)
+Product/Content Design Ladder (Management)
+Intercom on Progression
+3 templates from Progression
+→
+Medium:
+Engineering Growth Framework
+Engineering
+Hiring!
+Jamie Talbot
+2017
+San Francisco
+CC BY-SA 4.0 License
+An incredibly in-depth set of tools, blog posts and frameworks to assess engineering levels at publishing platform Medium. Noteworthy because it encourages a varied number of paths to seniority, as illustrated by Snowflake, an exploratory UI on top of the framework
+Introduction
+Rubric - all the skills and levels
+Snowflake - an interactive tool to explore levels
+2 templates from Progression
+→
+Level up your team
+(or yourself!)
+Join the completely non-spammy progression.fyi mailing list
+Amazon:
+Engineering Career Ladders
+Engineering
+Hiring!
+Amazon
+2022
+Seattle
+No license specified
+Individual contributor and management engineering career ladders from Amazon.
+Career ladder
+2 templates from Progression
+→
+Monzo:
+Progression Framework
+Engineering
+Product Design
+Research
+Operations
+Product
+Hiring!
+Monzo Team
+2018
+London
+MIT License
+British bank Monzo first introduced this tool (now archived) in 2017 to help engineers and managers make development and career plans easier across Backend, Data, Mobile and Web development teams, later added a bunch more roles, including Design and Research.
+Last year they deprecated their original framework, and created a v2 for Engineering in a PDF with an accompanying blog post. You can still see their original v1 framework on Progression, below.
+Introduction [Archived v1]
+Site code
+Framework 2.0
+Lessons from v1
+Engineering v1 on Progression
+2 templates from Progression
+→
+Walmart:
+Product Management Ladder
+Product Management
+Hiring!
+Walmart
+2022
+Bentonville
+No license specified
+Single track product management ladder from Walmart
+Salary Bands
+2 templates from Progression
+→
+Buffer:
+Level and Step placement guide
+Cross-discipline
+Hiring!
+The Buffer team
+2019
+San Francisco
+No license specified
+The team at social scheduling app Buffer have put together one of the few purely generic frameworks, complete with write-up to cover how they’ve iterated through flat to more traditional company structure to get to their currently 80 staff. They also go into more detail about how they actually measure this, including levels and steps.
+About the framework (updated)
+Levels (dropbox paper)
+Buzzfeed:
+Design roles v2.0
+Design
+Hiring!
+Cap Watkins
+2016
+New York
+GNU Free Documentation License
+Buzzfeed implemented this framework in 2015, and updated it in 2016 to the current version. It documents both IC (Individual Contributor) and Manager responsibilites for designers at Buzzfeed.
+Introduction
+The great re-anchoring - rationale blog post
+Product Design Framework
+Original Team Presentation
+Dropbox:
+Engineering Career Framework
+Engineering
+Tech
+BI & Data
+Management
+QA
+Data
+Delivery
+Hiring!
+Dropbox engineering and people orgs
+2021
+San Francisco
+No license specified
+Dropbox shares their progression framework covering many different disciplines including software engineers, quality assurance engineers, machine learning engineers, engineering managers and more.
+Introducing our frameworks
+Career Frameworks
+2 templates from Progression
+→
+Figma:
+Design Career Progression Framework
+Design
+Hiring!
+Noah Levin
+2020
+San Francisco
+No license specified
+There are 6 levels as a Product Designer at Figma. As we’re still a small company, there are no official titles yet. We’re all just “Designers”, just as Engineers here are all “Engineers”. 
+There are however expectations at different levels of seniority in your career that we recognize with appropriate pay scales and responsibilities. We do not yet have a separate manager track, or a communication design track yet; hierarchy is simple and flat.
+Design Career Framework
+Figma Product Design & Writing Career Levels
+2 templates from Progression
+→
+Kickstarter:
+Engineering & Data Compensation Framework
+Engineering
+Data
+Hiring!
+James Turnbull
+2015
+New York
+No license specified
+Kickstarter’s framework was revealed shortly after Rent the Runway and again takes heavy inspiration from that work. It presents as one simple document, with roles and expectations for both engineers and data scientists written as prose.
+Introduction
+Ladder
+2 templates from Progression
+→
+Rent The Runway:
+Engineering Ladder
+Engineering
+Hiring!
+Camille Fournier
+2015
+New York
+No license specified
+One of the first engineering ladders to be shared, and establishes the four pillars of “Technical Skill”, “Get Stuff Done”, “Impact”, “Communication & Leadership” that (often with wording tweaks) can be seen in many others now.
+Introduction
+The Ladder
+Text description of levels
+2 templates from Progression
+→
+Wise:
+Product career ladders
+Product
+Hiring!
+Wise team
+2021
+London
+No license specified
+Wise (formerly Transferwise) have built and published an interactive career map for their product team, including detailed salary bands across different geographies.
+One of the reasons they cite for the career map being valuable was as part of a general re-addressing of their diversity, moving their gender balance in PM from 20% to 40% female. Read all about it in their blog post, below.
+Transparent Career Maps: how we did it
+Product team levels
+8th Light:
+Career Grid
+Product Design
+Engineering
+Hiring!
+Claudia Richman
+2020
+Chicago
+No license specified
+From the team: We love it when teams challenge the expected way of building progression frameworks. The 8th Light team and Claudia have devised a new way of looking at the problem, placing technical ability and organisational impact on different axes, reflecting the diversity of interest between ‘born ICs’ and people more interested in moving into leadership or management roles, amongst other things. The write-up introduction is a useful overview of the methodology.
+Introduction
+Career Grid
+2 templates from Progression
+→
+Apptension:
+Developer Handbook
+Engineering
+Hiring!
+Patryk Ziemkowski
+2020
+Poland
+MIT License
+Apptension focuses its guide heavily on technical skillsets with granular check-boxes for individual skills in a developer toolkit. There’s some nice rationale around how to move between roles and what to do in your first couple of weeks, but it’s missing the softer skills and may be a bit ‘in the weeds’ for some.
+Developer Handbook
+2 templates from Progression
+→
+Artsy:
+Engineering Compensation Framework
+Engineering
+Hiring!
+Daniel Doubrovkine
+2016
+New York
+No license specified
+Artsy’s compensation framework is based in part on Rent the Runway’s ladder. They started building this at around 20 engineers.
+Blog post and framework
+2 templates from Progression
+→
+Attest:
+Growth framework connected to salary bands
+Engineering
+Hiring!
+Will Lewis
+2020
+London
+No license specified
+An engineering framework divided up into the three As:  attitude, abilities and actions. Succinctly written, covering the main engineering skill sets across five levels of seniority. In a blog post Will detail the process of connecting compensation to progression through the growth framework.
+Framework
+Introduction
+How we built it
+Connecting progression to compensation
+2 templates from Progression
+→
+Basecamp:
+Titles for Designers/Programmers
+Engineering
+Design
+Hiring!
+David Heinemeier Hansson
+2016
+Chicago
+No license specified
+Part of the open handbook for Basecamp. Simple, but goes also into rituals like pay and promotions.
+Handbook
+Making a Career
+Executive, Manager, and individual responsibilities
+Titles for Programmers
+Titles for Designers
+Titles for Ops
+Titles for Data Analysts
+Titles for Support
+3 templates from Progression
+→
+Blendle:
+The Matrix 🕶
+Operations
+Business Development
+Tech
+Editorial
+People Ops
+Management
+Design
+Hiring!
+Roland Grootenboer
+2019
+Netherlands
+No license specified
+One of the most in-depth open employee handbooks we’ve found, including deeply written skills across multiple roles as well as a hell of a lot more. There’s so much reading and such a lovely tone of voice to this document, thanks to the work of Roland Grootenboer and the team.
+Employee Handbook
+The Matrix 🕶
+Blinkist:
+Development Framework
+Cross-discipline
+Hiring!
+Deborah Caulet
+2022
+Berlin
+No license specified
+The framework is a compass –not a GPS
+It does not intend to be an exhaustive list of everything you do but, instead, outlines what is expected of you at your level and serves as a guide for your development. Each team is different and sometimes expectations might not apply to your role. Therefore, it’s important that you meet with your Lead to define goals and align on the expectations for your role specifically.
+Levels are cumulative
+We expect you to demonstrate the contents of previous levels in addition to your own level. For example, a C3 is expected to fulfill 100% requirements of the C1 and C2 levels.
+Company Progression Framework
+Brad Fults:
+Software Engineer Leveling & Expectations
+Engineering
+Brad Fults
+2020
+Austin
+CC BY-SA 4.0 License
+Brad put together an engineering framework (originally for his team at Under Armour) which strikes a great balance between simplicity and detail.
+Introductory Blog Post
+Leveling Matrix
+2 templates from Progression
+→
+Brandwatch:
+Engineering Career Tracks
+Engineering
+Hiring!
+Dr James Stanier
+2020
+New York, Brighton
+CC BY-SA 4.0 License
+Brandwatch’s engineering ladder is very clear, with a nice depiction of parallel tracks on the first sheet of the spreadsheet and individual sheets for IC and management.
+Tracks
+Explainer Document
+2 templates from Progression
+→
+Carta:
+Engineering levels at Carta
+Engineering
+Hiring!
+Jerry Talton
+2021
+San Francisco
+No license specified
+Carta has eight full-time engineering levels, plus a separate level for interns. These levels are similar to the ones that exist at other comparable tech companies, but they’re not identical.
+Engineering Career Framework
+2 templates from Progression
+→
+Charlie HR:
+Progression System
+Cross-discipline
+Hiring!
+Amy Cowpe
+2019
+London
+No license specified
+A matrix, job title spreadsheet and in-depth blog post detailing the process Charlie HR went through to define the career ladder across the entire organisation.
+Building a career progression system
+What went wrong the first time
+Framework (requires email)
+Chuck Groom:
+The Software Engineering Job Ladder
+Engineering
+Chuck Groom
+2018
+San Francisco
+No license specified
+A great example of a well explained Individual Contributor path. What’s particularly useful is the human examples of what happens when you don’t have a career ladder – many of which I’ve experienced too.
+Introduction and ladder
+2 templates from Progression
+→
+Clearleft:
+Professional Development Framework
+Design
+Hiring!
+Andy Thornton
+2019
+Brighton
+CC BY-SA 4.0 License
+Brighton digital agency Clearleft have long been known for not only their work but their industry events, including UX London and Leading Design. The team have been vocal about career progression for years so it’s nice to see how they imagine skills working within their team. The framework doesn’t come with ‘roles’ so much as a bunch of defined skills which people can use to create their own.
+Announcement blog post
+Rubric (Trello)
+Clearleft on Progression
+2 templates from Progression
+→
+Cleo:
+Progression at Cleo
+Engineering
+Design
+Product
+Data
+People Ops
+Hiring!
+Cleo team
+2021
+New York
+No license specified
+The progression frameworks for all teams at financial technology company Cleo AI
+Progression Framework
+2 templates from Progression
+→
+Construx:
+Professional Development Ladder
+Engineering
+QA
+Hiring!
+Steve McConnell
+2007
+San Francisco
+No license specified
+One of the very first, and very complete. The white paper, in particular, is worth a read as it provides a bunch of theory as to how they think about capability as a function of knowledge and experience. Also of note: levels run from 9-15 and there is a provided reading list for each level.
+Introduction
+Sample development plans
+White Paper
+Sample development plans
+2 templates from Progression
+→
+Coryndon Luxmoore:
+UX skills assessment
+Design
+Coryndon Luxmoore
+2016
+No license specified
+This tool includes not only team skills assessment but a template for individual assessment, to be completed by each individual employee. It also includes some clever scoring.
+Framework
+2 templates from Progression
+→
+David Spinks:
+The Community Career Map
+Community
+David Spinks
+2022
+San Francisco
+No license specified
+A free, public version of the spreadsheet David created for his team that maps out the full community career path.
+It has every level that a community pro can reach with the related competencies, skills, and experience.
+Introduction blog post
+Framework
+Twitter thread
+Devexperts:
+Grading System for Fintech Specialists
+Engineering
+Tech
+Product
+Hiring!
+Devexperts
+2023
+Munich
+CC BY-SA 4.0 License
+Devexperts’ grading system aligns roles across the company, promotes career transparency, and sets clear expectations for managers and contributors. Feel free to explore career paths in the following areas:
+Software Engineers
+Engineering Managers
+Product Managers
+Business Analysts
+Key principles of the system include:
+• Clear skill requirements for advancement
+• Recognition of project impact
+• Skill expectations tailored to each level
+• No downgrades
+• Self-promotion of achievements
+• Transparent upgrade process
+• Cumulative progression
+• Regular performance reviews
+Grades for Business Analysts
+Grades for Product Managers
+Grades for Engineering Managers
+Grades for Software Engineers
+Envato:
+Career framework
+Engineering
+Tech
+Hiring!
+Sally Sadler
+2021
+Melbourne
+No license specified
+The Envato Technology Career Framework provides clear career pathways for Envato’s technology team, aligned to industry practice, in a simple and easy to navigate way.
+Blog post
+2 templates from Progression
+→
+Envoy:
+Engineering Job Bands
+Engineering
+Data
+Hiring!
+Remi Gabillet
+2017
+San Francisco
+CC BY-SA 4.0 License
+An open-source document ladder for engineers and data scientists by the SF startup Envoy.
+Band overview
+Engineering Principles
+2 templates from Progression
+→
+Etsy:
+Engineering Career Ladder
+Engineering
+Hiring!
+Colin Shevlin
+2021
+New York
+CC BY-SA 4.0 License
+A simple career ladder and competency matrix for engineers at Etsy
+Career Ladder
+2 templates from Progression
+→
+Farewill:
+Engineering Progression Framework
+Engineering
+Hiring!
+Sally Lait
+2021
+London
+No license specified
+From the team: A set of shared expectations that we use to explain Farewill engineering at different levels of seniority. We’ve intentionally focused on a core set of examples that we think can fairly apply to any engineer at Farewill, but they’re not intended as a finite list of everything a great developer could do or be. There are many ‘shapes’ of engineers, and we’ll aim to celebrate people’s different strengths whilst also aiming for fairness and clarity through our core expectations.
+Introduction
+Frameworks
+2 templates from Progression
+→
+Financeit:
+Developer Career Path
+Engineering
+Tech
+Hiring!
+Financeit
+2022
+Toronto
+CC BY-SA 4.0 License
+Career path progression for developers and development managers at Financeit.
+Blog with link to framework pdf
+2 templates from Progression
+→
+Financial Times:
+Engineering Progression
+Engineering
+Hiring!
+Alice Bartlett
+2019
+London
+MIT License
+Still in Alpha (at the time of writing), but with its own mirosite and API(!?), British newspaper The Financial Times nods to previous work from GDS and various others with their in-depth framework for the 240+ staff in the CTO’s organisation. This is a true product, and should grow and evolve over time.
+Github repository
+Web App
+Introductory blog post
+2 templates from Progression
+→
+FirstPort:
+Engineering Progression Framework
+Engineering
+Hiring!
+FirstPort
+2022
+London & Remote
+No license specified
+FirstPort’s ladder was created to have shared expectations across the company around what we expect of engineers at different levels. It’s designed to help people in planning their career growth, to act as a communication aid between engineers and their managers, and to help folks to give appropriate feedback during reviews. It’s also used more widely, for things like assessing candidates’ seniority as part of our hiring process, and making salary offers at fair levels.
+Progression framework
+Blog post
+2 templates from Progression
+→
+Fog Creek:
+Professional Ladder
+Engineering
+Hiring!
+Joel Spolsky
+2009
+New York
+No license specified
+The legendary Joel Spolsky shared this ladder all the way back in 2009, to support his company Fog Creek (Joel went on to found Trello and Stack Overflow). He calculates career level as a function of “experience”, “scope” and “skills”.
+Ladder
+2 templates from Progression
+→
+GOV.UK:
+Digital, Data and Technology Capability Framework
+Engineering
+Design
+Data
+Research
+Content
+Product Management
+Hiring!
+Data and Technology (DDaT) Profession (UK)
+2018
+London
+Open Government Licence v3.0
+Probably the most comprehensive framework on this list in terms of number of skillsets and roles covered (38 disciplines at last count). The Digital, Data and Technology (DDaT) Profession have done a thorough job with their DDaT Capability Framework.
+Digital, Data and Technology Capability Framework
+2 templates from Progression
+→
+Gitlab:
+Engineering Career Ladders
+Engineering
+Product
+Design
+Hiring!
+Gitlab Team
+2020
+Worldwide
+CC BY-SA 4.0 License
+One of the biggest frameworks in this collection, stretching across engineering, design and many more roles, Gitlab’s dedication to documenting their people practices is admirable. Famously a remote team, the level of detail they’ve gone to is probably indicative of what’s needed to both hire and run a global team asynchronously at scale.
+Job Families
+2 templates from Progression
+→
+Gorgias:
+Product Manager Career Matrix
+Product
+Hiring!
+Gorgias
+2022
+Global, fully distributed. We have hubs in many cities, like San Francisco and Paris.
+CC BY-SA 4.0 License
+Product Manager Global Career Matrix for Individual Contributors
+Individual contributor matrix
+Introduction
+Gusto:
+Framework for PMs
+Product Management
+Hiring!
+Eric Schuchman
+2018
+San Francisco
+No license specified
+A product management framework and accompanying blog post. Unfortunately some squinting and re-typing will be required as you only get a screenshot of the framework. But there’s some lovely rationale as to why you should build one yourself!
+Blog post and framework
+Healx:
+Career Growth Framework
+Data
+Operations
+Tech
+Engineering
+Research
+Hiring!
+Healx
+2022
+Cambridge
+No license specified
+Individual contributor pathways across Engineering, Data, and R&D within Tech at Healx.
+Blog explanation of framework
+Framework
+2 templates from Progression
+→
+Intent Media:
+Tech ladder
+Engineering
+Hiring!
+Mike Roberts
+2016
+New York
+No license specified
+Inspired again by Rent the Runway’s work, Intent Media created their ladder to answer the questions of (a) what expectations everyone had of each other’s work; (b) what opportunities people had to grow within the company; and (c) what areas of their work they could focus on in order to best move into those new opportunities. There’s a great description at the start of the PDF giving more context as to the company size which necessitated this.
+Introduction
+Ladders
+2 templates from Progression
+→
+Inviqa:
+Engineering Progression Framework
+Engineering
+Hiring!
+Pete Ward
+2020
+London, Brighton
+CC BY-SA 4.0 License
+Inviqa’s ladder is nicely built into its own branded site and includes levels from 2 (engineer 1) to 6 (Principal Engineer) across 5 different areas of skill. There’s also a decent amount of supporting documentation to get an idea of their process.
+Framework
+2 templates from Progression
+→
+Jorge Fioranelli:
+Engineering Ladders
+Engineering
+Jorge Fioranelli
+2020
+Apache 2.0 License
+A fairly lightweight framework showing IC and leadership tracks, Jorge focuses on five pillars for engineers: 
+Technology: knowledge of the tech stack and tools
+System: level of ownership of the system(s)
+People: relationship with the team(s)
+Process: level of engagement with the development process
+Influence: scope of influence of the position.
+engineeringladders.com
+Github repo
+2 templates from Progression
+→
+Khan Academy:
+Engineering Career Development
+Engineering
+Hiring!
+Khan Academy Team
+2016
+San Francisco
+No license specified
+A document-style framework with explanatory blog post for engineers, aiming to be fair, understood, transparent and competitive. They’ve broken career development down into Skills, Scope, and Experience.
+Blog post
+Levels document
+2 templates from Progression
+→
+Leapsome:
+Career Progression Framework Template
+Cross-discipline
+Generic
+Hiring!
+Jonas Boeckmann
+2022
+Berlin, New York
+No license specified
+This best-practice development framework is an excellent basis for transparency and career growth within your company’s diverse teams.
+Career Framework
+Liefery:
+IT career ladder
+Engineering
+Product Management
+Hiring!
+Liefery Team
+2020
+Berlin
+No license specified
+A fairly simple IC-only engineering and product ladder with some nice written definitions. They also openly share salary bands (though internally within the team - the link is private).
+Career ladder
+2 templates from Progression
+→
+Loblaw Digital:
+UX Skills Matrix
+Product Design
+User Research
+Management
+Research
+Hiring!
+Liam Thurston
+2021
+Toronto, Canada.
+No license specified
+This Skills Matrix is a transparent career development framework that all UX team members use to chart and measure their growth with their managers at Loblaw Digital, where our teams build products for Canada’s biggest retailer. The matrix includes shared and unique soft and hard skills across Product Design and Mixed Methods UX Research.
+Progression at Loblaw Digital
+2 templates from Progression
+→
+Lyst:
+Design and Research ladder
+Design
+Research
+Hiring!
+Tom Petty
+2017
+London
+No license specified
+A simple framework for both designers and researchers from the UK fashion startup.
+Introduction
+Marshmallow:
+Data Science progression framework
+Data
+BI & Data
+Hiring!
+Paul Elliott
+2021
+London
+No license specified
+A progression framework for Data Science at Marshmallow.
+Blog post
+Data Science framework
+Meetup:
+Engineering Ladders
+Engineering
+Hiring!
+Lara Hogan
+2018
+San Francisco
+No license specified
+Meetup just released their engineering ladders, alongside a great writeup of how they came to be. What’s interesting here is the definition of a ‘product engineering lead’ - a role not associated with seniority (it isn’t a title). Once again we see two paths, ‘maker’ and ‘manager’. Levels go from 2 to 8 (with management roles from 5+). These align with wider company seniority levels - the holy grail of growth frameworks.
+Introduction
+Engineering Roles
+2 templates from Progression
+→
+Money Supermarket Group:
+Engineering Career Framework
+Tech
+Engineering
+QA
+Hiring!
+Money Supermarket Group Team
+2022
+Manchester
+No license specified
+The definition of behaviours and expectations for our engineering community
+Career framework
+2 templates from Progression
+→
+Ockam:
+Level Ladder
+Engineering
+Product
+Management
+Product Management
+Hiring!
+Matthew Gregory
+2020
+Remote-First
+GNU Free Documentation License
+From the author: At Ockam we
+value our High Performance Team
+. It is the responsibility of The Team to provide an environment where every individual is empowered to be world-class in their role and to enable individuals to achieve more than they could dream possible for themselves. This level guide helps us to align expectations and to create a framework where we have a common language to describe growth paths.
+Ladders
+2 templates from Progression
+→
+Ope:
+Product Designer Competency Matrix
+Design
+Ope at Paystack
+2016
+No license specified
+A framework fairly heavy on the front end development side. Split into four seniority levels for ‘Generalist designers’.
+Framework
+Patreon:
+Levels Framework
+Engineering
+Hiring!
+Unknown
+2016
+San Francisco
+No license specified
+An interactive levels framework for Individual Contributor engineers.
+Blog post
+Interactive levels framework
+2 templates from Progression
+→
+Peter Merholz:
+Design Team Levels Framework
+Design
+Peter Merholz
+2016
+San Francisco
+No license specified
+One of the originals, by Peter Merholz, author of Org Design for Design Orgs. Does an excellent job of illustrating parallel Individual Contributor and Manager paths.
+Introducing the levels framework
+Original Snagajob Framework
+Version adapted for download
+Planet Argon:
+Career Advancement Framework
+Engineering
+Hiring!
+Planet Argon
+2024
+Portland, Oregon
+No license specified
+At Planet Argon, our Career Progression Framework is designed to support the professional growth and satisfaction of our engineering team. This framework includes:
+Detailed Role Descriptions that serve as a foundation for performance evaluations, advancement planning, and recruitment
+Our Developer Tier Matrix, which provides a clear outline of the skills, expectations, and opportunities expected at each tier; and,
+Our Scheduled Advancement Process, which ensures that each developer has a clear understanding of the steps needed for progression, supported by regular assessments, planning sessions, and milestones that recognize and celebrate their achievements.
+Together, these elements create a comprehensive framework that fosters a supportive and growth-oriented environment for every Planet Argon developer!
+Career ladder
+Pleo:
+Engineering Career Pathways
+Engineering
+Management
+Tech
+Hiring!
+Pleo
+2022
+Copenhagen
+CC BY-SA 4.0 License
+This outlines the career pathways within engineering at Pleo. We take a principle-first approach and design something that offers clarity and flexibility so that people can have clear guidelines while being able to design a role that best fits for them.
+Introduction and framework
+Walk through
+2 templates from Progression
+→
+Progression:
+Career Growth platform
+Design
+User Research
+Content Writing
+BI & Data
+Engineering
+Marketing
+Product
+Operations
+Tech
+People Ops
+Product Management
+Brand Design
+Sales
+Finance
+Product Design
+Data
+Hiring!
+Progression Team
+2018
+London
+No license specified
+Build unlimited frameworks using our free templates, add your team and measure your careers over time
+Homepage
+Background to the project
+Free templates
+2 templates from Progression
+→
+Proton AI:
+Engineering Career Ladder
+Tech
+Management
+Data
+BI & Data
+Engineering
+Hiring!
+Joseph Kibe
+2021
+Boston, MA
+CC BY-SA 4.0 License
+Proton AI’s internal ladder for both individual contributors and leadership track people on the engineering side of the organization.
+Framework
+2 templates from Progression
+→
+Red Hat:
+Open Decision Framework
+Engineering
+Design
+Marketing
+Product
+Operations
+Business Development
+People Ops
+Management
+Cross-discipline
+Editorial
+Hiring!
+Red Hat People team
+2016
+Raleigh, NC
+CC BY-SA 4.0 License
+The Open Decision Framework contains the collective wisdom of Red Hatters, compiled into a flexible framework that helps decision makers and leaders seek out diverse perspectives and collaborate across teams and geographic areas, to make better decisions.
+Open Decision Framework
+Blog post introduction
+2 templates from Progression
+→
+Redgate Software:
+Progression Framework
+Engineering
+Design
+Product Design
+Management
+Delivery
+Hiring!
+Gareth Bragg
+2020
+Cambridge, UK
+CC BY-SA 4.0 License
+Redgate takes personal development seriously. We invest heavily in development opportunities and support individuals with Personal Development Plans, growing both individuals and teams.
+Our Progression Framework helps our people grow more effectively. Giving a common sense of direction, along with visibility of different roles, it helps people to understand how to develop themselves while helping us grow as a company.
+Progression Framework
+Intro
+The path beyond skills maps
+2 templates from Progression
+→
+Sarah Drasner:
+Career Ladders for Tech
+Engineering
+Sarah Drasner
+2021
+SF
+MIT License
+Sarah has open-sourced career ladders that she developed in her role as an engineering manager and VP. These ladders include engineering, developer experience and also technical writing (for documentation) - something we haven’t seen elsewhere to date.
+She describes the levels as such:
+Roles up to and including Senior, ladders are constructed around becoming the best at what one does that one might personally be.
+At Staff level, the career expands to help others be successful with what you do and know, and scale yourself.
+At Principal and beyond, you are trying to help others be the best that they can be, removing yourself and meeting others where they are.
+Twitter thread
+Career ladders microsite
+Blog post
+2 templates from Progression
+→
+Songkick:
+Growth Framework
+Engineering
+Hiring!
+Aaron Randall
+2016
+London
+No license specified
+Songkick’s engineering framework is a really nicely designed PDF with seven different areas of competency: Leadership, Mentorship, Technical skills, Communication, Emotional intelligence, Delivery and Business knowledge. Some good reading presented in a clear and legible way. Because each level is on a single page, each employee could have it stuck to his or her space as a reminder.
+Blog post
+Introduction and framework (PDF)
+2 templates from Progression
+→
+Spotify:
+Technical Career Path
+Engineering
+Hiring!
+Kevin Goldsmith
+2016
+Stockholm
+No license specified
+Not a framework per se, but an in depth look at the process and learnings from creating a career path at Spotify.
+The Journey (part 2 of 3: Career Steps)
+Scaling Agile at Spotify (PDF)
+2 templates from Progression
+→
+Square:
+Growth framework for Engineers
+Engineering
+Hiring!
+Michael White and the square team
+2019
+San Francisco
+No license specified
+Another framework for engineers and managers from Square. Again the rubric itself is fairly light on detail, but the accompanying blog post outlines nicely what the company expects and how it administers the framework.
+Introduction
+Ladder
+2 templates from Progression
+→
+Superside:
+Career Progression Framework
+Engineering
+Hiring!
+Superside
+2022
+Remote
+MIT License
+Engineering Dual Career Ladder with details for IC track for a remote company.
+Progression framework
+2 templates from Progression
+→
+Urban Airship:
+Tech ladder
+Engineering
+Operations
+Hiring!
+Ashish Warty
+2017
+New York
+No license specified
+Urban Airship’s simple ladder for engineering and operations folk dates back as far as 2013, though it was updated in 2017. It’s been forked by vaious other companies during its lifetime.
+Introduction
+Engineering
+Operations
+Customer Engineering
+2 templates from Progression
+→
+WeTransfer:
+Engineering Career Framework
+Engineering
+Management
+Tech
+Hiring!
+WeTransfer
+2020
+Amsterdam, London, New York, Los Angeles
+The Hippocratic License
+Career Framework for all product engineers at WeTransfer in terms of engineering roles, career paths, and expected skill sets within those roles.
+Engineering Career Framework
+How to build an engineering career framework
+Creating an environment for engineers to thrive
+Product Engineering career framework
+2 templates from Progression
+→
+Zendesk:
+Career Architectures for Design Teams
+Design
+Brand Design
+Ryan Donahue
+2018
+San Francisco
+No license specified
+VP Global Design at Zendesk Ryan shares the frameworks his team recently rolled out for Designers, Design Managers and brand designers. Ten levels of seniority (I particularly like ‘Distinguished Product Designer’ as the most senior IC role) with parallel IC and Manager tracks.
+Introduction
+IC Career path (PDF)
+Manager Career path (PDF)
+Brand Designer Career path (PDF)
+accuRx:
+Engineering Progression Framework
+Engineering
+Hiring!
+AccuRx team
+2021
+London
+No license specified
+accuRx have based their progression framework around their company-wide values.
+Engineering Frameworks
+Blog post
+Product Management framework
+2 templates from Progression
+→
+dxw:
+Career Progression Framework
+Design
+Hiring!
+Gaz Aston
+2020
+London
+No license specified
+dxw have written a great accompanying blog post for their design ladder, explaining (amongst other things) the importance of parallel tracks and even how team members use the spreadsheets as part of meetings.
+Also interesting to note that this framework is one of the few that separate skill levels and seniority levels (though for the most part senior designers have to top out most skills aside from leadership).
+Blog post
+Framework
+2 templates from Progression
+→
+Level up your team
+(or yourself!)
+Join the completely non-spammy progression.fyi mailing list
+Further reading
+A researcher’s journey, a blog post by Dave Hora at Plangrid.
+The Dreyfus Model of skills acquisition on Wikipedia.
+A Hacker News discussion on Square’s engineering progression framework. Interesting reading to get a sense of the pitfalls when rolling out this kind of tool.
+Designing and Driving UX careers, a super useful talk by Ian Swinson.
+Shapes of UX designer, a case study by Jason Mesut.
+levels.fyi, a fun tool to compare job levels at major tech companies.
+Developing levels on a design team, by Mia Blume of The Design Dept.
+Evaluating Design at Twitter by Mike Davidson
+How we built the Figma Design Team, by Noah Levin.
+Org Design for Design Orgs, a book by Peter Merholz and Kristin Skinner
+The Radford Methodology of global levelling by Radford.
+Dual Track Design at Athena Health, a case study by Scott Mackie.
+Designing a Better Career Path for Designers, a Facebook-centric look at how designers grow from Siva Saberetnam.
+Another good list of frameworks by Benjamin Reitzammer.
+The Design Career Journey, a talk about progression frameworks by Todd Zaki Warfel.
+Designations, levels and calibrations, one of many excellent posts on the blog of Will Larson, engineering manager and author of An Elegant Puzzle.
+Spider diagram of learning paths for engineers, by Will Stern.
+The Software Engineering Job Ladder, by Chuck Groom
+An Engineering Team where Everybody is a Leader, a great long read by Gergely Orosz
+A great 7 step guide to building an engineering framework, by Justin Cowperthwaite of CircleCI
+Monthly Leveling for the Win: How and why I do monthly leveling with my design team. A detailed look at how to develop a monthly levelling review cadence by Leslie Yang at Opentable
+Areas to think about when introducing a progression framework
+What Makes For a Good Product Manager? A good long read on the different ways to cut the a difficult role to pin down.
+Sachin, founder of Notejoy, breaks down product management career ladders across 8 different well-known companies
+Melinda Seckington of Futurelearn in an entertaining talk about levelling up engineers and parallels with computer games.
+Level up your team
+(or yourself!)
+Join the completely non-spammy progression.fyi mailing list
+Elsewhere
+Progression (the product)
+Progression Podcast
+Blog
+Get in touch
+hello@progression.co
+@progressionhq
+© Make and Grow Limited
+. All rights reserved. Progression® is a registered trade mark of Make and Grow Limited

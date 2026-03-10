@@ -1,0 +1,70 @@
+Back to blog search
+Back to blog search
+Jul 10 2020
+Software Engineering in APAC: Building for Rapid Growth
+By Meta Careers
+Share to LinkedIn
+Share to Facebook
+Share to Threads
+Share to Twitter
+Share to Copy
+Link copied
+This post was published before the Facebook company became Meta. For the most recent Meta Careers blog posts, visit our
+blog homepage
+.
+The Facebook company office in Singapore is home to a diverse community of engineers and their cross functional partners working on impactful products that will shape the future of how people and businesses connect in the Asia Pacific (APAC) region. In this story, we speak to two software engineers and a product design manager about the unique problems they’re solving in the region, opportunities for growth and impact, and the engineering culture in the Singapore office. Learn how they are building products through open communication, collaboration, and sharing their diverse perspectives.
+Building a foundation for growth
+“I started at Facebook nine years ago as an intern. At the time, I was immediately surprised by how much autonomy I was given and the impact I could drive right away. During a hackathon, I built a feature that enabled people to see language translations for Facebook posts they didn’t understand. Within a few months, we shipped the feature globally, making it easier for people around the world to communicate with each other regardless of the language they speak. Having the opportunity to build products that change people’s lives, and being able to do it so quickly, is what keeps me here.
+Team members from the APAC Business and Advertiser Growth team and Business Integrity Tooling team
+Since joining Facebook, I’ve held various software engineering roles. A little over a year ago, I moved to Singapore to take on a new challenge: growing the Engineering organization in our Singapore office. Today, I oversee the APAC Business and Advertiser Growth team, as well as the Business Integrity Tooling team. I spend a lot of time supporting our recruiting efforts and cultivating our culture. We’re building our team and products from scratch, which feels a lot like a startup. We work on meaningful projects that deliver real value for people and businesses in APAC, and everyone is encouraged to share their ideas.
+To be successful at Facebook, you have to be curious and willing to rethink your current views. This calls for humility and recognizing where you can improve. I always remind my team that they aren't tied to specific tasks, and I encourage them to think creatively to help shape the products we're building. Being willing to pivot if needed and change your perspective makes someone a good engineer.”—Hao X., Engineering Site Lead
+Leading with a local perspective
+“I may not be an extrovert, but I strongly believe in building community. This is one of the reasons I work at Facebook. Our company culture is based on community and we prioritize collaboration. As a product design manager in Singapore, I lead with community in mind. I manage product designers within my team and offer cross-functional support to others, such as content strategists and user researchers. Outside of work, I teach design thinking modules as a part-time lecturer at National University of Singapore, and I’m actively involved with design meetups within our local community.
+Utilising Facebook’s powerful technologies and data capability, we build a lot of products in Singapore with the mindset of APAC first before it goes global. I’m on the Business Products and Growth team, where we create tools and platforms that help businesses run ads, create commerce opportunities, and maintain business integrity while using Facebook tools and services. Our challenges are unique, as the APAC region is diverse and fragmented as compared to other parts of the world. A large portion of small businesses’ growth is projected to come from emerging markets in our region, hence we are creating solutions contextually from a local perspective instead of applying a single tool that works for all. Our product development process kicks off with a solid understanding of the market we serve.
+The APAC Product team at a design sprint workshop in 2019.
+Though Facebook is a global company, my team in Singapore feels like a startup. We have the right systems and support in place, and I know I can reach out to our large internal design community anytime. Everyone I work with, whether an individual contributor or leader, is open to new ideas and collaboration. This gives us all a sense of belonging. Working with such a talented team has challenged me to unlearn and relearn throughout my career, helping me become a more mature, thoughtful, and caring design leader.
+My team appreciates two values, diversity and uniqueness. Each of us has different ethnic backgrounds and diverse perspectives to share. I say we’re like the popular local dish Rojak. Just like the mix of authentic Singaporean flavors, we’re an eclectic bunch of people who come together as one incredibly warm design family. —Julee L., Product Design Manager
+Engineering in a growing technology hub
+“My first job out of university eight years ago was with Facebook and I’ve never looked back since. I’m currently part of the Business Integrity Tooling System team and we focus on building trustworthy connections between businesses and people. While the broader Business Integrity team builds products that identify less optimal experiences—such as scams or misinformation—through machine learning, my team complements that by building products that make it easier for human reviewers to accurately identify misinformation or bad content from businesses on Facebook. We have a massive responsibility—one poor experience can cause people to lose trust. Our value is especially clear during this challenging time, as people are more likely to connect with businesses virtually during the pandemic.
+I moved to Singapore last year because I saw a huge opportunity for growth. Each day, I get to solve interesting problems while helping to build our new team in Singapore. I’m deeply involved in the hiring process and passionate about shaping our culture. We have full autonomy to make our environment what we want it to be.
+Beyond work, my team has a lot of fun together. We regularly play casual foosball games that can turn competitive, along with board games like Codenames, Pictionary, and Counter Strike. A lot of these have become more popular since we started working from home, and playing together has helped us laugh and bond. Working remotely was a challenge at first, but having a team that works hard and plays hard has made all the difference.” —Ashish Y., Software Engineering Manager
+Join our engineering teams in Singapore!
+As the engineering hub for the APAC region, Facebook’s Singapore office provides exciting opportunities for engineers to shape their career paths, tackle unique challenges, and build new products from the ground up.
+Click here to learn more about our opportunities!
+Learn more about other engineering opportunities in Singapore here:
+Ensuring Products are Built for Scale
+Driving Impact with Partners
+Join us and help us build for the future!
+Stay Connected!
+Learn about life at Facebook on Instagram (
+@FacebookLife
+).
+Like our
+Facebook Careers Talent Community Page
+for the latest updates.
+share-external
+Related Posts
+META TECH PODCAST
+CSS at Scale with Style X
+What is StyleX? Software engineers Melissa Liu & Pascal Hartig discuss CSS at scale, component styling, and performance optimization for developers.
+Read more
+META TECH PODCAST
+CSS at Scale with Style X
+What is StyleX? Software engineers Melissa Liu & Pascal Hartig discuss CSS at scale, component styling, and performance optimization for developers.
+Read more
+META CAREERS
+Inside search AI: How LLMs are transforming search at Meta
+Learn how Chen Zhou, tech lead manager for Facebook search, and his team are using LLMs to create more relevant and personalized search experiences.
+Read more
+META CAREERS
+Inside search AI: How LLMs are transforming search at Meta
+Learn how Chen Zhou, tech lead manager for Facebook search, and his team are using LLMs to create more relevant and personalized search experiences.
+Read more
+META CAREERS
+Inside MTIA: Insights from a Custom Silicon Sourcing Manager
+Fangran Xu, custom silicon sourcing manager, shares the key enablers behind the success of MTIA — our custom-built silicon chips that support Meta technologies.
+Read more
+META CAREERS
+Inside MTIA: Insights from a Custom Silicon Sourcing Manager
+Fangran Xu, custom silicon sourcing manager, shares the key enablers behind the success of MTIA — our custom-built silicon chips that support Meta technologies.
+Read more

@@ -1,0 +1,168 @@
+Mastering Behavioral Interviews
+Subscribe
+Sign in
+Using the CARL Method to Structure Your Behavioral Responses
+Some simple scaffolding for the verbal construction of interview responses
+Austen McDonald
+Jan 20, 2025
+44
+6
+1
+Share
+🙋‍♂️ Hi there, I’m Austen, a former Senior Engineering Manager and Hiring Committee Chair at Meta where I did over 1,000 interviews and trained 100s of interviewers, setting interview structures and picking questions.
+Subscribe to Mastering the Behavioral Interview
+to get tips and resources on preparing for the most underrated SWE interview type.
+This is the first post in my Behavioral Basics series, designed to give newcomers a quick ramp to effective Behavioral responses.
+Behavioral interviews are basically “Tell me about at time…” interviews, with interviewers leveraging the fact that past performance is a predictor of future results—at least with people, if not with stocks.
+Hiring managers are using this interview format to understand and validate how you’ve “behaved” in the past, that is what
+actions
+you’ve taken, and the hiring decision is a prediction of whether you’ll be able to perform the actions required for the role.
+With that in mind, how should you think about responding to “Tell me about a time…” questions?
+STAR: the most common approach
+If you’ve read anything about Behavioral interviews, you’ve come across the STAR method as a solution for how to structure Behavioral responses:
+Situation:
+The background and context of the story—what was happening, who was involved, and why it mattered.
+Task:
+Your specific responsibility or challenge within that situation—what you needed to accomplish or resolve.
+Action:
+The concrete steps you took to address the task—what you did, how you did it, and why you chose that approach.
+Result:
+The outcome of your actions—what changed, what impact you made on the business.
+Developed by
+Development Dimensions International
+in the 1970s, having a fixed structure like this helps you tell a story with a compelling arc without missing any key pieces interviewers need to evaluate you. An easy-to-remember shorthand like “STAR” makes it possible for you to structure your stories on the fly, with just a little practice in advance.
+This isn’t a bad method. It creates a story arc, with a clear beginning, establishing context, a middle with actions taken within that context, and an end, with what happened to the project after those actions.
+If you’re armed with this format, you will perform much better than someone without any preparation at all.
+But this format has a some drawbacks, especially for senior candidates, and there’s a better one.
+Why CARL is better than STAR
+STAR has at least two major drawbacks I see, once it’s put into practice by most candidates:
+It leaves out any form of reflection on your experiences, which is a way for the interviewers to assess your scope—more senior people learn from their mistakes and extract wisdom to be reused on future projects.
+Candidates get too caught up in differentiating between Situation and Task, which are often convolved together in large projects, and they waste prep time trying to tease apart the two.
+Instead of STAR, there is another format that solves these problems which I prefer, called CARL:
+Context:
+Similar to Situation—the overall context of what was happening, including how you were involved.
+Action:
+[same] The concrete steps you took to address the task—what you did, how you did it, and why you chose that approach.
+Result:
+[same] The outcome of your actions—what changed, what impact you made on the business.
+Learnings:
+What you learned or your reflections on the choices you made.
+In CARL, Actions are still the center piece but Context can expand or contract, centering around getting the listener the minimum amount of setup so they can understand the Actions and their motivations.
+Learnings are added as a more natural end of the story—think Aesop’s fables. And like we mentioned when calling out the challenge with STAR, they provide you a platform for expressing your depth of wisdom, showing that you are self-aware and seek to grow from your experiences.
+Try the CARL method the next time you’re preparing a Behavioral response.
+Pro tip:
+Avoid the “Fairy Tale Ending Effect” by appropriately combining Results and Learnings: rarely do projects end with great business results, no tradeoffs, and everyone being happy. Probably something didn’t go as planned (part of the Results) and you can learn from it next time (Learnings).
+Now that you understand the basics, let’s go over some finer points…
+Action should be plural
+In reality, all but the most trivial projects require a number of Actions to be performed before the Result can be achieved. Interviewers are looking for you to list as many relevant actions as possible. Again, they are assessing whether you can repeat your Results in their organization by repeating your Actions.
+Examples of actions to include:
+Designing
+Aligning
+Communicating
+Implementing
+Iterating
+Testing
+Debugging
+Releasing
+…
+even Thinking and Deciding are actions.
+Listing and sharing about these are the keys to Behavioral interviews—they are the behaviors the interview is named after. Through sharing them, the interviewer is getting a sense of your skills and your scope.
+Results vary based on the type of question
+Pretty much all “Tell me about a time…” questions can be adequately addressed using the CARL format, but be aware that Results can be more than simply the business outcomes from a project:
+For conflict stories, the Result should include what happened with the project/task, but also what happened in the relationship. Resolving the conflict but leaving the combatants in a poor working relationship is a sign of weak conflict resolution skills.
+For mentoring stories, the Result includes how the mentee grew—were they able to handle future tasks in a better way, were they promoted?
+For communication stories, reflect on whether your chosen method, timing, and audience was effective.
+Avoid being overly rigid
+Ultimately this CARL response format is just a guide and like any other framework, you should seek to understand why it works then employ those
+principles
+instead of blindly following the format.
+Following a method like STAR or CARL gives your story a natural arc, which is pleasing and engaging to the listener, but sometimes the question format lends itself to different response structures:
+For example, “Tell me about your experience mentoring engineers,” is drifting away from a “Tell me about a time…” format and an ideal response would get straight to the point:
+✅ I’ve mentored engineers in three different contexts:
+Directly as a people manager,
+As a peer, but being assigned as a long-term mentor, and
+In an ad-hoc way, to peers I’ve engaged with.
+In each of these cases, I’ve primarily focused first on building rapport and trust through vulnerability and an interest in their personal and professional lives. Then, I understand where I can add value via something akin to the Socratic method—I’ve found this works best to defuse resistance, especially in senior folks who have a lot of personal value tied up in their performance.
+With this kind of approach, I’ve promoted a number of people to staff-level positions, made some crucial adjustments to the trajectory of peers’ careers, and improved the team culture around me, while maintaining trust.
+For example, …
+This is direct and front-loads the value delivered, then backs it up with examples—you could almost describe it as RLCA.
+The point is that once you practice CARL a number of times, be flexible how you respond to interviewers’ questions based on what signal they’re trying to acquire from you.
+Pro tip:
+Don’t mention the names of the parts in your response. This just sounds silly and over-rehearsed.
+❌ And the Actions I took were…
+The Results were…
+A big project has many CARLs
+If you’re talking about a project of meaningful size, you’ll find it helpful to structure your response not simply as CARL but by bucketing or grouping your Actions around themes, then signposting those themes throughout your response.
+For example, suppose you completed a large backend refactor that involved the following actions:
+Identifying
+the need for the refactor, based on bugs and slow development speed.
+Aligning
+on a design approach after resolving a conflict with the other senior engineer on the team over architecture and scope.
+Implementing
+the refactor, including having to build your own custom messaging queue.
+Rolling out the changes
+progressively to gradually shift traffic to the new system, including having to fight some unexpected bugs due to blind spots in the design.
+Telling this story from start to finish using CARL is doable, but it might get a little long, especially if you were to include enough detail about the conflict and the technical choices to really show your skills in those areas.
+To help the interviewer stay focused on your longer story while ensuring they extract the necessary signal, consider bucketing these Actions by theme and providing a surrounding Context, Results, and Learnings for the Actions themselves:
+✅ [introductory Context on the project as a whole]
+I ended up driving an end-to-end refactoring of this system and there were three parts I think were particularly interesting about it:
+How I identified and resolved some conflicts with others around the need for the refactor.
+The technical difficulties I encountered when I took on the implementation.
+How we structured the rollout to ensure correctness.
+[Bucket #1 Context] Since I joined the team about 3 months before this, I noticed the burdensome oncall experience we all endured, much worse than my previous teams. Likewise, the last feature we added took twice as long as expected and had many more bugs than we expected.
+[Bucket #1 Action(s)] I analyzed the bugs from the last two oncall rotations and cross-checked that with the parts of the codebase that took so long to modify and sure enough, it’s all because the backend was pretty much spaghetti code, with feature upon feature added over many years without thought to coupling or testability.
+I decided this needed a complete refactor but when I discussed this with the team in a meeting, the senior engineer was pretty adamant about keeping the team focused on the feature work. Later I went and showed him the analysis I did and that helped him see the need for the refactor but we negotiated back and forth over the amount of time to spend on the refactoring work and what some checkpoints might be.
+Once we aligned on that, I went about putting together a design to present to the team…
+[Bucket #1 Result] So after all this, I got the team aligned on spending the time to do the refactor and on the overall technical approach.
+[Bucket #1 Learnings] This methodical process of collecting data and convincing key people on the team, really paid off in not having the project questioned later when we ran into some bumps.
+[Bucket #2 Context] So that brought us to the second part of the project, the technical implementation…
+This kind of signposting and bucketing not only keeps the interviewer engaged during a long story while still communicating a lot of actions you took—similar to how changing slides in a presentation helps keep the audience engaged—it also shows that you have an organized approach to communication.
+Long stories can benefit from “bucketing” related actions and adding Context, Results, and Learnings specific to those buckets.
+Go forth and practice your CARLs
+I hope you got some insights into how best to structure the typical response to a Behavioral interview question.
+To help you prepare your stories, take a look at the
+Project Worksheet template
+. It’s structured in a way to help you identify each key part of a CARL story.
+Thanks for reading Mastering the Behavioral Interview! Subscribe for free to receive more on prepping for SWE interviews.
+Subscribe
+44
+6
+1
+Share
+Discussion about this post
+Comments
+Restacks
+Diego Turco
+Aug 1, 2025
+Liked by Austen McDonald
+I like the learnings section idea. While you don't need to follow the STAR or CARL methods strictly, understanding them can significantly improve your storytelling skills.
+Reply
+Share
+1 reply by Austen McDonald
+Priyanka chopra
+Feb 20, 2025
+I tried to follow this format during my recent behavioral rounds at meta. 2 minutes in the interviewer interrupted me saying "I want situation task action result". Guess few formats won't go away.
+Reply
+Share
+3 replies by Austen McDonald and others
+4 more comments...
+Top
+Latest
+Discussions
+No posts
+Ready for more?
+Subscribe
+© 2026 Austen McDonald
+·
+Privacy
+∙
+Terms
+∙
+Collection notice
+Start your Substack
+Get the app
+Substack
+is the home for great culture
+This site requires JavaScript to run correctly. Please
+turn on JavaScript
+or unblock scripts

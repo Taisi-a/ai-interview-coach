@@ -1,0 +1,112 @@
+Mastering Behavioral Interviews
+Subscribe
+Sign in
+Thinking Defensively in Behavioral Interviews
+Avoiding red flags from wary interviewers
+Austen McDonald
+Jul 30, 2025
+21
+Share
+This is a section from my upcoming book,
+Mastering Behavioral Interviews
+, which
+gives you the coaching and tools to get the roles that matter most in tech.
+Want to get early access to the book and follow along with the writing process? All you have to do is
+subscribe to the substack
+if you’re not already!
+Behavioral interviewers seek to look inside you as a person, necessarily making a subjective judgment. With only 45 to 60 minutes of conversation, it will be a hasty judgment—reading between the lines and jumping to conclusions almost required. This isn’t unfair; it’s the nature of the process. Interviewers are often senior employees who’ve seen their share of hiring mistakes, making them naturally cautious. For leadership roles, this wariness intensifies since hiring a problematic manager can have cascading effects across the organization.
+Even when your actions weren’t “wrong,” you can still leave yourself open to uncharitable interpretations. Any place your stories don’t align with the archetypal Builder from Part 1 [where we discuss the Silicon Valley myths that influence tech companies] or that might reveal weaknesses in a signal area, creates space for doubt. Interviewers fill gaps in your narrative with assumptions and those assumptions may not favor you.
+Thanks for reading Mastering Behavioral Interviews. Share this with someone (especially a senior leader) who’s prepping for interviews.
+Share
+Here are some examples:
+❌
+[As a Mid-Level Engineer] I came to the sprint meeting and the manager assigned me this ticket...
+You aren’t demonstrating strong
+Ownership
+or interest in the business outcomes, delivering more junior-level signal and not embodying the
+Lone Hacker
+myth.
+❌
+[As a Senior Engineer] The codebase lacked test coverage so it took me a while to put together the changes for this feature...
+❌
+[As a Product Manager] The executive didn’t have any visibility into this project so it was under-resourced during the whole of its lifecycle...
+You’re admitting that you notice pervasive issues around you but don’t seek to remedy them, failing to embody the
+Lone Hacker
+,
+Change the World
+,
+Embrace Conflict
+myths.
+❌
+[As a Product Manager] The stakeholders had different opinions about the feature scope, so we scheduled several alignment meetings to figure out the direction...
+Rather than driving decision-making, you’re letting ambiguity persist through multiple meetings, weak on handling
+Ambiguity
+and embodying the
+Out of the Garage
+and
+Lone Hacker
+myths.
+❌
+[As an Engineering Manager] The team documented the API changes in our internal wiki, but some teams still had integration issues...
+You’re treating communication as a one-way broadcast rather than ensuring understanding, weak on
+Communication
+and the
+Embrace Conflict
+myth of proactive problem-solving.
+These examples aren’t necessarily “wrong” actions but you can see how, absent other framing, they can be interpreted negatively. In this environment you need to think defensively, proactively addressing concerns and framing stories carefully.
+Becoming Aware of Weak Story Components
+It’s hard to act defensively when you’re not sure what to defend against. Here are some tips in identifying weak spots both before and during an interview:
+Leverage mock interviewers:
+It can be challenging to spot the weaknesses in your own stories. A professional interviewer in particular can point them out for you.
+Review your stories for negative signal:
+Spend some time journaling about potential weaknesses in your stories. You’re probably already done that when you looked for potential follow up questions in [Step X].
+Be suspicious of follow up questions:
+A follow up question is frequently aimed a solidifying the interviewer’s understanding of a potential weakness. Pause for a moment and see if there’s an uncharitable reason why they may have asked you that.
+Counteracting Negative Interpretations
+Elide difficult parts of stories:
+I never advocate for lying but not sharing or slightly avoiding problematic parts is fine. For example, instead of offering up the fact that your manager assigned you the ticket, say this:
+✅
+[As a Mid-Level Engineer] I came out of the sprint meeting with this high impact task...
+Proactively frame ones you can’t elide:
+Explaining the rationale behind what you did often helps avoid uncharitable conclusions. For example, clarifying why so many meetings were required:
+✅
+[As a Product Manager] The stakeholders had different opinions about the feature scope, so we scheduled several alignment meetings to figure out the direction. We strategized extensively as a team and came in with a clear position, but the executives were at odds about whether the feature should prioritize enterprise customers or consumer growth.
+I realized this wasn’t a product decision but a strategic business question, so I prepared data on user engagement and revenue impact from both segments, then facilitated a decision-making session where we could resolve the strategic conflict with concrete evidence rather than just opinions.
+Acknowledge mistakes:
+It is much better to acknowledging a mistake you made than simply communicate it and leave it hanging there. Ideally you can even share how you avoided that mistake the next time.
+✅ [
+As an Engineering Manager] The team documented the API changes in our internal wiki, but some teams still had integration issues. I realized we were hasty in launching this without more coordination between us and the customer teams. I led some changes to our launch planning process, having the tech lead add Change Management to the planning docs.
+Address the concern within the follow up:
+If you can identify what the interviewer is driving at with their follow up question, you can address that right away.
+[As a Senior Engineer] The legacy system was causing performance issues, so I spent three months doing a complete rewrite to modernize the architecture...
+How did you use those three months?
+Why are they asking this? Could be that they’re concerned it’s taking too long, or that business needs were disregarded, or maybe that the rewrite is technically risky. Hard to tell, but we need to guess and take a stab at justifying our time:
+✅
+I broke it into six two-week phases with feature flags, migrating one component at a time while maintaining backward compatibility. Each phase delivered measurable performance improvements, so if we’d needed to stop at any point, we would have still captured significant value. The three months was the total timeline, but we were shipping improvements to users every sprint.
+Subscribe for free to receive more behavioral interview content.
+Subscribe
+21
+Share
+Discussion about this post
+Comments
+Restacks
+Top
+Latest
+Discussions
+No posts
+Ready for more?
+Subscribe
+© 2026 Austen McDonald
+·
+Privacy
+∙
+Terms
+∙
+Collection notice
+Start your Substack
+Get the app
+Substack
+is the home for great culture
+This site requires JavaScript to run correctly. Please
+turn on JavaScript
+or unblock scripts

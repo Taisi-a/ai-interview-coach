@@ -1,0 +1,1777 @@
+We helped write the sequel to "Cracking the Coding Interview".
+Read 9 chapters for free
+→
+interviewing.io
+Open menu
+Interview resources
+For employers
+Gift mock interviews
+Blog
+FAQ
+Log in
+Give it a try
+We've hosted 100K mock interviews and helped 10K engineers get jobs at great companies. All interviews below are shared with permission from both participants, with the intent of helping others learn.
+Mock Interview Replays
+FAANG Interviewer
+First Missing Positive
+Immutable Brontosaurus
+,
+a
+FAANG
+engineer, interviewed
+Cool Pumpkin
+in Python
+FAANG Interviewer
+Longest Consecutive Sequence
+Stealthy Elephant
+,
+a
+FAANG
+engineer, interviewed
+Factual Lightning
+in Go
+Meta Interviewer
+Closest Pair Sum
+Platinum Warrior
+,
+a
+Meta
+engineer, interviewed
+Exquisite Platypus
+in Python
+Google Interviewer
+Design a personalized news feed system
+Purple Brontosaurus
+,
+a
+Google
+engineer, interviewed
+Fluorescent Torch
+Google Interviewer
+Delete Nodes and Return Forest
+Samurai Gyroscope
+,
+a
+Google
+engineer, interviewed
+Redolent Unicorn
+in Python
+Amazon Interviewer
+Amazon Leadership Principles
+Covert Gecko
+,
+an
+Amazon
+engineer, interviewed
+Samurai Coyote
+Google Interviewer
+Seat Allocation
+Purple Brontosaurus
+,
+a
+Google
+engineer, interviewed
+Meta Slide Rule
+in Python
+Netflix Interviewer
+Payment Pipeline Design
+Cool Koala
+,
+a
+Netflix
+engineer, interviewed
+Eponymous Pigeon
+Amazon Interviewer
+Calendar System
+Phantom Dictaphone
+,
+an
+Amazon
+engineer, interviewed
+The Mighty Platypus
+Meta Interviewer
+Minimum Depth of Binary Tree
+Clandestine Snake
+,
+a
+Meta
+engineer, interviewed
+Diamond Pterodactyl
+in Python
+FAANG Interviewer
+Photo Sharing Service
+Platinum Lambda
+,
+a
+FAANG
+engineer, interviewed
+Frumious Cronut
+FAANG Interviewer
+Detect fraudulent and scam practices
+Nefarious Shadow
+,
+a
+FAANG
+engineer, interviewed
+Atomic Parallelogram
+Meta Interviewer
+Design Instagram Reels
+Admiral Hex
+,
+a
+Meta
+engineer, interviewed
+Giant Robot
+Meta Interviewer
+Odd Even Linked List
+Quantum Wolf
+,
+a
+Meta
+engineer, interviewed
+Crimson Turtle
+in Python
+Google Interviewer
+Rate Limiter
+Doctor Squab
+,
+a
+Google
+engineer, interviewed
+The Legendary Waffle
+in Python
+Google Interviewer
+Design YouTube
+Teflon Possum
+,
+a
+Google
+engineer, interviewed
+Winged Shadow
+Meta Interviewer
+Design a Centralized ML Management Platform
+Supersonic Seahorse
+,
+a
+Meta
+engineer, interviewed
+Occam's Chameleon
+FAANG Interviewer
+Behavioral Interview
+Deliberate Pumpkin
+,
+a
+FAANG
+engineer, interviewed
+Ultra Automaton
+Microsoft Interviewer
+Design gaming leaderboard
+Monadic Phoenix
+,
+a
+Microsoft
+engineer, interviewed
+Functional Torch
+FAANG Interviewer
+Generate Valid Strings
+Stateless Samurai
+,
+a
+FAANG
+engineer, interviewed
+Cunning Bathrobe
+in Go
+FAANG Interviewer
+Insert Interval
+The Legendary Avenger
+,
+a
+FAANG
+engineer, interviewed
+Magnetic Buffalo
+in Python
+Meta Interviewer
+Peaks and Valleys
+Absurd Penguin
+,
+a
+Meta
+engineer, interviewed
+Orthogonal Warrior
+FAANG Interviewer
+Buildings with an ocean view
+Stochastic Panda
+,
+a
+FAANG
+engineer, interviewed
+Digital Fresh
+in C++
+Uber Interviewer
+K closest elements
+Blue Centurion
+,
+an
+Uber
+engineer, interviewed
+Mutable Pigeon
+in Java
+FAANG Interviewer
+Job Scheduler
+Doctor Squab
+,
+a
+FAANG
+engineer, interviewed
+Mutant Anteater
+Google Interviewer
+Rate Limiter
+Doctor Squab
+,
+a
+Google
+engineer, interviewed
+Professor Squirrel
+in Rust
+FAANG Interviewer
+Clone Graph
+Admiral Hex
+,
+a
+FAANG
+engineer, interviewed
+Ferocious Singularity
+in Python
+FAANG Interviewer
+Shortest Path in Binary Matrix
+Stochastic Panda
+,
+a
+FAANG
+engineer, interviewed
+Effulgent Covariate
+in Java
+Google Interviewer
+Design a leaderboard
+Red Maelstrom
+,
+a
+Google
+engineer, interviewed
+Professor Squirrel
+in Rust
+FAANG Interviewer
+Photo sharing service
+Platinum Lambda
+,
+a
+FAANG
+engineer, interviewed
+Orthogonal Warrior
+Amazon Interviewer
+Unique Shapes in a Matrix
+Digital Avenger
+,
+an
+Amazon
+engineer, interviewed
+Rocket Broccoli
+in JavaScript
+FAANG Interviewer
+Random Pick with Weight
+The Legendary Avenger
+,
+a
+FAANG
+engineer, interviewed
+Admiral Samurai
+in Python
+Google Interviewer
+Minimum cost to construct string
+Rocket Wind
+,
+a
+Google
+engineer, interviewed
+Intrepid Panda
+in Python
+FAANG Interviewer
+Jump game
+Red
+,
+a
+FAANG
+engineer, interviewed
+Wheedling Abacus
+in Python
+FAANG Interviewer
+Unique Shapes in a Matrix
+Digital Avenger
+,
+a
+FAANG
+engineer, interviewed
+Laser Rabbit
+in Python
+FAANG Interviewer
+Valid Word Abbreviation
+Continuous Hedgehog
+,
+a
+FAANG
+engineer, interviewed
+Secret Zebra
+in JavaScript
+FAANG Interviewer
+Design Coderpad
+Indelible Hawk
+,
+a
+FAANG
+engineer, interviewed
+Secret Zebra
+FAANG Interviewer
+Find the Minimum and Maximum Number of Nodes Between Critical Points
+Red Maelstrom
+,
+a
+FAANG
+engineer, interviewed
+Jocular Almond
+in Java
+Amazon Interviewer
+Unique Shapes in a Matrix
+Digital Avenger
+,
+an
+Amazon
+engineer, interviewed
+Full Metal Slide Rule
+in Go
+FAANG Interviewer
+Bus Routes
+Red Maelstrom
+,
+a
+FAANG
+engineer, interviewed
+Ruminative Pterodactyl
+in JavaScript
+Amazon Interviewer
+Unique Shapes in a Matrix
+Digital Avenger
+,
+an
+Amazon
+engineer, interviewed
+Cashmere Flamingo
+in Python
+Microsoft Interviewer
+Reverse Nodes in k-Group
+The Legendary Avenger
+,
+a
+Microsoft
+engineer, interviewed
+Green Wolf
+in Python
+Meta Interviewer
+Longest Path in a Directed Graph
+Red Maelstrom
+,
+a
+Meta
+engineer, interviewed
+Electric Possum
+in Python
+Meta Interviewer
+Find the Minimum and Maximum Number of Nodes Between Critical Points
+Red Maelstrom
+,
+a
+Meta
+engineer, interviewed
+Indefatigable Awesome
+in Python
+FAANG Interviewer
+Design Robinhood
+Stochastic Panda
+,
+a
+FAANG
+engineer, interviewed
+Nefarious Gargoyle
+Meta Interviewer
+Find the Minimum and Maximum Number of Nodes Between Critical Points
+Red Maelstrom
+,
+a
+Meta
+engineer, interviewed
+Immutable Laser
+in Python
+FAANG Interviewer
+Tic Tac Toe
+Stochastic Panda
+,
+a
+FAANG
+engineer, interviewed
+Occam's Laser
+in JavaScript
+FAANG Interviewer
+Tech Lead Behavioral Questions
+Stochastic Panda
+,
+a
+FAANG
+engineer, interviewed
+Utilitarian Lemur
+FAANG Interviewer
+Overlapping Intervals
+Stochastic Storm
+,
+a
+FAANG
+engineer, interviewed
+DJ Flamingo
+in Python
+FAANG Interviewer
+Number of Unique Islands
+Metal Taco
+,
+a
+FAANG
+engineer, interviewed
+Hyper Bandit
+in Java
+Meta Interviewer
+Design Live Comments
+Digital Cactus
+,
+a
+Meta
+engineer, interviewed
+Utilitarian Lemur
+Google Interviewer
+Simplified Blackjack
+The Mighty Anomaly
+,
+a
+Google
+engineer, interviewed
+Blue Panda
+in JavaScript
+Microsoft Interviewer
+Move Stones Over Grid
+The Legendary Avenger
+,
+a
+Microsoft
+engineer, interviewed
+Gustatory Pumpkin
+in Ruby
+FAANG Interviewer
+Lowest Common Ancestor of a Binary Tree
+The Legendary Avenger
+,
+a
+FAANG
+engineer, interviewed
+Superimmune Chameleon
+in Python
+Meta Interviewer
+Design a free food app
+Red Maelstrom
+,
+a
+Meta
+engineer, interviewed
+The Legendary Avenger
+Google Interviewer
+Minimum cost to construct string
+Rocket Wind
+,
+a
+Google
+engineer, interviewed
+Massively Parallel Squirrel
+in Python
+Meta Interviewer
+Finding Nearby Friends
+Red Maelstrom
+,
+a
+Meta
+engineer, interviewed
+Tasteful Pirate
+Meta Interviewer
+Find the Minimum and Maximum Number of Nodes Between Critical Points
+Red Maelstrom
+,
+a
+Meta
+engineer, interviewed
+Propitious Dromedary
+in Python
+FAANG Interviewer
+Banking Ledger
+The Legendary Avenger
+,
+a
+FAANG
+engineer, interviewed
+Indelible Torch
+FAANG Interviewer
+Job Scheduler
+Deliberate Alligator
+,
+a
+FAANG
+engineer, interviewed
+Hipster Samurai
+FAANG Interviewer
+RSS News Feed
+Adequate Goose
+,
+a
+FAANG
+engineer, interviewed
+Aerodynamic Tornado
+FAANG Interviewer
+Number of Unique Islands
+Fabled Lion
+,
+a
+FAANG
+engineer, interviewed
+Metal Taco
+in C++
+FAANG Interviewer
+Alien Dictionary
+Elemental Armadillo
+,
+a
+FAANG
+engineer, interviewed
+Mythic Goose
+in Python
+FAANG Interviewer
+Harmful Content Removal
+The Legendary Avenger
+,
+a
+FAANG
+engineer, interviewed
+Golden Pheasant
+Google Interviewer
+Design Facebook Events
+The Grey Dictaphone
+,
+a
+Google
+engineer, interviewed
+Absurd Bandit
+Amazon Interviewer
+Max living people
+Tea-Smoked Platypus
+,
+an
+Amazon
+engineer, interviewed
+Supreme Enigma
+in Python
+Amazon Interviewer
+What are my friends buying
+Orange Malamute
+,
+an
+Amazon
+engineer, interviewed
+Manxome Possum
+in C++
+Amazon Interviewer
+Online file storage
+Infinite Shadow
+,
+an
+Amazon
+engineer, interviewed
+Quantum Badger
+Amazon Interviewer
+Circular queue
+Orthogonal Typhoon
+,
+an
+Amazon
+engineer, interviewed
+Warp Lemming
+in Python
+Amazon Interviewer
+Median of sorted lists
+Stateless Snake
+,
+an
+Amazon
+engineer, interviewed
+The Wild Husky
+in Java
+Amazon Interviewer
+Charity donating system
+Hot Gyro
+,
+an
+Amazon
+engineer, interviewed
+Declarative Lion
+Amazon Interviewer
+Video upload API
+Hot Gyro
+,
+an
+Amazon
+engineer, interviewed
+Wicked Gyroscope
+Amazon Interviewer
+Minimum tree depth
+Hot Gyro
+,
+an
+Amazon
+engineer, interviewed
+Wily Sandwich
+in Ruby
+Amazon Interviewer
+Sort colors
+Hot Gyro
+,
+an
+Amazon
+engineer, interviewed
+The Masked Hedgehog
+in Python
+Amazon Interviewer
+Substring Concatenation
+Sizzling Shadow
+,
+an
+Amazon
+engineer, interviewed
+Nimble Panda
+in Python
+Amazon Interviewer
+Amazon ranking system
+Fabled Goblin
+,
+an
+Amazon
+engineer, interviewed
+Dialectic Singularity
+Amazon Interviewer
+Closest Three Sum
+Hot Gyro
+,
+an
+Amazon
+engineer, interviewed
+Talking Rabit
+in Python
+Amazon Interviewer
+Max product of stream
+Rocket Samurai
+,
+an
+Amazon
+engineer, interviewed
+Phantom Mammoth
+in JavaScript
+Amazon Interviewer
+Rod Cutting
+Rocket Samurai
+,
+an
+Amazon
+engineer, interviewed
+Orthogonal Iguana
+in C#
+Amazon Interviewer
+Boundary Traversal Binary Tree
+Rocket Samurai
+,
+an
+Amazon
+engineer, interviewed
+Dystopian Abacus
+in Python
+Amazon Interviewer
+Boundary Traversal Binary Tree
+Rocket Samurai
+,
+an
+Amazon
+engineer, interviewed
+Colossal Typhoon
+in Java
+Meta Interviewer
+Facebook Timeline Service
+Red Maelstrom
+,
+a
+Meta
+engineer, interviewed
+Epic Ibex
+Amazon Interviewer
+Top K Frequent Elements
+Meta Dolphin
+,
+an
+Amazon
+engineer, interviewed
+Ironic Panda
+in C++
+Amazon Interviewer
+Next largest in BST
+Strident Sardine
+,
+an
+Amazon
+engineer, interviewed
+Vermillion Tortoise
+in Python
+Amazon Interviewer
+Validate Binary Search Tree
+Indelible Raven
+,
+an
+Amazon
+engineer, interviewed
+Clandestine Borogove
+in Python
+Meta Interviewer
+Group Anagram
+Red Maelstrom
+,
+a
+Meta
+engineer, interviewed
+Meta Nougat
+in Python
+FAANG Interviewer
+Reverse Nodes in k-Group
+Existential Cronut
+,
+a
+FAANG
+engineer, interviewed
+Swift Thunder
+in Python
+Microsoft Interviewer
+Sum Root to Leaf Numbers
+The Legendary Avenger
+,
+a
+Microsoft
+engineer, interviewed
+Recursive Snow
+in C#
+Google Interviewer
+Triplet Array
+Rocket Wind
+,
+a
+Google
+engineer, interviewed
+Whirlwind Alligator
+in C#
+Meta Interviewer
+Inorder Traversal
+Red Maelstrom
+,
+a
+Meta
+engineer, interviewed
+Mythic Platypus
+in Python
+FAANG Interviewer
+Minimum Window Substring
+Red Maelstrom
+,
+a
+FAANG
+engineer, interviewed
+Declarative Bandersnatch
+in Java
+Meta Interviewer
+Lucky Numbers in a Matrix
+Red Maelstrom
+,
+a
+Meta
+engineer, interviewed
+Parallel Bandit
+in Python
+Meta Interviewer
+Longest Path Direct Graph
+Red Maelstrom
+,
+a
+Meta
+engineer, interviewed
+Stochastic Hurricane
+in Java
+FAANG Interviewer
+Confusable number
+Sly Chinchilla
+,
+a
+FAANG
+engineer, interviewed
+Fresh Bear
+in JavaScript
+Google Interviewer
+Design a free food app
+Red Maelstrom
+,
+a
+Google
+engineer, interviewed
+Immutable Penguin
+Microsoft Interviewer
+Non-decreasing Array
+The Legendary Avenger
+,
+a
+Microsoft
+engineer, interviewed
+Winter Penguin
+in Python
+Meta Interviewer
+Remove Nth Node From End of List
+Laser Tardigrade
+,
+a
+Meta
+engineer, interviewed
+Massively Parallel Nougat
+in Python
+Google Interviewer
+Minimum cost to construct string
+Rocket Wind
+,
+a
+Google
+engineer, interviewed
+Secret Lobster
+in Python
+FAANG Interviewer
+Reconstruct Itinerary
+Recursive Werewolf
+,
+a
+FAANG
+engineer, interviewed
+Wandering Nougat
+in Java
+Meta Interviewer
+Odd Even Linked List
+Quantum Wolf
+,
+a
+Meta
+engineer, interviewed
+Serpentine Hawk
+in Swift
+FAANG Interviewer
+Designing WhatsApp
+Flannel Artichoke
+,
+a
+FAANG
+engineer, interviewed
+Dialectic Avalanche
+FAANG Interviewer
+Word Search
+Crafty Lobster
+,
+a
+FAANG
+engineer, interviewed
+Silver Fox
+in JavaScript
+FAANG Interviewer
+Image Filter Service
+The Inimitable Thunderstorm
+,
+a
+FAANG
+engineer, interviewed
+Nihilistic Hawk
+Amazon Interviewer
+Longest Substring With Maximum K Distinct Characters
+Imperative Broccoli
+,
+an
+Amazon
+engineer, interviewed
+Sagacious Astrolabe
+in Python
+Microsoft Interviewer
+Currency Conversion
+Winter Pumpkin
+,
+a
+Microsoft
+engineer, interviewed
+Crimson Almond
+in Python
+Amazon Interviewer
+What are my friends buying
+Orange Malamute
+,
+an
+Amazon
+engineer, interviewed
+The Incredible Squirrel
+in Java
+Meta Interviewer
+Odd Even Linked List
+Quantum Wolf
+,
+a
+Meta
+engineer, interviewed
+Purple Griffin
+in Python
+Microsoft Interviewer
+Word transformation search
+The Legendary Avenger
+,
+a
+Microsoft
+engineer, interviewed
+Concomitant Coyote
+in Java
+Microsoft Interviewer
+Sneak to Exit Grid with Guards and Obstacles
+Stateless Donut
+,
+a
+Microsoft
+engineer, interviewed
+Hot Elephant
+in Python
+Snowflake Interviewer
+ID generator
+Winged Avenger
+,
+a
+Snowflake
+engineer, interviewed
+Ghost Koala
+in C++
+Google Interviewer
+K nearest restaurants
+Immutable Automaton
+,
+a
+Google
+engineer, interviewed
+Professor Squirrel
+in Rust
+FAANG Interviewer
+Nodes in complete binary tree
+The Inimitable Thunderstorm
+,
+a
+FAANG
+engineer, interviewed
+Fluorescent Tortoise
+in Python
+Meta Interviewer
+Valid Palindrome
+Clandestine Hamburger
+,
+a
+Meta
+engineer, interviewed
+Aerodynamic Raven
+in Python
+Amazon Interviewer
+Meeting Rooms
+Rocket Samurai
+,
+an
+Amazon
+engineer, interviewed
+Professor Squirrel
+in Rust
+Meta Interviewer
+Design Online Judge
+Digital Cactus
+,
+a
+Meta
+engineer, interviewed
+Aerodynamic Tortoise
+Google Interviewer
+Split Array Largest Sum
+Ferocious Sandwich
+,
+a
+Google
+engineer, interviewed
+Immutable Catamaran
+in Python
+Amazon Interviewer
+Design LeetCode
+Metal Cephalopod
+,
+an
+Amazon
+engineer, interviewed
+Electric Tetrahedron
+Google Interviewer
+Employee Hierarchy
+Electric Avenger
+,
+a
+Google
+engineer, interviewed
+Massive Chameleon
+in Java
+Amazon Interviewer
+Extract leaves from tree
+Rocket Samurai
+,
+an
+Amazon
+engineer, interviewed
+Epic Gargoyle
+in Python
+Meta Interviewer
+Fruit into baskets
+Digital Raven
+,
+a
+Meta
+engineer, interviewed
+Sensible Bassoon
+in Python
+FAANG Interviewer
+Longest Palindromic Substring
+Occam's Unicorn
+,
+a
+FAANG
+engineer, interviewed
+Tea-Smoked Gyro
+in Python
+Apple Interviewer
+Max contiguous subarray
+Mutable Alligator
+,
+an
+Apple
+engineer, interviewed
+Steampunk Dolphin
+in Java
+Google Interviewer
+Print folder structure
+Astronomic Koala
+,
+a
+Google
+engineer, interviewed
+Intrepid Broccoli
+in Python
+FAANG Interviewer
+Longest non-repeating character substring
+Flannel Artichoke
+,
+a
+FAANG
+engineer, interviewed
+Ghost Koala
+in C++
+Meta Interviewer
+XML Parser
+Mighty Jaguar
+,
+a
+Meta
+engineer, interviewed
+Redolent Broccoli
+in Python
+Amazon Interviewer
+Efficient sampler
+Orange Malamute
+,
+an
+Amazon
+engineer, interviewed
+Verdant Gyroscope
+in Python
+Spotify Interviewer
+Even palindrome generator
+The Benevolent Enigma
+,
+a
+Spotify
+engineer, interviewed
+Spasmodic Donut
+in Java
+Apple Interviewer
+Longest increasing path
+Mutable Alligator
+,
+an
+Apple
+engineer, interviewed
+Swift Pigeon
+in Python
+Amazon Interviewer
+Partition Equal Subset Sum
+Atomic Snow
+,
+an
+Amazon
+engineer, interviewed
+Verdant Gyroscope
+in Python
+Microsoft Interviewer
+Even Odd Tree
+Mighty Hamburger
+,
+a
+Microsoft
+engineer, interviewed
+Sartorial Jaguar
+in C++
+FAANG Interviewer
+Maximum Population Year
+Tea-Smoked Platypus
+,
+a
+FAANG
+engineer, interviewed
+Green Robot
+in Python
+Samsung Interviewer
+Bipartite graph
+Kind Dragon
+,
+a
+Samsung
+engineer, interviewed
+Ghost Armadillo
+in Python
+FAANG Interviewer
+Target Sum
+Chaotic Llama
+,
+a
+FAANG
+engineer, interviewed
+Aerodynamic Hobbit
+in C++
+Google Interviewer
+Binary tree upside down
+Ferocious Chameleon
+,
+a
+Google
+engineer, interviewed
+Occam's Malamute
+in Python
+Snowflake Interviewer
+Decode string
+Supreme Kraken
+,
+a
+Snowflake
+engineer, interviewed
+Stealthy Hawk
+in Python
+Meta Interviewer
+XML parser
+Mighty Jaguar
+,
+a
+Meta
+engineer, interviewed
+Warm Dingo
+in Python
+FAANG Interviewer
+Max water in well
+Festive Tsunami
+,
+a
+FAANG
+engineer, interviewed
+Adequate Gyroscope
+in Python
+Meta Interviewer
+Tree serialization
+Mechanical Llama
+,
+a
+Meta
+engineer, interviewed
+Kind Dragon
+in Python
+Google Interviewer
+Alien Dictionary
+Contrarian Burrito
+,
+a
+Google
+engineer, interviewed
+Teflon Artichoke
+in C++
+VMware Interviewer
+Linked list intersection
+The Masked Hedgehog
+,
+a
+VMware
+engineer, interviewed
+Ghost Armadillo
+in Python
+Microsoft Interviewer
+Unique ID generation
+Invincible Cloud
+,
+a
+Microsoft
+engineer, interviewed
+Golden Possum
+Meta Interviewer
+Prefix pairs
+Mechanical Llama
+,
+a
+Meta
+engineer, interviewed
+Supreme Beast
+in C++
+interviewing.io Interviewer
+Print k largest elements
+The Incredible Croc
+,
+an
+interviewing.io
+engineer, interviewed
+Quantum Cheetah
+in Python
+MathWorks Interviewer
+Verify rotated integer
+Jocular Panther
+,
+a
+MathWorks
+engineer, interviewed
+Quantum Tetrahedron
+in Java
+Microsoft Interviewer
+K closest points
+Indelible Raven
+,
+a
+Microsoft
+engineer, interviewed
+Inventive Wind
+in Java
+Walmart Interviewer
+Permutation in string
+Mythic Unicorn
+,
+a
+Walmart
+engineer, interviewed
+Phantom Storm
+in Python
+Wurl Interviewer
+Evaluate Unix path
+Intrepid Hawk
+,
+a
+Wurl
+engineer, interviewed
+Spasmodic Pheasant
+in Java
+Google Interviewer
+Maximum sum subarray
+Epic Iguana
+,
+a
+Google
+engineer, interviewed
+Awesome Llama
+in C#
+LinkedIn Interviewer
+Two sum
+Existential Crumpet
+,
+a
+LinkedIn
+engineer, interviewed
+Chaotic Pizza
+in JavaScript
+FireEye Interviewer
+Three sum
+Warp Dromedary
+,
+a
+FireEye
+engineer, interviewed
+Samurai Loris
+in Java
+Palantir Interviewer
+Smallest sufficient substring
+Stochastic Robot
+,
+a
+Palantir
+engineer, interviewed
+Supreme Armadillo
+in Python
+Microsoft Interviewer
+LRU cache
+Admiral Lambda
+,
+a
+Microsoft
+engineer, interviewed
+Inventive Lizard
+in Python
+Microsoft Interviewer
+Merge linked lists in order
+Astronomic Avenger
+,
+a
+Microsoft
+engineer, interviewed
+Efficacious Pirate
+in Python
+Google Interviewer
+Alien dictionary
+Elemental Pigeon
+,
+a
+Google
+engineer, interviewed
+Samurai Unicorn
+in C++
+Snap Interviewer
+Print linked list reverse
+DJ Cyclone
+,
+a
+Snap
+engineer, interviewed
+Epic Rainbow
+in C++
+Microsoft Interviewer
+Subarray sum equals K
+Magnetic Rainbow
+,
+a
+Microsoft
+engineer, interviewed
+Winter Squirrel
+in JavaScript
+Google Interviewer
+Walls and gates
+Spasmodic Awesome
+,
+a
+Google
+engineer, interviewed
+Hot Gyro
+in Java
+Apple Interviewer
+Count islands
+General Avenger
+,
+an
+Apple
+engineer, interviewed
+Phantom Dragon
+in Python
+Block/Square Interviewer
+Sleep sort
+Eponymous Squirrel
+,
+a
+Block/Square
+engineer, interviewed
+The Phenomenal Lemur
+in Java
+Block/Square Interviewer
+Threaded order of execution
+Eponymous Squirrel
+,
+a
+Block/Square
+engineer, interviewed
+Dystopian Sphinx
+in Python
+Shopify Interviewer
+Validate string against dictionary
+Captain Hamburger
+,
+a
+Shopify
+engineer, interviewed
+Dystopian Corgi
+in Ruby
+Google Interviewer
+Highest peak
+Ironic Bratwurst
+,
+a
+Google
+engineer, interviewed
+Analog Nebula
+in Java
+Salesforce Interviewer
+Make change
+Epic Cheetah
+,
+a
+Salesforce
+engineer, interviewed
+Mighty Lemming
+in Python
+LinkedIn Interviewer
+Falling leaves of a tree
+Existential Crumpet
+,
+a
+LinkedIn
+engineer, interviewed
+Neuro Owl
+in Go
+Meta Interviewer
+Infinite binary print
+Stateless Samurai
+,
+a
+Meta
+engineer, interviewed
+Purple Hurricane
+in Java
+Snap Interviewer
+Copy list with random pointers
+DJ Cyclone
+,
+a
+Snap
+engineer, interviewed
+Parallel Prism
+in C++
+Snap Interviewer
+Deep copy linked list
+DJ Cyclone
+,
+a
+Snap
+engineer, interviewed
+Massively Parallel Hedgehog
+in Python
+Google Interviewer
+File parsing
+Intergalactic Avenger
+,
+a
+Google
+engineer, interviewed
+The Incredible Hawk
+Microsoft Interviewer
+K nearest points
+Indelible Raven
+,
+a
+Microsoft
+engineer, interviewed
+Pseudo Gyroscope
+in C++
+Microsoft Interviewer
+K closest points
+Indelible Raven
+,
+a
+Microsoft
+engineer, interviewed
+Supreme Gyro
+in C++
+Google Interviewer
+Max heap
+Intergalactic Avenger
+,
+a
+Google
+engineer, interviewed
+Double Pizza
+in Java
+Microsoft Interviewer
+K closest points
+Indelible Raven
+,
+a
+Microsoft
+engineer, interviewed
+Nimble Pumpkin
+in JavaScript
+Google Interviewer
+Distributed databases
+Intergalactic Avenger
+,
+a
+Google
+engineer, interviewed
+Space Pheonix
+Microsoft Interviewer
+Reverse string
+Indelible Raven
+,
+a
+Microsoft
+engineer, interviewed
+Swift Dinosaur
+in Python
+Google Interviewer
+Defeat the enemy
+Intergalactic Avenger
+,
+a
+Google
+engineer, interviewed
+Iron Gyroscope
+Google Interviewer
+Memory efficient lookup
+Intergalactic Avenger
+,
+a
+Google
+engineer, interviewed
+Samurai Razor
+in JavaScript
+Google Interviewer
+Partition array and public transportation
+Electric Burrito
+,
+a
+Google
+engineer, interviewed
+Rocket Tiger
+in Python
+Microsoft Interviewer
+K closest points
+Indelible Raven
+,
+a
+Microsoft
+engineer, interviewed
+Inventive Wind
+in Java
+Google Interviewer
+Delete nodes from a binary tree
+Talking Fox
+,
+a
+Google
+engineer, interviewed
+Kind Ibex
+in Java
+Microsoft Interviewer
+List partition (quicksort)
+Astronomic Avenger
+,
+a
+Microsoft
+engineer, interviewed
+Factual Hedgehog
+in C#
+Google Interviewer
+Most frequent integer and pairs of integers sum
+Paisley Wallaby
+,
+a
+Google
+engineer, interviewed
+Propitious Bear
+in Java
+Slack Interviewer
+Transformation dictionary
+Spasmodic Pizza
+,
+a
+Slack
+engineer, interviewed
+Winter Griffin
+in Python
+Microsoft Interviewer
+Longest consecutive sequence
+Astronomic Avenger
+,
+a
+Microsoft
+engineer, interviewed
+Double Astrolabe
+in Python
+Google Interviewer
+List backend
+Intergalactic Avenger
+,
+a
+Google
+engineer, interviewed
+Aerodynamic Crocodile
+Pivotal Labs Interviewer
+LRU Cache
+Fearsome Sandwich
+,
+a
+Pivotal Labs
+engineer, interviewed
+Special Chameleon
+in JavaScript
+Microsoft Interviewer
+Regex matching
+Strident Pumpkin
+,
+a
+Microsoft
+engineer, interviewed
+Benevolent Mammoth
+in Java
+interviewing.io Interviewer
+String shuffle and analysis
+Adequate Lobster
+,
+an
+interviewing.io
+engineer, interviewed
+Stateful Armadillo
+in Python
+Netflix Interviewer
+Recover binary search tree
+Hot Broccoli
+,
+a
+Netflix
+engineer, interviewed
+Sterling Daemon
+in Java
+Netflix Interviewer
+Binary array partition
+Heuristic Panda
+,
+a
+Netflix
+engineer, interviewed
+Orange Storm
+in Python
+Google Interviewer
+Regex matching
+Paisley Wallaby
+,
+a
+Google
+engineer, interviewed
+Cashmere Panda
+in Java
+Google Interviewer
+Coin change
+Intergalactic Avenger
+,
+a
+Google
+engineer, interviewed
+Festive Samurai
+in Python
+Microsoft Interviewer
+Vertex distance order statistic
+Indelible Raven
+,
+a
+Microsoft
+engineer, interviewed
+Mythic Borogove
+in Python
+Google Interviewer
+Alien dictionary
+Intergalactic Avenger
+,
+a
+Google
+engineer, interviewed
+Mighty Burrito
+in Python
+Google Interviewer
+Closest coin
+Intergalactic Avenger
+,
+a
+Google
+engineer, interviewed
+Sergeant Koala
+in C++
+LinkedIn Interviewer
+Matching pairs
+Admiral Velociraptor
+,
+a
+LinkedIn
+engineer, interviewed
+Dystopian Pizza
+in Python
+Google Interviewer
+Edit distance string comparison
+Intergalactic Avenger
+,
+a
+Google
+engineer, interviewed
+The Mighty Eel
+in Python
+Google Interviewer
+Order statistic of an unsorted array
+Intergalactic Avenger
+,
+a
+Google
+engineer, interviewed
+Supersonic Taco
+in Java
+Google Interviewer
+Regular expression matcher
+Paisley Wallaby
+,
+a
+Google
+engineer, interviewed
+Fresh Albatross
+in JavaScript
+Google Interviewer
+Longest common subsequence of two strings
+Paisley Wallaby
+,
+a
+Google
+engineer, interviewed
+Stealthy Dictaphone
+in JavaScript
+Airbnb Interviewer
+Missing item list difference
+The Legendary Artichoke
+,
+an
+Airbnb
+engineer, interviewed
+Supreme Werewolf
+in C++
+We know exactly what to do and say to get the company, title, and salary you want.
+Interview prep and job hunting are chaos and pain. We can help. Really.
+Get started for free

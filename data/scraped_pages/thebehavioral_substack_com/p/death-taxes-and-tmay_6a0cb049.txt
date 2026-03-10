@@ -1,0 +1,121 @@
+Mastering Behavioral Interviews
+Subscribe
+Sign in
+Death, Taxes, and TMAY
+Responding to "Tell Me About Yourself" in a Software Engineering Interview
+Austen McDonald
+Dec 02, 2024
+25
+Share
+🙋‍♂️ Hi there, I’m Austen, a former Senior Engineering Manager and Hiring Committee Chair at Meta where I did over 1,000 interviews and trained 100s of interviewers, setting interview structures and picking questions.
+Subscribe to Mastering the Behavioral Interview
+to get tips and resources on preparing for the most underrated SWE interview type.
+There are few guarantees I can give about your software engineering interview process that apply across all roles, levels, and companies—but one of them is this: you will be asked, “Tell me about yourself.”
+This question pops up everywhere. It starts in casual networking conversations, shows up with recruiters, hiring managers, and of course technical behavioral interviewers and is so ubiquitous it has its own acronym: TMAY (pronounced
+tee-may
+).
+It’s a deceptively simple question. With so much advice out there (mostly for non-engineering candidates), software engineers often stumble and fail to maximize their opportunity at this crucial first response of the interview. But answering TMAY effectively can set the tone for the entire session.
+Here’s the advice I give my mentees to nail their TMAY and create a strong first impression that leads to meaningful discussions where your past experience shines.
+What to Achieve in a TMAY
+Break the ice and leave a great first impression.
+Candidates and interviewers alike are nervous at the beginning of an interview. Take this first few minutes to make a lasting impression when the interviewer is most attentive.
+Set the context.
+Honestly, many interviewers have not reviewed your resume—in a multinational MAANG+ organization, they might be coming straight from another meeting and not even looked to see which open role they’re interviewing for. Your TMAY anchors the conversation and helps both of you.
+Steer the rest of the conversation.
+A strong TMAY lets you guide the interviewer toward topics that showcase the best of your career. This ensures the rest of the interview focuses on your repeatable behaviors, which is how the interviewer will judge you.
+Paradoxically, the way to achieve all of this is to keep your TMAY short—about two minutes. Interviewers want enough context to orient themselves but are also eager to dive into their more meaty questions.
+A Simple Structure for TMAY
+To accomplish all this, here’s what I recommend as a structure for my mentees as they construct a TMAY:
+Personal Summary
+Accomplishments
+Forward-Looking Statement
+1. Personal Summary
+Start with a couple of sentences introducing yourself. Think of it as a condensed LinkedIn
+About
+section. Mention your role (e.g., backend engineer, full-stack developer), years of experience, and a unique trait or focus that sets you apart.
+✅ I’m a backend engineer with five years of experience building scalable systems and solving tough performance challenges. I’m passionate about crafting solutions that are not only efficient but also highly maintainable without documentation.
+Pro Tip:
+Tailor this summary to the job. If the role is for a frontend engineer, don’t introduce yourself as a backend specialist.
+2. Accomplishments
+In the middle, highlight key achievements. Choose two to three accomplishments, ideally recent ones, that:
+Showcase technical skills and business impact—remember, the manager is hiring you to accomplish something in the real world (revenue, retention, performance, etc.) so prove to them that you care about outcomes.
+Align with the role you’re applying for.
+Can be expanded upon in later questions. Ideally you’re mentioning whatever you’ll cover in your “Favorite Project” response. See
+this post
+for more on that.
+Each accomplishment should be concise, typically one sentence, with a dabble of technical detail and business impact.
+✅ At Acme Corp, I led a project to optimize our Redis-based caching strategy, which reduced page load times by 40% and improved customer retention.
+This isn’t the time to dive into STAR (Situation, Task, Action, Result) stories—keep it high level and intriguing. Your goal is to pique interest, not exhaust it.
+3. Forward Looking Statement
+End with a sentence or two connecting your past to the role you’re pursuing. This wraps up your TMAY and hands the conversation back to the interviewer and avoids awkwardly stopping.
+✅ I’m excited to bring my experience in distributed systems to a team tackling large-scale challenges like yours at Acme Co.
+Examples and Counterexamples
+Example: New Grad
+As a new grad, prioritize work experience, even if it was short, over personal projects and school projects. Since you’ll likely need to draw from some of those and they may not have real-world impacts, highlight key features as the “business impact” part of the accomplishment.
+✅ I recently graduated from State U with a degree in Computer Science, and I’m passionate about solving challenging problems with code. My focus has been on backend development, particularly designing APIs and working with cloud infrastructure.
+When I interned at Acme Co, I worked on optimizing database queries, reducing query times by 25%. And during my final year, I built a project management tool for remote teams as part of a capstone project, using Python and Flask. This tool included real-time collaboration features and a custom notification system.
+I’m excited to bring my learning and enthusiasm to Cyberdyne, given its need for large, scalable systems.
+Example: Mid-Level Engineer
+✅ I’m a software engineer with four years of experience, specializing in frontend development and creating intuitive user interfaces. I’m really passionate about making experiences users love.
+At Acme Co, I led the implementation of a design system that reduced UI development time by 30% and ensured consistency across the product. Before that, I worked on a customer feedback platform where I integrated a machine-learning model into the frontend to provide real-time insights.
+I’m looking forward to contributing my skills in building user-centric applications to a team solving exciting challenges in the healthcare space.
+Example: Senior Engineer
+✅ I’m a senior software engineer with over 10 years of experience building distributed systems and scaling complex applications. My expertise lies in designing architectures that work across a large array of teams and usecases.
+At Acme Co, I spearheaded the migration of our monolithic application to a microservices architecture, reducing downtime by 50% and improving team productivity. Previously, I built a real-time analytics platform handling millions of daily transactions, using a combination of Kafka and Elasticsearch. I also enjoy mentoring junior engineers, helping them grow into confident contributors.
+I’m eager to bring my deep technical experience and collaborative approach to solving the large-scale challenges your team is working on.
+Example: Manager
+✅ I’m an engineering manager with 12 years of experience leading high-performing teams across multiple organizations. I really love building engineering cultures and helping people grow.
+At Acme Co, I led a team of 20 engineers to deliver a mission-critical platform that enabled a 40% increase in customer onboarding speed. I also introduced a biannual hackathon that resulted in several ideas being turned into production features. Across my career, I’ve worked on scaling teams from five to 50 while maintaining a strong engineering culture.
+In my conversations so far with folks at Cyberdyne, I’ve been intrigued by the products and the connections you’ve built between the teams and your customers. Sounds like an interesting place for me to make an impact.
+Example: Proactively Handling Complex Situations
+If your career history includes layoffs, gaps, or short stints, address these proactively and concisely in your TMAY. Set the narrative yourself to avoid misinterpretation.
+✅ [Gap] After Acme Co. shut down, I took six months to upskill in cloud architecture and completed a certification program. I’m excited to bring this expertise into a new role.
+✅ [Layoff] Due to the changing economics with their real estate customers, Acme Co. was under some financial pressure, ultimately deciding to cut the entire Growth team.
+✅ [Short Stints] I’ve worked across a number of early stage startups, which really accelerated my growth as an engineer but ultimately none of them have panned out from a product-market fit perspective.
+Counterexample: Overly Personal, Personal Summaries
+While the interviewer is interested in unique aspects of you, make sure you share aspects relevant to the job. I’ve heard a number of (especially junior) engineers begin their TMAY with a story like…
+❌ I’ve been interested in computing since I was 6, when I worked on my first Scratch program in school…
+Counterexample: The History Lesson
+Avoid giving a chronological walkthrough of every job you’ve had. It’s tempting to say:
+❌ I started as a frontend engineer at X, then moved to Y, and now I’m at Z…
+This approach is tedious and low-value. Focus instead on the highlights and impact you want the listener to walk away with.
+Counterexample: Less is Not More
+❌ I’m a senior software engineer at Acme Co, with 10 years experience <full stop>
+Some candidates omit accomplishments of any kind, thinking they shouldn’t repeat what’s on their resume—they probably got this advice from a well meaning but inexperienced job coach. Bad idea. Many interviewers haven’t read your resume or at best they’ve skimmed it. Use your TMAY to guide them toward the stories that matter, taking care not to produce a History Lesson.
+A Tale of Two TMAYs
+Quick note: your TMAY should look slightly different depending on the context.
+In Behavioral Interviews:
+Use the full structure. This primes the interviewer to ask about your most impactful behaviors and experiences.
+In Casual Chats or Coding Interviews:
+A full TMAY might feel heavy. In these situations, stick to the
+Personal Summary
+and adapt your tone to match the casual setting.
+Final Thoughts
+A polished, impactful TMAY is your secret weapon to starting a behavioral interview. It’s not just an answer—it’s your opening statement. Practice crafting a version that reflects your experience, aligns with the role, and sets up the rest of the interview for success.
+Thanks for reading Mastering the Behavioral Interview! Subscribe for free to receive more on prepping for SWE interviews.
+Subscribe
+25
+Share
+Discussion about this post
+Comments
+Restacks
+Top
+Latest
+Discussions
+No posts
+Ready for more?
+Subscribe
+© 2026 Austen McDonald
+·
+Privacy
+∙
+Terms
+∙
+Collection notice
+Start your Substack
+Get the app
+Substack
+is the home for great culture
+This site requires JavaScript to run correctly. Please
+turn on JavaScript
+or unblock scripts

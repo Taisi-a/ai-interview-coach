@@ -1,0 +1,691 @@
+Skip to content
+Search Gists
+Search Gists
+Sign in
+Sign up
+You signed in with another tab or window.
+Reload
+to refresh your session.
+You signed out in another tab or window.
+Reload
+to refresh your session.
+You switched accounts on another tab or window.
+Reload
+to refresh your session.
+Dismiss alert
+Instantly share code, notes, and snippets.
+vasanthk
+/
+System Design.md
+Last active
+March 8, 2026 21:05
+Show Gist options
+Download ZIP
+Star
+5,000+
+(
+5,000+
+)
+You must be signed in to star a gist
+Fork
+2,747
+(
+2,747
+)
+You must be signed in to fork a gist
+Embed
+Select an option
+Embed
+Embed this gist in your website.
+Share
+Copy sharable link for this gist.
+Clone via HTTPS
+Clone using the web URL.
+No results found
+Learn more about clone URLs
+Clone this repository at &lt;script src=&quot;https://gist.github.com/vasanthk/485d1c25737e8e72759f.js&quot;&gt;&lt;/script&gt;
+Save vasanthk/485d1c25737e8e72759f to your computer and use it in GitHub Desktop.
+Embed
+Select an option
+Embed
+Embed this gist in your website.
+Share
+Copy sharable link for this gist.
+Clone via HTTPS
+Clone using the web URL.
+No results found
+Learn more about clone URLs
+Clone this repository at &lt;script src=&quot;https://gist.github.com/vasanthk/485d1c25737e8e72759f.js&quot;&gt;&lt;/script&gt;
+Save vasanthk/485d1c25737e8e72759f to your computer and use it in GitHub Desktop.
+Download ZIP
+System Design Cheatsheet
+Raw
+System Design.md
+System Design Cheatsheet
+Picking the right architecture = Picking the right battles + Managing trade-offs
+Basic Steps
+Clarify and agree on the scope of the system
+User cases
+(description of sequences of events that, taken together, lead to a system doing something useful)
+Who is going to use it?
+How are they going to use it?
+Constraints
+Mainly identify
+traffic and data handling
+constraints at scale.
+Scale of the system such as requests per second, requests types, data written per second, data read per second)
+Special system requirements such as multi-threading, read or write oriented.
+High level architecture design (Abstract design)
+Sketch the important components and connections between them, but don't go into some details.
+Application service layer (serves the requests)
+List different services required.
+Data Storage layer
+eg. Usually a scalable system includes webserver (load balancer), service (service partition), database (master/slave database cluster) and caching systems.
+Component Design
+Component + specific
+APIs
+required for each of them.
+Object oriented design
+for functionalities.
+Map features to modules: One scenario for one module.
+Consider the relationships among modules:
+Certain functions must have unique instance (Singletons)
+Core object can be made up of many other objects (composition).
+One object is another object (inheritance)
+Database schema design.
+Understanding Bottlenecks
+Perhaps your system needs a load balancer and many machines behind it to handle the user requests. * Or maybe the data is so huge that you need to distribute your database on multiple machines. What are some of the downsides that occur from doing that?
+Is the database too slow and does it need some in-memory caching?
+Scaling
+your abstract design
+Vertical scaling
+You scale by adding more power (CPU, RAM) to your existing machine.
+Horizontal scaling
+You scale by adding more machines into your pool of resources.
+Caching
+Load balancing helps you scale horizontally across an ever-increasing number of servers, but caching will enable you to make vastly better use of the resources you already have, as well as making otherwise unattainable product requirements feasible.
+Application caching
+requires explicit integration in the application code itself. Usually it will check if a value is in the cache; if not, retrieve the value from the database.
+Database caching
+tends to be "free". When you flip your database on, you're going to get some level of default configuration which will provide some degree of caching and performance. Those initial settings will be optimized for a generic usecase, and by tweaking them to your system's access patterns you can generally squeeze a great deal of performance improvement.
+In-memory caches
+are most potent in terms of raw performance. This is because they store their entire set of data in memory and accesses to RAM are orders of magnitude faster than those to disk. eg. Memcached or Redis.
+eg. Precalculating results (e.g. the number of visits from each referring domain for the previous day),
+eg. Pre-generating expensive indexes (e.g. suggested stories based on a user's click history)
+eg. Storing copies of frequently accessed data in a faster backend (e.g. Memcache instead of PostgreSQL.
+Load balancing
+Public servers of a scalable web service are hidden behind a load balancer.  This load balancer evenly distributes load (requests from your users) onto your group/cluster of  application servers.
+Types: Smart client (hard to get it perfect), Hardware load balancers ($$$ but reliable), Software load balancers (hybrid - works for most systems)
+Database replication
+Database replication is the frequent electronic copying data from a database in one computer or server to a database in another so that all users share the same level of information. The result is a distributed database in which users can access data relevant to their tasks without interfering with the work of others. The implementation of database replication for the purpose of eliminating data ambiguity or inconsistency among users is known as normalization.
+Database partitioning
+Partitioning of relational data usually refers to decomposing your tables either row-wise (horizontally) or column-wise (vertically).
+Map-Reduce
+For sufficiently small systems you can often get away with adhoc queries on a SQL database, but that approach may not scale up trivially once the quantity of data stored or write-load requires sharding your database, and will usually require dedicated slaves for the purpose of performing these queries (at which point, maybe you'd rather use a system designed for analyzing large quantities of data, rather than fighting your database).
+Adding a map-reduce layer makes it possible to perform data and/or processing intensive operations in a reasonable amount of time. You might use it for calculating suggested users in a social graph, or for generating analytics reports. eg. Hadoop, and maybe Hive or HBase.
+Platform Layer (Services)
+Separating the platform and web application allow you to scale the pieces independently. If you add a new API, you can add platform servers without adding unnecessary capacity for your web application tier.
+Adding a platform layer can be a way to reuse your infrastructure for multiple products or interfaces (a web application, an API, an iPhone app, etc) without writing too much redundant boilerplate code for dealing with caches, databases, etc.
+Key topics for designing a system
+Concurrency
+Do you understand threads, deadlock, and starvation? Do you know how to parallelize algorithms? Do you understand consistency and coherence?
+Networking
+Do you roughly understand IPC and TCP/IP? Do you know the difference between throughput and latency, and when each is the relevant factor?
+Abstraction
+You should understand the systems you’re building upon. Do you know roughly how an OS, file system, and database work? Do you know about the various levels of caching in a modern OS?
+Real-World Performance
+You should be familiar with the speed of everything your computer can do, including the relative performance of RAM, disk, SSD and your network.
+Estimation
+Estimation, especially in the form of a back-of-the-envelope calculation, is important because it helps you narrow down the list of possible solutions to only the ones that are feasible. Then you have only a few prototypes or micro-benchmarks to write.
+Availability & Reliability
+Are you thinking about how things can fail, especially in a distributed environment? Do know how to design a system to cope with network failures? Do you understand durability?
+Web App System design considerations:
+Security (CORS)
+Using CDN
+A content delivery network (CDN) is a system of distributed servers (network) that deliver webpages and other Web content to a user based on the geographic locations of the user, the origin of the webpage and a content delivery server.
+This service is effective in speeding the delivery of content of websites with high traffic and websites that have global reach. The closer the CDN server is to the user geographically, the faster the content will be delivered to the user.
+CDNs also provide protection from large surges in traffic.
+Full Text Search
+Using Sphinx/Lucene/Solr - which achieve fast search responses because, instead of searching the text directly, it searches an index instead.
+Offline support/Progressive enhancement
+Service Workers
+Web Workers
+Server Side rendering
+Asynchronous loading of assets (Lazy load items)
+Minimizing network requests (Http2 + bundling/sprites etc)
+Developer productivity/Tooling
+Accessibility
+Internationalization
+Responsive design
+Browser compatibility
+Working Components of Front-end Architecture
+Code
+HTML5/WAI-ARIA
+CSS/Sass Code standards and organization
+Object-Oriented approach (how do objects break down and get put together)
+JS frameworks/organization/performance optimization techniques
+Asset Delivery - Front-end Ops
+Documentation
+Onboarding Docs
+Styleguide/Pattern Library
+Architecture Diagrams (code flow, tool chain)
+Testing
+Performance Testing
+Visual Regression
+Unit Testing
+End-to-End Testing
+Process
+Git Workflow
+Dependency Management (npm, Bundler, Bower)
+Build Systems (Grunt/Gulp)
+Deploy Process
+Continuous Integration (Travis CI, Jenkins)
+Links
+System Design Interviewing
+Scalability for Dummies
+Introduction to Architecting Systems for Scale
+Scalable System Design Patterns
+Scalable Web Architecture and Distributed Systems
+What is the best way to design a web site to be highly scalable?
+How web works?
+Load earlier comments...
+Copy link
+annerossusa-web
+commented
+Dec 17, 2025
+Great insights shared in this article! If you’re exploring ways to grow your business with technology, Apptunix can help. They’re a leading team specializing in:
+Web Development Company in Saudi Arabia
+Software Development Company in Saudi Arabia
+Software Development Services in Bahrain
+Beauty and Salon App Development
+MVP Development
+Apptunix delivers custom, scalable, and high-performing solutions for startups and enterprises across the Middle East.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+sgsg456
+commented
+Dec 17, 2025
+via email
+What do you need from our side ?
+…
+On Wed, Dec 17, 2025 at 4:22 PM Apptunix Technologies < ***@***.***> wrote:
+ ***@***.**** commented on this gist.
+ ------------------------------
+
+ Great insights shared in this article! If you’re exploring ways to grow
+ your business with technology, Apptunix can help. They’re a leading team
+ specializing in:
+
+    1. Web Development Company in Saudi Arabia
+    <
+https://www.apptunix.com/web-development-company-saudi-arabia/
+>
+    2. Software Development Company in Saudi Arabia
+    <
+https://www.apptunix.com/software-development-company-riyadh-saudi-arabia/
+>
+    3. Software Development Services in Bahrain
+    <
+https://www.apptunix.com/software-development-company-bahrain
+>
+    4. Beauty and Salon App Development
+    <
+https://www.apptunix.com/solutions/salon-app-development/
+>
+    5. MVP Development <
+https://www.apptunix.com/mvp-development/
+>
+    Apptunix delivers custom, scalable, and high-performing solutions for
+    startups and enterprises across the Middle East.
+
+ —
+ Reply to this email directly, view it on GitHub
+ <
+https://gist.github.com/vasanthk/485d1c25737e8e72759f#gistcomment-5908857
+>
+ or unsubscribe
+ <
+https://github.com/notifications/unsubscribe-auth/BTKLL7XM3CZ6DS4CPWMVJQD4CFDJVBFHORZGSZ3HMVZKMY3SMVQXIZNMON2WE2TFMN2F65DZOBS2WR3JON2EG33NNVSW45FGORXXA2LDOOIYFJDUPFYGLJDHNFZXJJLWMFWHKZNIGMYDQNRYGQZTFKTBOR2HE2LCOV2GK44TQKSXMYLMOVS2SMRUGA3DMMZSGU22I3TBNVS2QYLDORXXEX3JMSBKK5TBNR2WLJDUOJ2WLJDOMFWWLO3UNBZGKYLEL5YGC4TUNFRWS4DBNZ2F6YLDORUXM2LUPGBKK5TBNR2WLJDHNFZXJJDOMFWWLK3UNBZGKYLEL52HS4DF
+>
+ .
+ You are receiving this email because you commented on the thread.
+
+ Triage notifications on the go with GitHub Mobile for iOS
+ <
+https://apps.apple.com/app/apple-store/id1477376905?ct=notification-email&mt=8&pt=524675
+>
+ or Android
+ <
+https://play.google.com/store/apps/details?id=com.github.android&referrer=utm_campaign%3Dnotification-email%26utm_medium%3Demail%26utm_source%3Dgithub
+>
+ .
+-- 
+
+
+
+
+*Sachin Gupta*
+
+*SEO **Tech **Experts*
+
+
+*Websites | Web Services | S.E.O. | Digital Marketing*
+
+130, JMD Megapolis, Sohna Road
+Gurgaon - 122001  | Haryana, India
+
+
+
+È*: *+91 9871280005
+
+
+**:* ***@***.*** ***@***.***>*
+
+
+
+*Website:* *
+www.seotechexperts.com
+<
+http://www.seotechexperts.com/>*
+*
+www.facebook.com/SEOTechExperts
+<
+http://www.facebook.com/SEOTechExperts>*
+__________________________________________________________________
+Note: Please send website contents for updation by Email or SMS only.
+         ( 10 A.M to 6 P.M)
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+apptunix02
+commented
+Dec 17, 2025
+Excellent resource! The cheatsheet presents system design concepts in a clear, practical way that’s easy to apply in real-world scenarios. This kind of structured thinking is exactly what we follow at a
+mobile app development company in Australia
+when designing scalable, high-performance applications. Great work putting this together!
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+evan303
+commented
+Dec 18, 2025
+Are you looking for best mobile app development company in Saudi Arabia?
+Apptunix
+is the
+best mobile app development company in Saudi Arabia
+delivering innovative, scalable, and user-friendly digital solutions. With expertise in iOS, Android, and cross-platform app development, Apptunix helps businesses transform ideas into powerful applications that drive growth, enhance customer engagement, and achieve success.
+Other Services:
+Mobile app development company in Saudi Arabia
+Digital marketing agency in Dubai
+Digital transformation company in Dubai
+Ride sharing app development company
+Social media app development company
+Laundry app development company
+IT company in Dubai
+Logistics app development company in Dubai
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+kerneltechnet
+commented
+Dec 29, 2025
+This is a highly practical and concise system design cheatsheet. It’s well-structured and easy to follow, making it a valuable reference for anyone involved in planning scalable systems. Great work from a
+software development company
+perspective, especially for developers and architects!
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+petersams
+commented
+Jan 6, 2026
+Great cheatsheet—this is a solid, end-to-end overview of system design that balances fundamentals with real-world scalability concerns. I especially like how it emphasizes trade-offs, bottlenecks, and estimation early on, rather than jumping straight into tools. The breakdown of caching, load balancing, and platform layers makes it very practical for both interviews and production systems.
+From a web perspective, tying backend scalability with frontend performance (CDNs, SSR, async loading, accessibility, and tooling) is often overlooked, so it’s great to see that covered here. These principles are exactly what modern products need to stay fast, reliable, and user-friendly at scale—something we focus on daily as a
+Houston web design company
+delivering performance-driven architectures alongside robust
+SEO Services
+.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+jroy52836-sys
+commented
+Jan 6, 2026
+This is a really well-structured and practical system design cheatsheet. It covers the key concepts in a way that is easy to understand and apply in real projects. As a
+mobile app development company in USA
+, we really appreciate how clearly you’ve explained scalability, reliability and performance considerations. Resources like this are very useful for both interview preparation and real-world architecture planning. Great work and thanks for sharing!
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+joea08320-dotcom
+commented
+Jan 6, 2026
+This System Design Cheatsheet is an outstanding and practical guide for anyone involved in building scalable, robust applications. For a mobile
+app development company in the UAE
+, where performance, scalability, and user experience are critical, these principles are directly applicable — from initial architecture planning to optimizing backend services and load balancing for high-traffic mobile apps.
+Understanding key design decisions such as component breakdown, caching strategies, database partitioning, and scaling techniques helps deliver mobile solutions that are efficient and future-ready. Highly recommended for developers, architects, and engineering teams working on real-world mobile products.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+sophiaeddi11
+commented
+Jan 7, 2026
+Get accurate
+prayer times
+(Salah/Namaz), read the Holy Quran, view the Islamic Calendar 2025, and check Ramadan timings. Your complete Islamic guide.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+sgsg456
+commented
+Jan 8, 2026
+This is a thoughtful and useful collection of resources — thanks for compiling it! In today’s digital landscape, having a strong online presence means more than just great content or product functionality; it requires visibility. That’s where search optimization and design strategy play a crucial role.
+For example, when businesses are looking to scale or improve organic traffic, partnering with a
+best SEO agency in Dubai
+can make a significant difference. Such agencies not only optimize for rankings but also align technical SEO with overall business goals, ensuring higher search visibility and measurable growth over time. In competitive markets like the UAE, strategic SEO becomes essential to outperform rivals and attract qualified leads.
+Similarly, the visual and structural experience of a website directly impacts engagement and conversions. A
+top rated web design agency Dubai
+understands how to merge aesthetics with performance, usability, and search-friendly architecture. This combination helps websites not just look good but perform well across search engines and user interactions.
+Together, professional SEO and web design strategies form a foundation for digital success. When visibility, performance, and user experience are aligned, websites are far more likely to convert visitors into loyal customers. Thanks again for sharing these valuable links — they’re a great starting point for anyone looking to understand the tools behind effective online growth.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+reemalmoktoum-coder
+commented
+Jan 8, 2026
+Apptunix is a custom FinTech app development company that builds secure, scalable, and regulation-compliant financial software for banks, startups, and enterprises. Their services include mobile banking, digital wallets, crypto exchanges, AI-powered investment and risk tools, fraud detection, BNPL platforms, and more—delivering tailored solutions with advanced features like cross-platform support, real-time payments, predictive insights, and automated compliance.
+https://www.apptunix.com/solutions/fintech-app-development/?utm_source=comment&utm_term=organic-8jan-26-sangeeta
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+ansaritaimur
+commented
+Jan 16, 2026
+Local SEO focuses on improving search visibility for location-based queries, ensuring your business appears when potential customers search for services in your area. With the right strategy, local SEO becomes a consistent source of qualified leads and long-term growth.
+Local seo agency in riyadh
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+ItsShivanshgiri
+commented
+Jan 19, 2026
+With more people relying on mobile services, digital platforms are becoming essential for everyday businesses. A reliable
+Laundry App Development Company
+doesn’t just focus on design, but also on performance, security, and smooth user flow. When these elements work together, the overall service experience becomes much better for customers.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+jroy52836-sys
+commented
+Jan 22, 2026
+RowthTech is a full-service software and
+mobile app development company
+that helps businesses in the USA and around the world build scalable, secure, and user-centric digital solutions. With expertise in custom software, web applications, mobile apps (iOS, Android, cross-platform), and healthcare technology, we turn ideas into powerful products that drive growth and innovation. Our team combines modern technology, strategic design, and transparent communication to deliver high-performance solutions tailored to each client’s needs.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+patriciasmithusa
+commented
+Jan 29, 2026
+MVP app development company builds lean, scalable products to validate ideas fast. We design, develop, and launch core features, ensure rapid prototyping, user feedback integration, and cost efficiency for startups and enterprises.
+Ready to validate your idea?
+Build your MVP
+with experts today. 🚀
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+TarunNagar1
+commented
+Feb 2, 2026
+This is a very well-structured and practical breakdown of system design fundamentals. I like how it walks step by step from clarifying scope and use cases all the way to scaling strategies like caching and load balancing. The emphasis on understanding constraints, bottlenecks, and real-world trade-offs (such as database distribution and caching layers) makes it especially useful for anyone designing systems at scale. It’s the kind of overview that helps bridge theory and implementation, whether you’re planning a new platform or optimizing an existing one. Insights like these are invaluable for architects and any
+mobile app development company
+aiming to build scalable, high-performance applications.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+elianawilson
+commented
+Feb 4, 2026
+This guide is a fantastic deep dive into system architecture and development! I really appreciate how you’ve broken down each important step with clarity and purpose. As someone active in the mobile app development space and inspired by working alongside a
+leading iOS app development company in Dubai
+, I found your discussion on load balancing, database replication, and layered design truly resonant. These strategies are essential for building powerful, scalable, and high-performing applications. You’ve made a complex subject feel straightforward, practical, and actionable.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+rordevelopernik
+commented
+Feb 4, 2026
+System Design Cheat Sheet: Key concepts and best practices for scalable architectures — insights by
+Carmatec
+.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+rajinderkumar12
+commented
+Feb 5, 2026
+This is an exceptionally well-written guide on system architecture and development. The clear explanation of key elements such as load balancing, database replication, and layered platform architecture makes complex concepts much easier to understand. As someone working in the mobile app development space and closely following best practices from a
+mobile app development company in USA
+, I found these insights highly valuable for building scalable, high-performing applications.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+john-uae
+commented
+Feb 10, 2026
+We provide expert
+app developers
+for iOS, Android, cross-platform, and AI-powered mobile solutions. Our team builds secure, scalable, and high-performance applications for startups, SMEs, and enterprises in Dubai and across the UAE.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+AppDeveloperMelbourne
+commented
+Feb 16, 2026
+IndiaAppDeveloper
+is a top mobile app development company in New York, delivering custom, high-quality mobile applications for iOS, Android, and cross-platform solutions. We specialize in taxi booking app development, creating scalable and secure ride-hailing apps with real-time tracking, smooth payment integration, and a seamless experience for both drivers and riders.
+If you’re looking to
+hire developers in NYC
+, IndiaAppDeveloper provides experienced professionals skilled in the latest technologies, ready to work on full-time, part-time, or project-based engagements. We focus on delivering innovative apps that help businesses grow and succeed in the competitive market.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+jahanzaibriazjatoi-hub
+commented
+Feb 17, 2026
+“Great article! I was looking for reliable UAE calculator tools and found your post very helpful. If anyone needs easy and accurate calculators for UAE rent, salary, loan, tax or savings planning, you should also check out this site:
+https://uaecalculatorhub.com/
+— they have all your UAE calculator needs in one place. Keep up the good work!”
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+jimsmith45
+commented
+Feb 19, 2026
+•
+edited
+Loading
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Great article !  A professional
+website development company
+that focuses on performance and
+UI/UX design services
+can truly transform user engagement.
+GearUp Code
+is doing impressive work in custom website development and scalable business websites.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+jahanzaibriazjatoi-hub
+commented
+Feb 19, 2026
+If you are living in the United Arab Emirates and looking for reliable resources for expats, Settelix provides helpful guides, updates, and essential information tailored for UAE residents. Visit:
+https://settelix.com/
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+jahanzaibriazjatoi-hub
+commented
+Feb 20, 2026
+Great insights! I really appreciate the valuable information shared here. It’s always helpful to find platforms that focus on quality content and branding strategies. For professional branding and creative digital solutions, check out BrandMajlis:
+https://brandmajlis.com/
+— they offer excellent services that can help grow your online presence!
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+jahanzaibriazjatoi-hub
+commented
+Feb 21, 2026
+Stay informed about the latest laws and regulations in the United Arab Emirates. Arabiana Aura Central provides up-to-date UAE rules for residents and visitors.
+🔗
+https://arabianauracentral.com/
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+jahanzaibriazjatoi-hub
+commented
+Feb 21, 2026
+“Great article! For businesses looking to improve Google rankings and online visibility, I highly recommend checking out
+Mhafs.io
+— a professional SEO agency delivering measurable results.”
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+DubaiArchivesHub
+commented
+Feb 21, 2026
+I especially like how it clearly separates high-level architecture, component design, scaling strategies, caching, and database concepts - that’s exactly how real-world system design discussions flow in interviews and production environments.
+One thing I’d add is emphasizing trade-offs between consistency, availability, and
+partition tolerance
+(CAP) when discussing replication and partitioning, since that often becomes a key decision point in distributed systems.
+I’ve also shared a simplified and practical breakdown of scalable web architecture concepts (with real-world web app considerations) here in case it helps others:
+https://dubaiarchives.com/
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+jahanzaibriazjatoi-hub
+commented
+Feb 22, 2026
+“I found this website very useful for daily calculations. UAE Calculator Hub provides accurate and easy-to-use tools. Highly recommended! Visit:
+https://uaecalculatorhub.com/”
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+jimsmith45
+commented
+Mar 3, 2026
+•
+edited
+Loading
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+If anyone’s looking for a reliable car wash in Mechanicsburg, check out this place –
+Cloud10 Smart Wash
+|
+Best car wash in Mechanicsburg PA
+Cloud10 Smart Wash
+|
+Best car wash in Mechanicsburg PA
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Sign up for free
+to join this conversation on GitHub
+.
+    Already have an account?
+Sign in to comment
+You can’t perform that action at this time.

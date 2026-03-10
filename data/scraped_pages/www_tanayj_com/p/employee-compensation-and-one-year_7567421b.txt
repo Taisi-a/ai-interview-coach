@@ -1,0 +1,159 @@
+Subscribe
+Sign in
+Employee compensation and one-year equity grants
+Tanay Jaipuria
+May 04, 2021
+13
+2
+Share
+Hi friends!
+Recently, some companies such as Lyft and Stripe moved to one-year equity payouts rather than the typical four-year equity grants that are common in the technology industry.
+The headline of
+the article
+is misleading (or a genius PR move on Stripe / Lyft’s part) and paints this as a win for employees (“speed up”), which it isn’t.
+I’ll go deeper into this today and cover:
+Background on equity compensation
+Contributing events in the past year
+Motivations for companies
+Employee perspective
+Why early stage-startups shouldn’t adopt it
+Background on equity compensation
+Today, typically, employees at most tech companies are compensated in equity. For most public (and later-stage private companies), this takes the form of restricted stock units or RSUs (essentially shares), and for most startups, this takes the form of options that entitle the employee to buy shares at some price.
+In both cases, the
+typical
+structure is as follows:
+4 year total vesting period on the initial grant
+1-year cliff, meaning nothing vests until that first year, after which the rest vests linearly either monthly or quarterly
+This initial grant tends to be followed by “refresher grants”, either upon promotion events or on some fixed period (every year after X years), which have a similar vesting schedule.
+At most later-stage companies, one way to think of this grant is as follows: the company makes an offer to the employee which includes $X in equity vesting over 4 years, where $X translated into a certain number of shares based on the price at the time they start.
+In some sense, employees divide the $X by 4 to think about their effective compensation per year.
+But the reality is that most companies, even public ones, tend to grow their valuation (even net of dilution) each year, so when the further out stocks vest, they are worth more than the initial grant price.
+Looking at big tech data
+Here’s a simplified view. If a big tech company gave an employee a $200K grant ($50K per year on the surface), vesting over 4 years, and they
+sold the grant each year as it vested
+, how much would it be worth?
+I ran some of the rough numbers for Google, Amazon, Apple, and Microsoft with data from 2005 onwards.
+Employees benefit from the appreciation, and so a ~$200K grant actually is worth a lot more, and especially the Year 3 and 4 value of the grants, which tend to be worth 75-100% more than the $50K “sticker value”.
+Data on what a median 4-year grant worth $200K is worth if sold annually upon vesting
+The obvious takeaway is this:
+replacing the four-year grants with one-year grants granted every year is bad for employees unless adjustments are made where the average sizes each year are larger.
+So why might companies be wanting to switch their equity compensation payout packages?
+Contributing events in the last year
+We’ve seen two things happen over the last year, both of which I suspect might have played a part in being the impetus for this change from Stripe and Lyft.
+1) A huge step up in the valuation of private companies going public.
+In part because of heated public markets with low-interest rates and record multiples, companies such as Snowflake and Coinbase went public at valuations ~10X more than their most recent financing just a year or 18 months prior.
+While great for those companies, one obvious effect of it is that certain employees, who essentially joined between the two rounds, now have equity packages far beyond what the company might have expected to pay (and potentially the value these employees have created or may create).
+This tweet captures that sentiment well.
+Alex Cohen
+@anothercohen
+Being a founder is super exciting. 
+
+You can grind away for 5 years and sell your company but still not make as much money as someone who joined Snowflake 2 years ago with $300k in shares at a $3 strike price and is now worth $30m today
+12:56 AM · Dec 29, 2020
+126 Reposts
+·
+2.56K Likes
+To put things concretely, someone for whom HR targeted compensation of ~$100K/yr in equity for 4 years might be making $1M/yr for 4 years (likely far more than their market rate especially given they took no risk) given the ~10X increase in valuation just 3-6 months after joining, while someone a lot more senior who joins post the IPO (~3-6 months later) makes less.
+One could argue that this is just a part and parcel of the Silicon Valley game, but companies might counter saying there is the opportunity to use the equity more effectively.
+2) High volatility in stock prices in the last 12 months which leads to effective compensation for new hires being heavily dependent on timing
+We saw a “crash” in markets in February and March in 2020, and an even more incredible recovery and boom that followed, which meant that people who joined in a 3 month period might have seen their entire stock grant appreciate 5-8X, and be making a lot more than those who joined a few months on either side for essentially no reason.
+Examples of such stocks include Snap, Pinterest, and Tesla, as well as a whole host of SaaS companies, which are up 6-7X from March.
+By offering grants in one year increments, timing becomes less of a factor because only the first year or equity rather than all four years of equity get artificially inflated (or deflated) because of large changes in stock prices
+Motivations for companies to move to one-year payouts
+The events above illustrate why some companies might contribute to wanting a different payout structure.
+So what are the advantages of a one-year pay-out structure?
+Reduce dilution
+: Companies that have seen their valuations rise over the years may view this as a way to reduce dilution if they’ve found a four-year vest plus their valuation growth often makes their compensation go above market range. The flip side to this is that since other companies will offer a four-year vest, it may discourage joining the company in the first place.
+Stronger “Pay for performance” culture
+: In many ways, the timing one joined and that initial 4-year grant today dictates compensation at many places, especially later-stage startups. That initial grant has an outsized effect on compensation, even though the employer doesn’t know much about the employee. By switching from one large grant to a yearly grant, companies can pay more to those who are performing at a high level in years 2-4 than give everyone a grant size assuming some level of average performance at the time they’re hired. Obviously, refreshers are one way to do this in the typical structure, but this model makes it easier to compensate more closely tied to performance.
+Reduce “rest and vest” incentives / staying just to vest initial grant/timing impact
+: At certain startups and later-stage companies which take off, employees in years 3 and 4 might be sticking around just to vest their initial grant and be resting and vesting or “earning more” than higher-performing similarly senior employees who joined later. This equity model can reduce some of that by tying the one-year payouts to current performance. Some might say you can always fire underperforming employees, but there is a middle ground where they aren’t underperforming but just not performing at the level of say the grant value they are vesting each year (and firing employees has other knock-on morale effects)
+The flip side to this is that it could make companies who adopt this approach
+less competitive in the talent market
+. In addition, it could
+decrease loyalty
+in that there might be less of a reason to stay beyond year 1 into year 2-4 if the new grant sizes aren’t appropriate and market competitive.
+Impact to Employees
+As I mentioned earlier, absent no adjustments to the size of grants, a 4 year to 1-year move hurts employees. But how much?
+That depends on how fast the company is growing and whether the employee sells immediately or holds for 4 years (often naturally the case in private companies).
+To illustrate, I modeled a simplified example where an employee sells upon vesting (note that in private companies where the employee can’t sell, the effect of the switch is even more compounded).
+So what happens if an equal-sized grant is used with one year vesting as in the 4-year vesting?
+The employee is
+worse off by about 31% (or 55% of the initial value of the grant)
+because they don’t get to enjoy the benefits of compounding growth on the value of their later grants.
+A simplified example of the value of RSUs under the two different approaches, assuming annual selling
+One natural question to consider is how much bigger the annual grant size has to be in a one-year payout model compared to the annual size in a four-year grant. The answer is below.
+How much larger the annual grants need to be compared to the annual value of a 4-year grant so employees are not worse off
+It will depend on how fast the company stock/valuation is increasing, but it’s striking that even at 15-20% growth rates, the size of the grant has to be 25-35% higher to keep the employee as well off.
+In other words, if you were getting $400K vesting over four years, you need ~$135K per year in one a year payout model to be indifferent, assuming the company is growing 20% per year.
+Note that while companies might argue that they will pay more in years 2-4, in the 4-year schedule, companies would have had some form of refresher anyway, so I’ve excluded that consideration in the calculation.
+Early-stage companies
+While it may make sense for some public or quasi-public (1-2 years from IPO) companies to adopt this above approach, where the equity is more like cash but with a slightly wider range of outcomes than big-tech equity,
+early-stage startups should not adopt this approach
+.
+Sheel Mohnot
+@pitdesi
+Wow. Lyft & Stripe moving to 1-year stock awards instead of a 4yr vest
+
+This is BAD for employees; growing startups increase in value, so a $ denominated annual award will mean less stock than before.
+
+Early-stage companies should not follow their lead.
+theinformation.com
+Stripe and Lyft Speed Up Equity Payouts to First Year
+4:17 PM · Apr 26, 2021
+77 Reposts
+·
+642 Likes
+Already, hiring at the early stage is quite difficult
+. With the cost to start a company being lower than before and the market being hotter than ever, many employees wonder what the point of joining early on for 0.25-2% of a company is when they could found a company and get 20X that.
+In addition, startups are still relatively cash-poor (or at least want to optimize for conserving cash) so tend to have lower base salaries than alternative offers, made up for by options that have the potential to appreciate a lot more.
+Over 50% of startups fail, and employees who join these startups are aware of this. But they know that if that isn’t the case, their options can appreciate a lot more and be worth a lot more than had they taken an equivalent job at a later-stage / public company.
+By moving to a one-year equity grant model, early-stage companies would be curtailing the upside benefit, without really protecting the downside in any way
+. If the startup isn’t working your equity still ends up being 0. But if it does work your equity ends up being worth a lot less.
+As you can see in the simplified example below, the delta can end up being very meaningful - in this case, 3X times the initial value of the grant! Obviously, companies might issue larger grant sizes if doing one-year payouts, but the size of those would have to be huge to still provide the same upside.
+A simplified example to show the impact of the change at an early stage startup which takes off
+Thanks for reading! If you liked this post, give it a heart up above to help others find it or share it with your friends.
+Share
+If you have any comments or thoughts, feel free to
+tweet at me
+.
+If you’re not a subscriber, you can subscribe below. I write about things related to technology and business once a week on Mondays.
+Subscribe
+13
+2
+Share
+Previous
+Next
+Discussion about this post
+Comments
+Restacks
+Andrea Hobby
+Feb 26, 2022
+Thanks for writing this!
+Reply
+Share
+Yan
+Nov 28, 2021
+Nice article. One more advantage for the 4 year vesting is that companies topically also grant refreshers right after the first year on top of the 4 year grant in the offer.
+Reply
+Share
+Top
+Latest
+Discussions
+No posts
+Ready for more?
+Subscribe
+© 2026 Tanay Jaipuria
+·
+Privacy
+∙
+Terms
+∙
+Collection notice
+Start your Substack
+Get the app
+Substack
+is the home for great culture
+This site requires JavaScript to run correctly. Please
+turn on JavaScript
+or unblock scripts

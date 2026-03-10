@@ -1,0 +1,155 @@
+Grokking the Object Oriented Design Interview
+Learn how to prepare for object oriented design interviews and practice common object oriented design interview questions.
+Level:
+Beginner
+Study Time:
+22
+h
+Lessons:
+25
+Playgrounds :
+89
+3.9
+(
+10,239
+ratings)
+58,582
+learners
+Get Started For Free
+Course Overview
+Object-oriented design has always been a critical part of the software engineering interview process. Most of the engineers struggle with the object-oriented design interviews (OODI), partly because of their lack of experience in laying down the design of a complex system, and partly because of the unstructured nature of OODI. Even engineers, who have some sort of experience in building such systems are not comfortable with these interviews. It is mainly because of the open-ended nature of the design problems that don't have a standard answer.
+
+This course is a complete guide to master the OODI. It is created by Design Gurus who are a team of hiring managers from Google, Facebook, Microsoft, and Amazon. It not only has a set of carefully handpicked case studies, which have been repeatedly asked at the top tech companies but also provides a thorough experience to handle different object-oriented design scenarios. While code is not the emphasis of this course, some code examples in Java and Python are provided throughout.
+
+Let’s get started!
+Annual Subscription
+Get instant access to all current and upcoming courses for one year.
+OR
+Lifetime Access - This Course
+Get lifetime access to this course only.
+Discounted Prices for
+Your Region
+Certification on completing the course.
+Gift for lifetime
+Annual Subscription
+Get instant access to all current and upcoming courses for one year.
+OR
+Lifetime Access - This Course
+Get lifetime access to this course only.
+Discounted Prices for
+Your Region
+Certification on completing the course.
+Gift for lifetime
+Course Content
+•
+Chapters •
+25
+Lessons
+1
+.
+Object Oriented Design and UML
+7
+lessons
+Object-Oriented Basics
+OO Analysis and Design
+What is UML?
+Use Case Diagrams
+Class Diagram
+Activity Diagrams
+Sequence diagram
+2
+.
+Object Oriented Design Case Studies
+16
+lessons
+Design a Library Management System
+Design a Parking Lot
+Design Amazon - Online Shopping System
+Design Stack Overflow
+Design a Movie Ticket Booking System
+Design an ATM
+Design an Airline Management System
+Design Blackjack and a Deck of Cards
+Design a Hotel Management System
+Design a Restaurant Management system
+Design Chess
+Design an Online Stock Brokerage System
+Design a Car Rental System
+Design LinkedIn
+Design Cricinfo
+Design Facebook - a social network
+3
+.
+Appendix
+2
+lessons
+Contact Us
+Other Courses
+What people say about our courses
+MO JAFRI
+Software Engineer
+The courses which have "grokking" before them, are exceptionally well put together! These courses magically condense 3 years of CS in short bite-size courses and lectures (I have tried System Design, OODI, and Coding patterns). The Grokking courses are godsent, to be honest.
+ABHISHEK GUPTA
+Software Engineer
+My offer from the top tech company would not have been possible without this course. Many thanks!!
+KAUSHIK JONNADULA
+Software Engineer
+Thanks for a great resource! You guys are a lifesaver. I struggled a lot in design interviews, and this course gave me an organized process to handle a design problem. Please keep adding more questions.
+AHMET HANIF
+Software Engineer
+Whoever put this together, you folks are life savers. Thank you :)
+Related Courses
+New
+Grokking Algorithm Complexity and Big-O
+Learn algorithm complexity and Big-O through practical examples to optimize code, ace interviews, and enhance problem-solving skills.
+4.4
+Discounted price for
+Your Region
+$
+49.98
+Preview
+Grokking System Design Fundamentals
+Grokking System Design Fundamentals is designed to equip software engineers with the essential knowledge and skills required to design large complex systems.
+4.6
+Discounted price for
+Your Region
+$
+98
+Preview
+New
+Grokking SOLID Design Principles
+Master SOLID design principles with practical examples to build robust, maintainable software and enhance your system design skills.
+3.9
+Discounted price for
+Your Region
+$
+50
+Preview
+One-Stop Portal For Tech Interviews.
+About Us
+Our Team
+Careers
+Contact Us
+Become Affiliate
+Become Contributor
+Social
+Facebook
+Linkedin
+Twitter
+Youtube
+Substack
+New
+LEGAL
+Privacy Policy
+Cookie Policy
+Terms of Service
+RESOURCES
+Blog
+Knowledge Base
+Blind 75
+Company Guides
+Answers Hub
+Newsletter
+Copyright ©
+2026
+Design Gurus, LLC. All rights reserved.

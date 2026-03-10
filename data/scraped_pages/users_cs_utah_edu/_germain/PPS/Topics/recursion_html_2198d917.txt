@@ -1,0 +1,424 @@
+Recursion
+Recursion means "defining a problem in terms of itself".  This can be a very
+        powerful tool in writing algorithms.  Recursion comes directly from Mathematics,
+        where there are many examples of expressions written in terms of themselves.  For
+        example, the Fibonacci sequence is defined as: F(i) = F(i-1) + F(i-2)
+Recursion
+Recursion is the process of defining a problem (or the solution to a problem) in
+        terms of (a simpler version of) itself.
+For example, we can define the operation "find your way home" as:
+If you are at home, stop moving.
+Take one step toward home.
+"find your way home".
+Here the solution to finding your way home is two steps (three steps). First, we
+        don't go home if we are already home.  Secondly, we do a very simple action that
+        makes our situation simpler to solve.  Finally, we redo the entire algorithm.
+The above example is called tail recursion.  This is where the very last statement
+        is calling the recursive algorithm.  Tail recursion can directly be translated
+        into loops.
+How would you write a recursive "algorithm" for finding Temple Square?
+Answer:
+Function "Find Temple Square":
+
+            1) Ask Someone which way to go.  (they point "that away")
+            2) Move "that away" until unsure
+            3) Find Temple Square
+Another example of recursion would be finding the maximum value in a list of
+        numbers.  The maximum value in a list is either the first number or the biggest of
+        the remaining numbers.  Here is how we would write the pseudocode of the
+        algorithm:
+Function find_max( list )
+
+            possible_max_1 = first value in list
+            possible_max_2 = find_max ( rest of the list );
+            
+            if ( possible_max_1 > possible_max_2 )
+              answer is possible_max_1
+            else
+              answer is possible_max_2
+            end
+
+          end
+Parts of a Recursive Algorithm
+All recursive algorithms must have the following:
+Base Case (i.e., when to stop)
+Work toward Base Case
+Recursive Call (i.e., call ourselves)
+The "work toward base case" is where we make the problem
+        simpler (e.g., divide list into two parts, each smaller than
+        the original).  The recursive call, is where we use the same
+        algorithm to solve a simpler version of the problem.  The base
+        case is the solution to the "simplest" possible problem (For
+        example, the base case in the problem 'find the largest number
+        in a list' would be if the list had only one number... and by
+        definition if there is only one number, it is the largest).
+Simple Example: Add three numbers
+Adding three numbers is equivalent to adding the first two
+        numbers, and then adding these two numbers again.
+(Note, in
+        Matlab, a function can be called without all the arguments.
+        The nargin function tells the computer how many values were
+        specified. Thus add_numbers(1) would have an nargin of 1;
+        add_numbers(1,1) would have an nargin of 2; add_numbers(1,1,1)
+        would have an nargin of 3.)
+Matlab
+function result = add_numbers(a, b, c)
+
+          if      ( nargin() == 2 )
+            result = a + b;
+          else if ( nargin() == 3 )
+            result = add_numbers(a+b, c);
+          else
+            error('oops');
+          end
+          
+        end
+Identify the 3 parts of the recursive algorithm:
+All recursive algorithm must have the following three stages:
+Base Case: if ( nargin() == 2 ) result = a + b;
+"Work toward base case": a+b becomes the first parameter
+This reduces the number of parameters (nargin) sent in to
+            the function from 3 to 2, and 2 is the base case!
+Recursive Call: add_numbers(a+b, c);
+Why Recursion Works
+In a recursive algorithm, the computer "remembers" every previous state of the
+        problem.  This information is "held" by the computer on the
+"activation
+        stack"
+(i.e., inside of each functions workspace).
+Every function has its own workspace
+PER CALL
+of the function.
+Maze Example:
+Consider a rectangle grid of rooms, where each room may or may not
+        have doors on the North, South, East, and West sides.
+How do you find your way out of a maze?  Here is one possible "algorithm" for
+        finding the answer:
+For every door in the current room, if the door leads to the exit, take that door.
+The "trick" here is of course, how do we know if the door leads to a room that
+        leads to the exit?  The answer is we don't but we can let the computer figure it
+        out for us.
+What is the recursive part about the above algorithm?  Its the "door leads out of
+        the maze".  How do we know if a door leads out of the maze?  We know because
+        inside the next room (going through the door), we ask the same question, how do we
+        get out of the maze?
+What happens is the computer
+"remembers"
+all the "what ifs".  What if I
+        take the first door, what if I take the second door, what if I take the next door,
+        etc.  And for every possible door you can move through, the computer remembers
+        those what ifs, and for every door after that, and after that, etc, until the end
+        is found.
+Here is a close to actual code implementation.
+Matlab
+% return true if we can find our way out
+        function success = find_way_out( maze, room )
+        
+          for every door in the room
+
+             new_room = go_through_door( maze, door )
+
+             if  ( find_way_out ( maze, new_room ) )
+               take that door.
+
+               return true
+             end
+
+          end
+
+          % there were no ways out :(
+          return false
+
+        end
+Question: What is the base case above?
+Answer: (That was a trick question) There is no base case in the code.
+        You need to check at the start if the room is the exit. If it is, no recursion!
+function success = find_way_out( maze, room )
+
+           if room is exit → return true
+
+           room ← mark as visited
+
+           % rest of code
+           ...
+      
+        end
+Question: How do you mark the room as visited?
+Answer: There are various techniques.  If the room is a structure (or object)
+	you can add the visited field direction to the room. (e.g., room.visited = true;)
+	If you are not using objects, you could have a matrix of boolean flags that is
+	the same size/shape as the maze and use these values.
+Question: Are the other problems with the above algorithm?
+Answer: The answer to that can be found by thinking about the
+        following question: What would happen if the maze was a giant
+        grid of identically sized rectangular rooms, each with doors
+        on every wall?  Imagine you go North through the first door,
+        then East through the next rooms door, then South through that
+        rooms door, and then West through that rooms door.  Where do
+        you end up?  Back where you started!  Worse, you might
+        continue to make this loop for ever.  How would a intrepid
+        adventurer solve this problem?
+One answer to that is by using a piece of chalk and putting a big X on the
+        floor of every room you enter.  Thus when you come back to a room with an
+        X on the floor, you know you needn't enter.  In the case of the program,
+        a boolean flag "seen" or "visited" should be used.  Every room has a flag.
+        Every room starts with the flag being set to false.  When you visit a room,
+        you set the flag to true.  Finally, in the "base case" you have a line such as:
+function success = find_way_out( maze, room )
+
+           % exit chack
+
+           if room is visited → return false
+
+           % rest of code
+           ...
+      
+        end
+Recursion can be equally well applied to computer algorithms:
+Some Computer related examples include: Adding a list of numbers, Computing the
+        Fibonacci sequence, computing a Factorial, and Sudoku.
+Summing a list of numbers:
+Question: What is a recursive solution to summing up a list of numbers? First you 
+            should note that the sum of [1 2 3 4 5 6 7 8 9]) is equal to 1 + sum of [2 3 4 5 6 7 8 9])!
+Answer:
+Matlab
+function result = sum (list)
+       if ( length(list) == 0 )
+         result = 0;
+       else
+         result = list(1) + sum ( list(2:end) );
+       end
+    end
+C Language
+/**
+     * Recursively Sum a list of numbers
+     *
+     * Note: The "rest" function returns the array starting at the 2nd value
+     *       in the current array.
+     */
+    int
+    sum (int list[], int length)
+    {
+       if (length == 0)
+         {
+           return 0;
+         }
+
+         return list[0] + sum ( rest ( list ), length -1 );
+     }
+ActionScript
+/**
+     * Recursively Sum a list of numbers
+     *
+     * Note: The "rest" function returns the array starting at the 2nd value
+     *       in the current array.
+     */
+    static
+    public function sum ( list : Array ) : int
+    {
+       if ( list.length == 0 )
+         {
+           return 0;
+         }
+
+         return list[0] + sum ( rest ( list ) );
+     }
+Factorial
+What is the definition of Factorial?
+Answer: factorial(X) = X *
+(x-1) * (x-2) * ... * 2
+Hmmm, but what does "(x-1) * (x-2) * ... * 2" equal?
+Answer: factorial(X-1)
+What if we combine these definitions!
+Answer 3: factorial(X) = X * factorial(X-1);
+Lets write a recursive factorial function.
+Answer:
+Matlab
+function result = factorial ( N )
+    {
+       if ( N == 0 ) 
+         {
+           result = 1;
+         }
+       else
+         {
+           result = N * factorial(N-1);
+         }
+    }
+C Language
+int
+    factorial ( int N )
+    {
+       if ( N == 0 ) 
+         {
+           return 1;
+         }
+       else
+         {
+           return N * factorial(N-1);
+         }
+    }
+ActionScript
+static
+    public function factorial ( N : int ) : int
+    {
+       if ( N == 0 ) 
+         {
+           return 1;
+         }
+       else
+         {
+           return N * factorial(N-1);
+         }
+    }
+Fibonacci
+What is the definition of the Fibonacci number at location X in the sequence?
+Answer: fib(x) = fib(x-1) + fib(x-2);
+This is a recursive definition.
+Lets write a recursive function to compute the Nth number in the Fibonacci
+            sequence.
+Answer:
+Matlab
+function result =  fib ( location )
+    {
+       if ( location < 2 )
+           result = 1;
+       else
+           result = fib(location - 1) + fib(location - 2);
+       end
+    }
+C Language
+int
+    fib ( int location )
+    {
+       if ( location < 2 )
+         {
+           return 1;
+         }
+       else
+         {
+           return fib(location - 1) + fib(location - 2);
+         }
+    }
+ActionScript
+static
+    public function fib ( location : int ) : int
+    {
+       if ( location < 2 )
+         {
+           return 1;
+         }
+       else
+         {
+           return fib(location - 1) + fib(location - 2);
+         }
+    }
+Note: This algorithm, while elegant is really inefficient. Why?
+Answer:
+The problem here is the computer must re-evaluate the same Fibonacci
+                    number over and over again.  For example, fib(5) is equal to fib(4) +
+                    fib(3).  But, fib(6) is equal to fib(5) + fib(4).  So when it comes
+                    time to evaluate fib(6), we are going to evaluate fib(5) over again,
+                    and then evaluate fib(4) even more times.
+Sorting
+How can you sort a list of numbers using recursion?
+Hint 1: Is it easier to sort a long list or a short list?
+Hint 2: If you have two sorted lists, can you put them back together?
+Answer
+Pseudocode in C
+list sort ( list )
+    {
+       if length of list is 1, return list; // base case 
+
+       list1 = 1st half of list             // work (break list in half
+       list2 = 2nd half of list             // "moving toward" length of 1)
+
+       list1 = sort( list1 )
+       list2 = sort( list2 )
+ 
+       list3 = merge (list1, list2) 
+ 
+       return list3;
+    }
+Note: The algorithm requires the use of a "merge function" which
+                    merges two ordered lists back into a single ordered list!  How would
+                    you write such an algorithm?
+Sort Pseudocode Answer Matlab:
+function list = sort ( list )
+
+       if ( length( list ) == 1 )
+          return;
+       end
+
+       total = length( list );
+       list1 = list[1 : floor(total/2) ];
+       list2 = list[floor(total/2)+1 : total];
+
+       list1 = sort( list1 );
+       list2 = sort( list2 );
+ 
+       list = merge (list1, list2);
+    end
+Merge Pseudocode:
+function list  = merge ( list1, list2 )
+       list_1_position = 1;
+       list_2_position = 1;
+       list_position = 1;
+     
+       list = zeros(1,length(list_1) + length(list_2));
+
+       if ( list_1_position > length(list1) )
+          list(list_position) = list_2(list_2_position);
+          list_2_position = list_2_position + 1;
+       else if ( list_2_position > length(list2) )
+          list(list_position) = list_1(list_1_position);
+          list_1_position = list_1_position + 1;
+       else if  ( list1( list_1_position)  > list2( list_2_position ) )
+          list(list_position) = list_1(list_1_position);
+          list_1_position = list_1_position + 1;
+       else
+          list(list_position) = list_2(list_2_position);
+          list_2_position = list_2_position + 1;
+       end           
+    end
+Sudoku
+How would you use a computer solve a Sudoku?  How about trying every possible
+            combination of numbers?  Note: this is a brute force approach.  Here is one
+            possible "algorithm":
+Starting from the upper left "bucket" and moving across each row one column at
+            a time (then down to the start of the next row, and so forth).
+Hypothesize a valid number (what the heck, just try all 9 numbers) for the bucket.
+            IF, you can solve the rest of the puzzle, BASED on the HYPOTHESIZED number, you have
+            SOLVED the puzzle!
+This is a recursive algorithm!  Assume every box is assigned an index/label
+            number (from 1 to 81):
+Algorithm Overview Pseudocode:
+function solve_sudoku ( current_box_id )
+
+                if all the boxes are filled
+                   return true; // solved! 
+                end
+
+                // ignore already "filled" squares (assume they are correct!)
+                if the current box is filled
+                   return the result of: solve_sudoku( next box );
+                end
+
+                // hypothesize all 9 possible numbers
+                for each possible number from 1 to 9
+                  if that number is 'valid' (okay to put in box)  // test row,col,square
+                    try that number in the box
+                    if you can "solve_sudoku" for the rest of the puzzle
+                       return true; // success!
+                    end
+                  end
+                end
+
+                return false; // failure
+
+              end
+Loops and Tail Recursion
+Some recursive algorithms are very similar to loops.  These algorithms are called
+        "tail recursive" because the last statement in the algorithm is to "restart" the
+        algorithm.  Tail recursive algorithms can be directly translated into loops.
+Back to Topics List

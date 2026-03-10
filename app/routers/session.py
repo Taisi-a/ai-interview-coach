@@ -6,6 +6,10 @@ from pydantic import BaseModel
 from app.database import get_db
 from app.models import Session, Message, Resume, AgentType, SessionStatus
 from app.security import get_current_user
+from app.config import VLLM_BASE_URL, get_model_for_agent
+from app.llm_utils import strip_think_tags
+from app.rag.settings import RAG_ENABLED, RAG_TOP_K, RAG_MAX_CONTEXT_CHARS
+from app.rag.vectorstore import query_text
 
 router = APIRouter(prefix="/session")
 
@@ -13,8 +17,8 @@ router = APIRouter(prefix="/session")
 # --- Промты для каждого агента ---
 AGENT_PROMPTS = {
     AgentType.HR: "Ты опытный HR. Проводишь поведенческое интервью. Задавай вопросы по методу STAR. После каждого ответа давай короткую обратную связь.",
-    AgentType.TECH_LEAD: "Ты опытный Tech Lead. Проводишь техническое интервью. Задавай вопросы по алгоритмам, структурам данных и System Design.",
-    AgentType.MENTOR: "Ты карьерный ментор. Анализируй резюме кандидата, выявляй пробелы и составляй план подготовки.",
+    AgentType.TECH_LEAD: "Ты опытный Tech Lead. Проводишь техническое интервью. Задаешь вопросы по алгоритмам, структурам данных и System Design. Сначала даешь 1–2 задачи уровня LeetCode, потом переходишь к вопросам на обсуждение. После каждого ответа кандидата: (1) кратко оцени корректность, (2) укажи что не так/чего не хватает, (3) задай следующий вопрос. Используй предоставленный контекст из Tech Interview Handbook (RAG), чтобы сверять ответы и предлагать темы для изучения. Задавай по 1 вопросу за сообщение.",
+    AgentType.MENTOR: "Ты карьерный ментор. На основе резюме кандидата и текста вакансии выявляй сильные стороны и пробелы. Используй предоставленный контекст из Tech Interview Handbook (RAG) и предложи список тем для изучения с приоритетами и коротким планом.",
     AgentType.CODE_REVIEW: "Ты senior разработчик. Делаешь code review. Анализируй код на корректность, сложность и стиль.",
 }
 
@@ -198,15 +202,46 @@ def _get_agent_reply(session: Session, db: DBSession) -> str:
     if session.vacancy_text:
         system_prompt += f"\n\nВАКАНСИЯ:\n{session.vacancy_text[:1000]}"
 
+    # RAG по Tech Interview Handbook: вытаскиваем релевантные фрагменты и подмешиваем в system prompt
+    if RAG_ENABLED:
+        last_user = next((m["content"] for m in reversed(history) if m["role"] == "user"), "")
+        rag_query = last_user
+        if session.vacancy_text:
+            rag_query += f"\n\nVacancy:\n{session.vacancy_text[:800]}"
+        if session.resume:
+            rag_query += f"\n\nResume:\n{session.resume.raw_text[:1200]}"
 
-    # from openai import OpenAI
-    # client = OpenAI(api_key="not-needed", base_url="http://АДРЕС/v1")
-    # response = client.chat.completions.create(
-    #     model="UI-TARS-1.5-7B",
-    #     messages=[{"role": "system", "content": system_prompt}] + history,
-    #     max_tokens=512,
-    #     temperature=0.7,
-    # )
-    # return response.choices[0].message.content
+        try:
+            hits = query_text(rag_query, top_k=RAG_TOP_K)
+        except Exception:
+            hits = []
 
-    return f"[Заглушка агента {session.agent_type.value}] Получил твоё сообщение. Подключим vllm как будет готов!"
+        if hits:
+            context_lines: list[str] = []
+            total = 0
+            for i, h in enumerate(hits, start=1):
+                meta = h.get("meta") or {}
+                src = meta.get("source") or "unknown"
+                title = meta.get("title")
+                header = f"[{i}] {title + ' — ' if title else ''}{src}"
+                snippet = (h.get("text") or "").strip()
+                block = f"{header}\n{snippet}"
+                if total + len(block) > RAG_MAX_CONTEXT_CHARS:
+                    break
+                context_lines.append(block)
+                total += len(block) + 2
+
+            system_prompt += "\n\nTECH INTERVIEW HANDBOOK (RAG):\n" + "\n\n".join(context_lines)
+
+    from openai import OpenAI
+
+    model = get_model_for_agent(session.agent_type.value)
+    client = OpenAI(api_key="not-needed", base_url=VLLM_BASE_URL)
+    response = client.chat.completions.create(
+        model=model,
+        messages=[{"role": "system", "content": system_prompt}] + history,
+        max_tokens=512,
+        temperature=0.7,
+    )
+    raw = response.choices[0].message.content or ""
+    return strip_think_tags(raw)

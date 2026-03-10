@@ -1,0 +1,288 @@
+Skip to content
+You signed in with another tab or window.
+Reload
+to refresh your session.
+You signed out in another tab or window.
+Reload
+to refresh your session.
+You switched accounts on another tab or window.
+Reload
+to refresh your session.
+Dismiss alert
+facebook
+/
+docusaurus
+Public
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Notifications
+You must be signed in to change notification settings
+Fork
+9.8k
+Star
+64.1k
+main
+Branches
+Tags
+Go to file
+Code
+Open more actions menu
+Folders and files
+Name
+Name
+Last commit message
+Last commit date
+Latest commit
+History
+6,526 Commits
+6,526 Commits
+.devcontainer
+.devcontainer
+.github
+.github
+.husky
+.husky
+.vscode
+.vscode
+__tests__
+__tests__
+admin
+admin
+argos
+argos
+examples
+examples
+jest
+jest
+packages
+packages
+website
+website
+.cspell.json
+.cspell.json
+.editorconfig
+.editorconfig
+.eslintignore
+.eslintignore
+.eslintrc.js
+.eslintrc.js
+.gitattributes
+.gitattributes
+.gitignore
+.gitignore
+.gitpod.yml
+.gitpod.yml
+.lintstagedrc.json
+.lintstagedrc.json
+.nvmrc
+.nvmrc
+.prettierignore
+.prettierignore
+.prettierrc
+.prettierrc
+.stylelintignore
+.stylelintignore
+.stylelintrc.js
+.stylelintrc.js
+.watchmanconfig
+.watchmanconfig
+AGENTS.md
+AGENTS.md
+CHANGELOG-v2.md
+CHANGELOG-v2.md
+CHANGELOG.md
+CHANGELOG.md
+CODE_OF_CONDUCT.md
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+CONTRIBUTING.md
+LICENSE
+LICENSE
+LICENSE-docs
+LICENSE-docs
+README.md
+README.md
+crowdin-v2.yaml
+crowdin-v2.yaml
+jest.config.mjs
+jest.config.mjs
+lerna.json
+lerna.json
+package.json
+package.json
+project-words.txt
+project-words.txt
+tsconfig.base.client.json
+tsconfig.base.client.json
+tsconfig.base.json
+tsconfig.base.json
+yarn.lock
+yarn.lock
+View all files
+Repository files navigation
+Docusaurus
+Introduction
+Docusaurus is a project for building, deploying, and maintaining open source project websites easily.
+Short on time? Check out our
+5-minute tutorial ⏱️
+!
+Tip
+: use
+docusaurus.new
+to test Docusaurus immediately in a playground.
+Simple to Start
+Docusaurus is built in a way so that it can
+get running
+in as little time as possible. We've built Docusaurus to handle the website build process so you can focus on your project.
+Localizable
+Docusaurus ships with
+localization support
+via CrowdIn. Empower and grow your international community by translating your documentation.
+Customizable
+While Docusaurus ships with the key pages and sections you need to get started, including a home page, a docs section, a
+blog
+, and additional support pages, it is also
+customizable
+to ensure you have a site that is
+uniquely yours
+.
+Installation
+Use the initialization CLI to create your site:
+npm init docusaurus@latest
+Read the docs
+for any further information.
+Contributing
+We've released Docusaurus because it helps us better scale and supports the many OSS projects at Meta. We hope that other organizations can benefit from the project. We are thankful for any contributions from the community.
+Code of Conduct
+Meta has adopted a Code of Conduct that we expect project participants to adhere to. Please read
+the full text
+so that you can understand what actions will and will not be tolerated.
+Contributing guide
+Read our
+contributing guide
+to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to Docusaurus.
+Beginner-friendly bugs
+To help you get your feet wet and get you familiar with our contribution process, we have a list of
+beginner-friendly bugs
+that might contain smaller issues to tackle first. This is a great place to get started.
+Contact
+We have a few channels for contact:
+Discord
+:
+#general
+for those using Docusaurus.
+#contributors
+for those wanting to contribute to the Docusaurus core.
+@docusaurus
+X
+GitHub Issues
+Contributors
+This project exists thanks to all the people who contribute. [
+Contribute
+].
+Backers
+Thank you to all our backers! 🙏
+Become a backer
+Sponsors
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website.
+Become a sponsor
+License
+Docusaurus is
+MIT licensed
+.
+The Docusaurus documentation (e.g.,
+.md
+files in the
+/docs
+folder) is
+Creative Commons licensed
+.
+Special thanks
+BrowserStack
+supports us with
+free access for open source
+.
+Rocket Validator
+helps us find
+HTML markup and accessibility issues
+.
+About
+Easy to maintain open source documentation websites.
+docusaurus.io
+Topics
+react
+javascript
+open-source
+website
+documentation
+hacktoberfest
+Resources
+Readme
+License
+MIT, CC-BY-4.0 licenses found
+Licenses found
+MIT
+LICENSE
+CC-BY-4.0
+LICENSE-docs
+Code of conduct
+Code of conduct
+Contributing
+Contributing
+Security policy
+Security policy
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Activity
+Custom properties
+Stars
+64.1k
+stars
+Watchers
+434
+watching
+Forks
+9.8k
+forks
+Report repository
+Releases
+154
+3.9.2
+Latest
+Oct 17, 2025
++ 153 releases
+Sponsor this project
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+opencollective.com/
+docusaurus
+Packages
+0
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Used by
+12k
++ 12,029
+Contributors
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Languages
+TypeScript
+95.9%
+JavaScript
+2.0%
+CSS
+1.8%
+Other
+0.3%
+You can’t perform that action at this time.

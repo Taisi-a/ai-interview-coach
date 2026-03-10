@@ -9,3 +9,11 @@ passlib[bcrypt]
 python-multipart
 pypdf
 python-docx
+openai
+chromadb
+fastembed
+
+# для scripts/fetch_handbook_links.py (парсинг ссылок из handbook)
+requests
+beautifulsoup4
+

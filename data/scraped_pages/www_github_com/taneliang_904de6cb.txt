@@ -1,0 +1,133 @@
+Skip to content
+You signed in with another tab or window.
+Reload
+to refresh your session.
+You signed out in another tab or window.
+Reload
+to refresh your session.
+You switched accounts on another tab or window.
+Reload
+to refresh your session.
+Dismiss alert
+taneliang
+Follow
+More
+Overview
+Repositories
+Projects
+Packages
+Stars
+taneliang
+Follow
+E-Liang Tan
+taneliang
+Follow
+Sponsor
+Staff Software Engineer
+@Ironclad
+• Contributor
+@reactjs
+Scheduling Profiler • Ex-
+@facebook
+intern • Maintainer
+@nusmodifications
+300
+followers
+·
+27
+following
+@Ironclad
+San Francisco
+08:03
+(UTC -07:00)
+https://www.eliangtan.com
+X
+@taneliang
+Achievements
+x4
+x3
+Achievements
+x4
+x3
+Organizations
+Block or Report
+Block or report taneliang
+Block user
+Prevent this user from interacting with your repositories and sending you notifications.
+          Learn more about
+blocking users
+.
+You must be logged in to block users.
+Add an optional note
+Maximum 250 characters. Please don't include any personal information such as legal names or email addresses. Markdown supported. This note will be visible to only you.
+Block user
+Report abuse
+Contact GitHub support about this user’s behavior.
+        Learn more about
+reporting abuse
+.
+Report abuse
+More
+Overview
+Repositories
+Projects
+Packages
+Stars
+Pinned
+Loading
+nusmodifications/
+nusmods
+nusmodifications/nusmods
+Public
+🏫 Official course planning platform for National University of Singapore.
+JavaScript
+655
+353
+facebook/
+react
+facebook/react
+Public
+The library for web and native user interfaces.
+JavaScript
+244k
+50.7k
+stack-attack
+stack-attack
+Public
+A WIP CLI tool that manages stacked pull requests. Using stacked PRs is now (many small) pieces of cake
+TypeScript
+39
+3
+gent
+gent
+Public
+Reusable business logic base layer for GraphQL API servers written in TypeScript+Node.js
+TypeScript
+43
+neh
+neh
+Public
+A tool that redirects you to commonly used sites
+TypeScript
+32
+3
+MLH-Fellowship/
+scheduling-profiler-prototype
+MLH-Fellowship/scheduling-profiler-prototype
+Public
+Forked from
+bvaughn/scheduling-profiler-prototype
+Custom profiler prototype for React's concurrent mode
+JavaScript
+6
+Something went wrong, please refresh the page to try again.
+If the problem persists, check the
+GitHub status page
+or
+contact support
+.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+You can’t perform that action at this time.

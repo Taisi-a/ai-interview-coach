@@ -1,0 +1,141 @@
+Mastering Behavioral Interviews
+Subscribe
+Sign in
+Conflict Stories 1 of 5: Workplace Conflicts That Make Great Interview Stories
+How to recognize the everyday conflicts that provide strong signal in behavioral interviews
+Austen McDonald
+Jun 05, 2025
+34
+6
+1
+Share
+The substack has been quiet for a while since I’ve been working hard on the book,
+Mastering Behavioral Interviews
+. This series of posts on telling conflict stories comes from material in the book.
+Want to get early access to the book and follow along with the writing process? All you have to do is
+subscribe to the substack
+!
+Willing to be a beta reader in exchange for having your name printed in the book?
+Apply here
+and I’ll keep you in the loop on how to help with the book.
+"I don't have conflicts with coworkers."
+If this is your response to conflict resolution questions, you've triggered a red flag for your interviewer. This answer doesn't align with how tech companies work.
+Modern tech culture embraces the idea that conflict makes us better, that the best ideas should win, regardless of hierarchy. Good engineers speak up when they disagree. This isn't about being combative—it's about being willing to advocate for better outcomes.
+The problem is that many candidates think "conflict" means dramatic workplace confrontations or personality clashes. In reality, the conflicts that make the best interview stories are everyday professional disagreements that you navigate with skill and maturity.
+Here are five types of workplace conflicts that happen constantly in tech—and make excellent material for behavioral interviews.
+1. Implementation Disagreements
+These conflicts arise when there are multiple valid approaches to solving a technical problem and team members have strong opinions about which path to take.
+What it looks like:
+Debating database choices for a new feature
+Disagreeing on architectural approaches
+Different opinions on frameworks or tools
+Code review disputes about implementation details
+Example:
+"My teammate wanted to use a NoSQL database for our user management system, but I pushed for PostgreSQL due to our need for ACID transactions."
+Why interviewers love these:
+Implementation disagreements show your technical judgment, ability to articulate technical tradeoffs, and willingness to advocate for engineering best practices. They demonstrate that you think deeply about technical decisions rather than just accepting whatever is suggested first.
+2. Stakeholder Pushback
+This happens when non-technical stakeholders (product managers, executives, clients) want something that conflicts with technical realities, timelines, or engineering priorities.
+What it looks like:
+Product wanting three features when you can only deliver one well
+Marketing requesting complex analytics when simpler metrics would suffice
+Executives pushing for faster timelines that compromise quality
+Clients requesting "small changes" that actually require major work
+Example:
+"Product wanted three new features in the sprint, but I advocated for spending half the time on technical debt that was causing daily oncall issues."
+Why interviewers love these:
+These stories show you can communicate technical constraints to non-technical people, prioritize long-term health over short-term demands, and stand your ground when engineering principles are at stake.
+3. Partnership Conflicts
+These occur when there's disagreement between teams or organizations, often over what will be built or when it will be built.
+What it looks like:
+Disagreeing over which team should own what features
+Conflicts over prioritization when everything is "urgent"
+Negotiating realistic timelines with a partner team
+Example:
+"We needed the database migration to be completed by beginning of Q2 to hit our timelines, but the infra team said they didn’t have the staffing."
+Why interviewers love these:
+Partnership conflicts reveal your ability to empathize with other teams, balance business pressure with technical reality, communicate risks effectively, and make mature judgments about when to push back and when to compromise.
+4. Quality Disputes
+These conflicts center around disagreements about what constitutes "good enough" versus the level of quality, testing, or polish required.
+What it looks like:
+Leadership wanting immediate shipment vs. your need for proper testing
+Conflicts over technical debt vs. new feature work
+Different standards for code review and quality gates
+Disputes about when something is "ready" to ship
+Example:
+"Manager planned for only 3 days of quality work in the next quarter, but I knew the confusing information architecture of our site was causing us to lose customers."
+Why interviewers love these:
+Quality disputes show you have high standards, understand the business impact of technical decisions, and can advocate for sustainable engineering practices without being a perfectionist who never ships.
+5. Resistance to Change
+These conflicts happen when you or others want to adopt new processes, technologies, or approaches, but face resistance from teammates or stakeholders.
+What it looks like:
+Introducing new tools or frameworks
+Changing team processes or workflows
+Advocating for new approaches to testing or deployment
+Pushing for adoption of best practices
+Example:
+"I wanted to introduce TypeScript to reduce our production bugs, but senior engineers were concerned about the migration overhead."
+Why interviewers love these:
+Change resistance stories demonstrate leadership, your ability to drive adoption of improvements, and skill at managing the human side of technical transitions.
+What Makes These Conflicts Interview-Worthy?
+Notice that all of these examples share common characteristics:
+They're work-focused, not personal.
+The conflict is about what to build or how to build it, not personality clashes. It’s harder to tell a good story about personality clashes.
+You have a clear position.
+You're not just caught in the middle—you have a reasoned opinion you're advocating for.
+There are real stakes.
+The outcome matters for the product, users, or team effectiveness.
+They require skills to resolve.
+Simple disagreements that resolve themselves don't showcase your conflict resolution abilities.
+Your Conflict Story Inventory
+Look back through your recent projects and ask yourself:
+When did I disagree with a technical approach someone proposed?
+What times did I push back on unrealistic requests or timelines?
+When did I advocate for quality or best practices against resistance?
+What changes did I try to drive that others initially resisted?
+When did I have to negotiate scope or priorities with stakeholders?
+If you can't think of examples, you're either not looking carefully enough, or you need to start speaking up more in your current role. Both are fixable problems.
+Great engineers don't avoid conflicts—they navigate them skillfully. Your interview stories should prove you can do the same.
+Subscribe to get the next post in this conflict story series and get early access to the upcoming book on behavioral interviews.
+Subscribe
+34
+6
+1
+Share
+Discussion about this post
+Comments
+Restacks
+Ashok Loganathan
+Jun 6, 2025
+Liked by Austen McDonald
+Can you please provide a similar categorization on "What are your Failures" or "mistakes you made" questions ?      Somethings I struggle with is : what to choose as presenting as a mistake ?
+Reply
+Share
+3 replies by Austen McDonald and others
+Hareesh
+Aug 7, 2025
+Can you please include the solutions provided to the conflicts as well?
+Reply
+Share
+1 reply by Austen McDonald
+4 more comments...
+Top
+Latest
+Discussions
+No posts
+Ready for more?
+Subscribe
+© 2026 Austen McDonald
+·
+Privacy
+∙
+Terms
+∙
+Collection notice
+Start your Substack
+Get the app
+Substack
+is the home for great culture
+This site requires JavaScript to run correctly. Please
+turn on JavaScript
+or unblock scripts

@@ -1,0 +1,153 @@
+Home
+Courses
+Grokking Comp Negotiation in Tech
+4.5
+Beginner
+1h 30min
+Grokking Comp Negotiation in Tech
+Gain insights into strategies to maximize tech industry compensation. Discover negotiation techniques for better base salary, equity grants, and bonuses, ensuring you never leave money on the table.
+Overview
+Content
+Reviews
+In this course, you will learn the strategies to maximize your total compensation (base salary, equity grants, bonuses) while working in the tech industry. Whether you plan to change jobs or boost your earnings while staying in your current job, this course will guide you through the process.
+
+Compensation is typically not a function of one’s ability, but how well you negotiate your deal. That’s why the material in this course will teach you how to prepare and position yourself for the best possible outcomes from your comp negotiations, so you never leave money on the table.
+In this course, you will learn the strategies to maximize your total compensation (base salary, equity grants, bonuses) while wo...
+Show More
+Learning Roadmap
+24
+Lessons
+Expand All
+Why Negotiate?
+Developing Market Awareness
+Surviving Recruiters
+Email to the Rescue
+Dodge the Ball
+Spill the Beans
+Fringe Benefits
+Nailing Informationals
+All About Timing
+Basics of Negotiation
+What’s on the Table?
+Beggars Can’t Be Choosers
+Showdown with Multiple Offers
+Defense with Current Compensation
+Single Suitor
+Just Ask
+Climbing the Ladder
+Sign-on Bonuses
+Retention Bonuses & Refresher RSUs
+Buying Time
+Undo (CMD + Z)
+Bluffs, Lies, and Grey Areas
+Startups
+Conclusion
+Certificate of Completion
+Showcase your accomplishment by sharing your certificate of completion.
+Claim Certificate
+Complete more lessons to unlock your certificate
+Author Name
+Grokking Comp Negotiation in
+Tech
+Course Author:
+LighthouseMentors
+Developed by MAANG Engineers
+Every Educative lesson is designed by a team of ex-MAANG software engineers and PhD computer science educators, and developed in consultation with developers and data scientists working at Meta, Google, and more. Our mission is to get you hands-on with the necessary skills to stay ahead in a constantly changing industry. No video, no fluff. Just interactive, project-based learning with personalized feedback that adapts to your goals and experience.
+Trusted by
+2.9
+million
+developers working at
+companies
+"These are high-quality courses. Trust me the price is worth it for the content quality. Educative came at the right time in my career. I'm understanding topics better than with any book or online video tutorial I've done. Truly made for developers. Thanks"
+Anthony Walker
+@_webarchitect_
+"Just finished my first full #ML course: Machine learning for Software Engineers from Educative, Inc.  ... Highly recommend!"
+Evan Dunbar
+ML Engineer
+"You guys are the gold standard of crash-courses... Narrow enough that it doesn't need years of study or a full blown book to get the gist, but broad enough that an afternoon of Googling doesn't cut it."
+Software Developer
+Carlos Matias La Borde
+"I spend my days and nights on Educative. It is indispensable. It is such a unique and reader-friendly site"
+Souvik Kundu
+Front-end Developer
+"Your courses are simply awesome, the depth they go into and the breadth of coverage is so good that I don't have to refer to 10 different websites looking for interview topics and content."
+Vinay Krishnaiah
+Software Developer
+Hands-on Learning
+Powered by AI
+See how Educative uses AI to make your learning more immersive than ever before.
+Personalized Interview Prep
+Skip the LeetCode grind with a custom roadmap that adapts to your goals. Hands-on practice for Coding Interviews, System Design, and more.
+Get Your Free Roadmap
+Mock Interviews
+Test your skills in a simulated interview setting. Receive personalized feedback based on your performance. Available for Coding Interviews, System Design, and more.
+Explore Mock Interviews
+AI Prompt
+Build prompt engineering skills. Practice implementing AI-informed solutions.
+Code Feedback
+Evaluate and debug your code with the click of a button. Get real-time feedback on test cases, including time and space complexity of your solutions.
+Explain with AI
+Select any text within any Educative course, and get an instant explanation — without ever leaving your browser.
+AI Code Mentor
+AI Code Mentor helps you quickly identify errors in your code, learn from your mistakes, and nudge you in the right direction — just like a 1:1 tutor!
+Free Resources
+Learn in-demand tech skills in half the time
+PRODUCTS
+Mock Interview
+New
+Courses
+Cloud Labs
+Skill Paths
+Projects
+Assessments
+Newsletter
+Fenzo
+TRENDING TOPICS
+Learn to Code
+Tech Interview Prep
+Generative AI
+Data Science
+Machine Learning
+GitHub Students Scholarship
+Early Access Courses
+Blind 75
+Layoffs
+Pricing
+For Individuals
+Try for Free
+Gift a Subscription
+For Students
+CONTRIBUTE
+Become an Author
+Become an Affiliate
+Refer a Friend
+RESOURCES
+Blog
+Cheatsheets
+Webinars
+Answers
+Guides
+Compilers
+ABOUT US
+Our Team
+Careers
+Hiring
+Frequently Asked Questions
+Contact Us
+LEGAL
+Privacy Policy
+Cookie Policy
+Cookie Settings
+Terms of Service
+Business Terms of Service
+Data & Privacy
+Data Processing Agreement
+INTERVIEW PREP COURSES
+Grokking the Modern System Design Interview
+Grokking the Product Architecture Design Interview
+Grokking the Coding Interview Patterns
+Machine Learning System Design
+Tiktok Streamline Icon: https://streamlinehq.com
+Copyright ©
+2026
+Educative, Inc. All rights reserved.

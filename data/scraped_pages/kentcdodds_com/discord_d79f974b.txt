@@ -1,0 +1,136 @@
+Here's why you should join the server.
+Join Discord
+What is it?
+Discord is a chat application. The Epic Web Community on Discord is
+                a community of people who want to make connections, share ideas,
+                and use software to help make the world a better place.
+Make connections and friends
+We're better when we work together. Discord allows us to have
+                meaningful and nuanced conversations about building software.
+                If you want to ask questions or provide your own opinions, this
+                discord community is for you. We'll celebrate your successes and
+                lament your misfortunes and failures. This community is focused
+                on software development primarily, but we're humans and we
+                embrace that (we even have a channel on parenting!).
+Share ideas
+This community is a fantastic place to get and provide feedback
+                on fun and interesting ideas. We're all motivated to use
+                software to make the world better in a wide variety of ways.
+                Got a project you've been working on? Want to discover
+                facinating ways people are using software? This is the place to
+                be.
+Not sure what to expect from the discord?
+Here are some features for you at a glance.
+High quality people
+Our onboarding process, enforced code of conduct, and fantastic moderators keep it a friendly place to be.
+Learning clubs
+Form study groups and learn better together.
+Meetups
+Discord-bot facilitated feature to plan virtual events (like streams) and connect with other devs.
+Software Channels
+Channels on popular topics like frontend, backend, career, and more.
+Life Channels
+We're not robots. We're people. And we have kids, pets, and money. Channels for those and more.
+Jobs channel
+Looking for work or an engineer? You wouldn't be the first to start an employment relationship here.
+EpicReact.dev Channels
+There's a channel for each of the workshops in EpicReact.dev so you can get/give a hand when you get stuck.
+TestingJavaScript.com Channels
+Leveling up your testing experience? Sweet! Get and give help in these channels.
+Team Channels
+Sign up for an account on kentcdodds.com and connect your discord account to get access to the exclusive team channels.
+Set up your own learning club.
+KCD Learning Clubs are like study groups you put together yourself.
+Having a group of people with the same challenges will help you
+                learn faster. The discord bot can help you find them.
+When we learn together, we learn better, and that's the idea.
+Research has shown that learning is more effective when you have
+                a group of people to hold you accountable. It's also more fun
+                and less frustrating when you can help each other.
+You can choose anything as your learning club topic.
+A learning club can be about anything. All that's really
+                required is some sort of curriculum or schedule to keep everyone
+                focused on the same goal. So you can definitely choose one of
+                my courses, but you could also choose something completely
+                unrelated to software. The bot doesn't care and nobody's had
+                trouble filling their learning club with interested members yet!
+Develop friendships with other nice learners in the community.
+The Epic Web Community on Discord is full of friendly people. When
+                you put together a learning club here, in addition to learning
+                better, you'll develop new friendships.
+You have access to me (Kent) during weekly office hours.
+By joining the Epic Web Community on Discord, you can ask questions
+                that I'll answer during office hours. Often these questions come
+                from discussions you and your fellow learners have during your
+                learning club meetings. So if you all get stuck on the same
+                thing, I'm there to help you get unstuck.
+Don't just take my word for it.
+What
+others
+have to say
+Kent’s Discord community is filled with incredible people that are eager to learn and to help others. I learn so much everyday and I was also able to help many others at the best of my capacity there.
+Ricardo Busquet
+Software Engineer @ Carta
+I was surprised of how Epic Web community is so friendly and supportive. I have had some troubles with testing library and discovered Epic Web discord channel and a lot of people there was ready to help. Kent has build an amazing community in which members loves sharing a knowledge!
+Azizbek Jonibekov
+Software Engineer at
+Epic Web Discord Community is the best community out there. When I first joined the server I was amazed by the environment that I was in! Curated channels, great moderation, and great people to help you all the time. It made me feel like home <3
+Ashwin Khode
+Student
+Here's a quick look at all categories.
+Click on any category to get more info.
+01
+.
+Welcome
+A place to introduce yourself, read the rules, talk to the bot, and get tips about the server
+02
+.
+KCD
+All the stuff I'm up to goes here. You might consider adding special notification settings to the announcements channel so you don't miss anything important.
+03
+.
+Epic Web Conf
+This is where we discuss stuff going on with Epic Web Conference!
+04
+.
+Epic Stack
+Talk with others who are buildings applications using the Epic Stack.
+05
+.
+Tech
+Need to talk software? That's what this category is for. We've got your whole tech stack covered here (and if we're missing anything, that's what "general" is for 😅). And you've got career related topics here too.
+06
+.
+Life
+We're not automatons "turning coffee into code" 🙄. We're humans with lives, families, pets, preferences, money decisions, and joys. So we've got a channel to talk about that stuff.
+07
+.
+Courses
+Exclusive channels for folks going through the Epic Web Courses. Ask and answer questions, share your progress, and get help from others.
+08
+.
+Clubs
+Here's where you can coordinate setting up a new KCD Learning Club. Club captains also get access to a special channel for captains to talk about how to make the most of the experience for everyone.
+Life is better with friends. Find them on discord.
+Click the button below and join the community. Let's get
+                better together.
+Join Discord
+Are you ready to level up?
+Checkout some of my courses
+See all courses
+AI development course
+Epic AI
+Learn to build AI-powered applications.
+Visit course
+Full stack course
+Epic Web
+Become a full stack web dev.
+Visit course
+React course
+Epic React
+The most comprehensive guide for pros.
+Visit course
+Testing course
+Testing JavaScript
+Learn smart, efficient testing methods.
+Visit course

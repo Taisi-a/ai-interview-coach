@@ -1,0 +1,202 @@
+Jump to content
+From Wikipedia, the free encyclopedia
+1993 book by Steve McConnell
+This article is about the software development book. For the software release life cycle stage "code complete", see
+Software release life cycle
+.
+This article's
+lead section
+may be too short to adequately
+summarize
+the key points
+.
+Please consider expanding the lead to
+provide an accessible overview
+of all important aspects of the article.
+(
+February 2016
+)
+Code Complete
+First edition cover
+Author
+Steve McConnell
+Language
+English
+Subject
+Computer programming
+Published
+1993 (1st ed.)
+2004 (2nd ed.)
+Publication place
+United States
+Pages
+914 (2nd ed.)
+ISBN
+978-0-7356-1967-8
+(2nd ed.)
+LC Class
+QA75.5-76.95
+Code Complete
+is a
+software development
+book, written by
+Steve McConnell
+and published in 1993 by
+Microsoft Press
+, encouraging developers to continue past
+code-and-fix
+programming and the
+big design up front
+and
+waterfall models
+. It is also a compendium of software construction techniques, which include techniques from naming variables to deciding when to write a subroutine.
+Summary
+[
+edit
+]
+McConnell defines the main activities in software construction as detailed
+design
+, construction planning, coding and debugging,
+unit testing
+,
+integration
+and
+integration testing
+. Although he does not dismiss the value of other aspects of software development such as requirements and documentation, McConnell emphasises the construction of software due to several reasons. Within the view of the book, construction is a large part of software development, as the central activity within software development and can significantly improve the productivity of a programmer when focus is directed towards it; in addition, the source code is seen as defining the operation of the software, with documentation implicated when code and documentation are opposed. Lastly, the book contends that construction is the exclusive activity which is guaranteed to remain completed.
+The techniques of a good programmer are also given throughout the book. The whole part seven of the book is about software craftsmanship (layout, style, character, themes and self-documentation).
+[
+1
+]
+The other six parts of the book are: laying the foundation, creating high-quality code, variables, statements, code improvements and system considerations.
+Review
+[
+edit
+]
+Code Complete
+has received outstanding reviews, being widely regarded as one of the leading must-reads for software developers.
+[
+2
+]
+[
+3
+]
+It won a
+Jolt Award
+in 1993.
+[
+4
+]
+There are also negative reviews about the length and style of the book,
+[
+5
+]
+which runs to over 900 pages and goes into detail on many topics.
+The first edition has been superseded by
+Code Complete 2
+.
+[
+6
+]
+The first editions can be found used and are still relevant for programmers using C, Pascal and GW-BASIC
+[
+7
+]
+Editions
+[
+edit
+]
+ISBN
+978-1-55615-484-3
+First edition (1993)
+ISBN
+978-0-7356-1967-8
+Second edition (June 2004)
+[
+2
+]
+References
+[
+edit
+]
+^
+"What are the key points of Code Complete?"
+. 2010-09-17. Archived from
+the original
+on 2023-07-08
+. Retrieved
+2015-06-28
+.
+But the most important take-aways are in Chapter 33, Personal Character: once you consciously seek to improve as a coder, you can and will. The fastest way to do so is to take on the attitudes of master coders (humility, curiosity, intellectual honesty, discipline, creativity), while also practicing their habits (many good habits are listed in the book, e.g. choosing good variable/value names).
+^
+a
+b
+"CC2 ISBN"
+. 2015 ACM, Inc
+. Retrieved
+2015-06-25
+.
+^
+"Pan Pantziarka review"
+. TechBookReport 2005.
+Archived
+from the original on 2015-06-26
+. Retrieved
+2015-06-25
+.
+^
+Jolt winners 1993
+Archived
+2009-05-25 at the
+Wayback Machine
+^
+"Russ Allbery Review Code Complete"
+. 2015-01-05.
+Archived
+from the original on 2015-05-17
+. Retrieved
+2015-06-28
+.
+I'm quite disappointed, since I'd heard nothing but praise for this book before picking it up. But it's not for me, and I'm now dubious of its value for any programmer outside of a fairly narrow, large-team, waterfall development process involving large numbers of people writing very large quantities of code in languages that aren't very expressive. And, well, in that situation I think one would get more benefit from changing that environment than reading this book.
+^
+"Code Complete's 2nd edition website"
+. Steven C. McConnell.
+Archived
+from the original on 2017-07-07
+. Retrieved
+2018-10-17
+.
+^
+"CC1"
+. Construx Software.
+Archived
+from the original on 2015-06-26
+. Retrieved
+2015-06-25
+.
+External links
+[
+edit
+]
+Steve McConnell's website
+Code Complete Checklists
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Code_Complete&oldid=1335878390
+"
+Categories
+:
+1993 non-fiction books
+Software development books
+Microsoft Press books
+Hidden categories:
+Webarchive template wayback links
+Articles with short description
+Short description is different from Wikidata
+Wikipedia introduction cleanup from February 2016
+All pages needing cleanup
+Articles covered by WikiProject Wikify from February 2016
+All articles covered by WikiProject Wikify
+Search
+Search
+Code Complete
+4 languages
+Add topic

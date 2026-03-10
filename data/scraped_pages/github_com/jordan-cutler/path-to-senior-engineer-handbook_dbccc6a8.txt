@@ -1,0 +1,370 @@
+Skip to content
+You signed in with another tab or window.
+Reload
+to refresh your session.
+You signed out in another tab or window.
+Reload
+to refresh your session.
+You switched accounts on another tab or window.
+Reload
+to refresh your session.
+Dismiss alert
+jordan-cutler
+/
+path-to-senior-engineer-handbook
+Public
+Notifications
+You must be signed in to change notification settings
+Fork
+1.6k
+Star
+17.2k
+main
+Branches
+Tags
+Go to file
+Code
+Open more actions menu
+Folders and files
+Name
+Name
+Last commit message
+Last commit date
+Latest commit
+History
+93 Commits
+93 Commits
+.gitignore
+.gitignore
+CODE_OF_CONDUCT.md
+CODE_OF_CONDUCT.md
+LICENSE
+LICENSE
+README.md
+README.md
+View all files
+Repository files navigation
+Path to Senior Engineer Handbook
+This repo has all the resources you need to reach Senior Software Engineer!
+Table of contents
+Newsletters
+Books
+Courses
+Papers
+YouTube
+Podcasts
+Communities
+LinkedIn
+Platforms
+Other catalogs
+Newsletters
+General software engineer growth
+High Growth Engineer
+The Developing Dev
+Level up software engineering
+Engineer’s Codex
+Coding Challenges
+EcZachly Data Engineering Newsletter
+Techlead Mentor
+The Caring Techie
+Refactoring
+Strategize Your Career
+Saiyan Growth Letter
+Software Design: Tidy First?
+Dev Interrupted
+Exaltitude Career Growth
+A Life Engineered
+Staying up-to-date
+The Pragmatic Engineer
+TLDR
+Pointer.io
+Changelog News
+Hungry Minds
+Frameworks and smart thinking
+Wes Kao's Newsletter
+Operator's Handbook
+Alex Brogan frameworks
+System design
+System Design Newsletter
+Quastor
+ByteByteGo Newsletter
+Byte-Sized Design
+The Polymathic Engineer
+Reliability engineering
+SRE Weekly
+Platform Engineering Weekly
+Alex Ewerlöf Notes/SRE
+Leadership
+The Hybrid Hacker
+Leading Developers
+Engineering Leadership
+Addy Osmani
+(
+RSS Link
+)
+Irrational Exuberance
+Leadership Letters
+Blog for Engineering Managers
+Web-dev specific
+TLDR Web Dev
+Frontend Focus
+Frontend Engineering
+Smashing Magazine
+Kent C Dodds
+Josh Comeau
+(
+RSS Link
+)
+Friday Front-end
+CSS Weekly
+Bytes.dev
+Books
+Communication, writing, relationships
+Crucial conversations
+Smart Brevity
+The Fine Art of Small Talk
+92 ways to talk to anyone
+Connect: Building exceptional relationships with family, friends, and colleagues
+What got you here won’t get you there
+Communication for Engineers
+Thanks for the Feedback
+Just Listen: Discover the secret to getting through to absolutely anyone
+Simply Said: Communicating better at work and beyond
+Crucial influence
+Radical candor
+Engineering management for the rest of us
+Crucial accountability
+It was the best of sentences, it was the worst of sentences
+On writing well
+The Insider's Guide to Technical Writing
+Storytelling
+Storyworthy
+Career growth and promotions
+Omar Halabieh 90-day career blueprint
+Get Promoted
+StaffEng.com – Stories of reaching Staff-plus engineering roles
+Engineering
+A philosophy of software design
+Web scalability for startup engineers
+Collection - Grady Booch, Software architecture/design books
+Software engineer overall
+Software Engineer's Guidebook
+Engineers Survival Guide
+The Coding Career Handbook
+Coders at Work: Reflections on the Craft of Programming
+System design
+Front End System Design Guidebook
+Awesome Front End System Design
+The System Design Primer
+Leadership
+The Manager’s Path
+Staff Engineer: Leadership beyond the management track
+The Staff Engineer’s Path
+The Coaching Habit
+The Advice Trap
+The making of a manager
+Become an Effective Software Engineering Manager: How to Be the Leader Your Development Team Need
+Persuasion and influence
+Influence: The psychology of persuasion
+Yes - 50 scientifically proven ways to be persuasive
+Productivity
+The productivity project
+Make time
+User experience
+Don’t make me think
+Refactoring UI
+Thinking smarter
+Clear thinking
+Thinking fast and slow
+Super thinking: The big book of mental models
+The art of thinking clearly
+Thinking in systems
+Courses
+Top courses
+Mid-level to Senior Course by Jordan Cutler
+Career growth courses on JoinTaro
+Speedrun to Promotion by Steve Huynh
+Become a go-to expert on your team by Jordan Cutler
+Frontend System Design by Maxi Ferreira - Free
+Josh Comeau CSS course
+Josh Comeau React course
+Kent C Dodds Epic React
+Kent C Dodds Epic Web
+Bob Ziroll Learn React for Free
+Google Technical Writing
+Recommended websites
+Frontendmasters subscription
+Udemy courses
+Educative subscription
+Pluralsight courses
+Udacity courses
+Coursera courses
+LinkedIn Learning
+Future Learn
+edX
+Microsoft Learn
+GreatFrontEnd
+Scrimba interactive courses
+KodeKloud
+Hyperskill
+LabEx
+Papers
+Dynamo: Amazon's Highly Available Key-value Store
+MapReduce: Simplified Data Processing on Large Clusters
+The Google File System
+Bigtable: A Distributed Storage System for Structured Data
+Spanner: Google's Globally Distributed Database
+Cassandra - A Decentralized Structured Storage System
+YouTube
+Broad news and opinions in tech
+Theo - t3.gg
+Fireship
+ThePrimeTime / Primeagen
+Senior+ soft skills
+A Life Engineered - Steve Huynh
+Exaltitude Career Growth
+LeadDev
+Lenny’s Podcast
+Charisma on Command
+Frontend/CSS tips and tricks
+Kevin Powell
+Web Dev Simplified
+Matt Pocock (Typescript)
+Sam Selikoff
+Productivity, side income, and personal growth
+Ali Abdaal
+Jeff Su
+Thomas Frank
+Matt D’Avella
+Clark Kegley
+Podcasts
+Soft skills Podcast
+Staff Eng Podcast
+Frontend First Podcast
+The Changelog Podcast
+The Scrimba Podcast
+Developing Leadership
+John Maxwell Leadership Podcast
+Communities
+Taro
+Exaltitude Engineering Leadership Community
+Small Bets Community
+GreatFrontend
+Theo - T3
+Frontend Mentor
+Kent C. Dodds Discord Community
+Tiger Abrodi's Little Software Planet
+Changelog Community
+Scrimba Discord Community
+ladderly.io
+Rands Leadership Community (Slack)
+LinkedIn
+Jordan Cutler
+Gregor Ojstersek
+Gergely Orosz
+Nicola Ballotta
+Alex Chiou
+Rahul Pandey
+Caleb Mellas
+John Crickett
+Ryan Peterman
+Alex Xu
+Zach Wilson
+Wes Kao
+Omar Halabieh
+Raviraj Achar
+Irina Stanescu
+Richard Donovan
+Luca Rossi
+Anton Zaides
+Neo Kim
+Dallon Asnes
+Tiger Abrodi
+Daniel Moka
+Mads Brodt
+James Willett
+Anemari Fiser
+Mike Thornton
+Dariusz Sadowski
+Adrian Stanek
+Steven Syrek
+Doug Howard
+Casey Dai
+Petar Ivanov
+Alex Kliotzkin
+Nordine Hadi
+Yangshun Tay
+David Anderson
+Alexandre Zajac
+Jean Lee
+Akash Mukherjee
+Platforms
+General leveling up
+Codecrafters: Practice writing complex software (affiliate - 40% off)
+non-affiliate link version
+Interview prep
+Coding interview
+LeetCode
+NeetCode
+PyPup
+Codemia
+bugfree.ai
+Mock interviews
+Pramp
+Hello Interview
+Interviewing IO
+IGotAnOffer
+MeetAPro
+Easyclimbtech
+Interview Kickstart
+AI Interview Coach
+Helpful Tools
+WriteEdge for writing tech specs
+Other catalogs
+Software Engineer's Library
+16x Engineer
+About
+All the resources you need to get to Senior Engineer and beyond
+read.highgrowthengineer.com/
+Topics
+awesome
+career
+software-developer
+senior-engineer
+career-growth
+path-to-senior
+Resources
+Readme
+License
+MIT license
+Code of conduct
+Code of conduct
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Activity
+Stars
+17.2k
+stars
+Watchers
+265
+watching
+Forks
+1.6k
+forks
+Report repository
+Releases
+No releases published
+Packages
+0
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Contributors
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+You can’t perform that action at this time.

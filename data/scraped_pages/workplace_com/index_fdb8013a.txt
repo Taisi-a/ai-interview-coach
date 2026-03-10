@@ -1,0 +1,37 @@
+What's happening and when with Workplace
+What's happening and when with Workplace
+September 1, 2025 - May 31, 2026
+Workplace is in read-only mode. You can still sign in, view, and export your data. No new content can be created.
+May 31, 2026
+Your Workplace instance will be deleted. Be sure to export all necessary data before this date.
+Our account management and customer support teams will remain available for Workplace admins to address any questions or concerns.
+Learn more
+Frequently asked
+questions
+How can I extract my data?
+Beginning September 1, 2025, Workplace will be in read-only mode. You can continue to extract your data until May 31, 2026.
+If you’re a Workplace user:
+You will be able to download your own Workplace data, such as profile information, posts or chat messages, at any time up until and including May 31, 2026 using the Download your data button in your settings, provided your Workplace admin has
+enabled this feature
+.
+See our article on
+downloading your data
+for a step-by-step guide on how to do this.
+If you’re a Workplace system admin:
+To download and archive all of the data in your company, you can use the download-your-info tool.
+Workvivo by Zoom is Meta’s only preferred partner and as such you have the ability to export your data to Workvivo (provided you already have an instance & contract setup with Workvivo). If you have more queries please reach out to the Workvivo by Zoom team at
+sales@workvivo.com
+.
+See our Help Center article for more information:
+https://www.workplace.com/help/work/1287950018737598
+Will I continue to pay for Workplace?
+Existing Workplace instances are free to use in their current read-only mode.
+What happens after May 31, 2026?
+Your Workplace instance will be deleted. Be sure to export all necessary data before this date.
+Additonal resources
+HELP CENTER
+Visit our Help Center for support and answer to your questions
+STATUS
+Workplace status report
+SUPPORT
+Get in touch with a team of experts for more hands-on support

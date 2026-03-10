@@ -59,6 +59,52 @@ ai-interview-coach/
 
 ## 🚀 Запуск проекта
 
+### Полный путь запуска (кратко)
+
+1. **LLM (llama.cpp + Qwen3)** — в отдельном терминале, на хосте:
+   ```bash
+   ./scripts/start_llm.sh
+   ```
+   Сервер будет на `http://localhost:8001`. Подробности — в разделе [Запуск LLM (llama.cpp)](#запуск-llm-llamacpp) ниже.
+
+2. **Приложение (API + фронт + БД)** — через Docker:
+   ```bash
+   docker compose up -d --build
+   ```
+   Фронт: `http://localhost:5173`, API: `http://localhost:8080`, Swagger: `http://localhost:8080/docs`.
+
+3. **RAG (опционально)** — один раз построить индекс по Tech Interview Handbook:
+   ```bash
+   docker compose exec api python -m app.rag.build_index
+   ```
+
+---
+
+### Запуск LLM (llama.cpp)
+
+Модель Qwen3 отдаёт OpenAI-совместимый API на порту 8001. Контейнер с API обращается к нему по `host.docker.internal:8001`.
+
+**Требования:** Python с пакетами `llama-cpp-python`, `huggingface-hub` (для скачивания модели).
+
+```bash
+# Из корня проекта
+chmod +x scripts/start_llm.sh
+./scripts/start_llm.sh
+```
+
+Скрипт:
+- создаёт каталог `./models`, если его нет;
+- при отсутствии файла скачивает `Qwen/Qwen3-8B-GGUF` → `Qwen3-8B-Q4_K_M.gguf` в `./models`;
+- запускает `llama_cpp.server` на порту **8001**.
+
+Переменные окружения (опционально):
+- `LLM_MODEL_DIR` — каталог с моделью (по умолчанию `./models`);
+- `LLM_MODEL_FILE` — имя файла (по умолчанию `Qwen3-8B-Q4_K_M.gguf`);
+- `LLM_PORT` — порт (по умолчанию `8001`);
+- `LLM_HF_REPO` — репозиторий на Hugging Face (по умолчанию `Qwen/Qwen3-8B-GGUF`).
+
+---
+
 ### 1. Клонируй репозиторий
 
 ```bash
@@ -114,12 +160,22 @@ SECRET_KEY=придумай-случайную-строку-минимум-32-с
 
 ### 6. Запусти сервер
 
+**Вариант A — через Docker (рекомендуется):**  
+Сначала запусти LLM в отдельном терминале ([Запуск LLM (llama.cpp)](#запуск-llm-llamacpp)), затем:
+
+```bash
+docker compose up -d --build
+```
+
+API: `http://localhost:8080`, Swagger: `http://localhost:8080/docs`, фронт: `http://localhost:5173`.
+
+**Вариант B — локально (uvicorn на хосте):**
+
 ```bash
 uvicorn app.main:app --reload
 ```
 
-Сервер: `http://localhost:8000`
-Swagger: `http://localhost:8000/docs`
+Сервер: `http://localhost:8000`, Swagger: `http://localhost:8000/docs`. В `.env` укажи `VLLM_BASE_URL=http://localhost:8001/v1` и предварительно запусти LLM через `./scripts/start_llm.sh`.
 
 ---
 
@@ -160,15 +216,53 @@ Swagger: `http://localhost:8000/docs`
 **Пример запроса к `/chat/completions`:**
 ```json
 {
-  "model": "UI-TARS-1.5-7B",
+  "model": "models/Qwen3-8B-Q4_K_M.gguf",
   "messages": [
     {"role": "system", "content": "Ты HR на интервью"},
     {"role": "user", "content": "Расскажи о себе"}
   ],
-  "max_tokens": 512,
+  "max_tokens": 2048,
   "temperature": 0.7
 }
 ```
+
+---
+
+## 📚 RAG (Tech Interview Handbook)
+
+В проекте есть RAG на базе датасета `tech-interview-handbook-main`: перед ответом агента система подмешивает релевантные фрагменты из Tech Interview Handbook, чтобы:
+- проверять ответы кандидата по базе знаний;
+- находить пробелы и предлагать темы для изучения (особенно для агента `mentor`).
+
+### 1) Построить индекс (один раз)
+
+Если API запущен в Docker:
+
+```bash
+docker compose exec api python -m app.rag.build_index
+```
+
+### 2) Включить/настроить RAG
+
+Переменные окружения (см. `.env.example`):
+- `RAG_ENABLED=true`
+- `RAG_HANDBOOK_DIR=/app/tech-interview-handbook-main/apps/website`
+- `RAG_PERSIST_DIR=/app/rag_store`
+- `RAG_TOP_K=6`
+
+### 3) Парсинг внешних ссылок из handbook (опционально)
+
+В handbook много ссылок на LeetCode, статьи, курсы. Скрипт собирает все URL и может скачать текст со страниц:
+
+```bash
+# Только список ссылок в data/handbook_links.json
+python scripts/fetch_handbook_links.py --handbook tech-interview-handbook-main/apps/website --out data/handbook_links.json
+
+# Скачать текст по ссылкам в data/scraped_pages/ (с задержкой между запросами)
+python scripts/fetch_handbook_links.py --handbook tech-interview-handbook-main/apps/website --out data/handbook_links.json --fetch --scraped-dir data/scraped_pages --delay 1
+```
+
+Учитывай: страницы LeetCode и многих курсов рендерятся через JS — скрипт получит в основном разметку, а не готовый текст. Статичные статьи (блоги, документация) обычно парсятся нормально. YouTube, LinkedIn и т.п. по умолчанию пропускаются (`--skip-domains`).
 
 **Доступные агенты для `/session/`:**
 ```json

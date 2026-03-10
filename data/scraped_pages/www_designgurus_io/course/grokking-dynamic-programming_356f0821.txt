@@ -1,0 +1,179 @@
+Grokking Dynamic Programming Patterns for Coding Interviews
+Master Dynamic Programming by learning coding patterns. Act smartly, and follow the Dynamic Programming patterns.
+Level:
+Advanced
+Study Time:
+72
+h
+Lessons:
+73
+Playgrounds :
+142
+Updated
+Last month
+4.6
+(
+9,949
+ratings)
+12,055
+learners
+Get Started For Free
+Course Overview
+The fact is, Dynamic Programming (DP) problems can be some of the most intimidating on a coding interview. Even when it's actually clear if a problem can be solved using DP (which it rarely is), it can be pretty challenging to even know where to start on the solution. Unless, that is, you're trained on the approach to solving DP problems.
+
+This course was made from scratch with just that goal in mind. It'll equip you with a set of easy-to-understand techniques to handle any DP problem. Rather than just having you try to memorize solutions, you'll be walked through five underlying DP patterns that can then be applied to solve 35+ DP problems. In each pattern, we'll start with a recursive brute-force solution -- this is actually the best way to start solving a DP problem! Once we have a recursive solution, we'll then apply the advanced DP methods of Memoization and Tabulation.
+The practice problems in this course were carefully chosen, covering the most frequently asked DP questions in coding interviews.
+Annual Subscription
+Get instant access to all current and upcoming courses for one year.
+OR
+Lifetime Access - This Course
+Get lifetime access to this course only.
+Discounted Prices for
+Your Region
+Certification on completing the course.
+Gift for lifetime
+Annual Subscription
+Get instant access to all current and upcoming courses for one year.
+OR
+Lifetime Access - This Course
+Get lifetime access to this course only.
+Discounted Prices for
+Your Region
+Certification on completing the course.
+Gift for lifetime
+Course Content
+•
+Chapters •
+73
+Lessons
+1
+.
+Introduction
+1
+lessons
+What is Dynamic Programming?
+2
+.
+Pattern 1: 0/1 Knapsack
+13
+lessons
+Introduction
+0/1 Knapsack
+Equal Subset Sum Partition
+Subset Sum
+Minimum Subset Sum Difference
+Count of Subset Sum
+Target Sum
+3
+.
+Pattern 2: Unbounded Knapsack
+10
+lessons
+Unbounded Knapsack
+Rod Cutting
+Coin Change
+Minimum Coin Change
+Maximum Ribbon Cut
+4
+.
+Pattern 3: Fibonacci Numbers
+12
+lessons
+Fibonacci numbers
+Staircase
+Number factors
+Minimum jumps to reach the end
+Minimum jumps with fee
+House thief
+5
+.
+Pattern 4: Palindromic Subsequence
+10
+lessons
+Longest Palindromic Subsequence
+Longest Palindromic Substring
+Count of Palindromic Substrings
+Minimum Deletions in a String to make it a Palindrome
+Palindromic Partitioning
+6
+.
+Pattern 5: Longest Common Substring
+26
+lessons
+Longest Common Substring
+Longest Common Subsequence
+Minimum Deletions & Insertions to Transform a String into another
+Longest Increasing Subsequence
+Maximum Sum Increasing Subsequence
+Shortest Common Super-sequence
+Minimum Deletions to Make a Sequence Sorted
+Longest Repeating Subsequence
+Subsequence Pattern Matching
+Longest Bitonic Subsequence
+Longest Alternating Subsequence
+Edit Distance
+Strings Interleaving
+7
+.
+Appendix
+1
+lessons
+Contact Us
+What people say about our courses
+MO JAFRI
+Software Engineer
+The courses which have "grokking" before them, are exceptionally well put together! These courses magically condense 3 years of CS in short bite-size courses and lectures (I have tried System Design, OODI, and Coding patterns). The Grokking courses are godsent, to be honest.
+ABHISHEK GUPTA
+Software Engineer
+My offer from the top tech company would not have been possible without this course. Many thanks!!
+KAUSHIK JONNADULA
+Software Engineer
+Thanks for a great resource! You guys are a lifesaver. I struggled a lot in design interviews, and this course gave me an organized process to handle a design problem. Please keep adding more questions.
+AHMET HANIF
+Software Engineer
+Whoever put this together, you folks are life savers. Thank you :)
+Related Courses
+Grokking the Coding Interview: Patterns for Coding Questions
+Grokking the Coding Interview Patterns in Java, Python, JS, C++, C#, and Go. The most comprehensive course with 476 Lessons.
+4.6
+Discounted price for
+Your Region
+$
+197
+Preview
+Grokking Advanced Coding Patterns for Interviews
+Master advanced coding patterns for interviews: Unlock the key to acing MAANG-level coding questions.
+4.1
+Discounted price for
+Your Region
+$
+99
+Preview
+One-Stop Portal For Tech Interviews.
+About Us
+Our Team
+Careers
+Contact Us
+Become Affiliate
+Become Contributor
+Social
+Facebook
+Linkedin
+Twitter
+Youtube
+Substack
+New
+LEGAL
+Privacy Policy
+Cookie Policy
+Terms of Service
+RESOURCES
+Blog
+Knowledge Base
+Blind 75
+Company Guides
+Answers Hub
+Newsletter
+Copyright ©
+2026
+Design Gurus, LLC. All rights reserved.

@@ -1,0 +1,67 @@
+Back to blog search
+Back to blog search
+Dec 07 2021
+Embracing change to evolve her engineering journey
+By Meta Careers
+Share to LinkedIn
+Share to Facebook
+Share to Threads
+Share to Twitter
+Share to Copy
+Link copied
+What kind of background and technical expertise do you need to land a software engineering role at a global technology company? Michelle T., a software engineer on the Commerce Engineering team, remembers asking herself this question while talking to a recruiter from Meta.
+“I was living in Singapore when a recruiter followed up with me to share details about a role in London,” she shares. “I had talked to the same recruiter from Meta a year before and I had just given birth to my first child. I learned about available opportunities within the company and was curious about how I might be able to use my prior experience in academia to do something different.”
+Michelle says that while she had taken time away from work to focus on her family, early conversations with Meta helped her feel confident that her experiences in academia and as a working mother would be valuable. “I could see there was immense room for me to grow further and drive impact,” she shares. “While software engineering is a male-dominated field, I also experienced strong allyship from my male counterparts right from the start. My male colleagues at Meta have played a key role in helping me seize opportunities and grow on my career journey.”
+Michelle and members of the Commerce Engineering team smiling during a social session on Workplace.
+Creating world-class customer experiences with the Commerce Engineering team
+Asked to reflect on the beginning of her journey at Meta in London, Michelle smiles. “I was motivated to understand the challenges in front of us and how we could solve them,” she says. “I was also honored to be collaborating with a group of people who were doing truly innovative work at a scale I hadn’t experienced before.”
+Now a senior-level individual contributor (IC) on the Commerce Engineering team based in Singapore, Michelle’s work is both technical and highly collaborative. She and her team are responsible for products that impact people around the world, such as the
+Quest from Meta
+and
+Facebook Portal
+websites. Recently, the team improved the localization for our country-specific websites, creating a better experience for customers. “Our efforts help direct people to the website for the country they live in and provide them with the correct language preferences,” Michelle explains. “We look at everything from improving the Asian translation process to ensuring our customers are able to land on the right pages when searching for our products.”
+She continues, “Though having a technical background is important, people on our team bring other traits and skill sets to our work. With projects, like localization, we have to think bigger to build the best possible experience for people who use our products. Everyone on our team is communicative, collaborative and cares deeply about solving problems. I also describe our team as strategic and proactive because we all bring ideas to the table, and having the ability to learn quickly is key to us staying ahead.”
+Relocating from London to Singapore with Meta
+While Michelle first joined the Publisher Solutions team while living in London, she and her family began thinking about moving back home to Singapore to be closer to family due to the pandemic. “It has been wonderful to be back home in Singapore,” she says. “I’m also really keen on the work we’re doing for the Asia Pacific region and the expansion opportunities we have here.”
+Feeling a strong sense of support from her manager made her decision to move much easier. “I began the process by talking to a few different engineering managers about what they were working on. This gave me insight into whether or not the projects would be a fit for my skills and passions, and also helped me evaluate which teams I was most interested in joining.”
+Once she settled on the Commerce Engineering team, Michelle says moving was simply a matter of working closely with the company throughout the relocation process. “They helped book our flights and provided us with a month-long accommodation in Singapore,” she shares.
+Michelle’s son playing with relocation gifts sent over by Meta.
+Feeling supported in a culture of care
+Michelle’s relocation experience was just one instance where she felt supported throughout her time at Meta. “Caring is built into our culture, no matter where you work from,” she shares. “My managers and colleagues truly care about my growth. From feeling like I can be proactive about taking on different challenges to sharing ideas about solutions—I’ve felt empowered to speak up.”
+Michelle also appreciates the transparency and authenticity she’s experienced while collaborating with her manager and colleagues, sharing how it has inspired her to bring her whole self to work. “Establishing and maintaining balance as a working parent—particularly as a new mom—can be really challenging, but I’ve felt supported every step of the way. I can have conversations about what I’m experiencing, and other people share what’s happening in their lives. We support each person’s working style and what they need to do for their well-being.”
+Championing women in software engineering
+Looking ahead in her career journey as a woman in software engineering, one of Michelle’s goals is to help more women explore careers in technology. “I was part of the London Tech Diversity & Inclusion: Find Pillar, which I loved,” she says. “We used our technical skills to help recruiters to search for more diverse candidates for open roles. I began a project, which I’m still working on, which will help demystify the interview process so everyone has the same knowledge and approach.”
+Michelle also serves as a mentor for other women who want to grow in their engineering or technical careers, and she says she’s most passionate about raising other women up. “Whenever I can, I encourage women to be more bold at work. When I meet with women, or they ask me for advice, I always emphasize developing confidence. Don’t let your limiting beliefs, your identity or past experiences hold you back. Your opinions matter.”
+Stay connected
+Learn about Life at Meta on Instagram (
+@lifeatmeta
+).
+Like our
+Life at Meta Facebook Page
+for the latest updates.
+share-external
+Related Posts
+META TECH PODCAST
+How to build a generaic neuromotor interface
+Meta research scientists Lauren Grosbery, Jesse Marshall, and Sean Bittner explain EMG wristband technology and HCI innovations with Pascal Hartig.
+Read more
+META TECH PODCAST
+How to build a generaic neuromotor interface
+Meta research scientists Lauren Grosbery, Jesse Marshall, and Sean Bittner explain EMG wristband technology and HCI innovations with Pascal Hartig.
+Read more
+META TECH PODCAST
+Building Android apps in Meta’s monorepository with Buck2
+How do Buck2 and Kotlin improve engineering at Meta? Software engineers Navid Qaragozlou, Joshua Selbo, and Iveta Kovalenko discuss build performance gains.
+Read more
+META TECH PODCAST
+Building Android apps in Meta’s monorepository with Buck2
+How do Buck2 and Kotlin improve engineering at Meta? Software engineers Navid Qaragozlou, Joshua Selbo, and Iveta Kovalenko discuss build performance gains.
+Read more
+META TECH PODCAST
+Lower Emissions with the Open Compute Project
+Meta's Open Hardware Ecosystem lead Dharmesh Jani (DJ) and systems engineering lead Lisa Rivalin discuss OCP, open hardware and datacenter innovation.
+Read more
+META TECH PODCAST
+Lower Emissions with the Open Compute Project
+Meta's Open Hardware Ecosystem lead Dharmesh Jani (DJ) and systems engineering lead Lisa Rivalin discuss OCP, open hardware and datacenter innovation.
+Read more

@@ -1,0 +1,723 @@
+Skip to content
+Search Gists
+Search Gists
+Sign in
+Sign up
+You signed in with another tab or window.
+Reload
+to refresh your session.
+You signed out in another tab or window.
+Reload
+to refresh your session.
+You switched accounts on another tab or window.
+Reload
+to refresh your session.
+Dismiss alert
+Instantly share code, notes, and snippets.
+yossorion
+/
+what-i-wish-id-known-about-equity-before-joining-a-unicorn.md
+Last active
+February 5, 2026 06:11
+Show Gist options
+Download ZIP
+Star
+1,951
+(
+1,951
+)
+You must be signed in to star a gist
+Fork
+241
+(
+241
+)
+You must be signed in to fork a gist
+Embed
+Select an option
+Embed
+Embed this gist in your website.
+Share
+Copy sharable link for this gist.
+Clone via HTTPS
+Clone using the web URL.
+No results found
+Learn more about clone URLs
+Clone this repository at &lt;script src=&quot;https://gist.github.com/yossorion/4965df74fd6da6cdc280ec57e83a202d.js&quot;&gt;&lt;/script&gt;
+Save yossorion/4965df74fd6da6cdc280ec57e83a202d to your computer and use it in GitHub Desktop.
+Embed
+Select an option
+Embed
+Embed this gist in your website.
+Share
+Copy sharable link for this gist.
+Clone via HTTPS
+Clone using the web URL.
+No results found
+Learn more about clone URLs
+Clone this repository at &lt;script src=&quot;https://gist.github.com/yossorion/4965df74fd6da6cdc280ec57e83a202d.js&quot;&gt;&lt;/script&gt;
+Save yossorion/4965df74fd6da6cdc280ec57e83a202d to your computer and use it in GitHub Desktop.
+Download ZIP
+What I Wish I'd Known About Equity Before Joining A Unicorn
+Raw
+what-i-wish-id-known-about-equity-before-joining-a-unicorn.md
+What I Wish I'd Known About Equity Before Joining A Unicorn
+Disclaimer:
+This piece is written anonymously. The names of a few
+particular companies are mentioned, but as common examples only.
+This is a short write-up on things that I wish I'd known and
+considered before joining a private company (aka startup, aka unicorn
+in some cases). I'm not trying to make the case that you should
+never
+join a private company, but the power imbalance between
+founder and employee is extreme, and that potential candidates would
+do well to consider alternatives.
+None of this information is new or novel, but this document aims to
+put the basics in one place.
+The Rub
+Lock In
+After leaving a company, you generally have 90 days to exercise
+your options or they're gone. This seems to have originally
+developed around a historical rule from the IRS around the
+treatment of ISOs, but the exact reason doesn't really matter
+anymore. The only thing that does matter is that if you ever want
+to leave your company, all that equity that you spent years
+building could evaporate if you don't have the immediate cash
+reserves to buy into it.
+Worse yet, by exercising options you owe tax immediately on money
+that you never made. Your options have a
+strike price
+and private
+companies generally have a
+409A valuation
+to determine their fair
+market value. You owe tax on the difference between those two
+numbers multiplied by the number of options exercised, even if the
+illiquidity of the shares means that you never made a cent, and
+have no conceivable way of doing so for the forseeable future.
+Even if you have the money to buy your options and pay the taxman,
+that cash is now locked in and could see little return on
+investment for a long and uncertain amount of time. Consider the
+opportunity cost of what you could otherwise have done with that
+liquid capital.
+Due to tax law, there is a ten year limit on the exercise term of
+ISO options from the day they're granted. Even if the shares aren't
+liquid by then, you either lose them or exercise them, with
+exercising them coming with all the caveats around cost and
+taxation listed above.
+Does ten years sound like a long time? Consider the ages of these
+unicorns:
+Palantir is now thirteen years old.
+Dropbox will be ten years old this year (2017).
+AirBnB, GitHub, and Uber are all within a year or two of their
+ten year birthdays.
+Some companies now offer 10-year exercise window (after you quit)
+whereby your ISOs are automatically converted to NSOs after 90
+days. This is strictly better for the employee than a 90-day
+window, but as previously mentioned, ten years still might not be
+enough.
+Golden handcuffs kick in fast. The longer you stay with a company,
+the more equity you build, and a decision to leave becomes that
+much harder. This can culminate to the point where early employees
+have modest liquid assets but are "paper millionaires", and have to
+make the hard decision to throw all that away or stick around until
+their founders allow them some return.
+Liquidity Events
+No time horizon for any kind of liquidation guaranteed. In fact,
+no liquidation event
+is ever guaranteed, even if the company is
+highly successful. One could be at 1 year out, 5 years, 10 years,
+or never. We've seen a lot of evidence in this day and age that
+companies are staying private for longer (see the list above).
+The incentive to IPO between employer and employee are not aligned.
+Employees want some kind of liquidation event so that they can
+extract some of the value they helped create, but employers know
+that allowing employees to extract that value might cost them some
+of their best people as they're finally allowed the opportunity to
+pursue other projects. One more reason to stay private for longer.
+Although the above is one reason that founders don't want to
+IPO, it's not the
+only
+reason. Many of them do believe
+(rightly or wrongly) that there is another 10x/100x worth of
+growth left in the company, and that by pulling the trigger too
+early on an IPO all of that potential will be lost. For a
+normal founder, their company is their life's work, and they're
+willing to wait a few more years to see the canvas fully
+realized. This is a more noble reason not to liquidate, but
+from an employee's perspective, is still problematic.
+Founder/Employee Power Imbalance
+Founders (and favored lieutenants) can arrange take money off the
+table while raising rounds and thus become independently wealthy
+even before they make true "fuck you" money from a large scale
+liquidation event. Employees cannot. The situation is totally
+asymmetric, and most of us are on the wrong end of that.
+Even if you came into a company with good understanding of its cap
+table, the ground can shift under your feet. New shares can be
+issued at any time to dilute your position. In fact, it's common
+for dilution to occur during any round of fundraising.
+Private Markets
+Private markets do exist that trade private stock and even help
+with the associated tax liabilities. However, it's important to
+consider that this sort of assistance will come at a very high
+cost, and you'll almost certainly lose a big chunk of your upside.
+Also, depending on the company you join, they may have restricted
+your ability to trade private shares without special approval from
+the board.
+Valuations
+Especially in early stage companies, equity is offered on the basis
+of a highly theoretical future valuation number. Sam Altman
+recommends offering the first ten employees 10% (~1% each), which
+could be a big number if the company sells for $10B, but consider
+how few companies actually make it to that level.
+If the company sells for a more modest $250M, between taxes and the
+dilution that inevitably will have occurred, your 1% won't net you
+as much as you'd intuitively think. It will probably be on the same
+order as what you might have made from RSUs at a large public
+company, but with far far more risk involved. Don't take my word
+for it though; it's pretty simple math to run the numbers for a
+spread of sale prices and dilution factors for yourself before
+joining, so do so.
+Tender Offers
+Some companies acknowledge the effect of drawn out phases of
+illiquidity on employees and engage in a tender offer to give
+employees some return (google around for some examples). I don't
+want to overstate this because receiving a tender offer is strictly
+better than the alternative, but keep in mind that one will
+probably be structured to minimize the amount of value you can
+extract. They're also very likely be infrequent events. Read the
+fine print, run the numbers, and consider how much your annual
+return
+to date
+will actually be (including all the time you've
+spent at the company, not just the year of the offer). It's
+probably less than what you could've gotten in RSU grants at a
+public company.
+Working Environment
+This isn't equity related, but it's worth considering that the
+environment at a big unicorn isn't going to be measurably different
+from a big public company. You're going to have little impact per
+employee, the same draconian IT security policies, lots of
+meetings, and fixed PTO. In the worst cases, you might even have to
+use JIRA.
+I'm Doing It Anyway!
+So you decided to join a private company anyway. Here's a few
+questions that I'd recommend knowing the answer to before accepting
+any offer (you'd be amazed at how infrequently this information is
+volunteered):
+How long is my exercise window if I leave the company?
+How many outstanding shares are there? (This will allow you to
+calculate your ownership in the company.)
+Does the company's leaders want it to be sold or go public? If so,
+what is the rough time horizon for such an event? (Don't take "we
+don't know" for an answer.)
+Have there been any secondary sales for shares by employees or
+founders? (Try it route out whether founders are taking money off
+the table when they raise money, and whether there has been a
+tender offer for employees.)
+Assuming no liquidation, are my shares salable on a private market?
+Has the company taken on debt or investment with a liquidation
+preference of more than 1x? (Investors may have been issued > 1x
+liquidation preference, which means they get paid out at that
+multiple before anyone else gets anything.)
+Will you give me an extended exercise window? (After joining I
+realized that most people's window was the standard 90 days, but
+not
+everyone's
+. Unfortunately by then I'd lost my negotiating
+leverage to ask for an extended term.)
+It's really tough to ask these without sounding obsessed with money,
+which feels unseemly, but you have to do it anyway. The "you" of
+today needs to protect the "you" of tomorrow.
+Summary
+Working at a startup can be fun, rewarding, interesting, and maybe
+even lucrative. The working conditions at Silicon Valley companies
+are often the best in the world; it's quite conceivable that you
+might want to stay there even if there was never a possibility of a
+payoff. But don't forget that as far as equity is concerned, every
+card in the deck is stacked against you.
+The correct amount to value your options at is $0. Think of them more
+as a lottery ticket. If they pay off, great, but your employment deal
+should be good enough that you'd still join even if they weren't in
+your contract.
+I don't say this just because of the possibility that your startup
+could fail, but also because even in the event of success, there are
+plenty of scenarios where getting a payout will be difficult. Say for
+example that five years in you want to try something new, or want to
+start a family and need a job that will pay you well enough to let
+you afford a starter home in the Bay Area (not easy). Your startup
+Monopoly money will put you in a precarious position.
+If you're lucky enough to be in high enough demand that you can
+consider
+either
+a public company with good stock liquidity
+or
+a
+billion-dollar unicorn, give serious consideration to the former.
+Load earlier comments...
+Copy link
+foo10101
+commented
+Jan 19, 2017
+•
+edited
+Loading
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+I am just an engineer. I don't understand a lot of the terms and concepts necessary to understand the linked article. I tried going through the Wikipedia articles for the terms I was interested in but I don't think I can make sense of it all without a kind teacher to help me out. So here I am turning to you, to be my teacher. Here are the questions I have. If one of you could answer just one question from this list, it would help me a lot. I am sure it would help other people like me.
+While answering, please quote my entire question with the Q so that people don't have to scroll up and down to correlate the answers with the question.
+Q1. Quote from article: "Your options have a strike price and private companies generally have a 409A valuation to determine their fair market value. You owe tax on the difference between those two numbers multiplied by the number of options exercised." My question: What is strike price? If I have accumulated say $30K worth of options, but I can afford only $10K, can I buy only $10K worth of options while leaving the startup?
+Q2. Quote from article: "Due to tax law, there is a ten year limit on the exercise term of ISO options from the day they're granted. Even if the shares aren't liquid by then, you either lose them or exercise them, with exercising them coming with all the caveats around cost and taxation listed above." My question: Say I get buy ISO options for 30000 options for $30K from a startup while I leave the startup in 2017. Say, that startup still remains private in 2027. What are my options? Am I going for a total loss of $30K? If the startup hasn't gone IPO, how can I possibly exercise my 30000 options in 2027? What does the article mean by "exercise them" in this case? Does "exercise" mean buy the 30000 options for $30K or does "exercise" mean selling the options for a possibly larger price after the startup goes IPO?
+Q3. Quote from article: "Some companies now offer 10-year exercise window (after you quit) whereby your ISOs are automatically converted to NSOs after 90 days." My question: How is NSO different from ISO? When the article mentions that NSOs are "strictly better" does it mean that I don't have to pay a penny to buy the NSOs but they remain in my account for free?
+Q4. Quote from article: "Employees want some kind of liquidation event so that they can extract some of the value they helped create" My question: What are the events that count as liquidation events?
+Q5. Quote from article: "Even if you came into a company with good understanding of its cap table" My question: What is the cap table? Why do I need to know this number? Can you explain this with some examples?
+Q6. Quote from article: "New shares can be issued at any time to dilute your position. In fact, it's common for dilution to occur during any round of fundraising." My question: How does additional funding dilute my position? If I bought 30000 ISO options at say $1 per option, and I can sell it one day for say $2 per option, I am still making money. Why does it matter if additional funding occurred between buying and selling?
+Q7. Quote from article: "If the company sells for a more modest $250M, between taxes and the dilution that inevitably will have occurred, your 1% won't net you as much as you'd intuitively think. It will probably be on the same order as what you might have made from RSUs at a large public company, but with far far more risk involved." Can someone show some approximate calculation for this? This is what I see: 1% of $250M is $2.5M. Say I lose 30% in tax I am still left with 0.70 * $2.5M = $1.75M. Can one really earn $1.75M from RSUs? The RSUs I have got at large public companies are of the order of $10K to $50K only.
+Q8: Quote from the article: "Tender Offers". Can someone elaborate this? Can a startup force me to return my options in exchange for tender offers? Or is it a choice I have to make, i.e. to keep the options or go with the tender offer?
+Q9: Quote from the article: "How many outstanding shares are there? (This will allow you to calculate your ownership in the company.)" How? Can you provide an example to calculate my ownership? Can you also provide an example of what that ownership means for me, if the company is sold for say $200M? Can you also provide another example of what that ownership means for me, if the company goes public and the price of each stock option is $10 after it goes public?
+Q10: Quote from article: "Have there been any secondary sales for shares by employees or founders? (Try it route out whether founders are taking money off the table when they raise money, and whether there has been a tender offer for employees.)" What does this mean? How does it affect me?
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+AndyDentFree
+commented
+Jan 19, 2017
+@patrickkelso
+said
+Even worse if you're Australian the Tax Office will tax you on the difference between strike price and fair market value the year you get the options, not the year you buy them, the year they vest
+There are more nuances to that since July 2015 especially if you're talking a
+startup
+and less than 10% equity.
+Details here
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+keyuls
+commented
+Jan 19, 2017
+As
+@foo10101
+said, someone needs to elaborate to all this term. Can someone please explain these 10 questions? As an engineer or developer perspective need to understand all these things before joining any company.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+jlevy
+commented
+Jan 19, 2017
+•
+edited
+Loading
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Great article and discussion. We've linked it from
+another GitHub-based guide
+on this topic. It covers a bit more on concepts etc, and anyone is welcome to contribute there too.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+abscondment
+commented
+Jan 19, 2017
+•
+edited
+Loading
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+@foo10101
+: I'm an engineer, too, but here's my non-lawyer understanding of a few of your questions.
+Q1: You don't need to exercise all of your options. An option is simply the ability to buy shares at a fixed price. So, yes, you could purchase only 1/3 of the shares available to you.
+Q2: Exercising that option means buying the shares. It is this
+option
+that expires. If you exercise, you buy the shares and own them.
+Q4: Merger, sale, IPO. Something that turns shares of stock into cash.
+Q5: The cap table shows who owns what shares. It lets you know exactly how shares many there are, and therefore what percent you own. You should not expect full knowledge of the cap table, but understanding how many shares have been issued is key. It's important to know because you can't reason about your upside from a sale without knowing if you own 10%, 1%, or 0.01% of the company.
+Q6: New funding means an investor is issued new shares in exchange for capital. Issuing new shares reduces the percent of the company you own. If your shares are worth $1 each, and the company doubles the number of shares issued without changing its valuation, you're suddenly holding $0.5/share. To get to $2/share in the future, your company needs to get 4x the value you just had. This could be entirely feasible for a startup. It's important to consider because each investment sets the bar higher for getting anything from your equity, and how much higher varies greatly.
+Q7: A few thoughts:
+RSUs are taxed as income, so ISOs have an advantage here.
+If you have 1% as a non-founder, you joined the startup early on. Most startups that attain a $250M exit have taken funding, with significant dilution. After several rounds of financing, you might actually own only 0.5% of the outstanding shares, for example. Combine that with liquidation preferences, and you will see far less than 1% of a sale.
+Yes, one could earn $1.75M from RSUs. Most people will not. That's a very large initial grant + great stock price performance over 4 years.
+Q9: Yes.
+Say you are given 10,000 options, and the company has issued 1,000,000 shares. You own 1% of the company (10,000/1,000,000).
+But wait! As an employee, you have
+common stock
+. Investors have
+preferred stock
+. So if the company sells for $200M, you might not get exactly 1% of that -- the investors take get cut first.
+Here is an example with numbers
+.
+When your company IPOs, your options still allow you to purchase stock at a low, pre-IPO price. So if your purchase price is $1/share as above, and the market price for your company's stock is now $10/share, you can sell them and make $9/share.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+sheanmassey
+commented
+Jan 20, 2017
+Just swinging by to confirm that
+JIRA
+is my
+PITA
+.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+cavill
+commented
+Jan 20, 2017
+Does the company's leaders want it to be sold or go public? If so, what is the rough time horizon for such an event? (Don't take "we don't know" for an answer.)
+Great article, though I disagree with the above quote. It's better (and likely more truthful) to say 'we don't know' than give a disingenuous answer.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+reiz
+commented
+Jan 20, 2017
+Thanks for writing this. I enjoyed reading it. Specially like the note about JIRA 👍 .. JIRA is so typical for big Enterprises like LDAP, Active Directory, Outlook and Eclipse. I prefer more light weight tools ;-)
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+otrenav
+commented
+Jan 21, 2017
+Thanks for publishing this. It's useful.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+IvanVergiliev
+commented
+Jan 21, 2017
+•
+edited
+Loading
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+@foo10101
+also an engineer but I've seen a bunch of Equity Plans so here are my two cents.
+Q1: If I have accumulated say $30K worth of options, but I can afford only $10K, can I buy only $10K worth of options while leaving the startup?
+A: Sample quote from Stock Plan: "The Administrator may require that an Option be exercised as to a minimum number of Shares [...]" (for example, the one
+here
+). So there could be a lower bound on the number of shares you can exercise - if you have less than that, you have to buy all the options when you leave. I think there can also be a "batching" requirement - say, if you have 35k shares and you can only buy batches of 10k, you can buy 10k, 20k, 30k or the whole 35k. I can't confirm this from an option agreement right now though.
+Q6: How does additional funding dilute my position? If I bought 30000 ISO options at say $1 per option, and I can sell it one day for say $2 per option, I am still making money.
+A: True, if your options are now worth 2x more, you are making money. However, dilution means that for your options to become 2x more valuable, the company will have to grow (potentially much) more than 2x in valuation. Another way to structure this is that if you were advertised being granted 1% of the company, dilution will bring this number down.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+LisaDziuba
+commented
+Jan 21, 2017
+Nice article,
+many simalar points with recently published article by Scott Belsky
+Don’t Get Trampled: The Puzzle For Unicorn Employees
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+avocade
+commented
+Jan 21, 2017
+Love that this became a what's wrong with Jira topic from second 1! Gotta love these tubes.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+ShaneLewin23
+commented
+Jan 23, 2017
+•
+edited
+Loading
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+@rstormsf
+and others, during the recruiting process, any firm is always happy to talk about good news.  It's a very, very safe bet that if they 'dont know' its because its not favorable for you; and perfectly reasonable for you to assume so.
+As to "we only want people who are not motivated by money", in my experience hiring and talking with startups, this sentence is a big red flag.  Anyone joining a startup should expect to give up salary in exchange for equity, and that equity should be (on reasonable exit criteria) worth about 5-10X the amount of money you're giving up.  Thats a fair trade.
+Typically, founders who are very worried themselves about money make statements like the above.  It should be viewed with skepticism.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+master0v
+commented
+Jan 24, 2017
+Thanks!
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+samv
+commented
+Jan 24, 2017
+•
+edited
+Loading
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+I read all of this, and I definitely concur with your early statement that "None of this information is new or novel".  But it's true that few people have a good grasp of this stuff, and it is passed around as secrets shared in 1:1's and other such venues.  So 💯 for sharing it and bringing attention to these important issues.
+First of all, you need to consider the
+Employee Stock Options
+fund.  This group, based in Silicon Valley and founded in 2012, solve all or almost all of the problems in the section about "the rub".  The way it works is that you first take your share options paperwork to ESO fund.  If the fund likes the look of them (generally, due to lack of public information on private companies, this means "have they funded in the last 2 years?" plus some proprietary secret sauce decision making), then they'll make an offer to pay your expenses for them.  They pay for the exercise money, and all payable AMT that accrues in the future for holding those shares.  In return, they get a cut.  Exactly how big depends on just how hot they think that start-up is.  This involves the employee signing a contract granting ESO limited right of attorney to perform the transaction to transfer to ESO once the shares are liquid.
+So you get the best of both worlds.  Keep 80% of your imagination instead of 100% but don't worry about the cash outlay or tax implications.  To make up the 20% you lost, just dream bigger.
+As for the questions that you recommend asking in the interview, I'd say that this is largely bad advice.  The last question about a negotiating position is definitely insightful, but the others could really come across as self-serving, especially if you ask someone who has no idea about such technicalities.  For instance - the question about trading shares in a private market.  The reason shares in a private company can't just be sold to anyone (without board approval of the company) is due to federal disclosure laws.  Those laws state that as soon as there are more than 500 shareholders (IIRC) then the company must disclose detailed quarterly financial reports.   At which point, generally they may as well IPO because their financials are public.  So, the general practice is that you can't sell to people who don't already hold shares, or do anything that would increase the number of shareholders and tick them closer to that disclosure time bomb.  So why would you ask about that?
+I guess my main point is, those are good questions to be answering for yourself, somehow - but I really, really suggest that you should NOT ask those kind of questions in a job interview.  Casually pry them out of someone during the obligatory lunch during that all-day engineering interview, perhaps - but most of the questions are kind of rude and improper and will just result in you getting a bad reputation.
+One last thing - generally, you can exercise ISOs as soon as they vest.  It's a good idea to do this regularly, eg quarterly.  Save up some of that paycheck from when you first start in an earmarked account for exercising your options.  Sometimes the problem isn't really that the shares are expensive, it's just that you didn't budget for them.  A few hundred bucks a month can quickly add up especially if you stay put for 2-3 years, and then it seems like a massive chunk of cash.  Plan for it.  There's many peripheral benefits to exercising while still employed - you pay less tax if you sell after 2 years of share ownership, so start that clock ticking as soon as possible.  And the other reason is to avoid the lock-in mentioned in the article.  The risk-adjusted yield of ISOs at growth tech companies is second to none - these are good assets to own; especially if you are diversified.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+mrhashinclude
+commented
+Jan 25, 2017
+Also worth reading (and possibly linking to in the original post), is the
+Open Guide to Equity Compensation
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+ummahusla
+commented
+Jan 26, 2017
+Thank you 👍
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+adityar7
+commented
+Jan 27, 2017
+It is indeed true that founders typically have the power to benefit while screwing employees, and that should not be the case. However, the first few employees (until the company reaches Seed or Series A) are basically putting faith in the founder to not screw them. Unless these guys value equity substantially as part of compensation, companies won't get off the ground (if you've never run a company, you won't get "why"). And then we'll all be screwed.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+sarahsturgeon
+commented
+Jan 27, 2017
+ok
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+richardhaven
+commented
+Feb 1, 2017
+"The correct amount to value your options at is $0. Think of them more as a lottery ticket"
+This is good. How much is a lottery ticket worth? How much is a lottery ticket worth when the odds are not only hidden, not fair or random, and can change by the founders ?
+A magic phrase is "liquidation preferences". It is the stated way that a company buy-out would affect employee options. The number does not actually matter because the employees will get whatever the founders choose to give them from the buy-out money. The magic of the phrase is that the HR person you say it to will know that you know that hiring options in a startup are worthless, and they might give you more money.
+As for the taxes: the only way to get a tax liability is to gain a profit. If one gets options and does not exercise them, then one is investing in the stock. If that stock them drops in value, one still owes for the receipt of the option. Choosing not to exercise an option immediately is foolish.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+gaia
+commented
+Feb 9, 2017
+salable = sellable.
+great article!
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+jt-gilkeson
+commented
+Feb 10, 2017
+A few more things to be aware of:
+Early Exercise / Exercising in general - if your valuation falls significantly, the company may reprice stock options to the lower value, anyone who has already exercised does not get to participate - additionally if you leave, the company most likely won't purchase back your unvested shares since they are underwater.
+Acquisition - in some circumstances, the company may choose to sell off the products and employees and leave the old company as a shell - if this happens, your exercised stock will not generate a payout and the shell is most likely to go to 0.
+Someone said you don't pay taxes upon exercise of ISOs - this may not be correct - the spread at time of exercise for ISOs is taxable if you are subject to AMT (and exercising the stock may make you eligible for AMT).
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+ChrisTichenor
+commented
+Jun 19, 2018
+•
+edited
+Loading
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Some companies also have terms in their grant agreements that state that in the event of a sale, all your unvested options vest automatically. In that case, if you're thinking about leaving your company for whatever reason, if you have a good relationship with management it's in your best interest to speak with management about that first and to see if there's any possibility that might happen. I left my last company and they sold a couple weeks after my last day and closed the deal in less than a month, which ended up costing me a good chunk of money if I had pushed back my start date at my new job to a few weeks later.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+masongoodwin
+commented
+Dec 27, 2018
+Thanks for sharing the informative post. Despite hitting a low in 2016, IPOs are retrieving strength these days. Though
+IPO
+is a complex, lengthy and expensive process, however, many Unicorns like Uber, Palantir, Snap etc. are entering the public market and looking to introduce initial share price for individual investors.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+LeafyLi
+commented
+Mar 13, 2020
+"In fact, it's common for dilution to occur during any round of fundraising."
+Think this means
+"In fact, it's common for dilution to occur during
+every
+round of fundraising."
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+chnsh
+commented
+Oct 26, 2020
+I asked a potential company about "How many outstanding shares are there?" and they replied that this isn't readily available knowledge - even inside the company. Is this a red flag at all?
+On the whole, the company looks great and I like other aspects of the role.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+mpokryva
+commented
+Nov 22, 2020
+I asked a potential company about "How many outstanding shares are there?" and they replied that this isn't readily available knowledge - even inside the company. Is this a red flag at all?
+On the whole, the company looks great and I like other aspects of the role.
+Uhh, yeah. That is definitely a red flag. If you got to the offer stage and they're not willing to tell you this, walk away. Knowing how many shares you're getting without knowing the fully diluted share count is like knowing how much something weighs but not knowing the units. Employees are investors in a company. They're investing their time, effort, and losing out on other opportunities. They have the right to know this kind of stuff.
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+tamsky
+commented
+Nov 17, 2021
+What percentage of the company do the options offered represent?
+Are you including all shares in the "total shares outstanding"?
+https://blog.wealthfront.com/stock-options-15-crucial-questions/
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+RicardoGralhoz
+commented
+Dec 28, 2021
+•
+edited
+Loading
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Here is set of resources in 2021 that help me to understand these concepts; some with visual graphics:
+Carta.com
+:
+Equity 101 Part 1: Startup employee stock options
+What are employee stock options?
+What does exercising stock options mean?
+Triplebyte
+:
+Startup equity value calculator
+Inc.com
+:
+5 Questions You Should Ask Before Accepting a Startup Job Offer
+Angel.co
+30 Questions to Ask Before Joining a Startup
+Typical Employee Equity Levels
+mostly restricted content
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Copy link
+tamsky
+commented
+Dec 30, 2021
+https://news.ycombinator.com/item?id=17717727
+also contains discussion of the the holloway.com link:
+Typical Employee Equity Levels
+mostly restricted content
+Sorry, something went wrong.
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Sign up for free
+to join this conversation on GitHub
+.
+    Already have an account?
+Sign in to comment
+You can’t perform that action at this time.

@@ -2,6 +2,10 @@
 from fastapi import APIRouter, Depends
 from pydantic import BaseModel
 from app.security import get_current_user
+from app.config import VLLM_BASE_URL, LLM_DEFAULT_MODEL
+from app.llm_utils import strip_think_tags
+from app.rag.settings import RAG_ENABLED, RAG_TOP_K, RAG_MAX_CONTEXT_CHARS
+from app.rag.vectorstore import query_text
 
 router = APIRouter(prefix="/chat")
 
@@ -14,9 +18,9 @@ class Message(BaseModel):
 
 
 class ChatRequest(BaseModel):
-    model: str = "UI-TARS-1.5-7B"
+    model: str = LLM_DEFAULT_MODEL
     messages: list[Message]
-    max_tokens: int = 512
+    max_tokens: int = 3000
     temperature: float = 0.7
 
 
@@ -53,27 +57,44 @@ def chat_completions(
 
 
 def _call_llm(request: ChatRequest) -> str:
-    """
-    Сейчас — заглушка.
-    Когда команда поднимет vllm — раскомментировать блок ниже
-    и убрать return с заглушкой.
-    """
+    """Вызов LLM по OpenAI-совместимому API (vLLM / llama.cpp и т.д.)."""
+    from openai import OpenAI
 
-    # from openai import OpenAI
-    # client = OpenAI(
-    #     api_key="not-needed",
-    #     base_url="http://АДРЕС_СЕРВЕРА/v1"  # <- вставить адрес vllm
-    # )
-    # response = client.chat.completions.create(
-    #     model=request.model,
-    #     messages=[m.model_dump() for m in request.messages],
-    #     max_tokens=request.max_tokens,
-    #     temperature=request.temperature,
-    # )
-    # return response.choices[0].message.content
+    messages = [m.model_dump() for m in request.messages]
+    if RAG_ENABLED:
+        last_user = next((m["content"] for m in reversed(messages) if m["role"] == "user"), "")
+        if last_user.strip():
+            try:
+                hits = query_text(last_user, top_k=RAG_TOP_K)
+            except Exception:
+                hits = []
+            if hits:
+                context_lines: list[str] = []
+                total = 0
+                for i, h in enumerate(hits, start=1):
+                    meta = h.get("meta") or {}
+                    src = meta.get("source") or "unknown"
+                    title = meta.get("title")
+                    header = f"[{i}] {title + ' — ' if title else ''}{src}"
+                    snippet = (h.get("text") or "").strip()
+                    block = f"{header}\n{snippet}"
+                    if total + len(block) > RAG_MAX_CONTEXT_CHARS:
+                        break
+                    context_lines.append(block)
+                    total += len(block) + 2
 
-    last_user_message = next(
-        (m.content for m in reversed(request.messages) if m.role == "user"),
-        "пустой запрос"
+                rag_system = "TECH INTERVIEW HANDBOOK (RAG):\n" + "\n\n".join(context_lines)
+                messages = [{"role": "system", "content": rag_system}] + messages
+
+    client = OpenAI(
+        api_key="not-needed",
+        base_url=VLLM_BASE_URL,
     )
-    return f"[Заглушка] Получил: '{last_user_message}'. Подключим vllm как будет готов!"
+    response = client.chat.completions.create(
+        model=request.model,
+        messages=messages,
+        max_tokens=request.max_tokens,
+        temperature=request.temperature,
+    )
+    raw = response.choices[0].message.content or ""
+    return strip_think_tags(raw)

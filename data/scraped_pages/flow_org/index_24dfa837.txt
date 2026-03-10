@@ -1,0 +1,16 @@
+Skip to main content
+Code Faster.
+Tired of having to run your code to find bugs? Flow identifies problems as you code. Stop wasting your time guessing and checking.
+Code Smarter.
+It's hard to build smart tools for dynamic languages like JavaScript. Flow understands your code and makes its knowledge available, enabling other smart tools to be built on top of Flow.
+Code Confidently.
+Making major changes to large codebases can be scary. Flow helps you refactor safely, so you can focus on the changes you want to make, and stop worrying about what you might break.
+Code Bigger.
+Working in a codebase with lots of developers can make it difficult to keep your master branch working. Flow can help prevent bad rebases. Flow can help protect your carefully designed library from misuse and misinterpretation. And Flow can help you understand the code you wrote six months ago.
+Ready to get going?
+Get Started
+Install Flow
+Realtime Feedback
+Flow gives you fast feedback while you code by incrementally rechecking your code as you make changes.
+Easy Integration
+Flow integrates well with many tools, making it easy to insert into your existing workflow and toolchain.

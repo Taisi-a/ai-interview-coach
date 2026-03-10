@@ -1,0 +1,156 @@
+Every Public Engineering Career Ladder
+swyx
+2020-03-24
+A full version of this post with a âgenericâ career ladder is available in
+The Coding Career Handbook
+âWhat will it take to get to the next level?â
+Of course this is a very open ended question, but it can be nice to set some guide rails around what expectations are in a company. As an individual contributor, career ladders tell me what the company ostensibly values (and, by omission, what it doesnât value).
+I recently compiled this list of career ladders and figured I would share it here. Some ladders include nontechnical jobs, I will just look at engineering and engineering management.
+Fog Creek
+: from 2009, but obviously Joelâs thinking has been very influential. Focus is on growing ownership, ability to write production code independently, shipping experience, and at senior levels, design/planning/architecture. Teamwork, self study, mentorship, and impact are all key, as well as the Joel Test.
+Rent the Runway
+(
+spreadsheet
+): from 2015. Takes a fun D&D inspired Dex/Str/Wis/Cha stats based evaluation, corresponding to technical skill, productivity, impact, and communication/leadership. Management track is also included, with more focus on architecture, hiring, organizational skills, and leadership/salesmanship.
+Artsy
+: inspired by Rent the Runway
+CapGemini UK
+: also inspired by Rent the Runway
+Basecamp
+: pretty simple.
+Thumbtack
+(
+spreadsheet
+): from 2019. Breaks down technical skills into
+code quality/testing
+,
+debugging
+, and
+scoping/project design
+, and nontechnical factors to
+collaboration, citizenship, leadership, and impact
+. Leadership is interestingly broken down into
+Autonomy, Judgement, Initiative, and Consensus Building
+.
+CircleCI
+(
+spreadsheet
+): one of the most well known ladders, detailed but not overwhelming. NOtably, one of the values assessed is Security.
+Envoy
+: pretty simple ladder list, by a hot company.
+Dropbox
+: has a 7 tier system focused on
+Impact
+, which they define!
+Financial Times
+(
+webapp
+). Even has an
+API
+! lol. Only 4 areas across Technical, Leadership, Delivery, and Communication are assessed. Feels manageable.
+Meetup
+: splits roles into Makers and Managers.
+Makers focus on Architecture & framework & software development, Best practices & architecture & code reviews, Technical skills evaluation & mentoring, Introduce new engineering tools & mentor adoption, and Recommend process improvements & support adoption.
+Managers focus on Performance evaluation, Career growth, Recruiting & resourcing, Rollout process improvements & adoption of engineering tools and Organization & administrative.
+Socialbakers
+: seems pretty similar to Meetupâs ladder
+Medium
+(
+gist
+): has tracks for Mobile, Servers, Foundations, Web client, Project Management, Communication, Craft, Initiative, Org design, Accomplishment, Wellbeing, Career development, Evangelism, Community, Recruiting, and Mentorship! Phew!
+Starling Software
+: Uses Big O notation to denote levels, which is a fun shibboleth. Skills are broken out to Computer Science, Software Engineering, Programming, Experience, and Knowledge. This one has a long record on
+Hacker News
+but is a good map of things that we can work on.
+Kickstarter
+:  basically a bunch of job descriptions, including Data careers and CTO.
+Brandwatch
+: explains levels at a high level, and then breaks it out for
+ICâs and Management in this spreadsheet
+. A total of 15 attributes to work on!
+Spotify
+: famous for its âSquad/Tribeâ structure - emphasizes âStepsâ, with a simple list of five sets of behaviors they want:
+Values team success over individual success
+Continuously improves themselves and team
+Holds themselves and others accountable
+Thinks about the business impact of their work
+Demonstrates mastery of their discipline
+Chuck Groom
+- this is unusual - personal thoughts on a Job Ladder, though the author is a senior engineering leader at VTS. Good discussions on how having ladders helps, as well as descriptions of Anti-patterns. I love the Principal Engineer antipatterns:
+Over-emphasis on scaling or high availability far beyond business needs. Spends too much time chasing the newest âshinyâ technology. Doesnât collaborate or ask questions. Condescending. Has âpetâ agenda. Pisses off senior leadership.
+Buffer
+has a Maker (IC) and a Manager track, spelling out 6 levels from Entry level to Principal. They make interesting use of a âropeâ analogy to describe the skill differences.
+Dropbox
+Etsy
+Further Reading
+More ladders (non engineering) are available at
+https://www.progression.fyi/
+http://engineering.khanacademy.org/posts/career-development.htm
+https://progression.monzo.com/engineering/web
+https://squeakyvessel.com/2016/07/11/engineering-ladders-links-elsewhere/
+https://patreonhq.com/how-patreon-levels-engineers-a28a3491ae6a
+https://developer.squareup.com/blog/squares-growth-framework-for-engineers-and-engineering-managers/
+http://www.elidedbranches.com/2015/11/truth-and-consequences-of-technical.html
+https://mcfunley.com/thoughts-on-the-technical-track
+https://github.com/vijayvenkatesh/engineering_ladders
+https://www.cnblogs.com/dhcn/p/10729002.html
+https://circleci.com/blog/how-to-successfully-work-from-home-strategies-for-remote-work/
+Management vs Engineering:
+https://charity.wtf/2019/01/04/engineering-management-the-pendulum-or-the-ladder/
+PM Career Ladders
+Intercom
+Optimizely
+Wise
+OpenTable
+XO Group
+Oscar
+Gusto
+GitLab
+Tagged in:
+#careers
+Leave a reaction
+if you liked this post! ð§¡
+Loading comments...
+Load now
+Webmentions
+Loading...
+Subscribe to the newsletter
+Join >10,000 subscribers getting occasional updates on new posts and projects!
+Subscribe
+I also write an
+AI newsletter
+and a
+DevRel/DevTools newsletter
+.
+Latest Posts
+ð
+Constance Crozier: Forecasting s-curves is hard
+2026-02-27
+ð§
+FreeCodecamp on AI directions
+2026-02-19
+ð
+Take a hard game, and make it shorter
+2026-02-16
+ð§
+NeurIPS Show Me The Money panel with Tri Dao and Dylan Patel
+2025-12-31
+ð
+How To Podcast
+2025-12-07
+ð§
+Winning, AI Eng, Devtools Angels, and DevRel
+2025-12-05
+ð
+The Impossible Triangle of LLM Infra
+2025-11-06
+ðº
+The Impossible Triangle of LLM Infra
+2025-11-06
+ð§
+on Delta Institute - on Cognition and Meaning of life
+2025-10-22
+ð
+The only Permanent Underclass are the ones who believe it is permanent
+2025-10-20
+Search and see all content

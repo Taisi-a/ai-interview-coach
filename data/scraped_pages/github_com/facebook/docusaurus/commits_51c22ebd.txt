@@ -1,0 +1,164 @@
+Skip to content
+You signed in with another tab or window.
+Reload
+to refresh your session.
+You signed out in another tab or window.
+Reload
+to refresh your session.
+You switched accounts on another tab or window.
+Reload
+to refresh your session.
+Dismiss alert
+facebook
+/
+docusaurus
+Public
+Uh oh!
+There was an error while loading.
+Please reload this page
+.
+Notifications
+You must be signed in to change notification settings
+Fork
+9.8k
+Star
+64.1k
+Branch selector
+main
+User selector
+teikjun
+All time
+Commit History
+Commits on Jun 20, 2021
+docs(v2): fix incorrect anchor links in website (#5021)
+Show description for c96c3b5
+teikjun
+authored
+c96c3b5
+Copy full SHA for c96c3b5
+Commits on Aug 25, 2020
+docs(v2): add anshul and tj to fellows team (#3333)
+teikjun
+authored
+878ce31
+Copy full SHA for 878ce31
+Commits on Aug 11, 2020
+docs(v2): fix migration command for earlier versions (#3251)
+teikjun
+authored
+f1c715d
+Copy full SHA for f1c715d
+fix(v2): modify validation schema and tests for rehype/remark + remove duplicate dependency (#3247)
+Show description for fda1590
+teikjun
+authored
+fda1590
+Copy full SHA for fda1590
+Commits on Aug 5, 2020
+fix(v2): fix theme validation for prism field and add tests (#3210)
+Show description for 8f0c00f
+teikjun
+authored
+8f0c00f
+Copy full SHA for 8f0c00f
+Commits on Jul 31, 2020
+feat(v2): warn user when there are conflicting routes (#3083)
+Show description for 300aecb
+teikjun
+and
+slorber
+authored
+300aecb
+Copy full SHA for 300aecb
+Commits on Jul 29, 2020
+test(v2): add tests for config validation (#3142)
+Show description for e7ec93b
+teikjun
+authored
+e7ec93b
+Copy full SHA for e7ec93b
+Commits on Jul 27, 2020
+fix(v2): make config validation less strict (#3120)
+Show description for 2159c4f
+teikjun
+authored
+2159c4f
+Copy full SHA for 2159c4f
+Commits on Jul 24, 2020
+docs(v2): add documentation for migration command (#3026)
+Show description for a9109fb
+teikjun
+and
+slorber
+authored
+a9109fb
+Copy full SHA for a9109fb
+Commits on Jul 13, 2020
+feat(v2): notify users when docusaurus version is outdated (#3032)
+Show description for f947036
+teikjun
+authored
+f947036
+Copy full SHA for f947036
+Commits on Jul 9, 2020
+docs(v2): correct the documentation for doc-only mode (#3040)
+teikjun
+authored
+11751c2
+Copy full SHA for 11751c2
+Commits on Jul 8, 2020
+fix(v2): change description for blog post paginator (#3029)
+teikjun
+authored
+e5afd18
+Copy full SHA for e5afd18
+Commits on Jul 1, 2020
+fix(v2): fix broken links on versions page (#3017)
+Show description for 086d1b7
+teikjun
+authored
+086d1b7
+Copy full SHA for 086d1b7
+Commits on Jun 29, 2020
+fix(v2): make client-redirect-plugin not baseUrl sensitive (#3010)
+Show description for 2e055f4
+teikjun
+authored
+2e055f4
+Copy full SHA for 2e055f4
+Commits on Jun 26, 2020
+feat(v2): add option validation for remaining official plugins (#2970)
+Show description for 0f59cd1
+teikjun
+authored
+0f59cd1
+Copy full SHA for 0f59cd1
+Commits on Jun 16, 2020
+docs(v2): add require.resolve to plugin imports on all pages (#2946)
+teikjun
+authored
+955e656
+Copy full SHA for 955e656
+Commits on Jun 15, 2020
+feat(v2): add a banner that links to latest version of documentation (#2916)
+Show description for 0c92f5a
+teikjun
+and
+Anshul Goyal
+authored
+0c92f5a
+Copy full SHA for 0c92f5a
+Commits on Jun 14, 2020
+docs(v2): add documentation for multiple blogs (#2933)
+Show description for 8eed245
+teikjun
+authored
+8eed245
+Copy full SHA for 8eed245
+Commits on Jun 8, 2020
+feat(v2): add nojekyll file to static folder for all templates (#2902)
+teikjun
+authored
+66716d1
+Copy full SHA for 66716d1
+You can’t perform that action at this time.

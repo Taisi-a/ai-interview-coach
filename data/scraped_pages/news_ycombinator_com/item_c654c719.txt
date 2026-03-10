@@ -1,0 +1,204 @@
+Hacker News
+new
+|
+past
+|
+comments
+|
+ask
+|
+show
+|
+jobs
+|
+submit
+login
+Include debugging in the interview process
+(
+zhenghao.io
+)
+67 points
+by
+gururu
+on April 23, 2022
+|
+hide
+|
+past
+|
+favorite
+|
+16 comments
+rektide
+on April 23, 2022
+|
+next
+[–]
+Recent similar-ish sort of article that I quite enjoyed, "How to Freaking Find Great Developers By Having Them Read Code"[1].
+I really really appreciate having resourceful people about. People who can go hunt for answers, who can explore questions: they are the ones that make excellent fantastic programmers, and people who are fun to engage with & watch go at it. I very much agree there's a huge weakness in drilling people to see if they can come up with answers, and that this idea of seeing how they navigate & explore things is probably >50% of the real battle in sw dev life.
+[1]
+https://freakingrectangle.wordpress.com/2022/04/15/how-to-fr...
+https://news.ycombinator.com/item?id=31047409
+(993 points, 6 days ago,  542 comments, damnnnnnn!!)
+lytefm
+on April 23, 2022
+|
+parent
+|
+next
+[–]
+Yup and I'm not sure if adding a debugger to the mix is actually worth it.
+Sure, it's closer to the actual day to day work, but a great dev should be able to understand code even without a debugger.
+pdpi
+on April 23, 2022
+|
+root
+|
+parent
+|
+next
+[–]
+A great dev “should” have more than one tool at their disposal.
+I find that “exploratory debugging” (for lack of a better term) is an under appreciated skill — using the debugger to learn about the code by seeing it in action as part of the ramp up process.
+dieselgate
+on April 24, 2022
+|
+root
+|
+parent
+|
+prev
+|
+next
+[–]
+I mostly skimmed the post but seems they’re using “debugging” as more the process than a specific debugging tool?
+However, a contrary example to your point about being “able to understand code even without a debugger” is using a  dev console in web browser to ‘debug’ html/css/js etc. Depending on the role that _could be_ considered an important skill (a specific case being examining http status codes).
+drewcoo
+on April 23, 2022
+|
+prev
+|
+next
+[–]
+And in most shops it will be just like the live coding stuff: a series of trivia questions that the sage interviewer will already know, unlike that hideous rube, the interviewee.
+raulb_
+on April 23, 2022
+|
+parent
+|
+next
+[–]
+Sadly, very true. Only to make the interviewer feel superior on things they have seen multiple times more than anyone else.
+bantling
+on April 25, 2022
+|
+prev
+|
+next
+[–]
+Why do we need technical interviews at all?
+Do other technical jobs work this way?
+Do care mechanics take home a vehicle and prove they can replace brake pads?
+Do accountants log in to some online environment and deposit a paycheque or pay an invoice?
+Oddly enough, if we don't do our job, we get fired, just like everyone else. Other businesses actually apply this to their interviews and don't require applicants to demonstrate something utterly bloody trivial, as if they could somehow do their job for a decade and not know the basics.
+Invariably, every dev writing these kinds of articles is simply stroking their own way of thinking - usually these discussions do not contain:
+a) a modicum of common sense.
+b) an understanding your brain does not work the way everyone elses does.
+Just because you find a certain debugging method works for you, doesn't mean it works for me - your most effective technique is not necessarily my most effective technique, because I don't think the way you do.
+Some programmers may be slower at debugging, but faster at determining a good solution to a complex problem. They may be slower at writing Jenkins jobs, but faster at solving Maven problems.
+cjsplat
+on April 23, 2022
+|
+prev
+|
+next
+[–]
+The Stripe Bug Squash description made me think of this :
+https://dilbert.com/strip/2006-05-06
+I wonder if Bug Squash fixes get submitted to the proper open source channels. Tha would be fun.
+"Thanks for working through that, can you please sign this contributor agreement?"
+bspear
+on April 23, 2022
+|
+prev
+|
+next
+[–]
+Yup, I file this under: ask more questions that reflect what the person would be doing day-to-day
+thundergolfer
+on April 24, 2022
+|
+prev
+|
+next
+[–]
+I did the (Python) Bug Squash at Stripe a couple of months ago, and was really happy with the interview style.
+I consider myself a good debugger, but the interview context helped me see some places I could improve my process. I was comfortable in the pdb debugging system, but could improve my ability to steadily narrow down the key buggy line of code in a short amount of time.
+gneray
+on April 24, 2022
+|
+prev
+|
+next
+[–]
+10/10 agree. We’ve been doing this since ~the beginning at Oso. (Our full process is on our faq:
+https://www.osohq.com/company/jobs#faq
+)
+invalidname
+on April 24, 2022
+|
+prev
+|
+next
+[–]
+Pretty much the same conclusion here:
+https://talktotheduck.dev/debugging-the-technical-interview-...
+pchristensen
+on April 23, 2022
+|
+prev
+|
+next
+[–]
+Flexport does! It stood out to me when I interviewed here.
+em-bee
+on April 24, 2022
+|
+prev
+|
+next
+[–]
+it didn't take much to prepare a debugging example. i just picked an open issue, pointed the candidate roughly in the right direction and watched them work.
+i was interviewing junior developers so i wasn't expecting master coders. and in addition to the points mentioned, i was also evaluating their ability to communicate. it worked out very well.
+em-bee
+on April 24, 2022
+|
+prev
+|
+next
+[–]
+there is a dead comment here suggesting to have the candidate sign an NDA so they can work on your codebase. while that may sometimes be necessary, if it is not already part of the process i would avoid adding it, and instead find a suitable FOSS project where the candidate can show their debugging skills instead.
+dominotw
+on April 23, 2022
+|
+prev
+[–]
+I bet there are people who are interpreting this as adding
+another
+round to their 100 round interview process.
+Guidelines
+|
+FAQ
+|
+Lists
+|
+API
+|
+Security
+|
+Legal
+|
+Apply to YC
+|
+Contact
+Search:

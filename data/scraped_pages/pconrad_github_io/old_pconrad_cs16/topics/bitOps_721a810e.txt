@@ -1,0 +1,35 @@
+Practice with bit operations
+Back to CS16
+topics
+This quiz provides practice with bit operations (see "
+background
+" below the quiz for more info).
+Quiz yourself!
+This web page gives you an opportunity to practice with applying these
+operators to positive integers.  In some cases, you'll need to convert the integers to binary first before applying the operation.
+Each time you click the "make new quiz" button, you'll get a different randomly generated quiz.
+[If you are seeing this message, then either JavaScript is  not enabled in your browser, or there is a problem with the coding of this web page.
+Try a different browser, or try enabling JavaScript, and if the page still doesn't work, contact your instructor for assistance.]
+Background
+This quiz provide practice with the following bit operations:
+&
+Bitwise and
+|
+Bitwise or
+^
+Bitwise exclusive or
+<<
+Bit shift left (multiply by power of two)/dd>
+>>
+Bit shift right (divide by power of two)
+It also provides practice with two logical operators, which in C always return either 0 or 1—these are included to help you remember the difference between the bitwise operations and the logical operations.
+&&
+Logical and
+||
+Logical or
+Chapter 11 in "Practical C Programming" by Steve Oualline (available online to UCSB students at the links below through the campus "O'Reilly" subscription) describes these operators.
+from
+on campus
+,
+from
+off campus

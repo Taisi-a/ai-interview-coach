@@ -1,0 +1,100 @@
+Mastering Behavioral Interviews
+Subscribe
+Sign in
+Avoiding Too Much Detail in Behavioral Interviews
+An easy shorthand to apply to keep you on track
+Austen McDonald
+Jan 13, 2025
+23
+Share
+🙋‍♂️ Hi there, I’m Austen, a former Senior Engineering Manager and Hiring Committee Chair at Meta where I did over 1,000 interviews and trained 100s of interviewers, setting interview structures and picking questions.
+Subscribe to Mastering the Behavioral Interview
+to get tips and resources on preparing for the most underrated SWE interview type.
+When I coach candidates for Behavioral interviews, the most common piece of advice I give is this: add more about the behaviors you used to achieve results.
+The number one concern I hear in response?
+"I don’t want to bore the interviewer with too much detail."
+It’s a valid concern, and striking that balance between too much and too little detail can feel tricky. But here’s an easy shorthand to help:
+If it’s been a while since you shared an action you took, you might be including too much detail.
+Example: Conflict Story
+Imagine you’re telling a conflict resolution story about working with a product manager:
+❌ There was a project, a part of a larger initiative to improve customer onboarding.
+We were in the middle of fleshing out a critical strategy, or at least what the CEO thought was a critical strategy, in hopes of improving our Q4 revenue. We were on a tight timeline since we needed to finish this work before the code freeze during the holidays.
+Initially, our UX researcher gathered feedback from several user sessions, which led to multiple design iterations. We had multiple brainstorming meetings, followed by discussions with the design team and the business leads to align on priorities...
+By this point, your interviewer is still waiting to hear
+what the conflict was
+and what
+you
+did. What
+actions
+did you take. Remember they are trying to acquire signal about your conflict resolution skills and need to see them applied.
+Improve it by only sharing the context needed to understand the basic premise of the conflict, the gravity of the situation, and then get to actions you’ve taken:
+✅ There was a project, a part of a larger initiative to improve customer onboarding that was a critical part of the business’s next quarter strategy but had to be completed before the holiday rush.
+The conflict arose
+when the product manager wanted to prioritize a feature I believed would delay the timeline without adding significant value.
+To address this, I
+reviewed
+the data from our UX research to validate my position,
+initiated
+a meeting to align on priorities, and
+brought in my manager
+for backup to mediate the discussion.
+In that meeting, I
+proposed
+a compromise: delivering an MVP version of the feature within the timeline and iterating on it later…
+This edited version gets to the meat of the conflict faster and also highlights
+repeatable
+actions (“reviewing,” “initiating a meeting,” “brought in the manager”, “proposed a compromise”). Repeatable in that I could do them in the organization I’m being hired into.
+Example: Technical Deep Dive
+Now imagine you’re responding to a follow up question about a project where the interviewer asked you how you solved a difficult technical issue you mentioned. Interviewers often ask such questions to assess both depth of knowledge and technical communication skills.
+❌ We noticed that one of our APIs had significant latency issues. The API was responsible for retrieving data from a third-party service and aggregating it for our internal dashboards. The service had experienced some downtime recently but the data was really critical to our internal business teams and they were clamoring for us to speed up their workflows. There were also a bunch of changes made recently, by another team, the Core Services team, to our caching layers, including a database schema update that resulted in us needing to backfill a bunch of this third-party data…
+That’s a lot of context and no actions related to you actually fixing the issue. Here’s a better way to tell this story:
+✅ We noticed that one of our APIs had significant latency issues. The API was responsible for retrieving data from a third-party service and aggregating it for our internal dashboards.
+Initially, I suspected the issue was with the third-party service itself, as they had been experiencing outages. I spent a few days collecting logs and comparing timestamps from our system with their reported outage times. That didn’t match up.
+Then I thought it might be related to a recent update in our caching strategy. I reviewed the commit history and went through all the caching logic changes line by line. Nothing looked promising.
+After that, we considered whether the database queries were optimized. That’s when I remember that another team had changed the database schema that affects how we journal this data from the third-party.
+Sure enough, after I analyzed the queries using the query planner, I found they could be improved by 50% with appropriate indexes. I added those and the business folks were happy with the snappy dashboards.
+This edited version provides the context along with behaviors I took, giving the listener immediate signal on how you investigate technical issues.
+What are Behaviors Anyway?
+You’ve probably heard me say: focus on “repeatable behaviors.” But what counts as a behavior? Here’s a simple list:
+Build something
+: developed a feature or designed a prototype or wrote a script.
+Talk to someone
+: collaborated with a senior engineer or initiated a meeting.
+Measure something:
+analyzed performance metrics or collected user feedback.
+Write something
+: documented the architecture or crafted an RFC.
+Research something
+: evaluated new frameworks or benchmarked competitors.
+Even decisions or thought processes count as actions! For instance:
+Decide something
+: prioritized features based on ROI.
+Think something
+: assessed potential risks before launch.
+Thanks for reading Mastering the Behavioral Interview! Subscribe for free to receive more on prepping for SWE interviews.
+Subscribe
+23
+Share
+Discussion about this post
+Comments
+Restacks
+Top
+Latest
+Discussions
+No posts
+Ready for more?
+Subscribe
+© 2026 Austen McDonald
+·
+Privacy
+∙
+Terms
+∙
+Collection notice
+Start your Substack
+Get the app
+Substack
+is the home for great culture
+This site requires JavaScript to run correctly. Please
+turn on JavaScript
+or unblock scripts

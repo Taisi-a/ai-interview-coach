@@ -1,0 +1,486 @@
+Collectives™ on Stack Overflow
+Find centralized, trusted content and collaborate around the technologies you use most.
+Learn more about Collectives
+Stack Internal
+Knowledge at work
+Bring the best of human thought and AI automation together at your work.
+Explore Stack Internal
+JavaScript - Are loops faster than discretely writing line-by-line?
+Ask Question
+Asked
+9 years, 8 months ago
+Modified
+8 years, 7 months ago
+Viewed
+3k times
+5
+Ignoring all code cleanliness and readability, which script will finish quicker?
+This:
+for(var i = 0; i < 10; i++){
+  --do that thing--
+}
+Or this:
+--do that thing--
+--do that thing--
+--do that thing--
+--do that thing--
+--do that thing--
+--do that thing--
+--do that thing--
+--do that thing--
+--do that thing--
+--do that thing--
+Or are they the same, performance-wise?
+javascript
+performance
+loops
+readability
+Share
+Improve this question
+Follow
+edited
+Jul 20, 2017 at 13:32
+C8H10N4O2
+19.2k
+10
+10 gold badges
+107
+107 silver badges
+145
+145 bronze badges
+asked
+Jun 29, 2016 at 22:55
+user3163495
+4,086
+6
+6 gold badges
+40
+40 silver badges
+60
+60 bronze badges
+5
+1
+Or option 3: build up the required html in a variable and only update the DOM once at the end. Why do you ask? Are you having a performance problem with your page, or are you just curious?
+nnnnnn
+–
+nnnnnn
+2016-06-29 22:59:12 +00:00
+Commented
+Jun 29, 2016 at 22:59
+can you remove
+document.write
+and replace it with e. g. a placeholder to make this question more generic about 'loop unrolling' or similar? Otherwise most people will probably focus on the
+document.write
+aspect / downvote.
+le_m
+–
+le_m
+2016-06-29 22:59:44 +00:00
+Commented
+Jun 29, 2016 at 22:59
+1
+just directly count = 9; will be quickest (:
+num8er
+–
+num8er
+2016-06-29 23:05:43 +00:00
+Commented
+Jun 29, 2016 at 23:05
+@nnnnnn The work the scripts are doing is irrelevant; I updated the question to be more generic.
+user3163495
+–
+user3163495
+2016-06-29 23:05:51 +00:00
+Commented
+Jun 29, 2016 at 23:05
+3
+It’s
+not
+irrelevant. JS engines will optimize loops like these, they won’t optimize repetitive statements like these. In general:
+loops are optimized
+.
+Use the thing that you would normally use
+(the loop, built-in methods, etc.), because they have the
+highest probability of being optimized
+.
+Sebastian Simon
+–
+Sebastian Simon
+2016-06-29 23:11:27 +00:00
+Commented
+Jun 29, 2016 at 23:11
+Add a comment
+|
+4 Answers
+4
+Sorted by:
+Reset to default
+Highest score (default)
+Trending (recent votes count more)
+Date modified (newest first)
+Date created (oldest first)
+12
+"Unrolling"
+a loop by repeatedly
+"copy & pasting"
+the loop body can
+improve or reduce
+performance.
+The outcome depends on...
+...your JavaScript engine
+...the code in the loop body
+...how well documented your code is (no kidding!)
+Let's analyze the performance using Google's popular V8 JavaScript engine (Chrome, Node):
+Ordinary loop:
+var count = 0;
+for (var i = 0; i < 10; i++) {
+  count += 1;
+}
+Unrolled loop:
+var count = 0;
+count += 1;
+count += 1;
+... 
+count += 1;
+Result:
+The unrolled loop is about
+10x faster
+.
+But what if we loop 1000 times instead of 10 times? Then the unrolled loop suddenly becomes more than
+10x slower
+than the ordinary loop!
+And what if we swap the simple arithmetic expression with a function call?
+Ordinary loop:
+function f() {
+  return 1;
+}
+
+var count = 0;
+for (var i = 0; i < 10; i++) {
+  count += f();
+}
+Unrolled loop:
+var count = 0;
+count += f();
+count += f();
+... 
+count += f();
+Result:
+The unrolled loop is about
+50% faster
+.
+But what if we add a comment to our function f?
+function f() {
+  // bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+  return 1;
+}
+Suddenly the unrolled loop is about
+20% slower
+!
+Why is that?
+V8 automatically inlines code when parsing functions whose body contains less than 600 characters, including whitespace and comments.
+V8 performs
+on-stack-replacement
+when a function is 'stuck' in a very long loop.
+Regarding the last example: By adding a long > 600 character comment, we prevent V8 from inlining the function f during parsing and rely on the run-time optimization capabilities (such as 'on stack replacement') which target whole functions and loops but not manually repeated code.
+As you can see, it is quite hard to predict the outcome of such micro-"optimization". So better don't do it - unless you target a specific version of a specific JS engine.
+See
+https://jsfiddle.net/Lj9v7c2m/
+for the performance analysis - you might get different results depending on your computer / browser / version.
+Share
+Improve this answer
+Follow
+edited
+Jun 30, 2016 at 1:10
+answered
+Jun 30, 2016 at 0:54
+le_m
+20.4k
+10
+10 gold badges
+70
+70 silver badges
+78
+78 bronze badges
+Sign up to request clarification or add additional context in comments.
+Comments
+Add a comment
+2
+One factor this depends on is which JS engine you're using. Loop unrolling is a common optimization technique that can employed without your intervention, so it really depends on which engine your code is being interpreted by.
+Typically you can use
+http://jsperf.com/
+to test specific code for performance differences in different browsers, but it seems to have been down for several days for maintenance. Instead you can manually place each selection of code in their own functions, store the time at the beginning of the test, call the function 10,000 times or something, then log the time elapsed. Here's an example:
+function testEmpty(){ }
+    function testLoop(){
+        for(var i = 0; i < 10; i++){void i;}
+    } function testUnrolled(){
+        void 0;void 1;void 2;void 3;void 4;void 5;void 6;void 7;void 8;void 9;
+    }
+    function testLoop2(){
+        for(var i = 0; i < 10; i++){void Date();}
+    } function testUnrolled2(){
+        void Date();void Date();void Date();void Date();void Date();
+        void Date();void Date();void Date();void Date();void Date();
+    }
+    function testFunction(func, num){
+        var a=Date.now();
+        for(var i=0;i<num;i++){
+            func();
+        }
+        return Date.now() - a;
+    }
+    console.log(testFunction(testEmpty,10000000)); // Took 9ms
+    console.log(testFunction(testLoop,10000000)); // Took 112ms
+    console.log(testFunction(testUnrolled,10000000)); // Took 42ms
+    console.log(testFunction(testLoop2,10000)); // Took 705ms
+    console.log(testFunction(testUnrolled2,10000)); // Took 714ms
+Keeping the browser constant (Firefox 47), this actually shows that performance changes are not tied to one coding style. As a matter of fact, depending on what is being repeated makes a difference.
+Overall, incrementing a loop to 10 will have a completely unnoticeable performance impact so usually the difference is negligible (and performance probably shouldn't be a consideration for which style to use).
+Share
+Improve this answer
+Follow
+edited
+Jun 30, 2016 at 0:30
+answered
+Jun 30, 2016 at 0:26
+Pluto
+3,036
+30
+30 silver badges
+38
+38 bronze badges
+4 Comments
+Add a comment
+zerkms
+zerkms
+Over a year ago
+There is nothing that prevents
+testUnrolled
+to be optimised to nothing. So
+42ms
+can be easily a time to run an empty function that many times.
+2016-06-30T00:28:58.207Z+00:00
+0
+Reply
+Copy link
+Pluto
+Pluto
+Over a year ago
+@zerkms Thanks for thinking of that possibility, I added a baseline test for a function that does nothing and it shows there is a difference.
+2016-06-30T00:31:27.537Z+00:00
+0
+Reply
+Copy link
+zerkms
+zerkms
+Over a year ago
+Not convincing: an engine may (and will) optimise it during run time, as a hot function. So "empty from the beginning" still != "emptied during optimisation"
+2016-06-30T00:32:17.427Z+00:00
+0
+Reply
+Copy link
+Pluto
+Pluto
+Over a year ago
+@zerkms Still addressing your original concern, on my browser I checked and saw a huge performance difference between running a function with a single
+void 0;
+call and running a function with 10
+void 0;
+calls. If the two functions where "optimised to nothing," the would take approximately the same amount of time to complete. So your concern doesn't apply for the browser I tested at least.
+2016-07-01T18:44:00.05Z+00:00
+0
+Reply
+Copy link
+Add a comment
+1
+which script will finish quicker
+There is no the only valid answer to that.
+The other answers speculate with assumptions.
+The standard does not guarantee any of those to be faster/slower, so one can only state something for a given ES implementation running on a given machine and only after they measure it. Beware though, that getting any sensible numbers after microbenchmarking is hard (most benchmarks produce some numbers and not necessary those numbers mean anything).
+Share
+Improve this answer
+Follow
+answered
+Jun 29, 2016 at 23:16
+zerkms
+256k
+74
+74 gold badges
+448
+448 silver badges
+551
+551 bronze badges
+Comments
+Add a comment
+1
+Second version is quicker if it's just simple calculation statement.
+But why to do code so ugly and unreadable (it depends on statements per line) when You can just loop it.
+In another hand code will be optimized and You will not feel the difference.
+Also keep in mind that it's JS. So in some cases statements can be asynchronous that run without sequence (without waiting for ending of previous statement).
+Programmer is not code looping machine, programmer must write once and enjoy automatization.
+Share
+Improve this answer
+Follow
+edited
+Jun 29, 2016 at 23:27
+answered
+Jun 29, 2016 at 23:11
+num8er
+19.5k
+4
+4 gold badges
+50
+50 silver badges
+61
+61 bronze badges
+4 Comments
+Add a comment
+zerkms
+zerkms
+Over a year ago
+"Second version is quicker." --- how about extra job that an engine need to perform to parse longer code?
+2016-06-29T23:13:51.49Z+00:00
+0
+Reply
+Copy link
+num8er
+num8er
+Over a year ago
+everything is dependent on what's written. it can be concatenation of strings that will be threaded as function call or used by eval. so I agree with Your answer that question has no valid answer.
+2016-06-29T23:18:35.633Z+00:00
+0
+Reply
+Copy link
+nnnnnn
+nnnnnn
+Over a year ago
+"So in some cases statements can be asynchronous that run without sequence (without waiting for ending of previous statement)"
+- Unless you count web workers, which in normal circumstances you wouldn't,
+Javascript is single-threaded
+. It will
+not
+run a statement without waiting for the end of a previous statement. It
+might
+queue a function to be run later, asynchronously, but that doesn't happen without the programmer knowing about it. In any case, the OP's example is synchronous.
+2016-06-30T00:19:00.487Z+00:00
+0
+Reply
+Copy link
+zerkms
+zerkms
+Over a year ago
+@nnnnnn technically an implementation can run code in multiple threads as soon as all observable side effects comply with the standard.
+2016-06-30T00:24:26.84Z+00:00
+0
+Reply
+Copy link
+Add a comment
+Your Answer
+Thanks for contributing an answer to Stack Overflow!
+Please be sure to
+answer the question
+. Provide details and share your research!
+But
+avoid
+…
+Asking for help, clarification, or responding to other answers.
+Making statements based on opinion; back them up with references or personal experience.
+To learn more, see our
+tips on writing great answers
+.
+Draft saved
+Draft discarded
+Sign up or
+log in
+Sign up using Google
+Sign up using Email and Password
+Submit
+Post as a guest
+Name
+Email
+Required, but never shown
+Post as a guest
+Name
+Email
+Required, but never shown
+Post Your Answer
+Discard
+By clicking “Post Your Answer”, you agree to our
+terms of service
+and acknowledge you have read our
+privacy policy
+.
+Start asking to get answers
+Find the answer to your question by asking.
+Ask question
+Explore related questions
+javascript
+performance
+loops
+readability
+See similar questions with these tags.
+The Overflow Blog
+DeveloperWeek 2026: Making AI tools that are actually good
+Building brains for bulldozers
+Featured on Meta
+Logo updates to Stack Overflow's visual identity
+Policy: Generative AI (e.g., ChatGPT) is banned
+New site design and philosophy for Stack Overflow: Starting February 24, 2026...
+I’m Jody, the Chief Product and Technology Officer at Stack Overflow. Let’s...
+Linked
+22
+Why is using a loop to iterate from start of array to end faster than iterating both start to end and end to start?
+6
+Why do neither V8 nor spidermonkey seem to unroll static loops?
+Related
+27521
+Why is processing a sorted array faster than processing an unsorted array?
+8540
+What does "use strict" do in JavaScript, and what is the reasoning behind it?
+7671
+var functionName = function() {} vs function functionName() {}
+2454
+Why are elementwise additions much faster in separate loops than in a combined loop?
+3263
+How to ensure closures created in a loop capture the value of the loop variable from their particular iteration?
+3418
+Improve INSERT-per-second performance of SQLite
+3006
+Why is printing "B" dramatically slower than printing "#"?
+2513
+.prop() vs .attr()
+3368
+Why does my JavaScript code receive a "No 'Access-Control-Allow-Origin' header is present on the requested resource" error, while Postman does not?
+3069
+Why is "1000000000000000 in range(1000000000000001)" so fast in Python 3?
+Hot Network Questions
+How can I find the parameters of self-intersections from the parameterization of a closed plane curve?
+Using ipmitool chassis power option causes actions on local server, not the remote server
+Is the word "revolving" in the noun phrase "revolving door" an adjective or a noun?
+Causal effects without a control group?
+First time negotiating a job offer
+Who was the first author to write about something that had already been invented, as if the invention were new?
+Investigating an odd name for a network operator
+Does the Open Source Maintenance Fee's EULA match the projects stated goals?
+Can the Wh-Movement interrogative method be used in subject clauses?
+How to read Luna diagram for spherical variety
+Does too much heat when pressure cooking change anything?
+Who was Janasruti, a Sudra, who studied the Vedas?
+Recent book. World ending System Apocalypse has arrived. People inside structures died when they were flattened. Man survived chasing his cat outside
+Is there a philosopher that has tried to conceptualize "the present" as a "thick processual wave", or in any case, overcome the notion of "instants"?
+The knotted cube
+How to create a 3D anamorphic object for 3D printing (Perspective Distortion)?
+Does Sam Harris' view of No Self run at odds with his ethics?
+What are the flaws in a per-capita money supply system?
+How many atoms are coplanar in Zeise’s salt?
+Producing an Elliptical Ring of Images
+Is the time for Shema and the time Shabbat ends different?
+How to indent the list item number/symbol along with the text in an itemize environment?
+Can you earn a second set of TF2 items from Poker Night at the Inventory's remaster?
+Place 6 crosses in a 3*3 grid such that no 3 crosses are in the same row, column or diagonal.
+more hot questions
+Question feed
+Subscribe to RSS
+Question feed
+To subscribe to this RSS feed, copy and paste this URL into your RSS reader.
+lang-js

@@ -1,0 +1,137 @@
+☰
+×
+Dropbox Engineering Career Framework
+Overview
+What is Impact?
+Software
+              Engineer
+(SWE)
+IC1 Software Engineer
+IC2 Software Engineer
+IC3 Software Engineer
+IC4 Software Engineer
+IC5 Staff Software Engineer
+IC6 Principal Software
+              Engineer
+IC7 Senior Principal Software Engineer
+SWE: Appendix
+Quality
+            Engineer
+(QE)
+IC2 Quality
+              Engineer
+IC3 Quality
+              Engineer
+IC4 Quality
+              Engineer
+IC5 Staff Quality Engineer
+QE:
+              Appendix
+Software Development
+              Engineer in Test
+(SDET)
+IC2 Software Development
+              Engineer in Test
+IC3 Software Development
+              Engineer in Test
+IC4 Software Development
+              Engineer in Test
+IC5 Staff Software Development Engineer in Test
+Reliability
+              Engineer
+(SRE)
+IC1 Reliability
+              Engineer
+IC2 Reliability Engineer
+IC3 Reliability Engineer
+IC4 Reliability Engineer
+IC5 Staff Reliability
+              Engineer
+IC6 Principal Reliability Engineer
+IC7 Senior Principal Reliability Engineer
+SRE: Appendix
+Machine Learning
+              Engineer
+(MLE)
+IC1 Machine
+              Learning Engineer
+IC2 Machine Learning Engineer
+IC3 Machine Learning Engineer
+IC4 Machine Learning Engineer
+IC5 Staff Machine Learning Engineer
+MLE:
+              Appendix
+Data
+Engineer
+(
+D
+E)
+IC1 Data Engineer
+IC2 Data Engineer
+IC3 Data Engineer
+IC4 Data Engineer
+IC5 Staff Data Engineer
+DE: Appendix
+Security
+Engineer
+(
+S
+E)
+IC2 Security Engineer
+IC3 Security Engineer
+IC4 Security Engineer
+IC5 Staff Security Engineer
+IC6 Principal Security Engineer
+SE: Appendix
+Technical Program
+              Manager
+(TPM)
+IC1 Technical
+              Program Manager
+IC2 Technical Program Manager
+IC3 Technical Program Manager
+IC4 Technical Program Manager
+IC5 Staff Technical
+              Program Manager
+IC6 Principal Technical Program Manager
+TPM: Appendix
+Engineering
+              Manager
+(EM)
+M3 Engineering Manager
+M4 Engineering Manager
+M5 Senior Engineering Manager
+M6 Engineering Director
+M7 Senior Engineering Director
+Appendix
+Promotion
+              Principles
+Promotion
+              Guidelines
+Archetypes Behaviors
+Clarifications & Myths
+Glossary
+Dropbox
+              Values
+Dropbox Engineering Career Framework
+What’s a Career Framework?
+The Engineering Career Framework is your source for how to achieve impact for your role and team and how to grow in your engineering career. For managers, it can help you set expectations with your teams and hold them accountable for their work.
+What the Career Framework is not
+This framework is not a promotion checklist for your role; rather, it’s designed to help you figure out what your impact could look like at the next level.
+This framework is not an exhaustive list of examples and behaviors; each responsibility includes three to four key behaviors that serve as guide for how to think about your work. Consequently, you’ll need to meet with your manager to define your impact goals and align on the expectations for your role.
+What’s in a Career Framework?
+This framework is broken down into two components:
+Level Expectations
+define the scope, collaborative reach, and levers for impact at every level; these expectations are the
+what
+that determines the difference between an IC3 and IC4, for example
+Core and Craft Responsibilities
+define the key behaviors specific to your role and team; these behaviors help you identify
+how
+you work to deliver impact based on your level expectations
+How to navigate this framework
+Dropbox measures the success of its engineers largely on business impact. Anchor your work first and foremost on creating long-term impact. Since impact can be a bit vague, read
+What is Impact?
+Next, ground yourself in the expectations for your level and team. For each level, you’ll find a one-line summary description and the role’s scope, collaborative reach, and levers for impact.
+Review the expected behaviors for that level across the Results, Direction, Talent, Culture pillars from the Core Responsibilities. Read your Craft expectations, which are the per discipline technical capabilities you need to master at that level. Finally, meet with your manager to set your goals for the quarter.
+Guideline Version: v2.9.1

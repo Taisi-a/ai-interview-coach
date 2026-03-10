@@ -1,0 +1,50 @@
+This app works best with JavaScript enabled.
+Engineering Levels at SoundCloud
+May 24th, 2018
+by
+Peter Vida
+An absolutely crucial part of the experience of being an engineer at SoundCloud is learning and growing as a person. Pretty much everyone we hire mentions this aspect as one of their main motivations for joining the company. And while retaining highly talented and motivated people and helping them develop is naturally valuable for SoundCloud as a company, itâs also profoundly beneficial for the employees themselves.
+Internally, we have programs that exist to help our engineers grow. These include providing a budget for conferences and courses, organizing tech talks and meetups, and coordinating with external experts to host special workshops. We put a lot of effort into creating an environment where people are encouraged to improve. Itâs a mindset â part of our culture. We keep leveling up everything: ourselves, our teams, our systems, our processes. Every day is an opportunity to make something work a bit better.
+The other side of this story is that SoundCloud also has to recognize this growth. We want to embrace people who are making great progress, and we also want to make sure we keep paying them fairly as their market value grows alongside their skills and expertise.
+Why Do We Have Levels?
+To provide clarity on what our understanding of growth is, we have a level system (as many other companies do). This system defines our engineering culture by giving guidance to people on how to increase their impact within SoundCloud, facilitating career discussions between engineers and their managers, providing a framework for setting salaries, and last but not least, encouraging and rewarding certain behaviors.
+Transparency around everyoneâs level at a company helps people identify their role models. Additionally, an explicit level structure is beneficial for people who are underrepresented, as non-explicit hierarchies tend to favor the people who form the majority (which, most of the time, is white men).
+How Do We Set Levels and How Do We Use Them?
+Our leveling process begins as early as a prospective new employeeâs interviews. There are three key factors that help us assess the proper level someone enters the company at. We start with their past experience â how long they have been in the industry and what kind of companies they have worked for. Second, we review the interview panelâs feedback, which helps us understand how the candidate could contribute to the team. Finally, we take into consideration a candidateâs personal assessment of which level they belong at.
+With every candidate, we actively work against any unconscious biases to ensure that we make a fair and accurate decision. For example,
+research shows
+that employers in science tend to underestimate womenâs seniority and market value. This is the kind of bias that we are committed to acting against.
+Once someone has joined the company, we set expectations to match their level. Itâs important to emphasize that even though being on a higher level comes with a higher salary, it also sets higher expectations.
+When someone has clearly grown, picked up new responsibilities, and through this, increased their impact, they should be promoted to the next level. Currently, we have a process where someone who wants to be promoted puts together a promotion case accompanied by feedback from peers with whom they work closely. People giving feedback are asked to use the document that defines each level to reason about skills and performance. Then a promotion panel, made up of a diverse group of SoundClouders, convenes twice a year to make decisions about each individual case.
+Regardless of an employeeâs level, managers regularly meet with engineers in private one-to-one meetings to discuss how they are doing. The content of these discussions is based on the engineering level definitions, and the meetings themselves provide guidance about which areas an engineer is doing well in and where they need to improve. Conversations like this help them to be successful at the company and reach the next level.
+What Is Expected at Each Level?
+We have five levels for engineers at SoundCloud. Here is a short summary of them and what they entail:
+Level 1
+â The individual scale
+Focusing on themselves and improving their own skills. Successfully delivering as part of a team with the help of other team members.
+Level 2
+â The team scale
+Focusing on their team and improving the teamâs efficiency and productivity. Successfully driving a team project.
+Level 3
+â The area scale
+Focusing on their own team and some neighboring teams and improving collaboration between these teams, e.g. successfully driving a cross-team project.
+Level 4
+â The organization scale
+Having an impact on the entire engineering organization. Improving efficiency and collaboration across the organization.
+Level 5
+â The company scale
+Having an impact on the entire company. Driving cross-organization initiatives, and leveling up SoundCloud as a business.
+To create the official descriptions of expectation for an engineer at each level, we collected all the behaviors we desire in an engineer and assigned them to five dimensions:
+Results/Delivery
+Behavior/Mindset
+Tech Skills/Mastery
+Influence/Visibility
+Communication/Collaboration
+Itâs important that this list of behaviors is not used as a checklist; one does not need to tick all the boxes to be eligible for a promotion. Additionally, many of them are not explicit expectations, but rather indicators, and we are often convinced that someone has reached a particular level if we see most of these indicators in practice.
+Here is the detailed view of these levels:
+We are proud of our engineering culture here at SoundCloud and the many steps we have taken to grow it, and weâve found that the definitions of our engineering levels are the best way to capture and document it. As our culture evolves, we will continue to update the level definitions in order to reflect these changes. This ensures that we can keep providing our engineers with clear definitions of how to be successful at their jobs.
+Engineering Culture
+â
+Keeping Counts In Sync
+Project Necromancy
+â

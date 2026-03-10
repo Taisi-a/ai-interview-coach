@@ -1,0 +1,464 @@
+PC VR
+Quest
+PSVR
+Vision Pro
+XR Industry
+Design & Dev
+Series: Inside XR Design
+Series: Insights & Artwork
+Guest Articles
+Reviews
+Hardware
+Games & Software
+Search
+About/Contact
+Newsletter
+Advertise
+Sign in
+Welcome! Log into your account
+your username
+your password
+Forgot your password? Get help
+Password recovery
+Recover your password
+your email
+A password will be e-mailed to you.
+Road to VR
+PC VR
+Quest
+PSVR
+Vision Pro
+XR Industry
+Design & Dev
+Series: Inside XR Design
+Series: Insights & Artwork
+Guest Articles
+Reviews
+Hardware
+Games & Software
+Photo courtesy Facebook
+During Facebook’s Q4 2020 earnings call today, CEO Mark Zuckerberg said that Quest 2 is “on track to be the first mainstream virtual reality headset,” noting that the device drove a 156% increase in the company’s non-advertising revenue.
+In past earning calls, Zuckerberg has generally downplayed the company’s XR business as a forward-looking investment that isn’t expected to pay off for years. His tune has shifted notably in the company’s latest earnings call, where he told investors that Facebook’s XR business was “one of the areas that I’m most excited about our progress heading into 2021.”
+Although Facebook hasn’t confirmed how many Quest 2 units have been sold so far, Zuckerberg was upbeat about the headset’s sales performance, saying he believed it is “on track to be the first mainstream virtual reality headset.”
+It isn’t entirely clear what he means by “mainstream,” though we have one good guess. At Oculus Connect 5 in 2018, the company’s annual XR developer conference, Zuckerberg explained that he believed that 10 million VR users was an important milestone for the company to reach in order to make a sustainable ecosystem for VR developers.
+Image courtesy Oculus
+The big question is what is it gonna take for it to be profitable for all developers to build these large efforts for VR? To get to that level, we think that we need about 10 million people on a given platform. That’s the threshold where the number of people using and buying VR content makes it sustainable and profitable for all kinds of developers. And once we get across this threshold, we think that the content and the ecosystem are just going to explode. Importantly, this threshold isn’t 10 million people across all different types of VR. Because if you build a game for Rift, it doesn’t necessarily work on Go or PlayStation VR. So we need 10 million people on [one] platform.
+So while Quest and Quest 2 likely haven’t sold 10 million units yet, Zuckerberg’s confidence that Quest 2 could become the “first mainstream virtual reality headset” suggests the 10 million unit threshold may appear within grasp.
+“In previous quarters I’ve talked about our long-term future goals when it comes to virtual reality,” Zuckerberg told investors, “but I think that this quarter’s results show that this future is here.” He further shared that “more than 60 Oculus developers are generating revenue in the millions, and that’s more than twice as many as a few months ago.”
+Zuckerberg also said that Quest 2 was “one of the hot holiday gifts this year,” and was a major driver behind the company’s $885 million Q4 non-advertising revenue. Facebook’s Chief Operating Officer, Sheryl Sandberg, said on the call that this was a year-over-year increase of 156%, and specifically noted that it was “due to strong Quest 2 holiday sales.”
+Image courtesy Facebook
+Some back-of-the-envelope math can give us a ballpark estimate for Quest 2 unit sales in Q4. The company earned $855 million in non-advertising revenue, which includes both Oculus products and Portal products. With Sandberg pointing to Quest 2 as a major driver for the growth without mentioning Portal, we can probably safely figure at least 50% of the revenue was from Oculus headsets.
+From there we might figure that 75% of the headsets being sold are Quest 2, with the soon-to-be-discontinued Rift S making up the other 25%. Similarly, we’d figure that 75% of Quest 2 units sold are the 64GB model, while 25% are the 256GB model.
+Plugging in those assumptions yields 1,000,000 Quest 2 units, though that would need to be dialed back by some portion to account for revenue from Facebook’s cut of content sales and first-party accessories.
+SEE ALSO
+Meta Finally Brings 'Beat Saber' to Horizon Plus, Keeps DLC Behind Paywall
+Looking to the future, Zuckerberg confirmed that Quest 2’s successor is already in development.
+“We’re continuing to work on new [VR] hardware as well. The new hardware will fit the same platform, so the content that works on Quest 2 should be forward-compatible [with the new hardware], so that we’re going to build one larger install base around the virtual reality headsets that we have.”
+While this won’t be a surprise to anyone who has been paying attention, it does stand in stark contrast to Sony—whose PSVR has long held the lead in VR headset unit sales—but has refrained from indicating any plans to build a next-gen headset.
+Facebook has also made no secret about its plans to build an AR headset; the company
+shared a look at an early prototype last year
+. On the call, Zuckerberg affirmed the  plans to start first with smartglasses, before launching full-blown AR glasses further in the future. He also called out Apple as a likely competitor in the AR landscape.
+“[…] longer term, as we move toward building the next computing platform, I think we would expect to see [Apple] as more of a competitor [in AR] as well.”
+It isn’t clear though if Facebook has some inside info on Apple’s XR plans, or if Zuckerberg is referring to
+recent reports suggesting that Apple will launch its own headset next year
+.
+Trenix
+The amount of games are very limited.
+namekuseijin
+steadily growing though
+To be completely clear, most of the popular VR games developed so far are running on Quest already
+Trenix
+I was disappointed that it couldn’t even support Google Earth.
+Ro
+I think that’s more of a Google issue – are they still supporting it?. I don’t think their VR app has been updated in a long time. You can still stream it from your PC  via Steam (wired/wirelessly through VR Desktop) or the Oculus Store (could only get wired here?).
+Amni3D
+Heavy disagree.
+I took a look at my SteamVR wishlist and almost none of them are on Quest, or have a slight chance to ever be ported to Quest. Jet Island, Sprint Vector, Project Cars, Asseto Corsa, Elite Dangerous, Alyx, Budget Cuts..
+h4rr4r
+yet all of them can be played on quest 2 with a cable.
+Amni3D
+Through a gaming PC, on their direct competitor’s storefront.
+No, these games are not actually *on* Quest, whether it be running natively, or in the storefront. That’s what the discussion is about. Read the post I was replying to.
+h4rr4r
+My point is this is why it sold in a reasonable number.
+Every other head set is barely selling at all.
+Amni3D
+Kinda. Link users are a small fraction of Quest users, most never leaving the Quest store, as much as I’d hate to say it.
+Also, I’m pretty sure Index and Reverb G2 have been doing fine, eternally out of stock. They just aren’t selling Quest numbers, and that’s totally ok. Much like Quest, they’re selling as much as they can make, just targeting different markets.
+h4rr4r
+A small fraction of Quest users is still more headsets than many PCVR headsets.
+Index and Reverb sell tiny amounts in comparison.
+Amni3D
+Index market share on Steam is tied with Quest 1 & 2 users combined. Is it really a small victory if they’re always out of stock at more than 3x the MSRP?
+Anyway, my point is your average Quest user will never touch SteamVR. As such, the Quest store shouldn’t be half baked.
+So it is worth noting the Quest store is lacking as a console.
+h4rr4r
+Most of them don’t show as quest. They show as a generic headset.
+Amni3D
+While Quest *used* to be lumped up with Rift S (since the drivers were kinda rushed), this is no longer the case between both Link and Virtual Desktop.
+Trenix
+Quest 2 is advertised as a standalone. It’s actually why most people bought it. They want to avoid a cable and they most likely can’t afford a gaming computer. Terrible argument.
+h4rr4r
+Yet it does both.
+Why buy something that only does half as much?
+JB1968
+Well to be realistic, Quest mobile headsets will have always only  the older/simpler games in library. That’s just from the fact their hw will be always worse than pcs/consoles.
+h4rr4r
+They have new games not on PC.
+Are they simpler than what you want? Sure, but there are no XXX hour epic games on the level of Skyrim yet.
+Matthew Lake
+Wouldn’t you have to factor in the price retailers are paying for Quest 2 stock?
+What kind of profit margin are retailers getting from selling Quest 2?
+FB aren’t just selling it directly from Oculus, so…
+benz145
+I don’t think retailers pay for Quest stock… more likely Facebook is paying retailers to place units in their stores.
+Andrew Jakobs
+Have you any proof of that?
+h4rr4r
+You need mental help.
+Retailers are paying for them and stocking them.
+BBY is getting a kickback for floorspace, but still paying for units.
+Matthew Lake
+IDC Research Manager says that early research suggests close to 3 Million Quest 2’s have been sold:
+https://twitter.com/JiteshUbrani/status/1354891862864244751
+Rogue Transfer
+Does the non-advertising revenue also include the game sales revenue from both Quest 2 & Rift S?  If so, that makes it at even lower number for Quest 2 sales, if you subtract all of that from the figures above.
+Ad
+Yes it includes software and accessories. It’s literally everything that isn’t ads. I would not be surprise if there’s another revenue source that’s being ignored.
+benz145
+Yes great point!
+namekuseijin
+good call
+all those consumers buying Rift in droves surely put a dent in the Quest sales
+Andrew Jakobs
+Uhm, but did a lot of consumers buy a rift?
+h4rr4r
+Woosh
+Lman146
+He’s talking about games, not headsets
+Ad
+That headline again, “Billionaire Markets Product During Company Event.”
+benz145
+There’s a limit to how much this is possible within the context of an earnings call. Misleading investors is illegal.
+Ad
+This doesn’t seem like it would contradict that. You can’t make 180 degree lies, but saying it’s going to be the first mainstream headset couldn’t get an investor lawsuit if it caps out at 5 million. Especially when this is half a percent of their revenue and not all profit like ads are.
+Thomas
+Still, Facebook is the enemy of mankind and I won’t touch any of their products. Especially when they require a Facebook account.
+TechPassion
+Dude. When you buy ANY game with your Oculus account, they know who you are. Don’t be fool.
+ShaneMcGrath
+It’s not just about that, It’s about requiring an account with them to use the product!
+How would you like it if you bought a car but it could only have passengers in it that drove the same brand car, Car won’t start if they can’t verify your passengers own the same brand car.
+Or maybe they decide you can only fill up with petrol from a service station that is associated with their brand.
+Quest 2 is a great piece of hardware, But forcing people to have an account to use the product is BS, Some people just want a headset to view/stream their own content that has nothing to do with Facebook.
+Ditch the account needed and Quest 2 would sell 3x more.
+david vincent
+Dunno why you are blocked…
+oomph
+Say no to communist products
+namekuseijin
+Lol
+commie soyboys are all the rage against FB and their conservative boomer relatives, and then FB goes on to block Trump
+money takes no sides
+shadow9d9
+“Soyboy” reveals you as a fool, as the whole concept was based on faulty info.  It reveals you as a tool that propaganda has molded.  A fool and a tool.
+Luigi Mario
+it’s a meme you idiot, not literal
+OOLuigiOo
+Election was not rigged
+Luigi Mario
+Your post is not an argument.
+h4rr4r
+It was just a statement of fact.
+Luigi Mario
+facts aren’t made up
+Media shouted the previous election was rigged for years. When their guy wins it’s fair though.
+h4rr4r
+Indeed, just like the election.
+Luigi Mario
+that doesn’t even make sense , stop being an NPC
+Media shouted the previous election was rigged for years. When their guy wins it’s fair though.
+h4rr4r
+You are just a bot aren’t you?
+No ability to think for yourself, just crows memes it heard before.
+Pathetic.
+It makes perfect sense, the election and it’s results are a fact.
+Luigi Mario
+statements aren’t facts, make a single argument and stop projecting your stupidity
+h4rr4r
+Facts
+1. Joe Biden won the election.
+2. Your tears nourish me.
+Luigi Mario
+okay fuck off then
+h4rr4r
+Cry moar!
+FrankB
+Tell that to yer boy Trump who averages around 20 lies a day, the presidency that coined the hilarious phrase ‘alternative facts’. He screamed ‘fake news’ at everything he didn’t agree with and clowns like you believed him. You’re a moron. Prior to his 2016 win Trump spent weeks claiming the election was rigged just so that he could have argumentative standpoint if he lost. Once he won it was the most perfect election ever, no rigging whatsoever.
+Charles
+What specifically has he lied about?  No it doesn’t count if it’s an imprecise statement or a prediction/plan that didn’t end up happening.
+“Alternative facts” obviously meant “other sources of information”.  Stop being pedantic and gullible.
+Check out hereistheevidence.com.
+Fluid facts, huh.  Questions: 1.) How many genders are there? 2.) Is it fair for biological males to compete in women’s sports?, 3.) Were all ideas about sex differences artificially constructed with no basis in biology by an ancient conspiracy of woman-hating men who wanted to help all men and hurt all women, out of hatred for all women?
+Blankfrak
+https://www.independent.co.uk/news/world/americas/us-election-2020/trump-lies-false-presidency-b1790285.html
+https://www.markettradingessentials.com/2021/01/dark-money-gop-fund-funneled-millions-of-dollars-to-groups-that-pushed-voter-fraud-claims/
+The alternative to a fact is not a fact. A fact is absolute, everything else is conjecture, speculation or just made up. It started on day one with Trumps comedy mouthpiece Spicer claiming it was the largest inauguration crowd ever and how it definitely didn’t rain (it did). What other sources? Breitbart?
+The trans thing really seems to annoy you, second time you’ve brought this up. on the question of how many genders there are, who knows? You no doubt think there are only 2 because I suspect you are highly conservative and probably take the bible literally. I think things are a little more complicated than that, if people want to identify with a gender other than the standard binary choice it’s fine by me. I personally don’t agree that trans women should be allowed to compete in women’s events due to the obvious biological advantage, but in the grand scheme of things I don’t really care. It’s small potato’s compared to other issues the world needs to solve right now.
+Charles
+There is mountains of overwhelming evidence that the election was fraudulent.  Just because sources fully-controlled by radical leftist activists repeat the magic words “no evidence” and “baseless” in every sentence they write about it doesn’t make that a fact.
+There’s well-documented evidence of many forms of widespread and/or high-intensity fraud, such as dead people being voted for, illegal ballot harvesting, non-citizens voting, people voting in multiple states, etc.  In Georgia the cheating was even caught directly on a security camera.  The evidence has been laid out in front of state congresses in like 10 day-long hearings in statehouses across the country, in the contested swing states, all broadcast on live TV – and the congressional representatives present were very much convinced by what they heard.
+Aside from specific cases like these, there are undeniable statistical impossibilities – most glaringly, bellwether counties: In every presidential election since 1984, including 2016, there have been 17 counties in the US that have almost 100% consistently voted for the winning candidate.  Never deviated by more than 1, except once by 2.  Always 15, 16, or 17 for the winner.  In 2020, only ONE bellwether county went to Biden, even though in 2016 all 17 went to Trump.
+http://thepatriotgazette.com/more-proof-of-fraud-16-of-17-bellwether-counties-went-for-trump-has-never-happened-in-36-years/
+Also:
+https://www.newsweek.com/donald-trump-increases-share-black-hispanic-vote-1544698
+Do your own research instead of blindly trusting sources that lost their credibility many years ago.  If you don’t blindly trust Fox News, you also shouldn’t blindly trust any other source that has a clear ideological bias.  Here are several compilations of sources documenting the fraud:
+hereistheevidence.com
+https://hereistheevidence.com
+https://navarroreport.com
+https://www.joecheated.com/
+https://www.joecheated.com/statistics
+https://www.joecheated.com/video
+About your Independent article: first of all, citing Washington Post is no better than citing Fox News – except more like citing Infowars honestly – WaPo lies daily like clockwork.  The specific examples they cited were all one of the following: exaggerations, imprecisions, or opinions that are subjective.
+Aside from that, find me a politician who doesn’t mislead.  Almost every word coming from the left in recent years is demonstrably a blatant lie, and filled-to-the-brim with extreme far-left ideology that contradicts basic science, logic, common sense, and history, and is extremely offensive to many people.  And I say this as a former “Moderate Democrat” – voted consistently for Democrats until after 2012 when I started drifting away.  Late 2012 is when Democrats suddenly shifted to extreme far-left ideology, and I could not go with them.
+http://assets.pewresearch.org/wp-content/uploads/sites/5/2017/10/05162647/10-05-2017-Political-landscape-release.pdf
+(page 12)
+Compare 1994 to recently.  Notice how one of the two medians moved extremely far in one direction, while the other median stayed nearly-stationary. Notice how one distribution is concentrated far on one side, while the other distribution is spread out and overlaps the middle. Overlaps the middle – maybe that’s why so many people who considered themselves “moderate Democrats” (like me long ago) switched parties in recent years?
+https://www.investors.com/politics/editorials/pew-research-center-study-shows-that-democrats-have-shifted-to-the-extreme-left/
+“Alternative facts” was a poor choice of words with an obvious intended meaning.  The obvious intended meaning was “information coming from other sources that the ones you’re citing”.
+Lemme ask you this Frak: Do you think the nearly-nonstop rioting, murder, and massive destruction by BLM and Antifa through nearly the entirety of last year were justified, or are you appalled by it?  In fact, much of it is still going on – just days ago, Antifa violently took over a hotel in Washington State and locked its staff in the closet.  On NYE, BLM/Antifa were tossing Molotov anti-tank bombs at cops in Portland.
+Last year BLM and Antifa MURDERED over 30 innocent people (many black), and burned down and destroyed black people’s neighborhoods.  They’re on video THROWING MOLOTOV WWII ANTI-TANK BOMBS into crowds of law enforcement, and have burned to the ground the homes and businesses of countless inner-city black people.  Do you think this is justified, or are you appalled by it?
+https://youtu.be/7qX6FPMYu_s
+https://disrn.com/news/the-16-people-who-have-died-in-the-riots-following-george-floyds-death/
+https://www.washingtonexaminer.com/news/his-life-mattered-too-tributes-pour-in-for-david-dorn-african-american-former-police-captain-killed-during-st-louis-rioting
+https://www.www.washingtontimes.com/news/2020/may/31/dave-patrick-underwood-named-black-fps-officer-kil/
+https://www.townhall.com/tipsheet/mattvespa/2020/06/02/graphic-video-rioters-brutally-beat-man-in-portland-kick-him-so-hard-teeth-are-n2569812
+https://www.breitbart.com/politics/2020/06/02/a-protester-shot-my-sister-22-year-old-woman-killed-in-iowa/
+https://nypost.com/2020/07/21/body-found-in-building-torched-during-george-floyd-protests/
+https://www.wokv.com/news/local/officer-stabbed-neck-vehicles-damaged-downtown-jacksonville-violence/x6rVKVyFlbTtdo8D2MR6HO/
+https://nypost.com/2020/06/02/las-vegas-cop-clinging-to-life-after-he-was-shot-at-floyd-protest/
+https://thepostmillennial.com/breaking-trump-supporter-shot-dead-portland
+https://youtu.be/NrfVPfcMxYw
+In 2018 during the Kavanaugh hearings, a massive crowd of leftists STORMED THE US SENATE.  Where was the outrage then?  Are you equally appalled by that?
+https://www.investmentwatchblog.com/bumping-hypocrisy-leftists-took-over-capital-building-before-too-media-praised-them/
+In 2011, leftists STORMED THE CAPITAL of Wisconsin.  Are you equally appalled by that?
+“you are highly conservative”
+Again, I called myself a “Moderate Democrat” until after 2012 when the left become radical ideologues.  My views have changed very little since when I was a “Moderate Democrat”.  You operate on inaccurate political caricatures.
+How do you define “gender”?  Leftist ideologues simultaneously hold two contradictory definitions: “Which biological sex you feel yourself to be” vs “ideas about how a particular sex is”.  Leftists believe “gender is a social construct with no basis in biology”, while simultaneously believing that “trans people are born mentally as the opposite gender”.  It logically can’t be both.  It scientifically is the later, and it’s a rare birth defect.  There’s male, female, and 0.0001% of the time people have something go wrong in-utero that gives them a brain similar to the opposite sex.  That does not mean there are “over 100 genders” as leftists insist.
+“I personally don’t agree that trans women should be allowed to compete in women’s events”
+OH HO HO! You’re gonna get yourself kicked out of the leftist club if you keep talking like that!  In fact, your hero Biden just signed an executive order requiring exactly that:
+https://nypost.com/2021/01/21/bidens-exec-order-unlevels-the-playing-field-for-girls/
+“issues the world needs to solve right now”
+Such as radical Socialists completely taking over all left-leaning parties worldwide and then taking complete control over the most powerful nation in the world?
+FrankB
+OH HO HO….I’m not in a leftist club you dimwit. Biden isn’t my hero, he is a bad democrat choice, he’s just preferable to Trump. You know who else was better than Trump in every single way? Obama. The irony here is that you far right wing fuckwits cry all the time that you’re being accused of being racist for being on the right but you accuse everyone who is even slightly critical of Trumpism as being loony left socialists. Not liking far right ideals doesn’t make you a leftist. Wise up and stop reading shite like Breitbart and The Patriot Gazette.
+This about far as I can be arsed to reply to your deranged drivel.
+Life is too short too waste time arguing with the likes of you.
+https://mediabiasfactcheck.com/breitbart/
+Charles
+“Soyboy” is based on a real concept, though exaggerated.  Soy does raise estrogen levels in males, but you would have to have an unrealistic amount of it for it to make a noticeable difference.
+david vincent
+Well that’s a bleak future for AR & VR, with respectively Apple & Facebook leading the way :-(
+namekuseijin
+yeah, what a bleak future for VR when it finally steps out of the shadow of a niche for a few pc nerds
+MosBen
+It’s good for an industry to reach a wide audience. It’s not good for an industry, or its consumers, for it to be largely controlled by a couple big and powerful players.
+Till Eulenspiegel
+According to reports, Apple VR headset will use a chip faster than M1. The M1 ARM chip is already faster than Intel i9 and GPU is slightly faster than PS4 – and without using a fan.
+I think it is Apple that will bring VR to the mainstream with a mobile headset with desktop performance. Qualcomm’s chip can’t even compete with iPhone’s chip, Facebook will be in serious trouble when Apple launched their VR headset.
+Luigi Mario
+There’s a reason mobile graphics suck. Better than i9? Don’t make me laugh. “Thermal throttling”
+OOLuigiOo
+You are the first person Ive ever seen with this name I use elsewhere.
+Till Eulenspiegel
+https://browser.geekbench.com/mac-benchmarks
+OOLuigiOo
+Only if you can pay monthly for it shall it be mainstream…
+Immersive.ly
+There is just one major issue i have with Apples potential VR play:
+Where will the content come from?
+An Apple xr device is years out, and as long as im not hearing any big known developers working on anything, its just a paper hype marketing play.
+Till Eulenspiegel
+According to the report, the Apple VR headset will be out next year Q1.
+https://www.macrumors.com/2021/02/03/apple-vr-headset-may-launch-in-q1-2022/
+Don’t worry about content, it’s Apple – they know what they’re doing. They have their iTunes for iPod, App Store for iOS, Apple Arcade, Apple TV, etc. They know the importance of content better than anyone else.
+ogger151
+Apple also had Firewire and Thunderbolt total flops because they never became mainstream. Quest 2 $399 AppleVR how much 5K? But who is going to produce content for a product only a few thousands people will buy. VR content has always struggled but now because of the Q2 price it is becoming feasible. The Apple will end up being for Pro’s.
+david vincent
+“a mobile headset with desktop performance”
+Unfortunately, the laws of thermodynamics forbid such thing :-(
+Whatname?
+The law has changed since ARM chip is faster than desktop. Look at the geekbench link I posted above, M1 is faster than all Intel chips – and it can runs without a fan.
+david vincent
+fanboy nonsense, high-end PCs are MUCH faster than PS4 (and so much faster than M1), because…  thermodynamics laws, heat dissipation, etc.
+ogger151
+To be mainstream it’s going to have to cost less than 5K.
+Billy Jackson
+dont be to upset. once there is a nice user base in the 10 million range. you can expect competition to come, the biggest problem i have with the quest 2, is that its so obvious a platform built for money/micro transactions that you really don’t have the open freedom you do to try out experimental programs (or make your own) with everything locked behind facebook and pay to play schemes.. give it time for someone to come out in the next few years with a product without all the restrictions in place.. then they will lose their edge.
+h4rr4r
+Sidequest says you are wrong, as does my dev account.
+You can install whatever you like or use it as a PC headset.
+wowgivemeabreak
+I have both a Q1 and Q2 and really like them both but I think I’m done with buying Quest headsets because I have no desire to keep supporting farcebook, a horrible company that history will one day show was very bad for humanity. I kind of just reluctantly supported them before but the conservative purge earlier this month is the final straw.
+This is the type of totalitarian action that all the lefties rage on about whenever they call people “literally hitler” or “literally nazis” yet somehow they are fine with it when their side does it, a great side about how lefties are the most hypocritical people to ever walk this planet. I find leftists bonkers yet I’d never try and censor them or try and act like they should not be able to simply exist.
+FrankB
+Whilst i’m no fan of Facebook or their privacy practices, it is their platform and they can kick right wing propaganda off it if they want. The stuff that has been censored is indeed Qanon nonsense, racism and fake claims of a rigged election. You should be thanking FB as it is the platform that was weaponized to help get yer man Trump elected in the first place. (I assume you are a Trumper with your ‘leftist bonkers’ comments)
+Luigi Mario
+Idiot. Everything not left is “racism” these days. Everything right wing is “far right” and “propaganda”. Your “BLM” is propaganda. Your BLM founded by known marxists is propaganda. Your BLM sending all their donations to the DNC is propaganda. Your fake pandemic is propaganda.
+Facebook is not the judicial system. We haven’t voted for them, they are not part of the government. Now your lefty leaders even nuke alternatives to facebook from app stores and hosting services and you celebrate the death of free speech because you’re too much of a moron to have your own brain and realize 50% of your country is being labeled as racists. “Basket of deplorabes” wouldn’t win even without the memes, thinking memes won the 2016 election is a consipracy theory, a real one. They rigged the election in 2016 but didn’t expect the fake votes to not be enough, then for 4 fucking years they used everything from late night shows to every news service to claim Trump stole the election instead, way to project. Now they have stolen the election once again, blatanly, and weponized everything including a pandemic for a known creepy and babbling old fool the same elites control, and idiots like you have swallowed it all like the NPC morons you are. Same elites are back and you celebrate it. Companie like Facebook bend the knee to them and you swallow their shit excuses for destroying free speech.
+https://www.youtube.com/results?search_query=creepy+joe+biden
+this is your choice.
+Enjoy your $300 spyware.
+FrankB
+Sheesh…Calm.the.fuck.down.dude. You Trumpers like a disjointed rant don’t you? Are you also a Q follower? Enjoy your $5 tinfoil hat. I don’t have an Oculus, I already pointed out I’m no fan of FB, I was just pointing out that it is their platform and they get to decide what content is allowed on it. Qanon is nonsense started as a bad joke on 4chan that a bunch of absolute melters started believing. It SHOULD be deleted, it’s dangerous crap. Deleting hate speech is fair enough as well, hate speech is NOT the same as free speech. You’re an idiot if you can’t tell the difference. I certainly didn’t say everything right wing is ‘far right’, for the record I find the far left just as deplorable as the far right.
+Luigi Mario
+Actual functioning adults have zero tolerance for morons like you who have no idea how life works. Of course any argument with actual points longer than a sentence seems like a rant to  retarded goldfish brain like yours.
+Like projecting huh? I didn’t say a word about supporting Trump, I didn’t say a word about that retarded QAnon shit. You just argue with the straw man the manipulative elite have created for you.
+Facebook has monopoloy, a literal one. You can’t argue that people can go to other platforms, all other platforms are slowly being removed from servers and app stores. It’s not even the argument of facebook and the rest being a public space, it’s about the left not letting there be any other space. And you support the destruction of freedom of speech because “nonsense” is a qualifier for censorship for you. What an idiot. A sitting president was censored to millions of his followers and you eat the bullshit claim that only “qanon” was banned and the former president had anything to do with it or what happened at the capitol. An insurrection that was never proven in the courts and somehow what the old establishment who doesn’t give a shit about you said it so it must be true. You cheer and support all this, so you are a useful idiot and against freedom of speech. You want me to calm down? Then grow a brain or sit down and shut up. There’s no calm with idiots like you around.
+FrankB
+mmm…you say you’re not a Trumper but you sure sound like one, crying because you think the election was stolen from him. You sound angry, go have a nap. There, there, sleep it off.
+Luigi Mario
+^ Idiocy speeks for itself, I have nothing to add. Keep arguing with the straw man.
+FrankB
+*speaks
+Luigi Mario
+are you that desperate now?
+FrankB
+Just finding fun with the apparent irony. Calmed down yet? Maybe a VR comments page isn’t the best place for politics. Games are supposed to be fun, ye know, remember fun? Just chill, you’re gonna give yourself a heart attack. I imagine that your face goes all red and sweaty when you type your angry replies.
+Luigi Mario
+Maybe stop imagining things and find something better to do. I didn’t start the discussion. Go fuck yourself.
+FrankB
+I imagine you believe that that was an amazing mic drop moment. It isn’t.
+Peter K
+WHERE’S MY POPCORN
+shadow9d9
+1.  There is no “left” in the US.  There is only the middle/rightwing democrats, further to the right of the right wing parties of europe, and the off the cliff right republicans.
+2.  Everyone should support banning terrorists and hate groups from all media.  That shouldn’t be a left or right wing issue.  Every forum and social site from the beginning of the digital age has had moderation.
+3.  Don’t be a shitty person and you won’t be banned on sites.  This is a rule for real life as well.
+FrankB
+Well said Shadow.
+joko
+Anything becomes hate speech if it doesn’t fit the narrative the most powerful people in this country are trying to enforce, that they themselves don’t even believe. Everyone claims to love science until its logical conclusions disagrees with their ideals. China and India are the world’s greatest polluters but you don’t see Greta staring them down for ruining the planet. And the reason is this, China and India are modern day slave states for the rest of the world, and the US economy, of which over 70% is consumer based, needs these countries to keep producing cheap crap only made possible by China’s 1 billion population of expendable labor supply. In short, if you play along you get to be their puppet like Greta. And if you don’t, they’ll cut your strings by censorship, claiming you are far right anti feminist anti environmental misogynist whose opinions are to be discarded without evaluation.
+They’ve divided this country, now they are conquering it. They’ve told you lies about Trump every hour of every day of every year during his Presidency. And soon, you’ll dismiss me because you’ll think this is hate speech too. It shows how far you’ve been subconsciously manipulated. That goes for both sides of the aisle as Trump use to be a registered Democrat many times and engendered just as much anger from the “right” as from the left. In reality he is just a brash, egotistical, and lucky business man that showed just an ounce of compassion for America was enough to get him elected.
+FrankB
+your boy, Trump:
+https://www.theguardian.com/us-news/2021/jan/29/trump-russia-asset-claims-former-kgb-spy-new-book
+Luigi Mario
+your boy, biden:
+https://www.youtube.com/results?search_query=creepy+joe+biden
+Somehow Russia is to blame for everything and cannot be trusted, unless they say something bad about Trump. Flawless logic.
+You chose the old elite to come back and shove it deep in your ass again. Now enjoy. Maybe using your brain a little and not living in echo chambers wouldn’t get you here.
+FrankB
+yeah, Biden’s a creep for sure, but so is Trump, i mean the guy has heavily hinted several times that he wouldn’t mind doing his own daughter. The American people were basically asked to vote between two creeps, one is a competent politician the other is a narcissistic imbecile. They chose the least worst option. I don’t have a dog in the fight anyway, I’m not American, I just really hate Trump and glad that he’s gone, prison beckons.
+Luigi Mario
+” I just really hate Trump ” – well you’re a gullible easily manipulatable idiot
+FrankB
+I’ve hated him long before he became president, how does that make me gullible? I observe his actions and and conclude he is a narcissistic, misogynistic bully. What’s to like? You can’t claim that I’ve been manipulated into believing that, those traits are laid bare for all to see.
+Charles
+Follow science on climate change, while denying science by claiming that there are 100 genders and that it’s fair to have biological men compete in women’s sports.
+Trump is on record many times acknowledging that climate change is real and that humans contribute.
+He never told people to inject bleach – that was intentionally dishonest twisting of his words – he said “maybe we can come up with something kind of like that” – as in, an analogous concept.
+“misogynistic bully”
+How do you get to thinking he “hates all women”?  There’s no evidence for that, and that’s pretty much impossible for most straight men, since you can’t hate what you’re extremely attracted to.
+joko
+Nowhere did I support Trump. Its easy to dismiss my argument by labelling Trump at me. That’s called straw manning. Instead of confronting my ideas you label me as a Trump voter which I never claimed to be.  An easy target for you to punch down without risking your ego to being wrong. You don’t even realize why its so easy for you to do that. I bet you think you’ve won every argument you’ve ever had. Being wrong and making mistakes is part of life. Growing up is learning from those experiences. I don’t blame you. Its easier to process life when the media props Trump up like a punching bag for you telling you how awesome and important you are when in reality you are fighting a caricature used to manipulate you.  Try to argue any point of the argument I’ve posted. Tell me Great isn’t a puppet or India and China are making real environmental efforts to stop pollution. Argue SOMETHING. I’m not attacking you. I want you to ARGUE I want you to show me where I’m wrong and where I’m right. If you can’t do that you can’t mature as a person.
+FrankB
+well, you’re sympathetic towards him and you defend his lies. You didn’t outright say you supported him but you sure sound like you do. I apologise if I’m wrong. The fact that you believe he has ‘an once of passion’ for anything but himself shows how little you understand about him. He doesn’t care about America, only himself but he can certainly pretend to care about America to get his own way. (or perhaps Putins way, seriously, read up on Russian active measures. Trump was very likely targeted as a potential asset, I’m not saying definitely, just highly probable).
+Read up on The Foundations of Geopolitics. here’s some snippets
+“Russia should use its special services within the borders of the United States to fuel instability and separatism, for instance, provoke “Afro-American racists”. Russia should “introduce geopolitical disorder into internal American activity, encouraging all kinds of separatism and ethnic, social and racial conflicts, actively supporting all dissident movements – extremist, racist, and sectarian groups, thus destabilizing internal political processes in the U.S. It would also make sense simultaneously to support isolationist tendencies in American politics” Coincidence that that is exactly what has happened these coming to head these past 4 years under Trump
+“The United Kingdom, merely described as an “extraterritorial floating base of the U.S.”, should be cut off from Europe.”, mission accomplished.
+“Ukraine should be annexed by Russia” They tried that but were blocked by NATO, but they have a plan for that, defund NATO, what did Trump try to do?
+Tell me this doesn’t look like a plan in action. The thing that America feared most for decades is happening, and they have managed to con us all, US and Europe into helping. The Russians are trying to destabilise the west and they are winning. Putin must laugh himself to sleep every night.
+Cl
+He asked you to argue against his points and you proceed to make a huge post about trump and russia lol. I think its odd though that it was ok to question trumps legitimacy for 4 years, but questioning bidens gets you banned. Making a story about his son gets a legitimate news organization banned. Try to make other social media because you get banned and that gets banned.
+FrankB
+I can’t argue with his points about China and India…I agree with him. I’m not going to argue with him about lies against Trump as that’s ridiculous when Trump is clearly a pathological liar himself. Do Democrats lie? sure. Have they lied about Trump ever. Almost certainly. Can they hold a candle to the amount of lies Trump says every single day of his tenure? Absolutely not. But Joko claims he isn’t a Trump supporter when everything he says indicates the contrary. I’m not going to argue with someone whose mind can’t be changed, I’m sure he feels the same about me.
+Luigi Mario
+You moron, useful idiot. There are real terrorist killing people on the social media platforms, they couldn’t care less about real terrorism.
+Define “shitty person”, because apparently it’s not up to courts anymore to judge if a person should be banished form society. To me you’re pretty shitty, you parrot talking points and have no voice of your own. Pretty shit and useless to me.
+You fucking idiot, I had to un-delete my Disqus account because of how moronic your comment was.
+Bob
+Can you please actually go ahead and delete your Discus again. You’re kind of a douchbag.
+Luigi Mario
+no fuck off
+didn’t want people to be pissed off shouldn’t have cheered censorship
+Deflection
+Regardless of how terrible FB is. The VR world will be getting a lot more attention and a lot more games. Bring it on, take my information.
+MosBen
+If the market really is reaching mainstream, then I just want the device that isn’t as popular or successful as the first big mainstream device, but is in lots of ways better and doesn’t require me to wade into the walled garden of the big industry mover. Basically, give me the Zune of VR.
+johann jensson
+You spelled “June” wrong. (You’re referring to the summer of VR, right?)
+MosBen
+If this is a joke, I don’t get it.
+Sinshi Uzumaki
+This is just revenue not profit, right?
+So the profit is much lower.
+namekuseijin
+Quest is using a clear console business model, where hardware is cheap and almost always subsidized and they make money from software sales
+not much yet, but will surely grow
+Andrew Jakobs
+Still no proof the Quest is actually sold at a loss..
+Luigi Mario
+It probably isn’t. The Qualcomm chip costed 130 USD last I checked, each camera <5 USD and the single panel LCD was from around 5 year old smartphones and in the 20-30 USD range.
+FrankB
+don’t forget the selling your data revenue stream… ;-)
+Grammy Tron
+Back in your hole Lizard Man, these Hu-mans don’t want your half measure stuff.
+Can we go Wall Street rush FB and crash their stock?   Kick Lizard Man in the lizard nads
+JB1968
+So FB is claiming a success to sell less than 1 million of Quests2 in 4thQ. Thats really poor for 2020/21. Note they’ll release Quest3 next year so Q2 won’t repeat this “success” anymore.
+Andrew Jakobs
+For a device that has much less interest as a regular game-console, selling 1 million+ of these devices in only 3 months is really a big milestone.
+h4rr4r
+So then the Index is a total failure?
+Matthew Lake
+IDC Research Manager says early research suggests that FB sold close to 3 Million Quest 2 headsets so far.
+https://twitter.com/JiteshUbrani/status/1354891862864244751
+TonyVT SkarredGhost
+I don’t think it will sell 10M units this year, but maybe if they plan it to have 2-3 years of lifetime, yes, I agree with him
+Luigi Mario
+These messages to investors are always worded overly optimistically. They can’t lie, but they can’t be modest and realistic either as that isn’t attractive enough. Just because it isn’t a lie doesn’t mean it is truth. Using “may” in every sentence absolves them from any responsibilty really.
+ConfessJesusasLord2bsaved
+Next hmd needs to have a bigger fov,at least 140, and higher resolution too. I’d pay up to 500 for a all in one vr. Jesus loves you !
+Daniel Gallo
+its already here dude! its called Xtal. problem is its many Gs. but the perfected headset is here. Just like iphone in 2007. i bet $ that Iphone 12 tech was already there, but they release new upgraded versions. to keep selling the same object till they get what they wanted for it. they just didnt tell us. if they gave us iphone 12 back in 07′ it be like 10g. so with xtal you get the finished product today if you want than waiting years..but you pay all up at once.
+Charles
+XTAL has mediocre resolution (1440p) and a low refresh rate (70Hz).
+TechPassion
+Xtal is crap.
+Hokhmah
+I would say top of the notch at this point would be something like Varjo VR-3.
+hubick
+I assumed Google Earth on Rift meant it would be available on Quest 2, but it isn’t, so I regret buying one. And using Oculus Link makes me nauseous.
+Scott Palmer
+Given that Apple has started acting like a single child and refused to share its toys (user data; under the guise of “privacy”) and Facebook doesn’t control the Qualcom chips it requires, it is very much at the mercy of other companies who frankly are among the most worst Corporate citizens the USA has ever made, only trumped by Military and Pharmaceutical.  I very much appreciate the value that Quest 2 has brought us, but the Corporations behind these products have weighed in politically and thus crossed a line.  Even as a Canadian, I cannot support them financially.
+IceLacrima
+Allowing the Quest 2 to go on sale in Germany would lift the sale numbers a whole lot I think
+ogger151
+I bought a Quest 2 and returned it. I went back to my Rift S. For PC VR the link cable just doesn’t cut it. I then bought a HP G2 and Half Life Alyx. I never thought VR could look that incredible. The picture is incredible in 4K. The Q2 has a haze to it and I know some newer headsets are coming this year hopefully and 4K wireless but might have to wait for wifi 7 or some kind of proprietary wireless solution to be able handle 4K. I game on a 4K monitor and the Quest 2 is like a downgrade. But the HP G2 is not now I just have to wait till that quality is possible on wireless. I play sitting down so a cable is not much of a problem but the G2 cable is like a stiff rope.
+39,929
+Fans
+Like
+13,574
+Followers
+Follow
+66,541
+Followers
+Follow
+27,800
+Subscribers
+Subscribe
+Latest Headlines
+Valve Confirms Steam Frame is Still Coming This Year, Now Marked as “coming soon”
+Mar 9, 2026
+XR’s “Must-go” Conference Expands Gaming & LBE Focus for 2026
+Mar 6, 2026
+VR Pioneer nDreams Announces Studio Closures & Layoffs Amid “challenging” Games Market
+Mar 6, 2026
+Features & Reviews
+Sleeper Hit ‘UG’ Has Become One of Quest’s Most Popular and Top Earning Games in Less...
+Jan 20, 2026
+The Best VR Games of 2025 – Our Game of the Year Picks
+Dec 23, 2025
+VR Design Unpacked: The Best Shotguns in VR (and what makes them feel great)
+Dec 15, 2025

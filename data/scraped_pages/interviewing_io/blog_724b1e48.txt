@@ -1,0 +1,123 @@
+We helped write the sequel to "Cracking the Coding Interview".
+Read 9 chapters for free
+→
+interviewing.io
+Open menu
+Interview resources
+For employers
+Gift mock interviews
+Blog
+FAQ
+Log in
+Give it a try
+We built an AI model for eng hiring that outperforms recruiters and LLMs
+By Aline Lerner |
+Published:
+In the last post in our hiring series, I talked about how, for six years, we ran the largest blind eng hiring experiment in history and placed thousands of people at top-tier companies. 46% of candidates who got offers at these companies didn't have top schools or top companies on their resumes. Despite that, these candidates performed as well (or better than) their pedigreed counterparts, were 2X more likely to accept offers, and stayed at their companies 15% longer.
+Of course, it's easy to say that you should hire non-traditional candidates. But how do you separate great ones from mediocre ones, when you can't look at brand names on their resumes for signal? The short answer is that it's really hard. We spent years figuring it out.
+But, we now have a predictive model that outperforms both human recruiters and LLMs and can reliably identify strong candidates, regardless of how they look on paper, just from an (anonymize) LinkedIn profile. Not only can it spot diamonds in the rough, but it can also identify candidates who look good but aren't
+actually
+good.
+For years, hiring has relied on pedigree and optics because outcomes data was effectively inaccessible (especially data for candidates who don't pass resume screens). We think we've fixed that.
+Read more >
+Using AI in Meta’s AI-assisted coding interview (with real prompts and examples)
+By Githire B. Wahome |
+Published:
+In October 2025, Meta began piloting an AI-enabled coding interview that replaces one of the two coding rounds at the onsite stage. It’s 60 minutes in a specialized CoderPad environment with an AI assistant built in. It’s highly likely that this round will be rolled out for all back-end and ops-focused roles in 2026.
+While Meta’s official prep materials will tell you that AI usage during this interview is optional and will have no bearing on the outcome, in practice, that’s not entirely true, and we believe that using AI properly will give you an edge. To wit, this post is a practical walkthrough of how AI fits into these interviews, using concrete examples of prompts, code, and AI outputs, and showing how to integrate them without sacrificing judgment.
+Read more >
+Stop memorizing STAR for behavioral interviews. Start selecting better stories.
+By Gilad Naor |
+Published:
+"Why don't you tell me about a time you received constructive feedback?"
+Simple question. Staff-level candidate. Should be easy.
+"I was leading development of a new service at Amazon. Tight deadlines, exciting technical challenges. My role included end-to-end delivery and then transition to the next project. I prioritized shipping the core functionality. Built it, tested it, launched it. The service worked technically. But during my next review cycle, my manager flagged it. The team struggled without proper docs. The handoff left gaps. I learned to treat documentation and handoff as first-class requirements, not afterthoughts. Now I add them as explicit tasks in the backlog from day one when planning projects."
+Perfect CARL (or STAR) format. Clear context. Specific actions. Measurable results. Concrete learning.
+Rejected on behavioral.
+Why? Because at Senior+ levels, your story selection matters more than your story structure.
+Read more >
+For six years, we ran the largest blind eng hiring experiment of all time. Here’s what happened.
+By Aline Lerner |
+Published:
+You’ve probably heard about the blind orchestra auditions described by Malcolm Gladwell in
+Outliers
+. We did the same thing with eng hiring.
+With our blind approach, over six years, we placed thousands of engineers at FAANG and FAANG-adjacent companies and top-tier startups.
+46% (almost half!) of those engineers didn’t have either a top school or a top company on their resume. In a normal (not blind) hiring process, these candidates wouldn’t even have gotten an interview.
+Read more >
+How is AI changing interview processes? Not much and a whole lot.
+By Aline Lerner |
+Published:
+A year and a half ago,
+we predicted that advances in AI would force companies to abandon cookie-cutter LeetCode questions
+. Despite that prediction, we bet heavily that, even if their content and format would change, algorithmic interviews were here to stay.
+Now we're seeing the results. Despite clickbait headlines suggesting that Meta and other tech giants are ditching algorithmic interviews for AI-assisted ones, our survey of FAANG+ interviewers reveals a different reality:
+zero FAANG or FAANG-adjacent companies have moved away from algorithmic questions.
+But what else is changing? Will we return to in-person interviews? Will questions get harder? How rampant is cheating, and what are companies doing about it? If candidates can now use AI in interviews, what will these new interview types look like? And how does all of this differ between FAANG & FAANG+ companies and startups?
+Perhaps most importantly, have the advances in AI been a forcing function to change interviewers (and interviewers) for the better?
+Read on to find out!
+Read more >
+Becoming an MLE at FAANG: What you need to know to know about MLE roles and interviews at Google, Meta, and other top companies
+By Shivam Anand |
+Published:
+I’m Shivam Anand, currently leading machine learning engineering (MLE) efforts at Meta, focused on integrity, recommendation, and search systems. Over the past decade, I’ve applied state-of-the-art ML to some of the toughest challenges in big tech—from scaling anti-abuse systems at Google Ads to rebuilding ML systems for Integrity enforcement at Facebook.
+I’ve seen first-hand how the nature of ML work varies massively across team types and career paths. This guide is my attempt to map that space for others navigating (or considering) careers in ML—especially those targeting roles in big tech. I will cover different ML team types, the kinds of roles you’re likely to see on those teams, how interview processes vary for ML roles, and how to make the lateral move from a software engineering role to an MLE one.
+Read more >
+Stop trying to make recruiters think, or, why your resume is bad and how to fix it
+By Aline Lerner |
+Published:
+Years ago, Steve Krug wrote a book about web design called
+Don’t Make Me Think
+. It’s a classic, and the main point is that good design should make everything painfully obvious to users without demanding anything of them.
+Resumes are just the same. Your resume shouldn’t make recruiters think. It should serve up the most important things about you on a platter that they can digest in 30 seconds or less. We've said before that spending a lot of time on your resume is a fool's errand, but if you’re going to do
+something
+to it, let’s make sure that that something is low-effort and high-return. Here's exactly what to do.
+Read more >
+Why resume writing is snake oil
+By Aline Lerner |
+Published:
+A lot of other platforms offer resume reviews or help with writing resumes for $$. We don't do it, despite a lot of our users asking for this feature. The reason I've refused to build them is because, simply put, resume writing is snake oil. Why? Because recruiters aren't reading resumes. If you don't have top brands, better wording won't help. If you do have top brands, the wording doesn't matter.
+Read more >
+It's OK to postpone your interviews if you're not ready
+By Aline Lerner |
+Published:
+At interviewing.io, we’ve seen hundreds of thousands of engineers go through job searches, and the biggest mistakes we see people make are all variations on the same theme: not postponing their interview when they aren’t ready. In most situations, there is no downside to postponing. In this post, we'll tell you what to do and say.
+Read more >
+Read nine chapters of Beyond Cracking the Coding Interview for free
+By Aline Lerner |
+Published:
+Nine free chapters of
+Beyond Cracking the Coding Interview.
+are now available for free.
+You can find them
+here
+.
+They include:
+The first seven chapters of the book
+, covering topics such as why technical interviews are broken, what recruiters won't tell you, why not to spend a lot of time on resumes, and how to get in the door at companies without a referral.
+Two technical chapters: Sliding Windows and Binary Search
+. Our new take on Binary Search teaches one template that works for every binary search problem on LeetCode, with only a single-line change you need to remember. The Sliding Windows chapter features 6 unique sliding window templates that make off-by-one errors a thing of the past.
+Read more >
+Life is chaos and pain. Interview prep doesn't have to be.
+Get instant access to anonymous mock interviews, salary negotiation, and the world's largest library of interview replays.
+Get started
+Most popular posts
+Read nine chapters of Beyond Cracking the Coding Interview for free
+We co-wrote the official sequel to Cracking the Coding Interview!
+Are recruiters better than a coin flip at judging resumes? Here's the data.
+The unwritten rules (till now) of negotiating with Meta
+How hard is it to cheat in technical interviews with ChatGPT? We ran an experiment.
+Exactly what to say when recruiters ask you to name the first number… and other negotiation word-for-words
+Stuff we write about
+Recession
+Salary negotiation
+Company News
+Data Deep Dives
+Diversity
+Guest Posts
+Hiring is broken
+Interview tips
+For employers, how to hire better
+We know exactly what to do and say to get the company, title, and salary you want.
+Interview prep and job hunting are chaos and pain. We can help. Really.
+Get started for free

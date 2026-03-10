@@ -1,0 +1,87 @@
+Table of contents
+Exit editor mode
+Ask Learn
+Ask Learn
+Focus mode
+Table of contents
+Read in English
+Add
+Add to plan
+Edit
+Share via
+Facebook
+x.com
+LinkedIn
+Email
+Copy Markdown
+Print
+Note
+Access to this page requires authorization. You can try
+signing in
+or
+changing directories
+.
+Access to this page requires authorization. You can try
+changing directories
+.
+<unordered_map>
+Feedback
+Summarize this article for me
+Defines the container class templates
+unordered_map
+and
+unordered_multimap
+and their supporting templates.
+Syntax
+#include <unordered_map>
+Note
+The <unordered_map> library also uses the
+#include <initializer_list>
+statement.
+Classes
+Class
+Description
+unordered_map Class
+Stores hash table of {key, mapped} pairs.
+unordered_multimap Class
+Stores hash table of {key, mapped} pairs.
+Functions
+Function
+Description
+operator!=
+Tests if the unordered_map object on the left side of the operator is not equal to the unordered_map object on the right side.
+operator==
+Tests if the unordered_map object on the left side of the operator is equal to the unordered_map object on the right side.
+swap Function (unordered_map)
+Swaps two maps.
+operator!=
+Tests if the unordered_multimap object on the left side of the operator is not equal to the unordered_multimap object on the right side.
+operator==
+Tests if the unordered_multimap object on the left side of the operator is equal to the unordered_multimap object on the right side.
+swap Function (unordered_map)
+Swaps two multimaps.
+See also
+unordered_multiset Class
+unordered_set Class
+Feedback
+Was this page helpful?
+Yes
+No
+No
+Need help with this topic?
+Want to try using Ask Learn to clarify or guide you through this topic?
+Ask Learn
+Ask Learn
+Suggest a fix?
+Additional resources
+Last updated on
+2021-12-07
+Was this page helpful?
+Yes
+No
+No
+Need help with this topic?
+Want to try using Ask Learn to clarify or guide you through this topic?
+Ask Learn
+Ask Learn
+Suggest a fix?

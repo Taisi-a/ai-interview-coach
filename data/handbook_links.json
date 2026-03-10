@@ -1,0 +1,3514 @@
+{
+  "handbook_root": "/Users/admin/ai-interview-coach/tech-interview-handbook-main/apps/website",
+  "total_urls": 466,
+  "links": {
+    "https://www.toptal.com/front-end/how-to-hire": [
+      {
+        "source": "blog/2019-11-03-are-front-end-development-enough-for-a-career.md",
+        "text": "Being a good Front End developer"
+      }
+    ],
+    "https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4": [
+      {
+        "source": "blog/2019-11-03-are-front-end-development-enough-for-a-career.md",
+        "text": "JavaScript fatigue"
+      }
+    ],
+    "https://reactnative.dev": [
+      {
+        "source": "blog/2019-11-03-are-front-end-development-enough-for-a-career.md",
+        "text": "React Native"
+      }
+    ],
+    "https://flutter.dev": [
+      {
+        "source": "blog/2019-11-03-are-front-end-development-enough-for-a-career.md",
+        "text": "Flutter"
+      }
+    ],
+    "https://github.com/facebook/jscodeshift": [
+      {
+        "source": "blog/2019-11-03-are-front-end-development-enough-for-a-career.md",
+        "text": "codemods"
+      }
+    ],
+    "https://reactjs.org": [
+      {
+        "source": "blog/2019-11-03-are-front-end-development-enough-for-a-career.md",
+        "text": "UI"
+      }
+    ],
+    "https://jestjs.io": [
+      {
+        "source": "blog/2019-11-03-are-front-end-development-enough-for-a-career.md",
+        "text": "testing frameworks"
+      }
+    ],
+    "https://flow.org": [
+      {
+        "source": "blog/2019-11-03-are-front-end-development-enough-for-a-career.md",
+        "text": "type-checkers"
+      }
+    ],
+    "https://graphql.org": [
+      {
+        "source": "blog/2019-11-03-are-front-end-development-enough-for-a-career.md",
+        "text": "fetch data"
+      }
+    ],
+    "https://relay.dev": [
+      {
+        "source": "blog/2019-11-03-are-front-end-development-enough-for-a-career.md",
+        "text": "managing it on clients"
+      }
+    ],
+    "http://www.craftinginterpreters.com": [
+      {
+        "source": "blog/2019-11-03-are-front-end-development-enough-for-a-career.md",
+        "text": "Crafting Interpreters"
+      }
+    ],
+    "https://leetcode.com/problems/sum-root-to-leaf-numbers": [
+      {
+        "source": "blog/2020-05-28-summing-root-to-leaf-numbers.md",
+        "text": "interesting problem from LeetCode"
+      }
+    ],
+    "https://www.tutorialspoint.com/python_data_structure/python_binary_tree.htm": [
+      {
+        "source": "blog/2020-05-28-summing-root-to-leaf-numbers.md",
+        "text": "this article"
+      }
+    ],
+    "https://user-images.githubusercontent.com/29497717/82636662-b01b4b80-9c35-11ea-9ffa-e84b1e13c599.jpeg": [
+      {
+        "source": "blog/2020-05-28-summing-root-to-leaf-numbers.md",
+        "text": "leetcode1"
+      }
+    ],
+    "https://user-images.githubusercontent.com/29497717/82636816-0be5d480-9c36-11ea-8b2d-78bb36c865ee.jpeg": [
+      {
+        "source": "blog/2020-05-28-summing-root-to-leaf-numbers.md",
+        "text": "leetcode2"
+      }
+    ],
+    "https://www.freecodecamp.org/news/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9": [
+      {
+        "source": "blog/2020-05-28-summing-root-to-leaf-numbers.md",
+        "text": "this article"
+      }
+    ],
+    "https://www.sciencedirect.com/science/article/abs/pii/0020019079900681": [
+      {
+        "source": "blog/2020-05-28-summing-root-to-leaf-numbers.md",
+        "text": "here"
+      }
+    ],
+    "https://workplace.com": [
+      {
+        "source": "blog/2021-04-12-importance-of-communicating-effectively-as-an-engineer.md",
+        "text": "Workplace"
+      }
+    ],
+    "https://www.linkedin.com/in/nishita-agarwal-51872514": [
+      {
+        "source": "blog/2021-04-12-importance-of-communicating-effectively-as-an-engineer.md",
+        "text": "Nishita Agarwal"
+      }
+    ],
+    "https://www.linkedin.com/in/leow-yao-yang": [
+      {
+        "source": "blog/2021-04-12-importance-of-communicating-effectively-as-an-engineer.md",
+        "text": "Yao Yang Leow"
+      }
+    ],
+    "https://docs.google.com/document/d/13c8KsKSsP5biJT8N70aLULyq-I5ywuWrxRxr2faQTK4": [
+      {
+        "source": "blog/2021-08-19-facebook-career-questions-and-answers.md",
+        "text": "My own resume"
+      }
+    ],
+    "https://www.facebook.com/careers/life/help-10-peopleor-billions": [
+      {
+        "source": "blog/2021-08-19-facebook-career-questions-and-answers.md",
+        "text": "article about my manager, Nishita Agarwal"
+      }
+    ],
+    "https://www.facebook.com/careers/life/software-engineering-in-apac": [
+      {
+        "source": "blog/2021-08-19-facebook-career-questions-and-answers.md",
+        "text": "article about Software Engineering in APAC"
+      }
+    ],
+    "https://vulcanpost.com/648705/facebook-singapore-office-marina-one": [
+      {
+        "source": "blog/2021-08-19-facebook-career-questions-and-answers.md",
+        "text": "article"
+      }
+    ],
+    "https://www.youtube.com/watch?v=cY3sMN3wohg": [
+      {
+        "source": "blog/2021-08-19-facebook-career-questions-and-answers.md",
+        "text": "video"
+      }
+    ],
+    "https://www.youtube.com/watch?v=0ybiHCxNb3w": [
+      {
+        "source": "blog/2021-08-19-facebook-career-questions-and-answers.md",
+        "text": "driving on the highway also can get shot"
+      }
+    ],
+    "https://www.theverge.com/22588022/mark-zuckerberg-facebook-ceo-metaverse-interview": [
+      {
+        "source": "blog/2021-08-19-facebook-career-questions-and-answers.md",
+        "text": "metaverse"
+      }
+    ],
+    "https://www.roadtovr.com/zuckerberg-quest-2-mainstream-vr-headset-facebook-q4-2020-earnings": [
+      {
+        "source": "blog/2021-08-19-facebook-career-questions-and-answers.md",
+        "text": "Quest 2 was a major driver behind FB's $885 million 2020 Q4 non-ad revenue"
+      }
+    ],
+    "https://nusmods.com/team": [
+      {
+        "source": "blog/2021-08-19-facebook-career-questions-and-answers.md",
+        "text": "Beng"
+      }
+    ],
+    "https://www.github.com/ZhangYiJiang": [
+      {
+        "source": "blog/2021-08-19-facebook-career-questions-and-answers.md",
+        "text": "Yi Jiang"
+      }
+    ],
+    "https://www.github.com/li-kai": [
+      {
+        "source": "blog/2021-08-19-facebook-career-questions-and-answers.md",
+        "text": "Li Kai"
+      }
+    ],
+    "https://www.github.com/taneliang": [
+      {
+        "source": "blog/2021-08-19-facebook-career-questions-and-answers.md",
+        "text": "E-Liang"
+      }
+    ],
+    "https://www.github.com/chrisgzf": [
+      {
+        "source": "blog/2021-08-19-facebook-career-questions-and-answers.md",
+        "text": "Christopher Goh"
+      }
+    ],
+    "https://github.com/teikjun": [
+      {
+        "source": "blog/2021-08-29-resume-improvement-case-study.md",
+        "text": "Teik Jun's"
+      }
+    ],
+    "https://fellowship.mlh.io": [
+      {
+        "source": "blog/2021-08-29-resume-improvement-case-study.md",
+        "text": "Major League Hacking (MLH) Fellowship program"
+      }
+    ],
+    "https://github.com/facebook/docusaurus/commits?author=teikjun": [
+      {
+        "source": "blog/2021-08-29-resume-improvement-case-study.md",
+        "text": "contributed a ton of features to Docusaurus v2"
+      }
+    ],
+    "https://repl.it/@li_kai/JavaScript-Cheatsheet": [
+      {
+        "source": "blog/2021-08-30-a-glimpse-into-front-end-interviews.md",
+        "text": "JavaScript cheat sheet"
+      }
+    ],
+    "https://repl.it/@li_kai/Python-Cheatsheet": [
+      {
+        "source": "blog/2021-08-30-a-glimpse-into-front-end-interviews.md",
+        "text": "Python cheat sheet"
+      }
+    ],
+    "https://about.fb.com/news/2022/04/meta-retail-store": [
+      {
+        "source": "blog/2021-10-30-my-experience-working-as-a-meta-engineer.md",
+        "text": "Meta Store in Burlingame, California"
+      }
+    ],
+    "https://www.metacareers.com/blog/help-10-peopleor-billions": [
+      {
+        "source": "blog/2021-10-30-my-experience-working-as-a-meta-engineer.md",
+        "text": "Help 10 People—or Billions? Engineering Impact on a Global Scale"
+      }
+    ],
+    "https://www.metacareers.com/blog/embracing-change-to-evolve-her-engineering-journey": [
+      {
+        "source": "blog/2021-10-30-my-experience-working-as-a-meta-engineer.md",
+        "text": "Embracing Change to Evolve Her Engineering Journey"
+      }
+    ],
+    "https://www.metacareers.com/blog/software-engineering-in-apac": [
+      {
+        "source": "blog/2021-10-30-my-experience-working-as-a-meta-engineer.md",
+        "text": "Software Engineering in APAC: Building for Rapid Growth"
+      }
+    ],
+    "https://www.metacareers.com/blog/enterprise-engineering-in-apac": [
+      {
+        "source": "blog/2021-10-30-my-experience-working-as-a-meta-engineer.md",
+        "text": "Enterprise Engineering in APAC: Building Products That Scale"
+      }
+    ],
+    "https://www.metacareers.com/blog/opportunity-and-trust-growing-an-engineering-career-at-facebook": [
+      {
+        "source": "blog/2021-10-30-my-experience-working-as-a-meta-engineer.md",
+        "text": "Opportunity and Trust: Growing an Engineering Career at Meta"
+      }
+    ],
+    "https://about.fb.com/news/2021/10/founders-letter": [
+      {
+        "source": "blog/2021-10-30-my-experience-working-as-a-meta-engineer.md",
+        "text": "Metaverse"
+      }
+    ],
+    "https://twitter.com/swyx/status/1236023548227072000": [
+      {
+        "source": "blog/2021-12-23-front-end-vs-back-end-system-design-interviews.md",
+        "text": "there are exceptions"
+      }
+    ],
+    "https://twitter.com/he_zhenghao": [
+      {
+        "source": "blog/2021-12-23-front-end-vs-back-end-system-design-interviews.md",
+        "text": "Twitter"
+      }
+    ],
+    "https://leetcode.com/problems/fizz-buzz": [
+      {
+        "source": "blog/2022-04-20-take-control-over-your-coding-interview.md",
+        "text": "Fizz Buzz"
+      }
+    ],
+    "https://pbs.twimg.com/media/E_IiA2JVIAcZSSk?format=png&name=900x900": [
+      {
+        "source": "blog/2022-04-20-take-control-over-your-coding-interview.md",
+        "text": "alt"
+      }
+    ],
+    "https://leetcode.com/problems/invert-binary-tree": [
+      {
+        "source": "blog/2022-04-20-take-control-over-your-coding-interview.md",
+        "text": "Inverting a Binary Tree"
+      },
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "Invert/Flip Binary Tree"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://en.wikipedia.org/wiki/Trie": [
+      {
+        "source": "blog/2022-04-20-take-control-over-your-coding-interview.md",
+        "text": "trie"
+      },
+      {
+        "source": "contents/algorithms/string.md",
+        "text": "Trie/Prefix Tree"
+      }
+    ],
+    "https://www.joelonsoftware.com": [
+      {
+        "source": "blog/2022-04-20-take-control-over-your-coding-interview.md",
+        "text": "Joel Spolsky"
+      }
+    ],
+    "https://www.joelonsoftware.com/2006/10/25/the-guerrilla-guide-to-interviewing-version-30": [
+      {
+        "source": "blog/2022-04-20-take-control-over-your-coding-interview.md",
+        "text": "blog post"
+      },
+      {
+        "source": "blog/2022-04-20-take-control-over-your-coding-interview.md",
+        "text": "in his post"
+      }
+    ],
+    "https://en.wikipedia.org/wiki/Code_Complete": [
+      {
+        "source": "blog/2022-04-20-take-control-over-your-coding-interview.md",
+        "text": "Code Complete"
+      },
+      {
+        "source": "blog/2022-04-20-take-control-over-your-coding-interview.md",
+        "text": "Code Complete"
+      }
+    ],
+    "https://stackoverflow.com/questions/38111355/javascript-are-loops-faster-than-discretely-writing-line-by-line": [
+      {
+        "source": "blog/2022-04-20-take-control-over-your-coding-interview.md",
+        "text": "A quick google search"
+      }
+    ],
+    "https://news.ycombinator.com/item?id=31125269": [
+      {
+        "source": "blog/2022-04-21-why-you-should-include-debugging-in-the-interview-process.md",
+        "text": "Hacker News"
+      }
+    ],
+    "https://www.manning.com/books/the-programmers-brain": [
+      {
+        "source": "blog/2022-04-21-why-you-should-include-debugging-in-the-interview-process.md",
+        "text": "_The Programmer's Brain_"
+      }
+    ],
+    "https://www.goodreads.com/book/show/3938178-debugging": [
+      {
+        "source": "blog/2022-04-21-why-you-should-include-debugging-in-the-interview-process.md",
+        "text": "_Debugging: The 9 Indispensable Rules for Finding Even the Most Elusive Software and Hardware Problems_"
+      }
+    ],
+    "https://blog.isquaredsoftware.com/2021/06/presentations-debugging-software": [
+      {
+        "source": "blog/2022-04-21-why-you-should-include-debugging-in-the-interview-process.md",
+        "text": "_Debugging Software_"
+      }
+    ],
+    "https://jvns.ca/blog/2015/11/22/how-i-got-better-at-debugging": [
+      {
+        "source": "blog/2022-04-21-why-you-should-include-debugging-in-the-interview-process.md",
+        "text": "_How I got better at debugging_"
+      }
+    ],
+    "https://kinobi.tech/resume": [
+      {
+        "source": "blog/2022-07-09-getting-a-tech-job-as-an-undergraduate.md",
+        "text": "Kinobi"
+      }
+    ],
+    "https://www.techinterviewhandbook.org/grind75": [
+      {
+        "source": "blog/2022-07-09-getting-a-tech-job-as-an-undergraduate.md",
+        "text": "Grind 75"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Grind 75"
+      },
+      {
+        "source": "contents/coding-interview-prep.md",
+        "text": "Grind 75 tool"
+      },
+      {
+        "source": "contents/coding-interview-study-plan.md",
+        "text": "**Grind 75 tool**"
+      },
+      {
+        "source": "contents/coding-interview-study-plan.md",
+        "text": "**Grind 75**"
+      },
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "Grind 75 tool"
+      }
+    ],
+    "https://github.com/donnemartin/system-design-primer": [
+      {
+        "source": "blog/2022-07-09-getting-a-tech-job-as-an-undergraduate.md",
+        "text": "System Design Primer"
+      },
+      {
+        "source": "contents/system-design.md",
+        "text": "System Design Primer"
+      }
+    ],
+    "https://shareasale.com/r.cfm?b=1873647&u=3114753&m=114505&urllink=&afftrack=": [
+      {
+        "source": "contents/_courses/AlgorithmCourses.md",
+        "text": "AlgoMonster"
+      },
+      {
+        "source": "contents/_courses/AlgorithmCourses.md",
+        "text": "**Join today for a 70% discount →**"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "AlgoMonster"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "AlgoMonster"
+      },
+      {
+        "source": "contents/coding-interview-prep.md",
+        "text": "AlgoMonster"
+      },
+      {
+        "source": "contents/coding-interview-prep.md",
+        "text": "AlgoMonster"
+      },
+      {
+        "source": "contents/coding-interview-prep.md",
+        "text": "**Join today for a 70% discount →**"
+      },
+      {
+        "source": "contents/coding-interview-prep.md",
+        "text": "Join today for a 70% discount →"
+      },
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "AlgoMonster"
+      },
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "AlgoMonster"
+      },
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "**Join today for a 70% discount →**"
+      }
+    ],
+    "https://www.designgurus.io/course/grokking-the-coding-interview?aff=kJSIoU": [
+      {
+        "source": "contents/_courses/AlgorithmCourses.md",
+        "text": "Grokking the Coding Interview: Patterns for Coding Questions"
+      },
+      {
+        "source": "contents/_courses/AlgorithmCourses.md",
+        "text": "**Get lifetime access now →**"
+      },
+      {
+        "source": "contents/algorithms/dynamic-programming.md",
+        "text": "\"Grokking the Coding Interview\""
+      },
+      {
+        "source": "contents/coding-interview-prep.md",
+        "text": "Grokking the Coding Interview: Patterns for Coding Questions"
+      },
+      {
+        "source": "contents/coding-interview-prep.md",
+        "text": "Grokking the Coding Interview: Patterns for Coding Questions"
+      },
+      {
+        "source": "contents/coding-interview-prep.md",
+        "text": "**Get lifetime access today →**"
+      },
+      {
+        "source": "contents/coding-interview-prep.md",
+        "text": "Join today for a 10% discount →"
+      },
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "Grokking the Coding Interview: Patterns for Coding Questions"
+      },
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "Grokking the Coding Interview: Patterns for Coding Questions"
+      },
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "**Get lifetime access today →**"
+      }
+    ],
+    "https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms": [
+      {
+        "source": "contents/_courses/AlgorithmCourses.md",
+        "text": "Master the Coding Interview: Data Structures + Algorithms"
+      },
+      {
+        "source": "contents/_courses/AlgorithmCourses.md",
+        "text": "**Check it out →**"
+      }
+    ],
+    "https://www.guru99.com/array-data-structure.html": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Array in Data Structure: What is, Arrays Operations"
+      }
+    ],
+    "https://www.coursera.org/lecture/data-structures/arrays-OsBSF": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Arrays"
+      }
+    ],
+    "https://leetcode.com/problems/minimum-window-substring/solutions/26808/here-is-a-10-line-template-that-can-solve-most-substring-problems": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "sliding window technique"
+      }
+    ],
+    "https://leetcode.com/problems/longest-substring-without-repeating-characters": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Longest Substring Without Repeating Characters"
+      },
+      {
+        "source": "contents/algorithms/string.md",
+        "text": "Longest Substring Without Repeating Characters"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/minimum-size-subarray-sum": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Minimum Size Subarray Sum"
+      },
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Minimum Size Subarray Sum"
+      }
+    ],
+    "https://leetcode.com/problems/minimum-window-substring": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Minimum Window Substring"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/sort-colors": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Sort Colors"
+      },
+      {
+        "source": "contents/coding-interview-techniques.md",
+        "text": "Dutch National Flag"
+      }
+    ],
+    "https://leetcode.com/problems/palindromic-substrings": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Palindromic Substrings"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/merge-sorted-array": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Merge Sorted Array"
+      }
+    ],
+    "https://leetcode.com/problems/daily-temperatures": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Daily Temperatures"
+      },
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Daily Temperatures"
+      },
+      {
+        "source": "contents/algorithms/stack.md",
+        "text": "Daily Temperatures"
+      }
+    ],
+    "https://leetcode.com/problems/number-of-visible-people-in-a-queue": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Number of Visible People in a Queue"
+      }
+    ],
+    "https://leetcode.com/problems/merge-intervals": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Merge Intervals"
+      },
+      {
+        "source": "contents/algorithms/interval.md",
+        "text": "Merge Intervals"
+      },
+      {
+        "source": "contents/algorithms/interval.md",
+        "text": "Merge Intervals"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/non-overlapping-intervals": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Non-overlapping Intervals"
+      },
+      {
+        "source": "contents/algorithms/interval.md",
+        "text": "Non-overlapping Intervals"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/product-of-array-except-self": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Product of Array Except Self"
+      },
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Product of Array Except Self"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      },
+      {
+        "source": "contents/coding-interview-techniques.md",
+        "text": "Product of Array Except Self"
+      }
+    ],
+    "https://leetcode.com/problem-list/prefix-sum": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "LeetCode questions tagged \"prefix-sum\""
+      }
+    ],
+    "https://leetcode.com/problems/first-missing-positive": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "First Missing Positive"
+      },
+      {
+        "source": "contents/algorithms/hash-table.md",
+        "text": "First Missing Positive"
+      },
+      {
+        "source": "contents/coding-interview-techniques.md",
+        "text": "First Missing Positive"
+      }
+    ],
+    "https://leetcode.com/problems/two-sum": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Two Sum"
+      },
+      {
+        "source": "contents/algorithms/hash-table.md",
+        "text": "Two Sum"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      },
+      {
+        "source": "contents/coding-interview-cheatsheet.md",
+        "text": "Two Sum"
+      }
+    ],
+    "https://leetcode.com/problems/best-time-to-buy-and-sell-stock": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Best Time to Buy and Sell Stock"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/maximum-subarray": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Maximum Subarray"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/contains-duplicate": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Contains Duplicate"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/maximum-product-subarray": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Maximum Product Subarray"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/search-in-rotated-sorted-array": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Search in Rotated Sorted Array"
+      },
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Search in Rotated Sorted Array"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/3sum": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "3Sum"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/container-with-most-water": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Container With Most Water"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/sliding-window-maximum": [
+      {
+        "source": "contents/algorithms/array.md",
+        "text": "Sliding Window Maximum"
+      }
+    ],
+    "https://medium.com/basecs/bits-bytes-building-with-binary-13cb4289aafa": [
+      {
+        "source": "contents/algorithms/binary.md",
+        "text": "Bits, Bytes, Building With Binary"
+      }
+    ],
+    "https://en.wikipedia.org/wiki/Bitwise_operation": [
+      {
+        "source": "contents/algorithms/binary.md",
+        "text": "Bitwise operation"
+      }
+    ],
+    "https://www.youtube.com/watch?v=NLKQEOgBAnw": [
+      {
+        "source": "contents/algorithms/binary.md",
+        "text": "Algorithms: Bit Manipulation"
+      }
+    ],
+    "https://pconrad.github.io/old_pconrad_cs16/topics/bitOps": [
+      {
+        "source": "contents/algorithms/binary.md",
+        "text": "Practice with bit operations"
+      }
+    ],
+    "https://leetcode.com/problems/sum-of-two-integers": [
+      {
+        "source": "contents/algorithms/binary.md",
+        "text": "Sum of Two Integers"
+      }
+    ],
+    "https://leetcode.com/problems/number-of-1-bits": [
+      {
+        "source": "contents/algorithms/binary.md",
+        "text": "Number of 1 Bits"
+      }
+    ],
+    "https://leetcode.com/problems/counting-bits": [
+      {
+        "source": "contents/algorithms/binary.md",
+        "text": "Counting Bits"
+      }
+    ],
+    "https://leetcode.com/problems/missing-number": [
+      {
+        "source": "contents/algorithms/binary.md",
+        "text": "Missing Number"
+      }
+    ],
+    "https://leetcode.com/problems/reverse-bits": [
+      {
+        "source": "contents/algorithms/binary.md",
+        "text": "Reverse Bits"
+      }
+    ],
+    "https://leetcode.com/problems/single-number": [
+      {
+        "source": "contents/algorithms/binary.md",
+        "text": "Single Number"
+      }
+    ],
+    "https://www.freecodecamp.org/news/demystifying-dynamic-programming-3efafb8d4296": [
+      {
+        "source": "contents/algorithms/dynamic-programming.md",
+        "text": "Demystifying Dynamic Programming"
+      }
+    ],
+    "https://dev.to/nikolaotasevic/dynamic-programming--7-steps-to-solve-any-dp-interview-problem-3870": [
+      {
+        "source": "contents/algorithms/dynamic-programming.md",
+        "text": "Dynamic Programming – 7 Steps to Solve any DP Interview Problem"
+      }
+    ],
+    "https://medium.com/basecs/less-repetition-more-dynamic-programming-43d29830a630": [
+      {
+        "source": "contents/algorithms/dynamic-programming.md",
+        "text": "Less Repetition, More Dynamic Programming"
+      }
+    ],
+    "http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html": [
+      {
+        "source": "contents/algorithms/dynamic-programming.md",
+        "text": "Dynamic Programming"
+      },
+      {
+        "source": "contents/algorithms/heap.md",
+        "text": "Heaps"
+      }
+    ],
+    "https://leetcode.com/problems/climbing-stairs": [
+      {
+        "source": "contents/algorithms/dynamic-programming.md",
+        "text": "Climbing Stairs"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/coin-change": [
+      {
+        "source": "contents/algorithms/dynamic-programming.md",
+        "text": "Coin Change"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/house-robber": [
+      {
+        "source": "contents/algorithms/dynamic-programming.md",
+        "text": "House Robber"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/longest-increasing-subsequence": [
+      {
+        "source": "contents/algorithms/dynamic-programming.md",
+        "text": "Longest Increasing Subsequence"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/partition-equal-subset-sum": [
+      {
+        "source": "contents/algorithms/dynamic-programming.md",
+        "text": "0/1 Knapsack or Partition Equal Subset Sum"
+      }
+    ],
+    "https://leetcode.com/problems/longest-common-subsequence": [
+      {
+        "source": "contents/algorithms/dynamic-programming.md",
+        "text": "Longest Common Subsequence"
+      }
+    ],
+    "https://leetcode.com/problems/word-break": [
+      {
+        "source": "contents/algorithms/dynamic-programming.md",
+        "text": "Word Break Problem"
+      },
+      {
+        "source": "contents/algorithms/trie.md",
+        "text": "Word Break"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/combination-sum-iv": [
+      {
+        "source": "contents/algorithms/dynamic-programming.md",
+        "text": "Combination Sum"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/house-robber-ii": [
+      {
+        "source": "contents/algorithms/dynamic-programming.md",
+        "text": "House Robber II"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/decode-ways": [
+      {
+        "source": "contents/algorithms/dynamic-programming.md",
+        "text": "Decode Ways"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/unique-paths": [
+      {
+        "source": "contents/algorithms/dynamic-programming.md",
+        "text": "Unique Paths"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/jump-game": [
+      {
+        "source": "contents/algorithms/dynamic-programming.md",
+        "text": "Jump Game"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://www.designgurus.io/course/grokking-dynamic-programming?aff=kJSIoU": [
+      {
+        "source": "contents/algorithms/dynamic-programming.md",
+        "text": "Grokking Dynamic Programming Patterns for Coding Interviews"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Grokking the Dynamic Programming Patterns for Coding Interviews"
+      }
+    ],
+    "https://leetcode.com/problems/k-closest-points-to-origin": [
+      {
+        "source": "contents/algorithms/geometry.md",
+        "text": "K Closest Points to Origin"
+      },
+      {
+        "source": "contents/algorithms/geometry.md",
+        "text": "K Closest Points to Origin"
+      },
+      {
+        "source": "contents/algorithms/heap.md",
+        "text": "K Closest Points to Origin"
+      },
+      {
+        "source": "contents/coding-interview-techniques.md",
+        "text": "K Closest Points to Origin"
+      }
+    ],
+    "https://silentmatt.com/rectangle-intersection": [
+      {
+        "source": "contents/algorithms/geometry.md",
+        "text": "nice visualization"
+      }
+    ],
+    "https://leetcode.com/problems/rectangle-overlap": [
+      {
+        "source": "contents/algorithms/geometry.md",
+        "text": "Rectangle Overlap"
+      },
+      {
+        "source": "contents/algorithms/geometry.md",
+        "text": "Rectangle Overlap"
+      }
+    ],
+    "https://leetcode.com/problems/rectangle-area": [
+      {
+        "source": "contents/algorithms/geometry.md",
+        "text": "Rectangle Area"
+      }
+    ],
+    "https://medium.com/basecs/from-theory-to-practice-representing-graphs-cfd782c5be38": [
+      {
+        "source": "contents/algorithms/graph.md",
+        "text": "From Theory To Practice: Representing Graphs"
+      }
+    ],
+    "https://medium.com/basecs/deep-dive-through-a-graph-dfs-traversal-8177df5d0f13": [
+      {
+        "source": "contents/algorithms/graph.md",
+        "text": "Deep Dive Through A Graph: DFS Traversal"
+      }
+    ],
+    "https://medium.com/basecs/going-broad-in-a-graph-bfs-traversal-959bd1a09255": [
+      {
+        "source": "contents/algorithms/graph.md",
+        "text": "Going Broad In A Graph: BFS Traversal"
+      }
+    ],
+    "https://medium.com/basecs/finding-the-shortest-path-with-a-little-help-from-dijkstra-613149fbdc8e": [
+      {
+        "source": "contents/algorithms/graph.md",
+        "text": "Finding The Shortest Path, With A Little Help From Dijkstra"
+      }
+    ],
+    "https://medium.com/basecs/spinning-around-in-cycles-with-directed-acyclic-graphs-a233496d4688": [
+      {
+        "source": "contents/algorithms/graph.md",
+        "text": "Spinning Around In Cycles With Directed Acyclic Graphs"
+      }
+    ],
+    "https://leetcode.com/problems/pacific-atlantic-water-flow/solutions/90774/Python-solution-with-detailed-explanation": [
+      {
+        "source": "contents/algorithms/graph.md",
+        "text": "LeetCode post"
+      }
+    ],
+    "https://leetcode.com/problems/number-of-islands": [
+      {
+        "source": "contents/algorithms/graph.md",
+        "text": "Number of Islands"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/flood-fill": [
+      {
+        "source": "contents/algorithms/graph.md",
+        "text": "Flood Fill"
+      }
+    ],
+    "https://leetcode.com/problems/01-matrix": [
+      {
+        "source": "contents/algorithms/graph.md",
+        "text": "01 Matrix"
+      }
+    ],
+    "https://leetcode.com/problems/rotting-oranges": [
+      {
+        "source": "contents/algorithms/graph.md",
+        "text": "Rotting Oranges"
+      }
+    ],
+    "https://leetcode.com/problems/minimum-knight-moves": [
+      {
+        "source": "contents/algorithms/graph.md",
+        "text": "Minimum Knight Moves (LeetCode Premium)"
+      }
+    ],
+    "https://leetcode.com/problems/clone-graph": [
+      {
+        "source": "contents/algorithms/graph.md",
+        "text": "Clone Graph"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/pacific-atlantic-water-flow": [
+      {
+        "source": "contents/algorithms/graph.md",
+        "text": "Pacific Atlantic Water Flow"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph": [
+      {
+        "source": "contents/algorithms/graph.md",
+        "text": "Number of Connected Components in an Undirected Graph (LeetCode Premium)"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/graph-valid-tree": [
+      {
+        "source": "contents/algorithms/graph.md",
+        "text": "Graph Valid Tree (LeetCode Premium)"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/course-schedule": [
+      {
+        "source": "contents/algorithms/graph.md",
+        "text": "Course Schedule"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/alien-dictionary": [
+      {
+        "source": "contents/algorithms/graph.md",
+        "text": "Alien Dictionary (LeetCode Premium)"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://medium.com/basecs/taking-hash-tables-off-the-shelf-139cbf4752f0": [
+      {
+        "source": "contents/algorithms/hash-table.md",
+        "text": "Taking Hash Tables Off The Shelf"
+      }
+    ],
+    "https://medium.com/basecs/hashing-out-hash-functions-ea5dd8beb4dd": [
+      {
+        "source": "contents/algorithms/hash-table.md",
+        "text": "Hashing Out Hash Functions"
+      }
+    ],
+    "https://www.coursera.org/lecture/data-structures-optimizing-performance/core-hash-tables-m7UuP": [
+      {
+        "source": "contents/algorithms/hash-table.md",
+        "text": "Core: Hash Tables"
+      }
+    ],
+    "https://www.youtube.com/watch?v=r1XZGP5ppqQ": [
+      {
+        "source": "contents/algorithms/hash-table.md",
+        "text": "A Brief Guide to Hash Tables"
+      }
+    ],
+    "https://samuelalbanie.com/files/digest-slides/2022-09-brief-guide-to-hash-tables.pdf": [
+      {
+        "source": "contents/algorithms/hash-table.md",
+        "text": "slides"
+      }
+    ],
+    "https://learn.microsoft.com/en-us/cpp/standard-library/unordered-map?view=msvc-170": [
+      {
+        "source": "contents/algorithms/hash-table.md",
+        "text": "`std::unordered_map`"
+      }
+    ],
+    "https://docs.oracle.com/javase/10/docs/api/java/util/Map.html": [
+      {
+        "source": "contents/algorithms/hash-table.md",
+        "text": "`java.util.Map`"
+      }
+    ],
+    "https://docs.oracle.com/javase/10/docs/api/java/util/HashMap.html": [
+      {
+        "source": "contents/algorithms/hash-table.md",
+        "text": "`java.util.HashMap`"
+      }
+    ],
+    "https://docs.python.org/3/tutorial/datastructures.html": [
+      {
+        "source": "contents/algorithms/hash-table.md",
+        "text": "`dict`"
+      },
+      {
+        "source": "contents/algorithms/stack.md",
+        "text": "List"
+      }
+    ],
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object": [
+      {
+        "source": "contents/algorithms/hash-table.md",
+        "text": "`Object`"
+      }
+    ],
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map": [
+      {
+        "source": "contents/algorithms/hash-table.md",
+        "text": "`Map`"
+      }
+    ],
+    "https://leetcode.com/problems/ransom-note": [
+      {
+        "source": "contents/algorithms/hash-table.md",
+        "text": "Ransom Note"
+      }
+    ],
+    "https://leetcode.com/problems/group-anagrams": [
+      {
+        "source": "contents/algorithms/hash-table.md",
+        "text": "Group Anagrams"
+      },
+      {
+        "source": "contents/algorithms/string.md",
+        "text": "Group Anagram"
+      },
+      {
+        "source": "contents/algorithms/string.md",
+        "text": "Group Anagrams"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      },
+      {
+        "source": "contents/coding-interview-techniques.md",
+        "text": "Group Anagrams"
+      },
+      {
+        "source": "contents/coding-interview-techniques.md",
+        "text": "number of groups of anagrams"
+      }
+    ],
+    "https://leetcode.com/problems/insert-delete-getrandom-o1": [
+      {
+        "source": "contents/algorithms/hash-table.md",
+        "text": "Insert Delete GetRandom O(1)"
+      }
+    ],
+    "https://leetcode.com/problems/lru-cache": [
+      {
+        "source": "contents/algorithms/hash-table.md",
+        "text": "LRU Cache"
+      },
+      {
+        "source": "contents/algorithms/study-cheatsheet.md",
+        "text": "LRU cache"
+      }
+    ],
+    "https://leetcode.com/problems/all-oone-data-structure": [
+      {
+        "source": "contents/algorithms/hash-table.md",
+        "text": "All O one Data Structure"
+      }
+    ],
+    "https://medium.com/basecs/learning-to-love-heaps-cef2b273a238": [
+      {
+        "source": "contents/algorithms/heap.md",
+        "text": "Learning to Love Heaps"
+      }
+    ],
+    "https://medium.com/basecs/heapify-all-the-things-with-heap-sort-55ee1c93af82": [
+      {
+        "source": "contents/algorithms/heap.md",
+        "text": "Heapify All The Things With Heap Sort"
+      }
+    ],
+    "https://learn.microsoft.com/en-us/cpp/standard-library/priority-queue-class?view=msvc-170": [
+      {
+        "source": "contents/algorithms/heap.md",
+        "text": "`std::priority_queue`"
+      }
+    ],
+    "https://docs.oracle.com/javase/10/docs/api/java/util/PriorityQueue.html": [
+      {
+        "source": "contents/algorithms/heap.md",
+        "text": "`java.util.PriorityQueue`"
+      }
+    ],
+    "https://docs.python.org/3/library/heapq.html": [
+      {
+        "source": "contents/algorithms/heap.md",
+        "text": "`heapq`"
+      }
+    ],
+    "https://leetcode.com/problems/top-k-frequent-elements": [
+      {
+        "source": "contents/algorithms/heap.md",
+        "text": "Top K Frequent Elements"
+      },
+      {
+        "source": "contents/algorithms/heap.md",
+        "text": "Top K Frequent Elements"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/merge-k-sorted-lists": [
+      {
+        "source": "contents/algorithms/heap.md",
+        "text": "Merge K Sorted Lists"
+      },
+      {
+        "source": "contents/algorithms/linked-list.md",
+        "text": "Merge K Sorted Lists"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/find-median-from-data-stream": [
+      {
+        "source": "contents/algorithms/heap.md",
+        "text": "Find Median from Data Stream"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/insert-interval": [
+      {
+        "source": "contents/algorithms/interval.md",
+        "text": "Insert Interval"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/meeting-rooms": [
+      {
+        "source": "contents/algorithms/interval.md",
+        "text": "Meeting Rooms (LeetCode Premium)"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/meeting-rooms-ii": [
+      {
+        "source": "contents/algorithms/interval.md",
+        "text": "Meeting Rooms II (LeetCode Premium)"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK": [
+      {
+        "source": "contents/algorithms/linked-list.md",
+        "text": "Singly-linked lists"
+      }
+    ],
+    "https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD": [
+      {
+        "source": "contents/algorithms/linked-list.md",
+        "text": "Doubly linked lists"
+      }
+    ],
+    "https://en.cppreference.com/w/cpp/container/list": [
+      {
+        "source": "contents/algorithms/linked-list.md",
+        "text": "`std::list`"
+      }
+    ],
+    "https://docs.oracle.com/javase/10/docs/api/java/util/LinkedList.html": [
+      {
+        "source": "contents/algorithms/linked-list.md",
+        "text": "`java.util.LinkedList`"
+      }
+    ],
+    "https://leetcode.com/problems/reverse-linked-list": [
+      {
+        "source": "contents/algorithms/linked-list.md",
+        "text": "Reverse a Linked List"
+      },
+      {
+        "source": "contents/algorithms/linked-list.md",
+        "text": "Reverse a Linked List"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/linked-list-cycle": [
+      {
+        "source": "contents/algorithms/linked-list.md",
+        "text": "Detect Cycle in a Linked List"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/merge-two-sorted-lists": [
+      {
+        "source": "contents/algorithms/linked-list.md",
+        "text": "Merge Two Sorted Lists"
+      }
+    ],
+    "https://leetcode.com/problems/remove-nth-node-from-end-of-list": [
+      {
+        "source": "contents/algorithms/linked-list.md",
+        "text": "Remove Nth Node From End Of List"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/reorder-list": [
+      {
+        "source": "contents/algorithms/linked-list.md",
+        "text": "Reorder List"
+      }
+    ],
+    "https://leetcode.com/problems/powx-n": [
+      {
+        "source": "contents/algorithms/math.md",
+        "text": "Pow(x, n)"
+      },
+      {
+        "source": "contents/algorithms/math.md",
+        "text": "Pow(x, n)"
+      }
+    ],
+    "https://leetcode.com/problems/sqrtx": [
+      {
+        "source": "contents/algorithms/math.md",
+        "text": "Sqrt(x)"
+      },
+      {
+        "source": "contents/algorithms/math.md",
+        "text": "Sqrt(x)"
+      }
+    ],
+    "https://leetcode.com/problems/integer-to-english-words": [
+      {
+        "source": "contents/algorithms/math.md",
+        "text": "Integer to English Words"
+      }
+    ],
+    "https://leetcode.com/problems/set-matrix-zeroes": [
+      {
+        "source": "contents/algorithms/matrix.md",
+        "text": "Set Matrix Zeroes"
+      }
+    ],
+    "https://leetcode.com/problems/spiral-matrix": [
+      {
+        "source": "contents/algorithms/matrix.md",
+        "text": "Spiral Matrix"
+      },
+      {
+        "source": "contents/coding-interview-techniques.md",
+        "text": "return all elements of a matrix in spiral order"
+      }
+    ],
+    "https://leetcode.com/problems/rotate-image": [
+      {
+        "source": "contents/algorithms/matrix.md",
+        "text": "Rotate Image"
+      }
+    ],
+    "https://leetcode.com/problems/valid-sudoku": [
+      {
+        "source": "contents/algorithms/matrix.md",
+        "text": "Valid Sudoku"
+      }
+    ],
+    "https://www.designgurus.io/course/grokking-the-object-oriented-design-interview?aff=kJSIoU": [
+      {
+        "source": "contents/algorithms/oop.md",
+        "text": "Grokking the Object Oriented Design Interview"
+      }
+    ],
+    "https://medium.com/basecs/to-queue-or-not-to-queue-2653bcde5b04": [
+      {
+        "source": "contents/algorithms/queue.md",
+        "text": "To Queue Or Not To Queue"
+      }
+    ],
+    "https://www.coursera.org/lecture/data-structures/queues-EShpq": [
+      {
+        "source": "contents/algorithms/queue.md",
+        "text": "Queues"
+      }
+    ],
+    "https://learn.microsoft.com/en-us/cpp/standard-library/queue-class?view=msvc-170": [
+      {
+        "source": "contents/algorithms/queue.md",
+        "text": "`std::queue`"
+      }
+    ],
+    "https://docs.oracle.com/javase/10/docs/api/java/util/Queue.html": [
+      {
+        "source": "contents/algorithms/queue.md",
+        "text": "`java.util.Queue`"
+      }
+    ],
+    "https://docs.oracle.com/javase/10/docs/api/java/util/ArrayDeque.html": [
+      {
+        "source": "contents/algorithms/queue.md",
+        "text": "`java.util.ArrayDeque`"
+      }
+    ],
+    "https://docs.python.org/3/library/queue.html": [
+      {
+        "source": "contents/algorithms/queue.md",
+        "text": "`queue`"
+      }
+    ],
+    "https://leetcode.com/problems/implement-stack-using-queues": [
+      {
+        "source": "contents/algorithms/queue.md",
+        "text": "Implement Stack using Queues"
+      },
+      {
+        "source": "contents/algorithms/stack.md",
+        "text": "Implement Stack using Queues"
+      }
+    ],
+    "https://leetcode.com/problems/implement-queue-using-stacks": [
+      {
+        "source": "contents/algorithms/queue.md",
+        "text": "Implement Queue using Stacks"
+      },
+      {
+        "source": "contents/algorithms/stack.md",
+        "text": "Implement Queue using Stacks"
+      }
+    ],
+    "https://leetcode.com/problems/design-circular-queue": [
+      {
+        "source": "contents/algorithms/queue.md",
+        "text": "Design Circular Queue"
+      }
+    ],
+    "https://leetcode.com/problems/design-hit-counter": [
+      {
+        "source": "contents/algorithms/queue.md",
+        "text": "Design Hit Counter (LeetCode Premium)"
+      }
+    ],
+    "https://users.cs.utah.edu/~germain/PPS/Topics/recursion.html": [
+      {
+        "source": "contents/algorithms/recursion.md",
+        "text": "Recursion"
+      }
+    ],
+    "https://www.coursera.org/lecture/programming-languages/tail-recursion-YZic1": [
+      {
+        "source": "contents/algorithms/recursion.md",
+        "text": "Tail Recursion"
+      }
+    ],
+    "https://stackoverflow.com/questions/310974/what-is-tail-call-optimization": [
+      {
+        "source": "contents/algorithms/recursion.md",
+        "text": "tail-call optimization"
+      }
+    ],
+    "https://leetcode.com/problems/generate-parentheses": [
+      {
+        "source": "contents/algorithms/recursion.md",
+        "text": "Generate Parentheses"
+      }
+    ],
+    "https://leetcode.com/problems/combinations": [
+      {
+        "source": "contents/algorithms/recursion.md",
+        "text": "Combinations"
+      }
+    ],
+    "https://leetcode.com/problems/subsets": [
+      {
+        "source": "contents/algorithms/recursion.md",
+        "text": "Subsets"
+      }
+    ],
+    "https://leetcode.com/problems/letter-combinations-of-a-phone-number": [
+      {
+        "source": "contents/algorithms/recursion.md",
+        "text": "Letter Combinations of a Phone Number"
+      }
+    ],
+    "https://leetcode.com/problems/subsets-ii": [
+      {
+        "source": "contents/algorithms/recursion.md",
+        "text": "Subsets II"
+      }
+    ],
+    "https://leetcode.com/problems/permutations": [
+      {
+        "source": "contents/algorithms/recursion.md",
+        "text": "Permutations"
+      }
+    ],
+    "https://leetcode.com/problems/sudoku-solver": [
+      {
+        "source": "contents/algorithms/recursion.md",
+        "text": "Sudoku Solver"
+      }
+    ],
+    "https://leetcode.com/problems/strobogrammatic-number-ii": [
+      {
+        "source": "contents/algorithms/recursion.md",
+        "text": "Strobogrammatic Number II (LeetCode Premium)"
+      }
+    ],
+    "https://medium.com/basecs/sorting-out-the-basics-behind-sorting-algorithms-b0a032873add": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Sorting Out The Basics Behind Sorting Algorithms"
+      }
+    ],
+    "https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Binary Search"
+      }
+    ],
+    "https://medium.com/basecs/exponentially-easy-selection-sort-d7a34292b049": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Exponentially Easy Selection Sort"
+      }
+    ],
+    "https://medium.com/basecs/bubbling-up-with-bubble-sorts-3df5ac88e592": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Bubbling Up With Bubble Sorts"
+      }
+    ],
+    "https://medium.com/basecs/inching-towards-insertion-sort-9799274430da": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Inching Towards Insertion Sort"
+      }
+    ],
+    "https://medium.com/basecs/making-sense-of-merge-sort-part-1-49649a143478": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Making Sense of Merge Sort (Part 1)"
+      }
+    ],
+    "https://medium.com/basecs/making-sense-of-merge-sort-part-2-be8706453209": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Making Sense of Merge Sort (Part 2)"
+      }
+    ],
+    "https://medium.com/basecs/pivoting-to-understand-quicksort-part-1-75178dfb9313": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Pivoting To Understand Quicksort (Part 1)"
+      }
+    ],
+    "https://medium.com/basecs/pivoting-to-understand-quicksort-part-2-30161aefe1d3": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Pivoting To Understand Quicksort (Part 2)"
+      }
+    ],
+    "https://medium.com/basecs/counting-linearly-with-counting-sort-cd8516ae09b3": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Counting Linearly With Counting Sort"
+      }
+    ],
+    "https://medium.com/basecs/getting-to-the-root-of-sorting-with-radix-sort-f8e9240d4224": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Getting To The Root Of Sorting With Radix Sort"
+      }
+    ],
+    "https://www.youtube.com/watch?v=ryRfapIQHW0&feature=youtu.be": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Heapsort"
+      }
+    ],
+    "https://samuelalbanie.com/files/digest-slides/2022-12-brief-guide-to-heapsort-and-binary-heaps.pdf": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "slides"
+      }
+    ],
+    "https://www.youtube.com/watch?v=kbiKn1K08RM&feature=youtu.be": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Quicksort"
+      }
+    ],
+    "https://samuelalbanie.com/files/digest-slides/2023-01-brief-guide-to-quicksort.pdf": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "slides"
+      }
+    ],
+    "https://www.youtube.com/watch?v=JWSiXs9aB5U": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Lower bounds for comparison sorts"
+      }
+    ],
+    "https://samuelalbanie.com/files/digest-slides/2023-01-brief-guide-to-comparison-sorting-lower-bounds.pdf": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "slides"
+      }
+    ],
+    "https://www.youtube.com/watch?v=0aMcZpAySjw": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Counting sort"
+      }
+    ],
+    "https://samuelalbanie.com/files/digest-slides/2023-01-brief-guide-to-counting-sort.pdf": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "slides"
+      }
+    ],
+    "https://www.youtube.com/watch?v=HzPbzQi9404": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Radix sort"
+      }
+    ],
+    "https://samuelalbanie.com/files/digest-slides/2023-01-brief-guide-to-radix-sort.pdf": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "slides"
+      }
+    ],
+    "https://www.youtube.com/watch?v=mz2fBJyoEVc": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Bucket sort"
+      }
+    ],
+    "https://samuelalbanie.com/files/digest-slides/2023-01-brief-guide-to-bucket-sort.pdf": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "slides"
+      }
+    ],
+    "https://www.wild-inter.net/posts/powersort-in-python-3.11": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Powersort"
+      }
+    ],
+    "https://github.com/openjdk/jdk/blob/d9052b946682d1c0f2629455d73fe4e6b95b29db/src/java.base/share/classes/java/util/TimSort.java": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "an implementation of Timsort"
+      }
+    ],
+    "https://github.com/openjdk/jdk/blob/d9052b946682d1c0f2629455d73fe4e6b95b29db/src/java.base/share/classes/java/util/DualPivotQuicksort.java": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Dual-Pivot Quicksort"
+      }
+    ],
+    "https://en.wikipedia.org/wiki/Counting_sort": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Counting sort"
+      }
+    ],
+    "https://leetcode.com/problems/h-index": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "H-Index"
+      }
+    ],
+    "https://leetcode.com/problems/binary-search": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Binary Search"
+      }
+    ],
+    "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Kth Smallest Element in a Sorted Matrix"
+      }
+    ],
+    "https://leetcode.com/problems/search-a-2d-matrix": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Search a 2D Matrix"
+      }
+    ],
+    "https://leetcode.com/problems/kth-largest-element-in-an-array": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Kth Largest Element in an Array"
+      }
+    ],
+    "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Find Minimum in Rotated Sorted Array"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/median-of-two-sorted-arrays": [
+      {
+        "source": "contents/algorithms/sorting-searching.md",
+        "text": "Median of Two Sorted Arrays"
+      }
+    ],
+    "https://medium.com/basecs/stacks-and-overflows-dbcf7854dc67": [
+      {
+        "source": "contents/algorithms/stack.md",
+        "text": "Stacks and Overflows"
+      }
+    ],
+    "https://www.coursera.org/lecture/data-structures/stacks-UdKzQ": [
+      {
+        "source": "contents/algorithms/stack.md",
+        "text": "Stacks"
+      }
+    ],
+    "https://learn.microsoft.com/en-us/cpp/standard-library/stack-class?view=msvc-170": [
+      {
+        "source": "contents/algorithms/stack.md",
+        "text": "`std::stack`"
+      }
+    ],
+    "https://docs.oracle.com/javase/10/docs/api/java/util/Stack.html": [
+      {
+        "source": "contents/algorithms/stack.md",
+        "text": "`java.util.Stack`"
+      }
+    ],
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array": [
+      {
+        "source": "contents/algorithms/stack.md",
+        "text": "Array"
+      }
+    ],
+    "https://leetcode.com/problems/valid-parentheses": [
+      {
+        "source": "contents/algorithms/stack.md",
+        "text": "Valid Parentheses"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/min-stack": [
+      {
+        "source": "contents/algorithms/stack.md",
+        "text": "Min Stack"
+      }
+    ],
+    "https://leetcode.com/problems/asteroid-collision": [
+      {
+        "source": "contents/algorithms/stack.md",
+        "text": "Asteroid Collision"
+      }
+    ],
+    "https://leetcode.com/problems/evaluate-reverse-polish-notation": [
+      {
+        "source": "contents/algorithms/stack.md",
+        "text": "Evaluate Reverse Polish Notation"
+      }
+    ],
+    "https://leetcode.com/problems/basic-calculator": [
+      {
+        "source": "contents/algorithms/stack.md",
+        "text": "Basic Calculator"
+      }
+    ],
+    "https://leetcode.com/problems/basic-calculator-ii": [
+      {
+        "source": "contents/algorithms/stack.md",
+        "text": "Basic Calculator II"
+      }
+    ],
+    "https://leetcode.com/problems/trapping-rain-water": [
+      {
+        "source": "contents/algorithms/stack.md",
+        "text": "Trapping Rain Water"
+      }
+    ],
+    "https://leetcode.com/problems/largest-rectangle-in-histogram": [
+      {
+        "source": "contents/algorithms/stack.md",
+        "text": "Largest Rectangle in Histogram"
+      }
+    ],
+    "https://en.wikipedia.org/wiki/Suffix_tree": [
+      {
+        "source": "contents/algorithms/string.md",
+        "text": "Suffix Tree"
+      }
+    ],
+    "https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm": [
+      {
+        "source": "contents/algorithms/string.md",
+        "text": "Rabin Karp"
+      }
+    ],
+    "https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm": [
+      {
+        "source": "contents/algorithms/string.md",
+        "text": "KMP"
+      },
+      {
+        "source": "contents/algorithms/string.md",
+        "text": "KMP algorithm"
+      }
+    ],
+    "https://leetcode.com/problems/longest-palindromic-substring": [
+      {
+        "source": "contents/algorithms/string.md",
+        "text": "Longest Palindromic Substring"
+      },
+      {
+        "source": "contents/algorithms/string.md",
+        "text": "Longest Palindromic Substring"
+      }
+    ],
+    "https://leetcode.com/problems/longest-palindromic-subsequence": [
+      {
+        "source": "contents/algorithms/string.md",
+        "text": "this question"
+      }
+    ],
+    "https://leetcode.com/problems/valid-anagram": [
+      {
+        "source": "contents/algorithms/string.md",
+        "text": "Valid Anagram"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/valid-palindrome": [
+      {
+        "source": "contents/algorithms/string.md",
+        "text": "Valid Palindrome"
+      }
+    ],
+    "https://leetcode.com/problems/longest-repeating-character-replacement": [
+      {
+        "source": "contents/algorithms/string.md",
+        "text": "Longest Repeating Character Replacement"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/find-all-anagrams-in-a-string": [
+      {
+        "source": "contents/algorithms/string.md",
+        "text": "Find All Anagrams in a String"
+      }
+    ],
+    "https://leetcode.com/problems/minimum-window-substring/description": [
+      {
+        "source": "contents/algorithms/string.md",
+        "text": "Minimum Window Substring"
+      }
+    ],
+    "https://leetcode.com/problems/encode-and-decode-strings": [
+      {
+        "source": "contents/algorithms/string.md",
+        "text": "Encode and Decode Strings (LeetCode Premium)"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://www.coursera.org/lecture/data-structures/trees-95qda": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "Trees"
+      }
+    ],
+    "https://www.youtube.com/watch?v=0woI8l0ZWmA": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "A Brief Guide to Binary Search Trees"
+      }
+    ],
+    "https://samuelalbanie.com/files/digest-slides/2022-10-brief-guide-to-binary-search-trees.pdf": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "slides"
+      }
+    ],
+    "https://www.youtube.com/watch?v=t-oiZnplv7g": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "A Brief Guide to Red-Black Trees"
+      }
+    ],
+    "https://samuelalbanie.com/files/digest-slides/2022-12-brief-guide-to-red-black-trees.pdf": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "slides"
+      }
+    ],
+    "https://www.youtube.com/watch?app=desktop&v=7MqaHGWRS3E": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "A Brief Guide to B-trees"
+      }
+    ],
+    "https://samuelalbanie.com/files/digest-slides/2022-12-brief-guide-to-b-trees.pdf": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "slides"
+      }
+    ],
+    "https://medium.com/basecs/how-to-not-be-stumped-by-trees-5f36208f68a7": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "How To Not Be Stumped By Trees"
+      }
+    ],
+    "https://medium.com/basecs/leaf-it-up-to-binary-trees-11001aaf746d": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "Leaf It Up To Binary Trees"
+      }
+    ],
+    "https://medium.com/basecs/the-little-avl-tree-that-could-86a3cae410c7": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "The Little AVL Tree That Could"
+      }
+    ],
+    "https://medium.com/basecs/busying-oneself-with-b-trees-78bbf10522e7": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "Busying Oneself With B-Trees"
+      }
+    ],
+    "https://medium.com/basecs/painting-nodes-black-with-red-black-trees-60eacb2be9a5": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "Painting Nodes Black With Red-Black Trees"
+      }
+    ],
+    "https://upload.wikimedia.org/wikipedia/commons/5/5e/Binary_tree_v2.svg": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "Tree"
+      }
+    ],
+    "https://leetcode.com/problems/maximum-depth-of-binary-tree": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "Maximum Depth of Binary Tree"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "Lowest Common Ancestor of a Binary Search Tree"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/same-tree": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "Same Tree"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/binary-tree-maximum-path-sum": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "Binary Tree Maximum Path Sum"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/binary-tree-level-order-traversal": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "Binary Tree Level Order Traversal"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "Lowest Common Ancestor of a Binary Tree"
+      }
+    ],
+    "https://leetcode.com/problems/binary-tree-right-side-view": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "Binary Tree Right Side View"
+      }
+    ],
+    "https://leetcode.com/problems/subtree-of-another-tree": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "Subtree of Another Tree"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "Construct Binary Tree from Preorder and Inorder Traversal"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/serialize-and-deserialize-binary-tree": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "Serialize and Deserialize Binary Tree"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/validate-binary-search-tree": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "Validate Binary Search Tree"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      },
+      {
+        "source": "contents/coding-interview-techniques.md",
+        "text": "validate if a tree is a valid Binary Search Tree"
+      }
+    ],
+    "https://leetcode.com/problems/kth-smallest-element-in-a-bst": [
+      {
+        "source": "contents/algorithms/tree.md",
+        "text": "Kth Smallest Element in a BST"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://medium.com/basecs/trying-to-understand-tries-3ec6bede0014": [
+      {
+        "source": "contents/algorithms/trie.md",
+        "text": "Trying to Understand Tries"
+      }
+    ],
+    "https://leetcode.com/problems/implement-trie-prefix-tree/editorial": [
+      {
+        "source": "contents/algorithms/trie.md",
+        "text": "Implement Trie (Prefix Tree)"
+      }
+    ],
+    "https://medium.com/basecs/compressing-radix-trees-without-too-many-tears-a2e658adb9a0": [
+      {
+        "source": "contents/algorithms/trie.md",
+        "text": "Compressing Radix Trees Without (Too Many) Tears"
+      }
+    ],
+    "https://leetcode.com/problems/implement-trie-prefix-tree": [
+      {
+        "source": "contents/algorithms/trie.md",
+        "text": "Implement Trie (Prefix Tree)"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      },
+      {
+        "source": "contents/coding-interview-techniques.md",
+        "text": "Trie"
+      }
+    ],
+    "https://leetcode.com/problems/design-add-and-search-words-data-structure": [
+      {
+        "source": "contents/algorithms/trie.md",
+        "text": "Add and Search Word"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://leetcode.com/problems/word-search-ii": [
+      {
+        "source": "contents/algorithms/trie.md",
+        "text": "Word Search II"
+      },
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://www.glassdoor.com/Interview/Airbnb-Interview-Questions-E391850.htm": [
+      {
+        "source": "contents/behavioral-interview-questions.md",
+        "text": "Glassdoor"
+      }
+    ],
+    "https://www.glassdoor.com/Interview/Amazon-Interview-Questions-E6036.htm": [
+      {
+        "source": "contents/behavioral-interview-questions.md",
+        "text": "Glassdoor"
+      }
+    ],
+    "https://www.glassdoor.sg/Interview/ByteDance-Interview-Questions-E1624196.htm": [
+      {
+        "source": "contents/behavioral-interview-questions.md",
+        "text": "Glassdoor"
+      }
+    ],
+    "https://www.glassdoor.com/Interview/Dropbox-Interview-Questions-E415350.htm": [
+      {
+        "source": "contents/behavioral-interview-questions.md",
+        "text": "Glassdoor"
+      }
+    ],
+    "https://www.glassdoor.com/Interview/Lyft-Interview-Questions-E700614.htm": [
+      {
+        "source": "contents/behavioral-interview-questions.md",
+        "text": "Glassdoor"
+      }
+    ],
+    "https://www.glassdoor.com/Interview/Palantir-Technologies-Interview-Questions-E236375.htm": [
+      {
+        "source": "contents/behavioral-interview-questions.md",
+        "text": "Glassdoor"
+      }
+    ],
+    "https://www.glassdoor.com/Interview/Slack-Interview-Questions-E950758.htm": [
+      {
+        "source": "contents/behavioral-interview-questions.md",
+        "text": "Glassdoor"
+      }
+    ],
+    "https://www.glassdoor.com/Interview/Stripe-Interview-Questions-E671932.htm": [
+      {
+        "source": "contents/behavioral-interview-questions.md",
+        "text": "Glassdoor"
+      }
+    ],
+    "https://www.glassdoor.com/Interview/Twitter-Interview-Questions-E100569.htm": [
+      {
+        "source": "contents/behavioral-interview-questions.md",
+        "text": "Glassdoor"
+      }
+    ],
+    "https://www.linkedin.com/in/liornn": [
+      {
+        "source": "contents/behavioral-interview-rubrics.md",
+        "text": "Lior Neu-ner"
+      }
+    ],
+    "https://remoterocketship.com": [
+      {
+        "source": "contents/behavioral-interview-rubrics.md",
+        "text": "Remote Rocketship"
+      }
+    ],
+    "https://www.linkedin.com/in/austenmc": [
+      {
+        "source": "contents/behavioral-interview-senior-candidates.md",
+        "text": "Austen McDonald"
+      },
+      {
+        "source": "contents/behavioral-interview.md",
+        "text": "Austen McDonald"
+      },
+      {
+        "source": "contents/self-introduction.md",
+        "text": "Austen McDonald"
+      }
+    ],
+    "http://thebehavioral.tech": [
+      {
+        "source": "contents/behavioral-interview-senior-candidates.md",
+        "text": "Mastering Behavioral Interviews"
+      },
+      {
+        "source": "contents/behavioral-interview.md",
+        "text": "Mastering Behavioral Interviews"
+      },
+      {
+        "source": "contents/self-introduction.md",
+        "text": "Mastering Behavioral Interviews"
+      }
+    ],
+    "https://thebehavioral.substack.com/p/avoiding-too-much-detail-in-behavioral": [
+      {
+        "source": "contents/behavioral-interview-senior-candidates.md",
+        "text": "this post"
+      }
+    ],
+    "https://thebehavioral.substack.com/p/thinking-defensively-in-behavioral": [
+      {
+        "source": "contents/behavioral-interview-senior-candidates.md",
+        "text": "this post"
+      }
+    ],
+    "https://thebehavioral.tech": [
+      {
+        "source": "contents/behavioral-interview-senior-candidates.md",
+        "text": "Mastering Behavioral Interviews"
+      },
+      {
+        "source": "contents/behavioral-interview.md",
+        "text": "accompanying book"
+      }
+    ],
+    "https://www.brendangregg.com/blog/2017-11-13/brilliant-jerks.html": [
+      {
+        "source": "contents/behavioral-interview.md",
+        "text": "brilliant jerks"
+      }
+    ],
+    "https://en.wikipedia.org/wiki/Situation,_task,_action,_result": [
+      {
+        "source": "contents/behavioral-interview.md",
+        "text": "STAR"
+      },
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "The STAR format for answering behavioral questions"
+      }
+    ],
+    "https://thebehavioral.substack.com/p/using-the-carl-method-to-structure": [
+      {
+        "source": "contents/behavioral-interview.md",
+        "text": "this post"
+      }
+    ],
+    "https://thebehavioral.substack.com/p/death-taxes-and-tmay": [
+      {
+        "source": "contents/behavioral-interview.md",
+        "text": "here"
+      }
+    ],
+    "https://thebehavioral.substack.com/p/conflict-stories-1-of-5-workplace": [
+      {
+        "source": "contents/behavioral-interview.md",
+        "text": "here"
+      }
+    ],
+    "https://iio.sh/r/DMCa": [
+      {
+        "source": "contents/behavioral-interview.md",
+        "text": "interviewing.io"
+      },
+      {
+        "source": "contents/behavioral-interview.md",
+        "text": "interviewing.io"
+      },
+      {
+        "source": "contents/coding-interview-prep.md",
+        "text": "interviewing.io"
+      },
+      {
+        "source": "contents/coding-interview-prep.md",
+        "text": "interviewing.io"
+      },
+      {
+        "source": "contents/coding-interview-study-plan.md",
+        "text": "interviewing.io"
+      },
+      {
+        "source": "contents/mock-interviews.md",
+        "text": "interviewing.io"
+      },
+      {
+        "source": "contents/mock-interviews.md",
+        "text": "interviewing.io"
+      },
+      {
+        "source": "contents/mock-interviews.md",
+        "text": "interviewing.io"
+      },
+      {
+        "source": "contents/mock-interviews.md",
+        "text": "interviewing.io"
+      },
+      {
+        "source": "contents/mock-interviews.md",
+        "text": "interviewing.io"
+      },
+      {
+        "source": "contents/mock-interviews.md",
+        "text": "interviewing.io"
+      },
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "interviewing.io"
+      },
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "interviewing.io"
+      }
+    ],
+    "https://thebehavioral.substack.com/p/getting-the-most-out-of-mock-behavioral": [
+      {
+        "source": "contents/behavioral-interview.md",
+        "text": "this post"
+      }
+    ],
+    "https://thebehavioral.substack.com": [
+      {
+        "source": "contents/behavioral-interview.md",
+        "text": "Mastering Behavioral Interviews"
+      }
+    ],
+    "https://www.tryexponent.com/courses/behavioral?ref=techinterviewhandbook": [
+      {
+        "source": "contents/behavioral-interview.md",
+        "text": "\"Behavioral Interviews\" by Exponent"
+      },
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "Behavioral Interviews"
+      },
+      {
+        "source": "contents/system-design.md",
+        "text": "Behavioral Interviews"
+      },
+      {
+        "source": "experimental/design/README.md",
+        "text": "Behavioral Interviews"
+      }
+    ],
+    "https://www.tryexponent.com/courses/system-design-interviews?ref=techinterviewhandbook": [
+      {
+        "source": "contents/behavioral-interview.md",
+        "text": "System Design"
+      },
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "\"System Design Interview Course\" by Exponent"
+      },
+      {
+        "source": "contents/system-design.md",
+        "text": "\"System Design Interview Course\" by Exponent"
+      },
+      {
+        "source": "experimental/design/README.md",
+        "text": "\"System Design Interview Course\" by Exponent"
+      }
+    ],
+    "https://www.tryexponent.com/courses/swe-practice?ref=techinterviewhandbook": [
+      {
+        "source": "contents/behavioral-interview.md",
+        "text": "Data Structures"
+      },
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "Data Structures"
+      },
+      {
+        "source": "contents/system-design.md",
+        "text": "Data Structures"
+      },
+      {
+        "source": "experimental/design/README.md",
+        "text": "Data Structures"
+      }
+    ],
+    "https://www.tryexponent.com/courses/algorithms?ref=techinterviewhandbook": [
+      {
+        "source": "contents/behavioral-interview.md",
+        "text": "Algorithms"
+      },
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "Algorithms"
+      },
+      {
+        "source": "contents/system-design.md",
+        "text": "Algorithms"
+      },
+      {
+        "source": "experimental/design/README.md",
+        "text": "Algorithms"
+      }
+    ],
+    "https://www.educative.io/courses/grokking-the-behavioral-interview?aff=x23W": [
+      {
+        "source": "contents/behavioral-interview.md",
+        "text": "\"Grokking the Behavioral Interview\" on Educative"
+      }
+    ],
+    "https://www.educative.io/path/ace-python-coding-interview?aff=x23W": [
+      {
+        "source": "contents/best-coding-interview-courses.md",
+        "text": "Ace the Python Coding Interview"
+      }
+    ],
+    "https://fxo.co/DQpc": [
+      {
+        "source": "contents/best-coding-interview-courses.md",
+        "text": "The Complete Data Structures and Algorithms Course in Python"
+      }
+    ],
+    "https://fxo.co/DQpb": [
+      {
+        "source": "contents/best-coding-interview-courses.md",
+        "text": "Python for Data Structures, Algorithms, and Interviews!"
+      }
+    ],
+    "https://www.educative.io/path/ace-java-coding-interview?aff=x23W": [
+      {
+        "source": "contents/best-coding-interview-courses.md",
+        "text": "Ace the Java Coding Interview"
+      }
+    ],
+    "https://fxo.co/DQpa": [
+      {
+        "source": "contents/best-coding-interview-courses.md",
+        "text": "Java Data Structures and Algorithms Masterclass"
+      }
+    ],
+    "https://fxo.co/DQpW": [
+      {
+        "source": "contents/best-coding-interview-courses.md",
+        "text": "Data Structures and Algorithms: Deep Dive Using Java"
+      }
+    ],
+    "https://www.educative.io/path/ace-javascript-coding-interview?aff=x23W": [
+      {
+        "source": "contents/best-coding-interview-courses.md",
+        "text": "Ace the JavaScript Coding Interview"
+      }
+    ],
+    "https://fxo.co/DQpZ": [
+      {
+        "source": "contents/best-coding-interview-courses.md",
+        "text": "JavaScript Data Structures and Algorithms Masterclass"
+      }
+    ],
+    "https://fxo.co/DQpY": [
+      {
+        "source": "contents/best-coding-interview-courses.md",
+        "text": "Master the Coding Interview: Data Structures + Algorithms"
+      }
+    ],
+    "https://www.educative.io/path/ace-cpp-coding-interview?aff=x23W": [
+      {
+        "source": "contents/best-coding-interview-courses.md",
+        "text": "Ace the C++ Coding Interview"
+      }
+    ],
+    "https://leetcode.com": [
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "LeetCode"
+      }
+    ],
+    "https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU": [
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "shared this list on Blind"
+      }
+    ],
+    "https://www.freecodecamp.org/news/coding-interviews-for-dummies-5e048933b82b": [
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "my freeCodeCamp article"
+      }
+    ],
+    "https://leetcode.com/discuss/post/460599/blind-75-leetcode-questions-by-krishnade-9xev": [
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "the LeetCode forum"
+      }
+    ],
+    "https://leetcode.com/list/xi4ci4ig": [
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "here"
+      }
+    ],
+    "https://leetcode.com/list/9h4lgwl2": [
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "LeetCode list"
+      }
+    ],
+    "https://leetcode.com/problems/longest-consecutive-sequence": [
+      {
+        "source": "contents/best-practice-questions.md",
+        "text": "Link"
+      }
+    ],
+    "https://www.linkedin.com/in/jordancutler1": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Jordan Cutler"
+      },
+      {
+        "source": "contents/career-growth.md",
+        "text": "Jordan Cutler"
+      }
+    ],
+    "https://read.highgrowthengineer.com": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "\"High Growth Engineer\" newsletter"
+      },
+      {
+        "source": "contents/career-growth.md",
+        "text": "High Growth Engineer"
+      }
+    ],
+    "https://www.developing.dev": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "The Developing Dev"
+      }
+    ],
+    "https://newsletter.pragmaticengineer.com": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "The Pragmatic Engineer"
+      }
+    ],
+    "https://levelupsoftwareengineering.substack.com": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Level Up Software Engineering"
+      }
+    ],
+    "https://addyo.substack.com": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Peak Performance"
+      }
+    ],
+    "https://read.engineerscodex.com": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Engineer's Codex"
+      }
+    ],
+    "https://newsletter.techleadmentor.com": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Techlead Mentor"
+      }
+    ],
+    "https://www.thecaringtechie.com": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "The Caring Techie"
+      }
+    ],
+    "https://refactoring.fm": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Refactoring"
+      }
+    ],
+    "https://strategizeyourcareer.com": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Strategize Your Career"
+      }
+    ],
+    "https://www.hungryminds.dev": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Hungry Minds"
+      }
+    ],
+    "https://www.saiyangrowthletter.com": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Saiyan Growth Letter"
+      }
+    ],
+    "https://blog.dataengineer.io": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Data Engineering Newsletter"
+      }
+    ],
+    "https://16x.engineer": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "16x Engineer"
+      }
+    ],
+    "https://www.amazon.com/Software-Engineers-Guidebook-Navigating-positions/dp/908338182X": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Software Engineer's Guidebook"
+      }
+    ],
+    "https://www.amazon.com/Engineers-Survival-Guide-Facebook-Microsoft/dp/B09MBZBGFK": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Engineers Survival Guide"
+      }
+    ],
+    "https://learninpublic.org": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "The Coding Career Handbook"
+      }
+    ],
+    "https://www.amazon.com/Complete-Software-Developers-Career-Guide-ebook/dp/B073X6GNJ1": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "The Complete Software Developer's Career Guide"
+      }
+    ],
+    "https://www.omarhalabieh.com/90-day-career-blueprint": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Omar Halabieh 90-day career blueprint"
+      }
+    ],
+    "https://staffeng.com": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "StaffEng.com – Stories of reaching Staff-plus engineering roles"
+      }
+    ],
+    "https://www.amazon.com/Get-Promoted-Really-Missing-Holding-ebook/dp/B09WGJVR4Z": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Get Promoted"
+      }
+    ],
+    "https://www.linkedin.com/in/ryanlpeterman": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Ryan Peterman"
+      }
+    ],
+    "https://www.linkedin.com/in/gergelyorosz": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Gergely Orosz"
+      }
+    ],
+    "https://www.linkedin.com/in/addyosmani": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Addy Osmani"
+      }
+    ],
+    "https://www.linkedin.com/in/alexander-chiou": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Alex Chiou"
+      }
+    ],
+    "https://www.linkedin.com/in/rpandey1234": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Rahul Pandey"
+      }
+    ],
+    "https://www.linkedin.com/in/alexxubyte": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Alex Xu"
+      }
+    ],
+    "https://www.linkedin.com/in/navdeep-singh-3aaa14161": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Navdeep Singh"
+      }
+    ],
+    "https://www.linkedin.com/in/yangshun": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Yangshun Tay"
+      }
+    ],
+    "https://www.linkedin.com/in/nk-systemdesign-one": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Neo Kim"
+      }
+    ],
+    "https://www.linkedin.com/in/calebmellas": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Caleb Mellas"
+      }
+    ],
+    "https://www.linkedin.com/in/alexandre-zajac": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Alexandre Zajac"
+      }
+    ],
+    "https://www.youtube.com/@Fireship": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Fireship"
+      }
+    ],
+    "https://www.youtube.com/@NeetCode": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "NeetCode"
+      }
+    ],
+    "https://www.youtube.com/@LeadDev": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "LeadDev"
+      }
+    ],
+    "https://www.jointaro.com": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Taro"
+      }
+    ],
+    "https://kentcdodds.com/discord": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Kent C. Dodds Discord Community"
+      }
+    ],
+    "https://discord.com/invite/NDFx8f6P6B": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "GreatFrontEnd"
+      }
+    ],
+    "https://github.com/jordan-cutler/path-to-senior-engineer-handbook": [
+      {
+        "source": "contents/career-growth.md",
+        "text": "Path to Senior Engineer Handbook"
+      }
+    ],
+    "https://www.theinformation.com/articles/stripe-and-lyft-speed-up-equity-payouts-to-first-year": [
+      {
+        "source": "contents/choosing-between-companies.md",
+        "text": "Stripe and Lyft"
+      }
+    ],
+    "https://www.tanayj.com/p/employee-compensation-and-one-year": [
+      {
+        "source": "contents/choosing-between-companies.md",
+        "text": "but in reality there are some nuances"
+      }
+    ],
+    "https://www.teamrora.com/?utm_source=techinterviewhandbook&utm_medium=referral&utm_content=website_choosing_between_companies": [
+      {
+        "source": "contents/choosing-between-companies.md",
+        "text": "Rora"
+      }
+    ],
+    "https://www.techinterviewhandbook.org/blog/my-experience-working-as-a-meta-facebook-engineer": [
+      {
+        "source": "contents/choosing-between-companies.md",
+        "text": "Meta/Facebook's culture in a blog post"
+      }
+    ],
+    "https://jobs.netflix.com/culture": [
+      {
+        "source": "contents/choosing-between-companies.md",
+        "text": "their website"
+      }
+    ],
+    "https://twitter.com/GergelyOrosz": [
+      {
+        "source": "contents/choosing-between-companies.md",
+        "text": "Gergely Orosz"
+      }
+    ],
+    "https://blog.pragmaticengineer.com/pragmatic-engineer-test": [
+      {
+        "source": "contents/choosing-between-companies.md",
+        "text": "12 points"
+      },
+      {
+        "source": "contents/choosing-between-companies.md",
+        "text": "his blog post"
+      }
+    ],
+    "https://www.reuters.com/world/china/chinese-tech-workers-disclose-working-hours-criticism-996-2021-10-14": [
+      {
+        "source": "contents/choosing-between-companies.md",
+        "text": "require employees to work 6 days a week"
+      }
+    ],
+    "https://www.comparably.com/companies/amazon/work-life-balance": [
+      {
+        "source": "contents/choosing-between-companies.md",
+        "text": "Amazon scored a C- for work-life balance"
+      }
+    ],
+    "https://algo.monster/problems/stats": [
+      {
+        "source": "contents/coding-interview-prep.md",
+        "text": "common interview question patterns"
+      },
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "common interview question patterns"
+      }
+    ],
+    "https://careerkarma.com/blog/software-engineering-salary-google": [
+      {
+        "source": "contents/engineering-levels.md",
+        "text": "Software Engineering Salaries at Google"
+      }
+    ],
+    "https://dropbox.github.io/dbx-career-framework/overview.html": [
+      {
+        "source": "contents/engineering-levels.md",
+        "text": "Dropbox Engineering Career Framework"
+      }
+    ],
+    "https://developers.soundcloud.com/blog/engineering-levels": [
+      {
+        "source": "contents/engineering-levels.md",
+        "text": "Engineering Levels at SoundCloud"
+      }
+    ],
+    "https://www.swyx.io/career-ladders": [
+      {
+        "source": "contents/engineering-levels.md",
+        "text": "Every Public Engineering Career Ladder"
+      }
+    ],
+    "https://progression.fyi": [
+      {
+        "source": "contents/engineering-levels.md",
+        "text": "progression.fyi"
+      }
+    ],
+    "https://twitter.com/rodneyfolz/status/724787290824798209": [
+      {
+        "source": "contents/landscape.md",
+        "text": "source"
+      }
+    ],
+    "https://app.techinterviewhandbook.org/offers": [
+      {
+        "source": "contents/landscape.md",
+        "text": "full dataset"
+      }
+    ],
+    "https://app.techinterviewhandbook.org/offers/submit": [
+      {
+        "source": "contents/landscape.md",
+        "text": "contribute your data"
+      }
+    ],
+    "https://www.moe.gov.sg/-/media/files/post-secondary/ges-2021/web-publication-nus-ges-2021.pdf": [
+      {
+        "source": "contents/landscape.md",
+        "text": "NUS GES 2021"
+      }
+    ],
+    "https://interviewing.io/mocks": [
+      {
+        "source": "contents/mock-interviews.md",
+        "text": "recorded interviews"
+      }
+    ],
+    "https://techcrunch.com/2017/09/27/interviewing-io-hopes-to-close-the-engineer-diversity-gap-with-anonymous-interviews": [
+      {
+        "source": "contents/mock-interviews.md",
+        "text": "here"
+      }
+    ],
+    "https://twitter.com/alinelernerLLC": [
+      {
+        "source": "contents/mock-interviews.md",
+        "text": "Aline Lerner"
+      }
+    ],
+    "https://interviewing.io/blog": [
+      {
+        "source": "contents/mock-interviews.md",
+        "text": "interviewing.io blog"
+      }
+    ],
+    "https://www.pramp.com": [
+      {
+        "source": "contents/mock-interviews.md",
+        "text": "Pramp"
+      }
+    ],
+    "https://www.hellointerview.com/?utm_source=techinterviewhandbook": [
+      {
+        "source": "contents/mock-interviews.md",
+        "text": "Hello Interview"
+      }
+    ],
+    "https://www.meetapro.com/?utm_source=techinterviewhandbook": [
+      {
+        "source": "contents/mock-interviews.md",
+        "text": "Meetapro"
+      }
+    ],
+    "https://codemia.io/?utm_source=techinterviewhandbook": [
+      {
+        "source": "contents/mock-interviews.md",
+        "text": "Codemia"
+      }
+    ],
+    "https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer": [
+      {
+        "source": "contents/negotiation-rules.md",
+        "text": "Part 1"
+      }
+    ],
+    "https://haseebq.com/how-not-to-bomb-your-offer-negotiation": [
+      {
+        "source": "contents/negotiation-rules.md",
+        "text": "Part 2"
+      }
+    ],
+    "https://www.teamrora.com/?utm_source=techinterviewhandbook&utm_medium=referral&utm_content=website_negotiation": [
+      {
+        "source": "contents/negotiation-rules.md",
+        "text": "**Rora**"
+      },
+      {
+        "source": "contents/negotiation.md",
+        "text": "Rora"
+      },
+      {
+        "source": "contents/negotiation.md",
+        "text": "**Rora**"
+      }
+    ],
+    "https://www.levels.fyi/services/?ref=TechInterviewHandbook&utm_source=techinterviewhandbook&utm_medium=referral&utm_content=website_negotiation": [
+      {
+        "source": "contents/negotiation-rules.md",
+        "text": "**Levels.fyi**"
+      },
+      {
+        "source": "contents/negotiation.md",
+        "text": "Levels.fyi"
+      },
+      {
+        "source": "contents/negotiation.md",
+        "text": "**Levels.fyi**"
+      }
+    ],
+    "https://www.educative.io/courses/grokking-comp-negotiation?aff=x23W": [
+      {
+        "source": "contents/negotiation.md",
+        "text": "Grokking Comp Negotiation in Tech"
+      }
+    ],
+    "https://medium.com/@christinang89": [
+      {
+        "source": "contents/resume-old.md",
+        "text": "Medium"
+      }
+    ],
+    "https://www.quora.com/profile/Christina-Ng": [
+      {
+        "source": "contents/resume-old.md",
+        "text": "Quora"
+      }
+    ],
+    "https://www.faangtechleads.com?utm_source=techinterviewhandbook&utm_medium=referral&utm_content=ats_template&aff=1e80c401fe7e2": [
+      {
+        "source": "contents/resume.md",
+        "text": "FAANG Tech Leads"
+      },
+      {
+        "source": "contents/resume.md",
+        "text": "Check it out"
+      },
+      {
+        "source": "contents/resume.md",
+        "text": "FAANG Tech Leads' Resume Review service"
+      }
+    ],
+    "https://www.faangtechleads.com/resume/professional-summary": [
+      {
+        "source": "contents/resume.md",
+        "text": "FAANG Tech Leads' Resume Handbook"
+      }
+    ],
+    "https://www.faangtechleads.com/resume/contact-information": [
+      {
+        "source": "contents/resume.md",
+        "text": "FAANG Tech Leads' Resume Handbook"
+      }
+    ],
+    "https://www.faangtechleads.com/resume/skills": [
+      {
+        "source": "contents/resume.md",
+        "text": "FAANG Tech Leads' Resume Handbook"
+      }
+    ],
+    "https://www.faangtechleads.com/resume/work-experience": [
+      {
+        "source": "contents/resume.md",
+        "text": "FAANG Tech Leads' Resume Handbook"
+      }
+    ],
+    "https://www.faangtechleads.com/resume/education": [
+      {
+        "source": "contents/resume.md",
+        "text": "FAANG Tech Leads' Resume Handbook"
+      }
+    ],
+    "https://github.com/facebook/docusaurus": [
+      {
+        "source": "contents/resume.md",
+        "text": "facebook/docusaurus"
+      }
+    ],
+    "https://www.faangtechleads.com/resume/projects": [
+      {
+        "source": "contents/resume.md",
+        "text": "FAANG Tech Leads' Resume Handbook"
+      }
+    ],
+    "https://www.online-utility.org/text/analyzer.jsp": [
+      {
+        "source": "contents/resume.md",
+        "text": "Online-Utility.org's Text Analyzer"
+      }
+    ],
+    "https://app.techinterviewhandbook.org/resumes": [
+      {
+        "source": "contents/resume.md",
+        "text": "resume review portal"
+      }
+    ],
+    "https://resumeworded.com/resume-scanner": [
+      {
+        "source": "contents/resume.md",
+        "text": "Resume Worded"
+      }
+    ],
+    "https://ayehigh.com/resume-judge": [
+      {
+        "source": "contents/resume.md",
+        "text": "AI Resume Judge"
+      }
+    ],
+    "https://resumeworded.com/targeted-resume": [
+      {
+        "source": "contents/resume.md",
+        "text": "Targeted Resume"
+      }
+    ],
+    "https://ayehigh.com/resume-shortlister": [
+      {
+        "source": "contents/resume.md",
+        "text": "Resume Shortlister"
+      }
+    ],
+    "https://github.com/yangshun/tech-interview-handbook/discussions": [
+      {
+        "source": "contents/resume.md",
+        "text": "GitHub discussion item"
+      }
+    ],
+    "https://www.hackerrank.com": [
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "HackerRank"
+      }
+    ],
+    "https://coderpad.io": [
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "CoderPad"
+      }
+    ],
+    "https://codepen.io": [
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "CodePen"
+      }
+    ],
+    "https://bytebytego.com?fpr=techinterviewhandbook": [
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "ByteByteGo"
+      },
+      {
+        "source": "contents/system-design.md",
+        "text": "ByteByteGo"
+      }
+    ],
+    "https://bytebytego.com/courses/system-design-interview/design-youtube": [
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "Designing YouTube"
+      }
+    ],
+    "https://bytebytego.com/courses/system-design-interview/design-a-chat-system": [
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "Designing a Chat System"
+      }
+    ],
+    "https://www.designgurus.io/course/grokking-the-system-design-interview?aff=kJSIoU": [
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "\"Grokking the System Design Interview\" by Design Gurus"
+      },
+      {
+        "source": "contents/system-design.md",
+        "text": "\"Grokking the System Design Interview\" by Design Gurus"
+      },
+      {
+        "source": "experimental/design/README.md",
+        "text": "\"Grokking the System Design Interview\" by Design Gurus"
+      },
+      {
+        "source": "experimental/design/README.md",
+        "text": "Grokking the System Design Interview"
+      }
+    ],
+    "https://www.designgurus.io/course/grokking-the-advanced-system-design-interview?aff=kJSIoU": [
+      {
+        "source": "contents/software-engineering-interview-guide.md",
+        "text": "\"Grokking the Advanced System Design Interview\" by Design Gurus"
+      },
+      {
+        "source": "contents/system-design.md",
+        "text": "\"Grokking the Advanced System Design Interview\" by Design Gurus"
+      },
+      {
+        "source": "experimental/design/README.md",
+        "text": "\"Grokking the Advanced System Design Interview\" by Design Gurus"
+      },
+      {
+        "source": "experimental/design/README.md",
+        "text": "Grokking the Advanced System Design Interview"
+      }
+    ],
+    "https://www.greatfrontend.com/front-end-system-design-playbook?fpr=yangshun": [
+      {
+        "source": "contents/system-design.md",
+        "text": "\"Front End System Design Playbook\" by GreatFrontEnd"
+      }
+    ],
+    "https://www.greatfrontend.com/questions/system-design/news-feed-facebook?format=system-design": [
+      {
+        "source": "contents/system-design.md",
+        "text": "Facebook's News Feed"
+      }
+    ],
+    "https://www.greatfrontend.com/questions/system-design/autocomplete?format=system-design": [
+      {
+        "source": "contents/system-design.md",
+        "text": "Google autocomplete search"
+      }
+    ],
+    "https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction": [
+      {
+        "source": "contents/system-design.md",
+        "text": "System Design in a Hurry"
+      }
+    ],
+    "https://newsletter.systemdesign.one": [
+      {
+        "source": "contents/system-design.md",
+        "text": "System Design Newsletter"
+      }
+    ],
+    "https://bytebytego.com/courses/system-design-interview/design-youtube?fpr=techinterviewhandbook": [
+      {
+        "source": "contents/system-design.md",
+        "text": "Designing YouTube"
+      }
+    ],
+    "https://bytebytego.com/courses/system-design-interview/design-a-chat-system?fpr=techinterviewhandbook": [
+      {
+        "source": "contents/system-design.md",
+        "text": "Designing a Chat System"
+      }
+    ],
+    "https://www.systemdesignhandbook.com/system-design-interview-handbook": [
+      {
+        "source": "contents/system-design.md",
+        "text": "\"System Design Interview Handbook\" by Educative"
+      }
+    ],
+    "https://www.educative.io/courses/grokking-the-system-design-interview?aff=x23W": [
+      {
+        "source": "contents/system-design.md",
+        "text": "\"Grokking Modern System Design Interview\" course by Educative"
+      }
+    ],
+    "https://www.designgurus.io/bundle/buy-both-system-design-courses?aff=kJSIoU": [
+      {
+        "source": "contents/system-design.md",
+        "text": "\"Best of System Design\" package by Design Gurus"
+      },
+      {
+        "source": "experimental/design/README.md",
+        "text": "\"Best of System Design\" package by Design Gurus"
+      }
+    ],
+    "https://www.youtube.com/watch?v=xpDnVSmNFX0&feature=youtu.be": [
+      {
+        "source": "contents/system-design.md",
+        "text": "\"System Design Playlist\" by Gaurav Sen"
+      }
+    ],
+    "https://github.com/checkcheckzz/system-design-interview": [
+      {
+        "source": "contents/system-design.md",
+        "text": "System Design Interview"
+      }
+    ],
+    "https://gist.github.com/vasanthk/485d1c25737e8e72759f": [
+      {
+        "source": "contents/system-design.md",
+        "text": "System Design Cheatsheet"
+      }
+    ],
+    "https://roadmap.sh/system-design": [
+      {
+        "source": "contents/system-design.md",
+        "text": "System Design Roadmap"
+      }
+    ],
+    "https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF": [
+      {
+        "source": "contents/system-design.md",
+        "text": "System Design Interview – An insider's guide, Second Edition"
+      }
+    ],
+    "https://www.levels.fyi?ref=TechInterviewHandbook&utm_source=techinterviewhandbook&utm_medium=referral&utm_content=website_negotiation": [
+      {
+        "source": "contents/understanding-compensation.md",
+        "text": "Levels.fyi"
+      }
+    ],
+    "https://github.com/jlevy/og-equity-compensation": [
+      {
+        "source": "contents/understanding-compensation.md",
+        "text": "equity compensation guide"
+      }
+    ],
+    "https://gist.github.com/yossorion/4965df74fd6da6cdc280ec57e83a202d": [
+      {
+        "source": "contents/understanding-compensation.md",
+        "text": "\"What I Wish I'd Known About Equity Before Joining A Unicorn\""
+      }
+    ],
+    "https://www.levels.fyi/company/Google/salaries/Software-Engineer/?ref=TechInterviewHandbook&utm_source=techinterviewhandbook&utm_medium=referral&utm_content=website_negotiation": [
+      {
+        "source": "contents/understanding-compensation.md",
+        "text": "Levels.fyi"
+      }
+    ],
+    "https://www.levels.fyi/company/Facebook/salaries/Software-Engineer/?ref=TechInterviewHandbook&utm_source=techinterviewhandbook&utm_medium=referral&utm_content=website_negotiation": [
+      {
+        "source": "contents/understanding-compensation.md",
+        "text": "Levels.fyi"
+      }
+    ],
+    "https://www.youtube.com/channel/UCn1XnDWhsLS5URXTi5wtFTA": [
+      {
+        "source": "experimental/design/README.md",
+        "text": "List of system design videos"
+      }
+    ],
+    "https://www.lyft.com/line": [
+      {
+        "source": "experimental/design/README.md",
+        "text": "Lyft Line"
+      }
+    ],
+    "https://www.wikiwand.com/en/EdgeRank": [
+      {
+        "source": "experimental/design/news-feed.md",
+        "text": "EdgeRank"
+      }
+    ],
+    "http://blog.gainlo.co/index.php/2016/03/29/design-news-feed-system-part-1-system-design-interview-questions": [
+      {
+        "source": "experimental/design/news-feed.md",
+        "text": "Design News Feed System (Part 1)"
+      }
+    ],
+    "http://blog.gainlo.co/index.php/2016/04/05/design-news-feed-system-part-2": [
+      {
+        "source": "experimental/design/news-feed.md",
+        "text": "Design News Feed System (Part 1)"
+      }
+    ],
+    "https://www.slideshare.net/danmckinley/etsy-activity-feeds-architecture": [
+      {
+        "source": "experimental/design/news-feed.md",
+        "text": "Etsy Activity Feeds Architecture"
+      }
+    ],
+    "https://www.slideshare.net/nkallen/q-con-3770885": [
+      {
+        "source": "experimental/design/news-feed.md",
+        "text": "Big Data in Real-Time at Twitter"
+      }
+    ],
+    "http://www.makeuseof.com/tag/how-do-search-engines-work-makeuseof-explains": [
+      {
+        "source": "experimental/design/search-engine.md",
+        "text": "How Do Search Engines Work?"
+      }
+    ],
+    "https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange": [
+      {
+        "source": "experimental/domain/security.md",
+        "text": "Diffie Hellman key exchange"
+      }
+    ],
+    "https://github.com/yangshun/front-end-interview-handbook": [
+      {
+        "source": "experimental/front-end/README.md",
+        "text": "here"
+      }
+    ]
+  }
+}
