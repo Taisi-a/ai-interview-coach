@@ -25,5 +25,7 @@ hf_hub_download(repo_id='$HF_REPO', filename='$MODEL_FILE', local_dir='$MODEL_DI
 "
 fi
 
-echo "Запуск llama.cpp server: $MODEL_PATH, порт $PORT"
-exec python -m llama_cpp.server --model "$MODEL_PATH" --port "$PORT"
+# n_ctx = размер контекста (промпт + ответ). Иначе при n_ctx=2048 по умолчанию ответ обрезается.
+N_CTX="${LLM_N_CTX:-12288}"
+echo "Запуск llama.cpp server: $MODEL_PATH, порт $PORT, n_ctx=$N_CTX"
+exec python -m llama_cpp.server --model "$MODEL_PATH" --port "$PORT" --n_ctx "$N_CTX"
