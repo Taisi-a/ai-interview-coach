@@ -67,9 +67,9 @@ class Message(Base):
     session = relationship("Session", back_populates="messages")
 
 
-
+# --- Новая таблица для logout ---
 class BlacklistedToken(Base):
     __tablename__ = "blacklisted_tokens"
 
     id = Column(Integer, primary_key=True)
-    token = Column(String, unique=True, nullable=False)
+    token = Column(String, unique=True, nullable=False)  # сам JWT токен
