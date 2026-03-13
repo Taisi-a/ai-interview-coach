@@ -1,10 +1,11 @@
 # routers/session.py
+import re
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session as DBSession
 from pydantic import BaseModel
 
 from app.database import get_db
-from app.models import Session, Message, Resume, AgentType, SessionStatus
+from app.models import Session, Message, Resume, AgentType, SessionStatus, RoadmapItem, RoadmapStatus
 from app.security import get_current_user
 from app.config import VLLM_BASE_URL, get_model_for_agent
 from app.llm_utils import strip_think_tags
@@ -34,15 +35,14 @@ OPENING_MESSAGES = {
 
 class SessionCreate(BaseModel):
     agent_type: AgentType
-    resume_id: int | None = None    # опционально
-    vacancy_text: str | None = None # опционально
+    resume_id: int | None = None
+    vacancy_text: str | None = None
 
 
 class MessageOut(BaseModel):
     id: int
     role: str
     content: str
-
     model_config = {"from_attributes": True}
 
 
@@ -51,7 +51,6 @@ class SessionOut(BaseModel):
     agent_type: AgentType
     status: SessionStatus
     messages: list[MessageOut] = []
-
     model_config = {"from_attributes": True}
 
 
@@ -67,7 +66,6 @@ def create_session(
     db: DBSession = Depends(get_db),
     current_user=Depends(get_current_user),
 ):
-    # Проверяем резюме если передано
     if payload.resume_id:
         resume = db.query(Resume).filter(
             Resume.id == payload.resume_id,
@@ -76,7 +74,6 @@ def create_session(
         if not resume:
             raise HTTPException(status_code=404, detail="Резюме не найдено")
 
-    # Создаём сессию
     session = Session(
         user_id=current_user.id,
         resume_id=payload.resume_id,
@@ -86,7 +83,6 @@ def create_session(
     db.add(session)
     db.flush()
 
-    # Первое сообщение от агента
     opening = Message(
         session_id=session.id,
         role="assistant",
@@ -105,7 +101,6 @@ def send_message(
     db: DBSession = Depends(get_db),
     current_user=Depends(get_current_user),
 ):
-    # Находим сессию
     session = db.query(Session).filter(
         Session.id == session_id,
         Session.user_id == current_user.id,
@@ -115,26 +110,20 @@ def send_message(
     if session.status == SessionStatus.COMPLETED:
         raise HTTPException(status_code=400, detail="Сессия завершена")
 
-    # Сохраняем сообщение юзера
-    user_msg = Message(
-        session_id=session.id,
-        role="user",
-        content=payload.content,
-    )
+    user_msg = Message(session_id=session.id, role="user", content=payload.content)
     db.add(user_msg)
     db.flush()
 
-    # Получаем ответ от агента
     reply_text = _get_agent_reply(session, db)
 
-    # Сохраняем ответ агента
-    agent_msg = Message(
-        session_id=session.id,
-        role="assistant",
-        content=reply_text,
-    )
+    agent_msg = Message(session_id=session.id, role="assistant", content=reply_text)
     db.add(agent_msg)
     db.flush()
+
+    # Автоматически сохраняем roadmap если это Ментор
+    if session.agent_type == AgentType.MENTOR:
+        _save_roadmap_items(reply_text, current_user.id, db)
+
     db.refresh(agent_msg)
     return agent_msg
 
@@ -174,35 +163,84 @@ def complete_session(
     ).first()
     if not session:
         raise HTTPException(status_code=404, detail="Сессия не найдена")
-
     session.status = SessionStatus.COMPLETED
     db.flush()
     db.refresh(session)
     return session
 
 
+# --- Парсинг roadmap из ответа Ментора ---
+
+def _save_roadmap_items(text: str, user_id: int, db: DBSession) -> None:
+    """
+    Парсит ответ Ментора и сохраняет пункты плана в roadmap_items.
+    Ищет строки вида:
+      1. Название темы
+      2) Название темы
+      - Название темы
+      • Название темы
+    Игнорирует дубликаты.
+    """
+    pattern = re.compile(
+        r'^\s*(?:\d+[\.\)]\s*|[-•*]\s+)(.+)$',
+        re.MULTILINE
+    )
+    matches = pattern.findall(text)
+
+    if not matches:
+        return
+
+    # Существующие пункты — чтобы не дублировать
+    existing_titles = {
+        row.title.strip().lower()
+        for row in db.query(RoadmapItem.title).filter(
+            RoadmapItem.user_id == user_id
+        ).all()
+    }
+
+    last_order = db.query(RoadmapItem).filter(
+        RoadmapItem.user_id == user_id
+    ).count()
+
+    added = 0
+    for raw_title in matches:
+        title = raw_title.strip()
+
+        # Пропускаем мусор — слишком короткие строки
+        if len(title) < 4:
+            continue
+
+        # Пропускаем дубликаты
+        if title.lower() in existing_titles:
+            continue
+
+        db.add(RoadmapItem(
+            user_id=user_id,
+            title=title,
+            status=RoadmapStatus.TODO,
+            order=last_order + added,
+        ))
+        existing_titles.add(title.lower())
+        added += 1
+
+    if added:
+        db.flush()
+
+
 # --- Вызов LLM ---
 
 def _get_agent_reply(session: Session, db: DBSession) -> str:
-    """
-    Собирает историю чата и отправляет в LLM.
-    Сейчас заглушка — когда vllm будет готов, раскомментировать блок.
-    """
-
-    # Собираем историю сообщений
     history = [
         {"role": msg.role, "content": msg.content}
         for msg in session.messages
     ]
 
-    # Добавляем контекст резюме если есть
     system_prompt = AGENT_PROMPTS[session.agent_type]
     if session.resume:
         system_prompt += f"\n\nРЕЗЮМЕ КАНДИДАТА:\n{session.resume.raw_text[:3000]}"
     if session.vacancy_text:
         system_prompt += f"\n\nВАКАНСИЯ:\n{session.vacancy_text[:1000]}"
 
-    # RAG по Tech Interview Handbook: вытаскиваем релевантные фрагменты и подмешиваем в system prompt
     if RAG_ENABLED:
         last_user = next((m["content"] for m in reversed(history) if m["role"] == "user"), "")
         rag_query = last_user
