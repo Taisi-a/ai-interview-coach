@@ -1,8 +1,8 @@
 import './styles.css';
-import { AuthScreen, AgentsPage, ResumePage, ChatView, Sidebar,VacancySection } from "./modules/index.js";
+import { AuthScreen, AgentsPage, ResumePage, ChatView, Sidebar, VacancySection, RoadmapPage } from "./modules/index.js";
 import { useAppState } from "./hooks/useAppState.js";
 import { AGENTS } from "./constants.js";
-import {api} from "./api/index.js";
+import { api } from "./api/index.js";
 
 export default function App() {
     const {
@@ -38,6 +38,7 @@ export default function App() {
                         />
                 )}
                 {page === "vacancy" && <VacancySection token={token} api={api} />}
+                {page === "roadmap" && <RoadmapPage token={token} />}
             </div>
         </div>
     );

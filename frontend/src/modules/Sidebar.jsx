@@ -2,7 +2,6 @@ import { AGENTS } from "../constants.ts";
 
 export const Sidebar = ({ sessions, user, page, setPage, activeSession, openSession, logout }) => {
     const initials = (email) => email ? email[0].toUpperCase() : "?";
-    console.log(sessions,sessions);
     return (
         <div className="sidebar">
             <div className="logo">
@@ -22,8 +21,11 @@ export const Sidebar = ({ sessions, user, page, setPage, activeSession, openSess
                     <span className="icon">📄</span><span className="label">Резюме</span>
                 </button>
                 <button className={`sidebar-btn ${page === "vacancy" ? "active" : ""}`} onClick={() => setPage("vacancy")}>
-                <span className="icon">💼</span><span className="label">Вакансия</span>
-            </button>
+                    <span className="icon">💼</span><span className="label">Вакансия</span>
+                </button>
+                <button className={`sidebar-btn ${page === "roadmap" ? "active" : ""}`} onClick={() => setPage("roadmap")}>
+                    <span className="icon">🗺️</span><span className="label">Roadmap</span>
+                </button>
             </div>
 
             {sessions.length > 0 && (
