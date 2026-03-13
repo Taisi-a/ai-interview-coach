@@ -15,6 +15,7 @@ class User(Base):
 
     resumes = relationship("Resume", back_populates="user")
     sessions = relationship("Session", back_populates="user")
+    roadmap_items = relationship("RoadmapItem", back_populates="user")
 
 
 class Resume(Base):
@@ -67,9 +68,28 @@ class Message(Base):
     session = relationship("Session", back_populates="messages")
 
 
-# --- Новая таблица для logout ---
 class BlacklistedToken(Base):
     __tablename__ = "blacklisted_tokens"
 
     id = Column(Integer, primary_key=True)
-    token = Column(String, unique=True, nullable=False)  # сам JWT токен
+    token = Column(String, unique=True, nullable=False)
+
+
+# --- Новая таблица ---
+class RoadmapStatus(str, enum.Enum):
+    TODO = "todo"
+    IN_PROGRESS = "in_progress"
+    DONE = "done"
+
+
+class RoadmapItem(Base):
+    __tablename__ = "roadmap_items"
+
+    id = Column(Integer, primary_key=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    title = Column(String(255), nullable=False)        # "Алгоритмы и структуры данных"
+    description = Column(Text, nullable=True)          # подробнее что изучить
+    status = Column(Enum(RoadmapStatus), default=RoadmapStatus.TODO)
+    order = Column(Integer, default=0)                 # порядок отображения
+
+    user = relationship("User", back_populates="roadmap_items")

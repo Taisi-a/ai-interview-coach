@@ -2,7 +2,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.database import engine, Base
-from app.routers import auth, resume, chat, session, vacancy
+from app.routers import auth, resume, chat, session, vacancy, roadmap
 from app.config import FRONTEND_URL
 
 Base.metadata.create_all(engine)
@@ -22,3 +22,4 @@ app.include_router(resume.router)
 app.include_router(chat.router)
 app.include_router(session.router)
 app.include_router(vacancy.router)
+app.include_router(roadmap.router)
