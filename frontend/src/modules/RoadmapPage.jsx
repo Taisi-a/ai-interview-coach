@@ -1,19 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { api } from "../api/index.js";
-
-const STATUS_LABELS = {
-    todo: "Не начато",
-    in_progress: "В процессе",
-    done: "Выполнено",
-};
-
-const STATUS_ICONS = {
-    todo: "⬜",
-    in_progress: "🔄",
-    done: "✅",
-};
-
-const STATUS_ORDER = ["todo", "in_progress", "done"];
+import {STATUS_ICONS, STATUS_LABELS, STATUS_ORDER} from "../constants.ts";
 
 export function RoadmapPage({ token }) {
     const [data, setData] = useState(null);
@@ -34,7 +21,6 @@ export function RoadmapPage({ token }) {
     useEffect(() => { load(); }, [load]);
 
     const updateStatus = async (itemId, currentStatus) => {
-        // Переключаем статус по кругу: todo → in_progress → done → todo
         const nextIndex = (STATUS_ORDER.indexOf(currentStatus) + 1) % STATUS_ORDER.length;
         const nextStatus = STATUS_ORDER[nextIndex];
 
@@ -57,7 +43,6 @@ export function RoadmapPage({ token }) {
 
             {error && <div className="error-msg">⚠️ {error}</div>}
 
-            {/* Прогресс-бар */}
             {data && data.total > 0 && (
                 <div style={{
                     background: "var(--surface)",

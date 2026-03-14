@@ -32,4 +32,14 @@ export const AGENTS = [
         bg: "#3D2700",
     },
 ];
-
+export const STATUS_ICONS = {
+    todo: "⬜",
+    in_progress: "🔄",
+    done: "✅",
+};
+export const STATUS_LABELS = {
+    todo: "Не начато",
+    in_progress: "В процессе",
+    done: "Выполнено",
+};
+export const STATUS_ORDER = ["todo", "in_progress", "done"];

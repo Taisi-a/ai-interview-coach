@@ -75,7 +75,6 @@ class BlacklistedToken(Base):
     token = Column(String, unique=True, nullable=False)
 
 
-# --- Новая таблица ---
 class RoadmapStatus(str, enum.Enum):
     TODO = "todo"
     IN_PROGRESS = "in_progress"
@@ -93,3 +92,14 @@ class RoadmapItem(Base):
     order = Column(Integer, default=0)                 # порядок отображения
 
     user = relationship("User", back_populates="roadmap_items")
+
+
+class SavedVacancy(Base):
+    __tablename__ = "saved_vacancies"
+
+    id = Column(Integer, primary_key=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    vacancy_id = Column(String, nullable=False)
+    title = Column(String)
+    company = Column(String)
+    raw_json = Column(Text)
