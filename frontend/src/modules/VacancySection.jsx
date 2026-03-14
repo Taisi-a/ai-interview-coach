@@ -1,11 +1,22 @@
-import { useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 export function VacancySection({ token, api }) {
     const [url, setUrl] = useState("");
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
     const [success, setSuccess] = useState("");
-    const [vacancy, setVacancy] = useState(null);
+    const [vacancies, setVacancies] = useState([]);  // массив сохранённых
+
+    const load = useCallback(async () => {
+        try {
+            const data = await api("/vacancy/saved", {}, token);
+            setVacancies(Array.isArray(data) ? data : []);
+        } catch {
+            setError("Не удалось загрузить вакансии");
+        }
+    }, [token]);
+
+    useEffect(() => { load(); }, [load]);
 
     const extractId = (url) => {
         const match = url.match(/vacancy\/(\d+)/);
@@ -13,14 +24,15 @@ export function VacancySection({ token, api }) {
     };
 
     const submit = async () => {
-        setError(""); setSuccess(""); setVacancy(null);
+        setError(""); setSuccess("");
         const id = extractId(url);
         if (!id) { setError("Некорректная ссылка. Пример: https://hh.ru/vacancy/671337"); return; }
         setLoading(true);
         try {
-            const data = await api(`/vacancy/${id}`, {}, token);
-            setVacancy(data);
-            setSuccess(`Вакансия загружена: ${data.name}`);
+            const saved = await api(`/vacancy/save/${id}`, { method: "POST" }, token);
+            await load();
+            setSuccess(`Вакансия сохранена: ${saved.title}`);
+            setUrl("");
         } catch (e) {
             setError(e.message);
         }
@@ -28,8 +40,8 @@ export function VacancySection({ token, api }) {
     };
 
     return (
-        <div style={{ marginTop: 32 }}>
-            <h2>Вакансия</h2>
+        <div className="resume-page">
+            <h2>Вакансии</h2>
             <p className="sub" style={{ marginBottom: 20 }}>
                 Вставь ссылку с hh.ru — агенты учтут требования при интервью
             </p>
@@ -55,37 +67,45 @@ export function VacancySection({ token, api }) {
                     onChange={e => setUrl(e.target.value)}
                     onKeyDown={e => e.key === "Enter" && submit()}
                 />
-                <button className="btn" style={{ width: "auto", padding: "10px 20px" }} onClick={submit} disabled={loading || !url.trim()}>
+                <button
+                    className="btn"
+                    style={{ width: "auto", padding: "10px 20px" }}
+                    onClick={submit}
+                    disabled={loading || !url.trim()}
+                >
                     {loading ? <span className="spinner" /> : "Загрузить"}
                 </button>
             </div>
+            <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+                {vacancies.map(v => (
+                    <div key={v.id} style={{
+                        background: "var(--surface)",
+                        border: "1px solid var(--border)",
+                        borderRadius: 12,
+                        padding: "16px 20px",
+                    }}>
+                        <div style={{ fontSize: 15, fontWeight: 700, marginBottom: 4 }}>
+                            {v.title || "Без названия"}
+                        </div>
+                        {v.company && (
+                            <div style={{ fontSize: 13, color: "var(--muted)" }}>
+                                🏢 {v.company}
+                            </div>
+                        )}
+                        <div style={{ fontSize: 12, color: "var(--muted)", marginTop: 4 }}>
+                            ID: {v.vacancy_id}
+                        </div>
+                    </div>
+                ))}
 
-            {vacancy && (
-                <div style={{
-                    background: "var(--surface)",
-                    border: "1px solid var(--border)",
-                    borderRadius: 12,
-                    padding: "20px 24px",
-                }}>
-                    <div style={{ fontSize: 16, fontWeight: 700, marginBottom: 6 }}>{vacancy.name}</div>
-                    {vacancy.employer?.name && (
-                        <div style={{ fontSize: 13, color: "var(--muted)", marginBottom: 12 }}>
-                            🏢 {vacancy.employer.name}
-                        </div>
-                    )}
-                    {vacancy.salary && (
-                        <div style={{ fontSize: 13, color: "var(--success)", marginBottom: 12 }}>
-                            💰 {vacancy.salary.from && `от ${vacancy.salary.from}`} {vacancy.salary.to && `до ${vacancy.salary.to}`} {vacancy.salary.currency}
-                        </div>
-                    )}
-                    {vacancy.snippet?.requirement && (
-                        <div style={{ fontSize: 13, color: "var(--text)", lineHeight: 1.6 }}
-                             dangerouslySetInnerHTML={{ __html: vacancy.snippet.requirement }}
-                        />
-                    )}
-                </div>
-            )}
+                {vacancies.length === 0 && (
+                    <div style={{ fontSize: 13, color: "var(--muted)" }}>
+                        Нет сохранённых вакансий
+                    </div>
+                )}
+            </div>
         </div>
     );
 }
+
 export default VacancySection;

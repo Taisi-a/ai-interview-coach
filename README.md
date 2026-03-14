@@ -258,6 +258,33 @@ uvicorn app.main:app --reload
 | GET | `/session/` | Все свои сессии | ✅ |
 | PATCH | `/session/{id}/complete` | Завершить сессию | ✅ |
 
+### 🗺 Roadmap
+ 
+| Метод | URL | Описание | Токен |
+|-------|-----|----------|-------|
+| GET | `/roadmap/` | План подготовки + прогресс | ✅ |
+| POST | `/roadmap/` | Создать пункт вручную | ✅ |
+| PATCH | `/roadmap/{id}` | Обновить статус пункта | ✅ |
+| DELETE | `/roadmap/{id}` | Удалить пункт | ✅ |
+ 
+Пункты roadmap создаются **автоматически** — когда Ментор-агент отвечает списком тем, бэкенд парсит ответ и сохраняет пункты в БД. Дубликаты не добавляются.
+ 
+Пример ответа `GET /roadmap/`:
+```json
+{
+  "total": 5,
+  "done": 2,
+  "percent": 40,
+  "items": [
+    {"id": 1, "title": "Алгоритмы и структуры данных", "status": "done", "order": 0},
+    {"id": 2, "title": "System Design", "status": "in_progress", "order": 1},
+    {"id": 3, "title": "Python углублённо", "status": "todo", "order": 2}
+  ]
+}
+```
+ 
+Статусы пункта: `todo` / `in_progress` / `done`
+
 ### 🤖 LLM (OpenAI-совместимый интерфейс)
 
 | Метод | URL | Описание | Токен |
