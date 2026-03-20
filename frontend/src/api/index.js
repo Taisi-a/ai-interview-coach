@@ -12,5 +12,7 @@ export const api = async (path, opts = {}, token) => {
         const err = await res.json().catch(() => ({}));
         throw new Error(err.detail || `HTTP ${res.status}`);
     }
+    // 204 No Content — тело пустое, json() упадёт
+    if (res.status === 204) return null;
     return res.json();
 };

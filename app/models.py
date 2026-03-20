@@ -1,6 +1,7 @@
 # models.py
-from sqlalchemy import Column, Integer, String, Text, ForeignKey, Enum
+from sqlalchemy import Column, Integer, String, Text, ForeignKey, Enum, DateTime
 from sqlalchemy.orm import relationship
+from datetime import datetime, timezone
 import enum
 from app.database import Base
 
@@ -16,6 +17,8 @@ class User(Base):
     resumes = relationship("Resume", back_populates="user")
     sessions = relationship("Session", back_populates="user")
     roadmap_items = relationship("RoadmapItem", back_populates="user")
+    goals = relationship("Goal", back_populates="user")
+    saved_vacancies = relationship("SavedVacancy", back_populates="user")
 
 
 class Resume(Base):
@@ -28,6 +31,7 @@ class Resume(Base):
 
     user = relationship("User", back_populates="resumes")
     sessions = relationship("Session", back_populates="resume")
+    goals = relationship("Goal", back_populates="resume")
 
 
 class AgentType(str, enum.Enum):
@@ -48,12 +52,14 @@ class Session(Base):
     id = Column(Integer, primary_key=True)
     user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
     resume_id = Column(Integer, ForeignKey("resumes.id"), nullable=True)
+    goal_id = Column(Integer, ForeignKey("goals.id"), nullable=True)
     agent_type = Column(Enum(AgentType), nullable=False)
     status = Column(Enum(SessionStatus), default=SessionStatus.ACTIVE)
     vacancy_text = Column(Text, nullable=True)
 
     user = relationship("User", back_populates="sessions")
     resume = relationship("Resume", back_populates="sessions")
+    goal = relationship("Goal", back_populates="sessions")
     messages = relationship("Message", back_populates="session")
 
 
@@ -86,12 +92,31 @@ class RoadmapItem(Base):
 
     id = Column(Integer, primary_key=True)
     user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
-    title = Column(String(255), nullable=False)        # "Алгоритмы и структуры данных"
-    description = Column(Text, nullable=True)          # подробнее что изучить
+    goal_id = Column(Integer, ForeignKey("goals.id"), nullable=True)
+    title = Column(String(255), nullable=False)
+    description = Column(Text, nullable=True)
+    category = Column(String(100), nullable=True)
     status = Column(Enum(RoadmapStatus), default=RoadmapStatus.TODO)
-    order = Column(Integer, default=0)                 # порядок отображения
+    order = Column(Integer, default=0)
 
     user = relationship("User", back_populates="roadmap_items")
+    goal = relationship("Goal", back_populates="roadmap_items")
+
+
+class Goal(Base):
+    __tablename__ = "goals"
+
+    id = Column(Integer, primary_key=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    title = Column(String(255), nullable=False)
+    vacancy_text = Column(Text, nullable=True)
+    resume_id = Column(Integer, ForeignKey("resumes.id"), nullable=True)
+    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc))
+
+    user = relationship("User", back_populates="goals")
+    resume = relationship("Resume", back_populates="goals")
+    sessions = relationship("Session", back_populates="goal")
+    roadmap_items = relationship("RoadmapItem", back_populates="goal")
 
 
 class SavedVacancy(Base):
@@ -103,3 +128,5 @@ class SavedVacancy(Base):
     title = Column(String)
     company = Column(String)
     raw_json = Column(Text)
+
+    user = relationship("User", back_populates="saved_vacancies")

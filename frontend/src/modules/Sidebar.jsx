@@ -31,7 +31,7 @@ export const Sidebar = ({ sessions, user, page, setPage, activeSession, openSess
             {sessions.length > 0 && (
                 <div className="sidebar-section" style={{ flex: 1, overflowY: "auto" }}>
                     <div className="sidebar-label">Сессии <span className="badge">{sessions.length}</span></div>
-                    {sessions.map(s => {
+                    {sessions.map((s, index) => {
                         const ag = AGENTS.find(a => a.id === s.agent_type);
                         return (
                             <button
@@ -40,7 +40,8 @@ export const Sidebar = ({ sessions, user, page, setPage, activeSession, openSess
                                 onClick={() => openSession(s)}
                             >
                                 <span className="icon">{ag?.icon || "💬"}</span>
-                                <span className="label">#{s.id} {ag?.label || s.agent_type}</span>
+                                {/* Показываем порядковый номер среди сессий юзера, а не ID из БД */}
+                                <span className="label">#{index + 1} {ag?.label || s.agent_type}</span>
                                 {s.status === "completed" && <span style={{ color: "var(--success)", fontSize: 11 }}>✓</span>}
                             </button>
                         );

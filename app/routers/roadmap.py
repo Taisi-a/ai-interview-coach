@@ -15,6 +15,7 @@ router = APIRouter(prefix="/roadmap")
 class RoadmapItemCreate(BaseModel):
     title: str
     description: str | None = None
+    category: str | None = None
     order: int = 0
 
 
@@ -26,6 +27,7 @@ class RoadmapItemOut(BaseModel):
     id: int
     title: str
     description: str | None
+    category: str | None
     status: RoadmapStatus
     order: int
 
