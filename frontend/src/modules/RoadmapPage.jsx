@@ -198,6 +198,8 @@ export function RoadmapPage({ token }) {
     const [deleting, setDeleting] = useState({});
 
     const [newTitle, setNewTitle] = useState("");
+    const [newDescription, setNewDescription] = useState("");
+    const [formExpanded, setFormExpanded] = useState(false);
     const [adding, setAdding] = useState(false);
 
     const load = useCallback(async () => {
@@ -244,9 +246,11 @@ export function RoadmapPage({ token }) {
         try {
             await api("/roadmap/", {
                 method: "POST",
-                body: { title, order: data?.total || 0 }
+                body: { title, description: newDescription.trim() || null, order: data?.total || 0 }
             }, token);
             setNewTitle("");
+            setNewDescription("");
+            setFormExpanded(false);
             setSuccess("Пункт добавлен!");
             setTimeout(() => setSuccess(""), 2000);
             await load();
@@ -316,33 +320,85 @@ export function RoadmapPage({ token }) {
             )}
 
             {/* Форма добавления */}
-            <div style={{ display: "flex", gap: 10, marginBottom: 24 }}>
-                <input
-                    style={{
-                        flex: 1,
-                        background: "var(--surface2)",
-                        border: "1px solid var(--border)",
-                        borderRadius: 8,
-                        padding: "10px 14px",
-                        color: "var(--text)",
-                        fontSize: 13,
-                        outline: "none",
-                        fontFamily: "var(--font)",
-                    }}
-                    placeholder="Добавить тему, например: Алгоритмы на графах"
-                    value={newTitle}
-                    onChange={e => setNewTitle(e.target.value)}
-                    onKeyDown={e => e.key === "Enter" && addItem()}
-                    disabled={adding}
-                />
-                <button
-                    className="btn"
-                    style={{ width: "auto", padding: "10px 20px" }}
-                    onClick={addItem}
-                    disabled={adding || !newTitle.trim()}
-                >
-                    {adding ? <span className="spinner" /> : "+ Добавить"}
-                </button>
+            <div style={{
+                background: "var(--surface)",
+                border: "1px solid var(--border)",
+                borderRadius: 10,
+                marginBottom: 24,
+                overflow: "hidden",
+            }}>
+                {/* Строка с инпутом названия */}
+                <div style={{ display: "flex", gap: 8, padding: "10px 10px 10px 14px", alignItems: "center" }}>
+                    <input
+                        style={{
+                            flex: 1,
+                            background: "transparent",
+                            border: "none",
+                            color: "var(--text)",
+                            fontSize: 13,
+                            outline: "none",
+                            fontFamily: "var(--font)",
+                            padding: 0,
+                        }}
+                        placeholder="Добавить тему, например: Алгоритмы на графах"
+                        value={newTitle}
+                        onChange={e => setNewTitle(e.target.value)}
+                        onKeyDown={e => e.key === "Enter" && !e.shiftKey && addItem()}
+                        onFocus={() => setFormExpanded(true)}
+                        disabled={adding}
+                    />
+                    {/* Кнопка раскрыть/скрыть описание */}
+                    <button
+                        onClick={() => setFormExpanded(p => !p)}
+                        title={formExpanded ? "Скрыть описание" : "Добавить описание"}
+                        style={{
+                            background: "none", border: "none", cursor: "pointer",
+                            color: formExpanded ? "var(--accent)" : "var(--muted)",
+                            fontSize: 15, padding: "4px 6px", flexShrink: 0,
+                            transition: "color 0.15s",
+                        }}
+                    >
+                        📝
+                    </button>
+                    <button
+                        className="btn"
+                        style={{ width: "auto", padding: "7px 16px", fontSize: 12, flexShrink: 0 }}
+                        onClick={addItem}
+                        disabled={adding || !newTitle.trim()}
+                    >
+                        {adding ? <span className="spinner" /> : "+ Добавить"}
+                    </button>
+                </div>
+
+                {/* Раскрывающееся поле описания */}
+                {formExpanded && (
+                    <div style={{ borderTop: "1px solid var(--border)", padding: "10px 14px 12px" }}>
+                        <textarea
+                            style={{
+                                width: "100%",
+                                minHeight: 80,
+                                background: "var(--surface2)",
+                                border: "1px solid var(--border)",
+                                borderRadius: 8,
+                                color: "var(--text)",
+                                fontSize: 12,
+                                fontFamily: "var(--font)",
+                                padding: "8px 12px",
+                                outline: "none",
+                                resize: "vertical",
+                                boxSizing: "border-box",
+                                lineHeight: 1.6,
+                            }}
+                            placeholder="Описание, заметки, ссылки на материалы... (необязательно)"
+                            value={newDescription}
+                            onChange={e => setNewDescription(e.target.value)}
+                            disabled={adding}
+                        />
+                        <div style={{ fontSize: 11, color: "var(--muted)", marginTop: 4 }}>
+                            Поддерживается Markdown
+                        </div>
+                    </div>
+                )}
             </div>
 
             {/* Список карточек */}

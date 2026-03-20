@@ -2,6 +2,172 @@ import {useCallback, useEffect, useRef, useState} from "react";
 import {api} from "../api/index.js";
 import ReactMarkdown from 'react-markdown'
 
+// ─── Модалка выбора резюме / вакансии из библиотеки ───────────────────────
+function AttachLibraryModal({ token, onAttach, onClose }) {
+    const [tab, setTab] = useState("resume"); // "resume" | "vacancy"
+    const [resumes, setResumes] = useState([]);
+    const [vacancies, setVacancies] = useState([]);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        const handler = (e) => { if (e.key === "Escape") onClose(); };
+        window.addEventListener("keydown", handler);
+        return () => window.removeEventListener("keydown", handler);
+    }, [onClose]);
+
+    useEffect(() => {
+        setLoading(true);
+        Promise.all([
+            api("/resume/", {}, token).catch(() => []),
+            api("/vacancy/saved", {}, token).catch(() => []),
+        ]).then(([r, v]) => {
+            setResumes(r || []);
+            setVacancies(Array.isArray(v) ? v : []);
+            setLoading(false);
+        });
+    }, [token]);
+
+    const handleSelect = (item, type) => {
+        onAttach(item, type);
+        onClose();
+    };
+
+    return (
+        <div
+            style={{
+                position: "fixed", inset: 0, zIndex: 1000,
+                background: "rgba(0,0,0,0.55)", backdropFilter: "blur(4px)",
+                display: "flex", alignItems: "flex-end", justifyContent: "center",
+            }}
+            onClick={onClose}
+        >
+            <div
+                onClick={e => e.stopPropagation()}
+                style={{
+                    background: "var(--surface)",
+                    border: "1px solid var(--border)",
+                    borderRadius: "16px 16px 0 0",
+                    width: "100%",
+                    maxWidth: 560,
+                    maxHeight: "60vh",
+                    display: "flex",
+                    flexDirection: "column",
+                    overflow: "hidden",
+                }}
+            >
+                {/* Шапка */}
+                <div style={{
+                    display: "flex", alignItems: "center", justifyContent: "space-between",
+                    padding: "16px 20px 0",
+                }}>
+                    <span style={{ fontWeight: 700, fontSize: 15 }}>Прикрепить из библиотеки</span>
+                    <button onClick={onClose} style={{
+                        background: "none", border: "none", cursor: "pointer",
+                        color: "var(--muted)", fontSize: 18, lineHeight: 1,
+                    }}>✕</button>
+                </div>
+
+                {/* Табы */}
+                <div style={{ display: "flex", gap: 4, padding: "12px 20px 0" }}>
+                    {[
+                        { id: "resume", label: "📄 Резюме" },
+                        { id: "vacancy", label: "🏢 Вакансии" },
+                    ].map(t => (
+                        <button
+                            key={t.id}
+                            onClick={() => setTab(t.id)}
+                            style={{
+                                background: tab === t.id ? "var(--accent)" : "var(--surface2)",
+                                color: tab === t.id ? "#fff" : "var(--muted)",
+                                border: "none", borderRadius: 8,
+                                padding: "6px 14px", fontSize: 12,
+                                fontWeight: 600, cursor: "pointer",
+                                transition: "all 0.15s",
+                            }}
+                        >
+                            {t.label}
+                        </button>
+                    ))}
+                </div>
+
+                {/* Список */}
+                <div style={{ flex: 1, overflowY: "auto", padding: "12px 20px 20px" }}>
+                    {loading ? (
+                        <div style={{ textAlign: "center", padding: 32 }}>
+                            <span className="spinner" />
+                        </div>
+                    ) : tab === "resume" ? (
+                        resumes.length === 0 ? (
+                            <div style={{ color: "var(--muted)", fontSize: 13, textAlign: "center", padding: 32 }}>
+                                Нет загруженных резюме
+                            </div>
+                        ) : resumes.map(r => (
+                            <button
+                                key={r.id}
+                                onClick={() => handleSelect(r, "resume")}
+                                style={{
+                                    width: "100%", display: "flex", alignItems: "center",
+                                    gap: 12, background: "var(--surface2)",
+                                    border: "1px solid var(--border)", borderRadius: 10,
+                                    padding: "12px 14px", marginBottom: 8,
+                                    cursor: "pointer", textAlign: "left",
+                                    transition: "border-color 0.15s",
+                                }}
+                                onMouseEnter={e => e.currentTarget.style.borderColor = "var(--accent)"}
+                                onMouseLeave={e => e.currentTarget.style.borderColor = "var(--border)"}
+                            >
+                                <span style={{ fontSize: 22, flexShrink: 0 }}>
+                                    {r.filename?.endsWith(".pdf") ? "📕" : "📘"}
+                                </span>
+                                <div>
+                                    <div style={{ fontSize: 13, fontWeight: 600, color: "var(--text)" }}>
+                                        {r.filename || `Резюме #${r.id}`}
+                                    </div>
+                                    <div style={{ fontSize: 11, color: "var(--muted)", fontFamily: "var(--mono)" }}>
+                                        {r.raw_text ? `${r.raw_text.length} символов` : "нет текста"} · ID {r.id}
+                                    </div>
+                                </div>
+                            </button>
+                        ))
+                    ) : (
+                        vacancies.length === 0 ? (
+                            <div style={{ color: "var(--muted)", fontSize: 13, textAlign: "center", padding: 32 }}>
+                                Нет сохранённых вакансий
+                            </div>
+                        ) : vacancies.map(v => (
+                            <button
+                                key={v.id}
+                                onClick={() => handleSelect(v, "vacancy")}
+                                style={{
+                                    width: "100%", display: "flex", alignItems: "center",
+                                    gap: 12, background: "var(--surface2)",
+                                    border: "1px solid var(--border)", borderRadius: 10,
+                                    padding: "12px 14px", marginBottom: 8,
+                                    cursor: "pointer", textAlign: "left",
+                                    transition: "border-color 0.15s",
+                                }}
+                                onMouseEnter={e => e.currentTarget.style.borderColor = "var(--accent)"}
+                                onMouseLeave={e => e.currentTarget.style.borderColor = "var(--border)"}
+                            >
+                                <span style={{ fontSize: 22, flexShrink: 0 }}>🏢</span>
+                                <div>
+                                    <div style={{ fontSize: 13, fontWeight: 600, color: "var(--text)" }}>
+                                        {v.title || "Без названия"}
+                                    </div>
+                                    <div style={{ fontSize: 11, color: "var(--muted)" }}>
+                                        {v.company || ""}{v.company ? " · " : ""}ID {v.vacancy_id}
+                                    </div>
+                                </div>
+                            </button>
+                        ))
+                    )}
+                </div>
+            </div>
+        </div>
+    );
+}
+
+// ─── Основной компонент ────────────────────────────────────────────────────
 export function ChatView({ token, session, agent, onComplete, onResumeUploaded }) {
     const [messages, setMessages] = useState([]);
     const [input, setInput] = useState("");
@@ -11,6 +177,7 @@ export function ChatView({ token, session, agent, onComplete, onResumeUploaded }
     const [uploadingFile, setUploadingFile] = useState(false);
     const [savingRoadmap, setSavingRoadmap] = useState(false);
     const [roadmapSaved, setRoadmapSaved] = useState(false);
+    const [showLibrary, setShowLibrary] = useState(false);
     const bottomRef = useRef();
     const textareaRef = useRef();
     const fileRef = useRef();
@@ -30,10 +197,11 @@ export function ChatView({ token, session, agent, onComplete, onResumeUploaded }
     useEffect(() => { setLoading(true); setMessages([]); loadHistory(); }, [loadHistory]);
     useEffect(() => { scrollToBottom(); }, [messages]);
 
-    const send = async () => {
-        const text = input.trim();
+    const send = async (overrideText) => {
+        const text = (overrideText ?? input).trim();
         if (!text || sending || completed) return;
-        setInput(""); setSending(true);
+        if (!overrideText) setInput("");
+        setSending(true);
         const userMsg = { role: "user", content: text, created_at: new Date().toISOString() };
         setMessages(p => [...p, userMsg]);
         try {
@@ -45,33 +213,64 @@ export function ChatView({ token, session, agent, onComplete, onResumeUploaded }
         setSending(false);
     };
 
+    // Прикрепить из библиотеки
+    const attachFromLibrary = async (item, type) => {
+        if (completed || sending) return;
+
+        let content = "";
+        let previewMsg = {};
+
+        if (type === "resume") {
+            content = `Вот моё резюме:\n\n${item.raw_text}`;
+            previewMsg = {
+                role: "user", type: "file",
+                filename: item.filename || `Резюме #${item.id}`,
+                filesize: item.raw_text?.length || 0,
+                fromLibrary: true,
+                created_at: new Date().toISOString(),
+            };
+        } else {
+            // vacancy — парсим raw_json если есть, иначе шлём название+компанию
+            let vacancyText = `Вакансия: ${item.title || ""}`;
+            if (item.company) vacancyText += `\nКомпания: ${item.company}`;
+            if (item.raw_json) {
+                try {
+                    const parsed = JSON.parse(item.raw_json);
+                    const desc = parsed.description || parsed.snippet?.requirement || "";
+                    if (desc) vacancyText += `\n\nОписание:\n${desc}`;
+                } catch {}
+            }
+            content = `Вот вакансия на которую я готовлюсь:\n\n${vacancyText}`;
+            previewMsg = {
+                role: "user", type: "vacancy",
+                title: item.title || "Вакансия",
+                company: item.company || "",
+                fromLibrary: true,
+                created_at: new Date().toISOString(),
+            };
+        }
+
+        setMessages(p => [...p, previewMsg]);
+        await send(content);
+    };
+
     const uploadFile = async (file) => {
         if (!file || uploadingFile) return;
         setUploadingFile(true);
-
-        // Показываем файл в чате сразу
         const fileMsg = {
-            role: "user",
-            type: "file",
-            filename: file.name,
-            filesize: file.size,
+            role: "user", type: "file",
+            filename: file.name, filesize: file.size,
             created_at: new Date().toISOString(),
         };
         setMessages(p => [...p, fileMsg]);
-
         try {
             const form = new FormData();
             const mimeType = file.name.endsWith(".pdf")
                 ? "application/pdf"
                 : "application/vnd.openxmlformats-officedocument.wordprocessingml.document";
-            const fixedFile = new File([file], file.name, { type: mimeType });
-            form.append("file", fixedFile);
-
-            // Загружаем резюме
+            form.append("file", new File([file], file.name, { type: mimeType }));
             const resume = await api("/resume/upload", { method: "POST", body: form }, token);
             if (onResumeUploaded) onResumeUploaded(resume);
-
-            // Отправляем текст резюме агенту как сообщение
             setSending(true);
             const res = await api(`/session/${session.id}/message`, {
                 method: "POST",
@@ -82,7 +281,6 @@ export function ChatView({ token, session, agent, onComplete, onResumeUploaded }
                 content: res.content || res.message || JSON.stringify(res),
                 created_at: new Date().toISOString(),
             }]);
-
         } catch (e) {
             setMessages(p => [...p, {
                 role: "assistant",
@@ -90,7 +288,6 @@ export function ChatView({ token, session, agent, onComplete, onResumeUploaded }
                 created_at: new Date().toISOString(),
             }]);
         }
-
         setSending(false);
         setUploadingFile(false);
         if (fileRef.current) fileRef.current.value = "";
@@ -125,9 +322,7 @@ export function ChatView({ token, session, agent, onComplete, onResumeUploaded }
                     `⚠️ Добавлено 0 пунктов.`,
                     ``,
                     `Раздел плана найден: ${d.plan_section_found ? "ДА" : "НЕТ"}`,
-                    d.plan_section_preview
-                        ? `Превью:\n"${d.plan_section_preview}"`
-                        : "",
+                    d.plan_section_preview ? `Превью:\n"${d.plan_section_preview}"` : "",
                     d.items_found?.length
                         ? `Пункты: ${d.items_found.join(" | ")}`
                         : "Нумерованных пунктов не найдено в разделе.",
@@ -218,12 +413,25 @@ export function ChatView({ token, session, agent, onComplete, onResumeUploaded }
                                     <div className="msg-file-info">
                                         <div className="msg-file-name">{m.filename}</div>
                                         <div className="msg-file-size">
-                                            {formatSize(m.filesize)} · {uploadingFile && i === messages.length - 1 ? "Загружается..." : "Загружено"}
+                                            {m.fromLibrary
+                                                ? "Из библиотеки"
+                                                : `${formatSize(m.filesize)} · ${uploadingFile && i === messages.length - 1 ? "Загружается..." : "Загружено"}`
+                                            }
                                         </div>
                                     </div>
-                                    {uploadingFile && i === messages.length - 1 && (
+                                    {!m.fromLibrary && uploadingFile && i === messages.length - 1 && (
                                         <span className="spinner" style={{ width: 16, height: 16, flexShrink: 0 }} />
                                     )}
+                                </div>
+                            ) : m.type === "vacancy" ? (
+                                <div className="msg-file-bubble">
+                                    <div className="msg-file-icon">🏢</div>
+                                    <div className="msg-file-info">
+                                        <div className="msg-file-name">{m.title}</div>
+                                        <div className="msg-file-size">
+                                            {m.company ? `${m.company} · ` : ""}Из библиотеки
+                                        </div>
+                                    </div>
                                 </div>
                             ) : (
                                 <div className="msg-bubble markdown-body">
@@ -248,7 +456,6 @@ export function ChatView({ token, session, agent, onComplete, onResumeUploaded }
             </div>
 
             <div className="chat-input-area">
-                {/* Скрытый input для файла */}
                 <input
                     ref={fileRef}
                     type="file"
@@ -257,19 +464,34 @@ export function ChatView({ token, session, agent, onComplete, onResumeUploaded }
                     onChange={e => uploadFile(e.target.files[0])}
                 />
                 <div className="chat-input-row">
-                    {/* Кнопка прикрепить файл */}
+                    {/* Кнопка прикрепить файл — новый файл */}
                     <button
                         className="attach-btn"
                         onClick={() => fileRef.current?.click()}
                         disabled={completed || uploadingFile}
-                        title="Прикрепить резюме (PDF или DOCX)"
+                        title="Загрузить новый файл резюме (PDF или DOCX)"
                     >
                         📎
                     </button>
+
+                    {/* Кнопка выбрать из библиотеки */}
+                    <button
+                        className="attach-btn"
+                        onClick={() => setShowLibrary(true)}
+                        disabled={completed || sending}
+                        title="Прикрепить резюме или вакансию из библиотеки"
+                        style={{
+                            fontSize: 16,
+                            opacity: completed ? 0.4 : 1,
+                        }}
+                    >
+                        🗂
+                    </button>
+
                     <textarea
                         ref={textareaRef}
                         className="chat-input"
-                        placeholder={completed ? "Сессия завершена" : "Напиши ответ или перетащи резюме сюда..."}
+                        placeholder={completed ? "Сессия завершена" : "Напиши ответ или прикрепи резюме / вакансию..."}
                         value={input}
                         disabled={completed || sending}
                         onChange={e => {
@@ -280,11 +502,20 @@ export function ChatView({ token, session, agent, onComplete, onResumeUploaded }
                         onKeyDown={handleKey}
                         rows={1}
                     />
-                    <button className="send-btn" onClick={send} disabled={!input.trim() || sending || completed}>
+                    <button className="send-btn" onClick={() => send()} disabled={!input.trim() || sending || completed}>
                         {sending ? <span className="spinner" style={{ width: 16, height: 16 }} /> : "↑"}
                     </button>
                 </div>
             </div>
+
+            {/* Модалка выбора из библиотеки */}
+            {showLibrary && (
+                <AttachLibraryModal
+                    token={token}
+                    onAttach={attachFromLibrary}
+                    onClose={() => setShowLibrary(false)}
+                />
+            )}
         </div>
     );
 }
