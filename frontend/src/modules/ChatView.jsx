@@ -1,5 +1,6 @@
 import {useCallback, useEffect, useRef, useState} from "react";
 import {api} from "../api/index.js";
+import ReactMarkdown from 'react-markdown'
 
 export function ChatView({ token, session, agent, onComplete, onResumeUploaded }) {
     const [messages, setMessages] = useState([]);
@@ -8,6 +9,8 @@ export function ChatView({ token, session, agent, onComplete, onResumeUploaded }
     const [loading, setLoading] = useState(true);
     const [completed, setCompleted] = useState(false);
     const [uploadingFile, setUploadingFile] = useState(false);
+    const [savingRoadmap, setSavingRoadmap] = useState(false);
+    const [roadmapSaved, setRoadmapSaved] = useState(false);
     const bottomRef = useRef();
     const textareaRef = useRef();
     const fileRef = useRef();
@@ -107,6 +110,36 @@ export function ChatView({ token, session, agent, onComplete, onResumeUploaded }
         } catch (e) { alert(e.message); }
     };
 
+    const saveRoadmap = async () => {
+        setSavingRoadmap(true);
+        try {
+            const res = await api(`/session/${session.id}/save_roadmap`, { method: "POST" }, token);
+            setRoadmapSaved(true);
+            setTimeout(() => setRoadmapSaved(false), 3000);
+
+            if (res.added > 0) {
+                alert(`✅ Добавлено ${res.added} пунктов в Roadmap!`);
+            } else {
+                const d = res.debug || {};
+                const msg = [
+                    `⚠️ Добавлено 0 пунктов.`,
+                    ``,
+                    `Раздел плана найден: ${d.plan_section_found ? "ДА" : "НЕТ"}`,
+                    d.plan_section_preview
+                        ? `Превью:\n"${d.plan_section_preview}"`
+                        : "",
+                    d.items_found?.length
+                        ? `Пункты: ${d.items_found.join(" | ")}`
+                        : "Нумерованных пунктов не найдено в разделе.",
+                    ``,
+                    `Убедись что ментор дал ответ с нумерованным планом (1. ... 2. ...) и попробуй снова.`,
+                ].filter(Boolean).join('\n');
+                alert(msg);
+            }
+        } catch (e) { alert(e.message); }
+        setSavingRoadmap(false);
+    };
+
     const handleKey = (e) => {
         if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); send(); }
     };
@@ -147,6 +180,19 @@ export function ChatView({ token, session, agent, onComplete, onResumeUploaded }
                     <div className="chat-agent-desc">{agent?.desc} · сессия #{session.id}</div>
                 </div>
                 <div className="chat-actions">
+                    {agent?.id === "mentor" && (
+                        <button
+                            className="btn small"
+                            onClick={saveRoadmap}
+                            disabled={savingRoadmap || messages.length < 2}
+                            style={{ marginRight: 8 }}
+                            title="Сохранить план подготовки в Roadmap"
+                        >
+                            {savingRoadmap
+                                ? <span className="spinner" style={{ width: 14, height: 14 }} />
+                                : roadmapSaved ? "✅ Сохранено" : "🗺 В Roadmap"}
+                        </button>
+                    )}
                     {completed
                         ? <div className="session-complete">✅ Завершено</div>
                         : <button className="btn small danger" onClick={complete}>Завершить</button>}
@@ -180,13 +226,8 @@ export function ChatView({ token, session, agent, onComplete, onResumeUploaded }
                                     )}
                                 </div>
                             ) : (
-                                <div className="msg-bubble">
-                                    {m.content?.includes("```")
-                                        ? m.content.split(/(```[\s\S]*?```)/g).map((chunk, ci) =>
-                                            chunk.startsWith("```")
-                                                ? <pre key={ci}>{chunk.replace(/```\w*\n?/, "").replace(/```$/, "")}</pre>
-                                                : chunk)
-                                        : m.content}
+                                <div className="msg-bubble markdown-body">
+                                    <ReactMarkdown>{m.content}</ReactMarkdown>
                                 </div>
                             )}
                             <div className="msg-time">{formatTime(m.created_at)}</div>
