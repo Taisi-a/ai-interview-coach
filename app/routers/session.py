@@ -216,19 +216,7 @@ def save_roadmap(
         target_text = mentor_messages[0]
 
     added = _save_roadmap_items(target_text, current_user.id, session.goal_id, db)
-
-    # Debug: что нашёл парсер
-    debug_section = _find_plan_section(target_text)
-    debug_items = _extract_plan_items(debug_section) if debug_section else []
-
-    return {
-        "added": added,
-        "debug": {
-            "plan_section_found": debug_section is not None,
-            "plan_section_preview": (debug_section or "")[:300],
-            "items_found": [title for title, _ in debug_items],
-        }
-    }
+    return {"added": added}
 
 
 @router.get("/{session_id}", response_model=SessionOut)
@@ -352,36 +340,74 @@ def _find_plan_section(text: str) -> str | None:
 
 def _extract_plan_items(plan_text: str) -> list[tuple[str, str]]:
     """
-    Из текста раздела плана извлекает нумерованные пункты.
+    Из текста раздела плана извлекает пункты верхнего уровня.
 
-    Поддерживаемые форматы заголовков пункта:
+    Поддерживаемые форматы заголовков:
       1. FastAPI + Асинхронность (4–5 часов)
-      1. **FastAPI + Асинхронность**
-      #### **1. FastAPI + Асинхронность (4–5 часов)**
-      ### 1. FastAPI + Асинхронность
-      **1. FastAPI + Асинхронность**
+      #### **1. FastAPI + Асинхронность**
+      **Приоритет 1: Алгоритмы и структуры данных (High)**
+      **Неделя 1: Основы анализа данных**
+      ### Неделя 2: Работа с большими данными
+      День 1: Введение
     """
-    item_re = re.compile(
+    # Паттерн 1: классический нумерованный пункт (1. Title, #### **1. Title**)
+    numeric_re = re.compile(
         r'^'
-        r'(?:#{1,6}\s*)?'            # опциональные # (любое кол-во, включая ####)
-        r'(?:\*{1,2}|_{1,2})?'       # опциональный bold-open
-        r'(\d+)[\.\)]\s*'            # ЦИФРА + точка/скобка  ← главный маркер
-        r'(?:\*{1,2}|_{1,2})?'       # опциональный bold после цифры
-        r'(.+?)'                      # заголовок пункта
-        r'(?:\*{1,2}|_{1,2})?'       # опциональный bold-close
-        r'\s*:?\s*$',                 # опциональное двоеточие
+        r'(?:#{1,6}\s*)?'
+        r'(?:\*{1,2}|_{1,2})?'
+        r'(\d+)[\.\)]\s*'
+        r'(?:\*{1,2}|_{1,2})?'
+        r'(.+?)'
+        r'(?:\*{1,2}|_{1,2})?'
+        r'\s*:?\s*$',
         re.MULTILINE
     )
 
-    matches = list(item_re.finditer(plan_text))
-    if not matches:
+    # Паттерн 2: «Приоритет N», «Этап N», «Шаг N», «Неделя N», «День N» и т.д.
+    labeled_re = re.compile(
+        r'^'
+        r'(?:#{1,6}\s*)?'
+        r'(?:\*{1,2}|_{1,2})?'
+        r'(?:приоритет|этап|шаг|часть|раздел|блок|пункт|неделя|день|модуль|'
+        r'step|phase|stage|priority|week|day|module)\s+\d+'
+        r'[\.\:\)]\s*'
+        r'(?:\*{1,2}|_{1,2})?'
+        r'(.+?)'
+        r'(?:\*{1,2}|_{1,2})?'
+        r'\s*:?\s*$',
+        re.MULTILINE | re.IGNORECASE
+    )
+
+    # Паттерн 3: заголовки таблиц — строка вида "Неделя 1: Текст" без markdown,
+    # или строка целиком является заголовком раздела (без маркеров списка)
+    table_header_re = re.compile(
+        r'^(?:#{1,6}\s*)?(?:\*{1,2}|_{1,2})?'
+        r'(?:неделя|день|этап|шаг|week|day)\s+\d+'
+        r'[:\.\)]\s*(.+)',
+        re.MULTILINE | re.IGNORECASE
+    )
+
+    # Пробуем паттерны по порядку, берём первый давший результат
+    for pattern, use_full_line in [
+        (numeric_re, False),
+        (labeled_re, True),
+        (table_header_re, True),
+    ]:
+        matches = list(pattern.finditer(plan_text))
+        if matches:
+            break
+    else:
         return []
 
     items = []
     for i, m in enumerate(matches):
-        raw_title = m.group(2).strip()
-        title = _clean_title(raw_title)
+        if use_full_line:
+            # Берём всю строку как title (включая "Неделя 1:", "Приоритет 2:")
+            raw_title = plan_text[m.start():m.end()]
+        else:
+            raw_title = m.group(2).strip()
 
+        title = _clean_title(raw_title)
         if len(title) < 3:
             continue
 

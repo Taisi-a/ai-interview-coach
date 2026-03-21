@@ -313,23 +313,10 @@ export function ChatView({ token, session, agent, onComplete, onResumeUploaded }
             const res = await api(`/session/${session.id}/save_roadmap`, { method: "POST" }, token);
             setRoadmapSaved(true);
             setTimeout(() => setRoadmapSaved(false), 3000);
-
             if (res.added > 0) {
                 alert(`✅ Добавлено ${res.added} пунктов в Roadmap!`);
             } else {
-                const d = res.debug || {};
-                const msg = [
-                    `⚠️ Добавлено 0 пунктов.`,
-                    ``,
-                    `Раздел плана найден: ${d.plan_section_found ? "ДА" : "НЕТ"}`,
-                    d.plan_section_preview ? `Превью:\n"${d.plan_section_preview}"` : "",
-                    d.items_found?.length
-                        ? `Пункты: ${d.items_found.join(" | ")}`
-                        : "Нумерованных пунктов не найдено в разделе.",
-                    ``,
-                    `Убедись что ментор дал ответ с нумерованным планом (1. ... 2. ...) и попробуй снова.`,
-                ].filter(Boolean).join('\n');
-                alert(msg);
+                alert("⚠️ Пункты не найдены. Попроси ментора составить план с нумерованными пунктами и попробуй снова.");
             }
         } catch (e) { alert(e.message); }
         setSavingRoadmap(false);
